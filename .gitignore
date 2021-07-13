@@ -72,3 +72,5 @@ crashlytics-build.properties
 
 /GJL_2021_Unity_Project/[Aa]ssets/[Ss]treamingAssets/aa.meta
 /GJL_2021_Unity_Project/[Aa]ssets/[Ss]treamingAssets/aa/*
+GJL_2021_Unity_Project/Assets/Script/Player/CameraMovement.cs
+GJL_2021_Unity_Project/Assets/Script/Player/CameraMovement.cs.meta
