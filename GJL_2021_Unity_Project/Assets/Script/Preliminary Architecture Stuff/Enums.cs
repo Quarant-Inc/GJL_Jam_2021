@@ -12,6 +12,7 @@ public enum SCENE
 
 public enum DIRECTION
 {
+    NONE,
     FORWARD,
     BACKWARD,
     LEFT,
