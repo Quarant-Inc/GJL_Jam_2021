@@ -4,6 +4,7 @@ using UnityEngine;
 
 public delegate void HealthChanged(int health);
 public delegate void SpeedChanged(int speed);
+public delegate void ArmourChanged(int armour);
 public delegate void PlayerDied();
 public class Player : MonoBehaviour
 {
@@ -22,11 +23,33 @@ public class Player : MonoBehaviour
     public PlayerDied PlayerDied;
     public HealthChanged HealthChanged;
     public SpeedChanged SpeedChanged;
+    public ArmourChanged ArmourChanged;
     #endregion
 
     #region Stats
     const int maxHealth = 10;
     const int defaultSpeed = 10;
+    const int maxArmour = 5;
+    int armour = 0;
+    public int Armour
+    {
+        get
+        {
+            return armour;
+        }
+        private set
+        {
+            armour = value >= 0 && value <= maxArmour ? value :
+            (
+                value > maxArmour ? maxArmour : 0
+            );
+
+            if (ArmourChanged != null)
+            {
+                ArmourChanged(armour);
+            }
+        }
+    }
     int health;
     public int Health
     {
