@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+    public Vector3 intercept = new Vector3(-3.4f, 6.82f, -3.24f);
+    
     Vector3 PlayerPosition
     {
         get
@@ -12,16 +14,9 @@ public class CameraFollow : MonoBehaviour
         }
     }
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        transform.position = PlayerPosition + new Vector3(-3.4f, 6.82f, -3.24f);
+        transform.position = PlayerPosition + intercept;
     }
 }
