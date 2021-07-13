@@ -126,7 +126,7 @@ public class Player : MonoBehaviour
     }
     #endregion
 
-    Queue<Item> items = new Queue<Item>();
+    Queue<ItemTemplate> items = new Queue<ItemTemplate>();
 
     void Awake()
     {
@@ -169,6 +169,21 @@ public class Player : MonoBehaviour
         else
         {
             Animator.SetTrigger(PLAYER_ANIM_PARAMS.STOP_MOVING.ToString());
+            RigidBody.velocity = new Vector3(0, RigidBody.velocity.y, 0);
+        }
+
+        if (Input.GetMouseButton(0))
+        {
+            UseItem();
+        }
+
+        if (Input.GetMouseButton(1))
+        {
+            if (localItem != null)
+            {
+                PickupItem(localItem);
+                localItem = null;
+            }
         }
     }
 
@@ -199,21 +214,38 @@ public class Player : MonoBehaviour
         speed  = defaultSpeed;
     }
 
+    Item localItem;
+
     void OnTriggerEnter(Collider col)
     {
         if (col.tag == TAG.Item.ToString())
         {
             Item item = col.gameObject.GetComponent<Item>();
-            PickupItem(item);
+            //PickupItem(item);
+            localItem = item;
         }
     }
 
     void PickupItem(Item item)
     {
-        items.Enqueue(item);
+        ItemTemplate temp = new ItemTemplate();
+        temp.name = item.name;
+        temp.type = item.type;
+        items.Enqueue(temp);
 
-        UIManager.Instance.AddItem(item);
+        UIManager.Instance.AddItem(temp);
 
         Destroy(item.gameObject);
+    }
+
+    void UseItem()
+    {
+        if (items.Count > 0)
+        {
+            ItemTemplate item = items.Dequeue();
+            Debug.LogFormat("Used {0}",item.name);
+
+            UIManager.Instance.UsedItem();
+        }
     }
 }
