@@ -75,18 +75,29 @@ public class UIManager : MonoBehaviour
 
     List<string> items= new List<string>();
 
-    public void AddItem(Item item)
+    public void AddItem(ItemTemplate item)
     {
-        items.Add(item.gameObject.name);
+        items.Add(item.name);
         if (lblItemQueue != null)
         {
-            string text = "Item Queue: ";
-            foreach(string itemStr in items)
-            {
-                text += itemStr + ",";
-            }
-            lblItemQueue.text = text;
+            RefreshItems();
         }
+    }
+
+    void RefreshItems()
+    {
+        string text = "Item Queue: ";
+        foreach(string itemStr in items)
+        {
+            text += itemStr + ",";
+        }
+        lblItemQueue.text = text;
+    }
+
+    public void UsedItem()
+    {
+        items.RemoveAt(0);
+        RefreshItems();
     }
 
     // Update is called once per frame
