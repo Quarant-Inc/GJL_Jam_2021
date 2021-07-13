@@ -9,3 +9,11 @@ public enum SCENE
     OPTIONS = 2,
     MAINGAME = 3
 }
+
+public enum DIRECTION
+{
+    FORWARD,
+    BACKWARD,
+    LEFT,
+    RIGHT
+}
