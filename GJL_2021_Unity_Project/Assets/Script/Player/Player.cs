@@ -212,6 +212,8 @@ public class Player : MonoBehaviour
     {
         items.Enqueue(item);
 
-        UIManager.Instance.AddItem(item);        
+        UIManager.Instance.AddItem(item);
+
+        Destroy(item.gameObject);
     }
 }
