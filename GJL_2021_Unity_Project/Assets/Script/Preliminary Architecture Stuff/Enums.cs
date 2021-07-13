@@ -18,3 +18,9 @@ public enum DIRECTION
     LEFT,
     RIGHT
 }
+
+public enum PLAYER_ANIM_PARAMS
+{
+    MOVE,
+    STOP_MOVING
+}

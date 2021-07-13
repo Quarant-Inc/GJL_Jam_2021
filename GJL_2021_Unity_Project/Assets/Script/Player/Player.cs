@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+public delegate void HealthChanged(int health);
+public delegate void SpeedChanged(int speed);
 public delegate void PlayerDied();
 public class Player : MonoBehaviour
 {
@@ -18,6 +20,8 @@ public class Player : MonoBehaviour
 
     #region PlayerEvents
     public PlayerDied PlayerDied;
+    public HealthChanged HealthChanged;
+    public SpeedChanged SpeedChanged;
     #endregion
 
     #region Stats
@@ -38,18 +42,53 @@ public class Player : MonoBehaviour
                 value >= maxHealth ? maxHealth : 0
             );
 
+            HealthChanged(health);
+
             //Activate death event if health runs out.
             if (value <= 0)
             {
-                PlayerDied();
+                if (PlayerDied != null)
+                {
+                    PlayerDied();
+                }
                 Debug.Log("Player done dieded.");
             }
         }
     }
-    float speed;
+    int speed;
+    public int Speed
+    {
+        get
+        {
+            return speed;
+        }
+        private set
+        {
+            speed = value < 0 ? 0 : value;
+
+            if (SpeedChanged != null)
+            {
+                SpeedChanged(speed);
+            }
+        }
+    }
     #endregion
 
     #region Components
+
+    Animator animator;
+    Animator Animator
+    {
+        get
+        {
+            if (animator == null)
+            {
+                return animator = GetComponent<Animator>();
+            }
+            return animator;
+        }
+    }
+
     Rigidbody body;
     Rigidbody RigidBody
     {
@@ -67,11 +106,12 @@ public class Player : MonoBehaviour
     void Awake()
     {
         instance = this;
+        ResetStats();
     }
 
     void Start()
     {
-        ResetStats();
+        
     }
 
     Dictionary<DIRECTION, Vector3> directionVectors = new Dictionary<DIRECTION, Vector3>()
@@ -82,51 +122,28 @@ public class Player : MonoBehaviour
         {DIRECTION.RIGHT, Vector3.right}
     };
 
-    Vector3 GetDirectionVector(DIRECTION dir)
-    {
-        switch(dir)
-        {
-            case DIRECTION.FORWARD:
-            {
-                return transform.forward;
-            }
-            case DIRECTION.LEFT:
-            {
-                return -transform.right;
-            }
-            case DIRECTION.RIGHT:
-            {
-                return transform.right;
-            }
-            case DIRECTION.BACKWARD:
-            {
-                return -transform.forward;
-            }
-            default:
-            {
-                return new Vector3();
-            }
-        }
-    }
-
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKey(KeyCode.W))
         {
             Move(DIRECTION.FORWARD);
         }
-        else if (Input.GetKeyDown(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A))
         {
             Move(DIRECTION.LEFT);
         }
-        else if (Input.GetKeyDown(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S))
         {
             Move(DIRECTION.BACKWARD);
         }
-        else if (Input.GetKeyDown(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
             Move(DIRECTION.RIGHT);
+        }
+        else
+        {
+            Animator.SetTrigger(PLAYER_ANIM_PARAMS.STOP_MOVING.ToString());
         }
     }
 
@@ -134,6 +151,8 @@ public class Player : MonoBehaviour
 
     void Move(DIRECTION dir)
     {
+        Animator.SetTrigger(PLAYER_ANIM_PARAMS.MOVE.ToString());
+
         Vector3 direction = directionVectors[dir];
         //Vector3 direction = GetDirectionVector(dir);
         if (prevDirection != dir)
@@ -143,7 +162,7 @@ public class Player : MonoBehaviour
         //
         //Vector3 direction = directionVectors[dir];
         transform.LookAt(transform.position + direction, transform.up);
-        RigidBody.velocity = direction * speed * Time.deltaTime * 40;
+        RigidBody.velocity = direction * speed;
 
         prevDirection = dir;
         
