@@ -172,12 +172,12 @@ public class Player : MonoBehaviour
             RigidBody.velocity = new Vector3(0, RigidBody.velocity.y, 0);
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButtonDown(0))
         {
             UseItem();
         }
 
-        if (Input.GetMouseButton(1))
+        if (Input.GetMouseButtonDown(1))
         {
             if (localItem != null)
             {
@@ -223,6 +223,17 @@ public class Player : MonoBehaviour
             Item item = col.gameObject.GetComponent<Item>();
             //PickupItem(item);
             localItem = item;
+        }
+    }
+
+    void OnTriggerExit(Collider col)
+    {
+        if (col.tag == TAG.Item.ToString())
+        {
+            if (col.gameObject.GetComponent<Item>() == localItem)
+            {
+                localItem = null;
+            }
         }
     }
 
