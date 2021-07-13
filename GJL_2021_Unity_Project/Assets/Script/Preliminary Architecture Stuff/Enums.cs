@@ -24,3 +24,15 @@ public enum PLAYER_ANIM_PARAMS
     MOVE,
     STOP_MOVING
 }
+
+public enum TAG
+{
+    Item
+}
+
+public enum ItemType
+{
+    WEAPON,
+    POTION,
+    TOOL
+}
