@@ -15,11 +15,16 @@ public class Player : MonoBehaviour
     }
     #endregion
 
+    #region Stats
+    float health = 10;
+    float speed = 10;
+    #endregion
+
     void Awake()
     {
         instance = this;
     }
-    
+
     // Start is called before the first frame update
     void Start()
     {
