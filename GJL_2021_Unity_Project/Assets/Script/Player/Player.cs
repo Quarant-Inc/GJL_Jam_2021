@@ -126,6 +126,8 @@ public class Player : MonoBehaviour
     }
     #endregion
 
+    Queue<Item> items = new Queue<Item>();
+
     void Awake()
     {
         instance = this;
@@ -195,5 +197,21 @@ public class Player : MonoBehaviour
     {
         health = maxHealth;
         speed  = defaultSpeed;
+    }
+
+    void OnTriggerEnter(Collider col)
+    {
+        if (col.tag == TAG.Item.ToString())
+        {
+            Item item = col.gameObject.GetComponent<Item>();
+            PickupItem(item);
+        }
+    }
+
+    void PickupItem(Item item)
+    {
+        items.Enqueue(item);
+
+        UIManager.Instance.AddItem(item);        
     }
 }
