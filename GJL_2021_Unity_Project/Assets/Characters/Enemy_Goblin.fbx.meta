@@ -1,0 +1,1246 @@
+fileFormatVersion: 2
+guid: c8bd33606c1cb2543a9fc48f78ff8e70
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rig_Goblin_lambert2
+    second: {fileID: 2100000, guid: 1a53006ac0e84cc4b8805b65176faa26, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 081586f029884914d8aba4a3bf80a2c5, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: gobelin_albedo
+    second: {fileID: 2800000, guid: f4856bccff2cf95408d0df2fc143853b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plane_opacity
+    second: {fileID: 2800000, guid: 2f8e511a7383e354084c778d54e3af5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: plane_texture
+    second: {fileID: 2800000, guid: 56124265a9c836644a3ba06195b6cd8a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Rig_Goblin:B_Root
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_leg_L_1
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_leg_R_1
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_leg_L_2
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_leg_R_2
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Spine_1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Spine_2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Clavicle_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Clavicle_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Arm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Arm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Forearm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Forearm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Eye_L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Eye_R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Jaw
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Thumb_L_1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Thumb_L_2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Thumb_L_3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_index_finger_L_1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_index_finger_L_2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_index_finger_L_3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_middle_finger_L_1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_middle_finger_L_2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_middle_finger_L_3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Little_finger_L_1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Little_finger_L_2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Little_finger_L_3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Thumb_R_1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Thumb_R_2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Thumb_R_3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_index_finger_R_1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_index_finger_R_2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_index_finger_R_3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_middle_finger_R_1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_middle_finger_R_2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_middle_finger_R_3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Rittle_finger_R_1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Rittle_finger_R_2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Rig_Goblin:B_Rittle_finger_R_3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Enemy_Goblin(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Root
+      parentName: Enemy_Goblin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.46989983, y: -0.52838826, z: -0.46989983, w: 0.52838826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_coin_L
+      parentName: Rig_Goblin:B_Root
+      position: {x: -0.00019474908, y: 0.00002289881, z: 0.02088095}
+      rotation: {x: -0.46989983, y: 0.52838826, z: 0.46989983, w: 0.52838826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_coin_R
+      parentName: Rig_Goblin:B_coin_L
+      position: {x: 0.04176195, y: 3.046979e-10, z: 1.0492084e-17}
+      rotation: {x: 1, y: -6.123234e-17, z: -6.123234e-17, w: 6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Bag_1
+      parentName: Rig_Goblin:B_Root
+      position: {x: -0.700234, y: 0.007506111, z: -0.20182173}
+      rotation: {x: 0.024244988, y: 0.9916536, z: 0.0117091695, w: -0.12608796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Bag_2
+      parentName: Rig_Goblin:B_Bag_1
+      position: {x: -0.077843495, y: -8.881784e-18, z: 1.4210854e-16}
+      rotation: {x: 0.002834099, y: -0.036325313, z: -0.009700308, w: 0.999289}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Bag_3
+      parentName: Rig_Goblin:B_Bag_2
+      position: {x: -0.06633583, y: 1.864235e-18, z: -1.3813184e-16}
+      rotation: {x: -0.025155617, y: 0.9955874, z: 0.0056291944, w: 0.09022859}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Pelvis
+      parentName: Rig_Goblin:B_Root
+      position: {x: -0.63424665, y: 1.5099033e-16, z: 7.041552e-17}
+      rotation: {x: 2.7755576e-17, y: -1.9274716e-34, z: -0.039988346, w: 0.99920017}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Fabric_F_1
+      parentName: Rig_Goblin:B_Pelvis
+      position: {x: 0.0512203, y: 0.13473813, z: 3.0516185e-17}
+      rotation: {x: 0.009749885, y: 0.9999525, z: -6.068823e-17, w: -5.610288e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Fabric_F_2
+      parentName: Rig_Goblin:B_Fabric_F_1
+      position: {x: -0.10780035, y: -0.0042735306, z: 1.4829448e-17}
+      rotation: {x: 0, y: 0, z: 0.028987663, w: 0.9995798}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Fabric_F_3
+      parentName: Rig_Goblin:B_Fabric_F_2
+      position: {x: -0.10794512, y: 0.0007251427, z: -1.1224334e-17}
+      rotation: {x: 0.038732074, y: 0.99924964, z: 6.355805e-17, w: -5.881474e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Fabric_B_1
+      parentName: Rig_Goblin:B_Pelvis
+      position: {x: -0.014660594, y: -0.14088057, z: -4.3510024e-17}
+      rotation: {x: 0.06263745, y: 0.9980363, z: -6.1112104e-17, w: -3.8354376e-18}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Fabric_B_2
+      parentName: Rig_Goblin:B_Fabric_B_1
+      position: {x: -0.08765906, y: -3.5527136e-17, z: 4.746049e-18}
+      rotation: {x: 1.92644e-34, y: 8.326673e-17, z: -0.023012407, w: 0.9997352}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Fabric_B_3
+      parentName: Rig_Goblin:B_Fabric_B_2
+      position: {x: -0.118348144, y: -5.70735e-17, z: -6.719112e-18}
+      rotation: {x: 0.039653644, y: 0.9992135, z: 6.3612274e-17, w: -5.87561e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_leg_R_1
+      parentName: Rig_Goblin:B_Pelvis
+      position: {x: -0.044453215, y: 0.0016475369, z: -0.0952566}
+      rotation: {x: -0.057009034, y: 0.9956646, z: 0.0068583824, w: -0.073178224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_leg_R_2
+      parentName: Rig_Goblin:B_leg_R_1
+      position: {x: -0.31136015, y: 1.1546319e-16, z: 3.5527136e-17}
+      rotation: {x: -0.0029772057, y: -0.02606331, z: 0.26197928, w: 0.9647169}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Foot_R
+      parentName: Rig_Goblin:B_leg_R_2
+      position: {x: -0.23414321, y: 3.5527136e-17, z: 1.4210854e-16}
+      rotation: {x: -0.09319579, y: 0.043214153, z: -0.6186952, w: 0.77888596}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Toe_R
+      parentName: Rig_Goblin:B_Foot_R
+      position: {x: -0.20362106, y: -2.176037e-16, z: 0}
+      rotation: {x: -0.3600793, y: 0.1687632, z: -0.17724203, w: 0.9002484}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Toe_R_end
+      parentName: Rig_Goblin:B_Toe_R
+      position: {x: -0.102922104, y: -3.1273247e-17, z: -2.5027236e-17}
+      rotation: {x: 0.6919887, y: 0.5205401, z: 0.3883112, w: -0.3152843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_1
+      parentName: Rig_Goblin:B_Pelvis
+      position: {x: -0.050040092, y: -0.117661074, z: -3.1150097e-17}
+      rotation: {x: 1.110223e-16, y: 4.6143644e-16, z: 0.65515405, w: 0.7554953}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_2
+      parentName: Rig_Goblin:B_Tail_1
+      position: {x: -0.031015603, y: 2.842171e-16, z: -9.318459e-18}
+      rotation: {x: 0, y: 0, z: 0.036562268, w: 0.99933136}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_3
+      parentName: Rig_Goblin:B_Tail_2
+      position: {x: -0.09992294, y: 1.4210854e-16, z: -3.1773996e-17}
+      rotation: {x: 0, y: 0, z: 0.013917957, w: 0.99990314}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_4
+      parentName: Rig_Goblin:B_Tail_3
+      position: {x: -0.1590336, y: -1.4210854e-16, z: -5.156171e-17}
+      rotation: {x: 0, y: -0, z: -0.0019367292, w: 0.99999815}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_5
+      parentName: Rig_Goblin:B_Tail_4
+      position: {x: -0.16158186, y: -1.563194e-15, z: -5.225015e-17}
+      rotation: {x: 0, y: 0, z: 0.00041562782, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_6
+      parentName: Rig_Goblin:B_Tail_5
+      position: {x: -0.18066518, y: -5.684342e-16, z: -5.845419e-17}
+      rotation: {x: 0, y: 0, z: 0.0017353877, w: 0.9999985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_7
+      parentName: Rig_Goblin:B_Tail_6
+      position: {x: -0.17811736, y: -3.126388e-15, z: -5.7765774e-17}
+      rotation: {x: 0, y: -0, z: -0.0001905708, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_8
+      parentName: Rig_Goblin:B_Tail_7
+      position: {x: -0.16094196, y: 1.847411e-14, z: -5.218211e-17}
+      rotation: {x: 0, y: 0, z: 0.001976303, w: 0.99999803}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_9
+      parentName: Rig_Goblin:B_Tail_8
+      position: {x: -0.11959228, y: 8.5265126e-16, z: -3.887876e-17}
+      rotation: {x: 0.9994699, y: 0.032556687, z: 1.993522e-18, w: 6.119988e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_10
+      parentName: Rig_Goblin:B_Tail_9
+      position: {x: -0.058648188, y: 1.4210854e-16, z: 1.985845e-17}
+      rotation: {x: 0, y: -0, z: -0.03893616, w: 0.9992417}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_11
+      parentName: Rig_Goblin:B_Tail_10
+      position: {x: -0.080336496, y: -1.4210854e-16, z: 2.8348343e-17}
+      rotation: {x: 0, y: -0, z: -0.10269604, w: 0.99471277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tail_12
+      parentName: Rig_Goblin:B_Tail_11
+      position: {x: -0.08190268, y: -1.4210854e-16, z: 3.1129374e-17}
+      rotation: {x: 0.5887691, y: 0.80830127, z: 8.554589e-17, w: -1.3442472e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_leg_L_1
+      parentName: Rig_Goblin:B_Pelvis
+      position: {x: -0.044452928, y: 0.0016475418, z: 0.09525664}
+      rotation: {x: -0.057009615, y: 0.99566454, z: -0.006847507, w: 0.07317943}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_leg_L_2
+      parentName: Rig_Goblin:B_leg_L_1
+      position: {x: -0.3113603, y: -1.2434498e-16, z: -7.105427e-17}
+      rotation: {x: 0.0029769947, y: 0.026061561, z: 0.26197895, w: 0.96471703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Foot_L
+      parentName: Rig_Goblin:B_leg_L_2
+      position: {x: -0.23414265, y: -1.9539925e-16, z: -7.105427e-17}
+      rotation: {x: 0.093205206, y: -0.043207463, z: -0.61869454, w: 0.7788857}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Toe_L
+      parentName: Rig_Goblin:B_Foot_L
+      position: {x: -0.20362067, y: 5.1070257e-17, z: -7.105427e-17}
+      rotation: {x: 0.3600831, y: -0.16876592, z: -0.17724042, w: 0.9002467}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Toe_L_end
+      parentName: Rig_Goblin:B_Toe_L
+      position: {x: -0.10292186, y: 1.714598e-17, z: -8.558057e-18}
+      rotation: {x: -0.5205379, y: 0.6919882, z: -0.3152854, w: -0.38831392}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Spine_1
+      parentName: Rig_Goblin:B_Pelvis
+      position: {x: -0.13908365, y: 1.1546319e-16, z: 1.9093893e-17}
+      rotation: {x: 8.326673e-17, y: -2.7755576e-17, z: -0.0077963695, w: 0.9999696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Spine_2
+      parentName: Rig_Goblin:B_Spine_1
+      position: {x: -0.1314175, y: 1.4921397e-15, z: 1.6168234e-17}
+      rotation: {x: -1.573899e-33, y: 1.110223e-16, z: -0.20417485, w: 0.97893447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Cape_1
+      parentName: Rig_Goblin:B_Spine_2
+      position: {x: -0.22833595, y: -0.06687249, z: 4.5743515e-17}
+      rotation: {x: 0.4302551, y: 0.90270734, z: 0.00000003786405, w: 0.000000018047045}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Cape_2
+      parentName: Rig_Goblin:B_Cape_1
+      position: {x: -0.091549374, y: 0, z: 0.0000000010596892}
+      rotation: {x: 0.000000008095071, y: 0.000000021227038, z: -0.35632515, w: 0.93436205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Cape_3
+      parentName: Rig_Goblin:B_Cape_2
+      position: {x: -0.097754985, y: -1.4210854e-16, z: 1.7044285e-17}
+      rotation: {x: -1.110223e-16, y: 5.551115e-17, z: -0.12437706, w: 0.992235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Cape_4
+      parentName: Rig_Goblin:B_Cape_3
+      position: {x: -0.13544078, y: 7.105427e-17, z: 0.0000000025497338}
+      rotation: {x: -7.706929e-34, y: -1.6653345e-16, z: -0.028857727, w: 0.99958354}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Cape_5
+      parentName: Rig_Goblin:B_Cape_4
+      position: {x: -0.12423817, y: 1.463009e-16, z: 0.0000000023257962}
+      rotation: {x: 0.0000000016114798, y: -0.000000022000066, z: 0.99732804, w: -0.07305315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Clavicle_R
+      parentName: Rig_Goblin:B_Spine_2
+      position: {x: -0.123983234, y: 0.011357908, z: -0.060821697}
+      rotation: {x: 0.07138446, y: -0.5993135, z: 0.2332612, w: 0.76244134}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Arm_R
+      parentName: Rig_Goblin:B_Clavicle_R
+      position: {x: -0.16362457, y: -8.8817837e-17, z: 1.4210854e-16}
+      rotation: {x: -0.1179855, y: -0.14332134, z: -0.099086225, w: 0.9776095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Forearm_R
+      parentName: Rig_Goblin:B_Arm_R
+      position: {x: -0.22364557, y: -2.1316282e-16, z: -2.842171e-16}
+      rotation: {x: 0.0041800207, y: 0.01616085, z: -0.03094105, w: 0.99938184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Forearm_R_Rotate
+      parentName: Rig_Goblin:B_Forearm_R
+      position: {x: -0.12926911, y: -0.0000000071232527, z: 0.00000013691496}
+      rotation: {x: -0.0000020230993, y: -0.58676004, z: 0.80976087, w: -0.0000013081468}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Hand_R
+      parentName: Rig_Goblin:B_Forearm_R
+      position: {x: -0.2284508, y: -8.8817837e-17, z: 4.2632563e-16}
+      rotation: {x: 0.077684805, y: -0.09388755, z: 0.22696857, w: 0.9662482}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Thumb_R_1
+      parentName: Rig_Goblin:B_Hand_R
+      position: {x: -0.049923956, y: 0.07551939, z: -0.026522536}
+      rotation: {x: 0.2064101, y: -0.19287422, z: -0.4605415, w: 0.84148437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Thumb_R_2
+      parentName: Rig_Goblin:B_Thumb_R_1
+      position: {x: -0.046620607, y: -7.105427e-17, z: -7.105427e-17}
+      rotation: {x: -0.028336188, y: 0.020264007, z: 0.033253714, w: 0.9988397}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Thumb_R_3
+      parentName: Rig_Goblin:B_Thumb_R_2
+      position: {x: -0.03304545, y: 0, z: -5.3290704e-17}
+      rotation: {x: -0.014209352, y: 0.013509517, z: 0.035515714, w: 0.99917686}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Thumb_R_end
+      parentName: Rig_Goblin:B_Thumb_R_3
+      position: {x: -0.06577237, y: 2.786282e-17, z: 2.943975e-17}
+      rotation: {x: -0.20072566, y: 0.93760216, z: -0.09309799, w: -0.26822427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_index_finger_R_1
+      parentName: Rig_Goblin:B_Hand_R
+      position: {x: -0.16855015, y: 0.10869061, z: -0.0003662579}
+      rotation: {x: 0.0008422655, y: -0.07690983, z: -0.120795466, w: 0.9896932}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_index_finger_R_2
+      parentName: Rig_Goblin:B_index_finger_R_1
+      position: {x: -0.04532339, y: -8.8817837e-17, z: -2.1316282e-16}
+      rotation: {x: 0.0041180584, y: -0.039953656, z: -0.0073109944, w: 0.9991663}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_index_finger_R_3
+      parentName: Rig_Goblin:B_index_finger_R_2
+      position: {x: -0.039834864, y: -3.5527136e-17, z: 2.1316282e-16}
+      rotation: {x: 0.00760063, y: -0.039835285, z: 0.003329042, w: 0.99917185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_index_finger_R_end
+      parentName: Rig_Goblin:B_index_finger_R_3
+      position: {x: -0.048803452, y: 8.047258e-18, z: 5.068801e-17}
+      rotation: {x: -0.13127176, y: 0.96829885, z: -0.07739597, w: -0.19792664}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_middle_finger_R_1
+      parentName: Rig_Goblin:B_Hand_R
+      position: {x: -0.18334505, y: 0.054276995, z: 0.0011310418}
+      rotation: {x: -0.0019074143, y: -0.03891978, z: -0.08712984, w: 0.9954346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_middle_finger_R_2
+      parentName: Rig_Goblin:B_middle_finger_R_1
+      position: {x: -0.048520837, y: 3.4416914e-17, z: 1.4210854e-16}
+      rotation: {x: 0.012159192, y: -0.02861626, z: -0.00016931343, w: 0.99951655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_middle_finger_R_3
+      parentName: Rig_Goblin:B_middle_finger_R_2
+      position: {x: -0.051275432, y: -2.7200463e-17, z: 3.5527136e-17}
+      rotation: {x: 0.0012445633, y: -0.037923984, z: 0.0132721355, w: 0.99919176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_middle_finger_R_end
+      parentName: Rig_Goblin:B_middle_finger_R_3
+      position: {x: -0.05626856, y: -4.044117e-18, z: 3.504996e-17}
+      rotation: {x: -0.09327461, y: 0.91867036, z: -0.050014775, w: -0.3805827}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Rittle_finger_R_1
+      parentName: Rig_Goblin:B_Hand_R
+      position: {x: -0.17936595, y: -1.0658141e-16, z: 4.2632563e-16}
+      rotation: {x: -0.004347926, y: -0.043632947, z: -0.07961596, w: 0.9958608}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Rittle_finger_R_2
+      parentName: Rig_Goblin:B_Rittle_finger_R_1
+      position: {x: -0.041770697, y: 5.3290704e-17, z: -2.1316282e-16}
+      rotation: {x: -0.0156214945, y: -0.026836371, z: -0.0046210135, w: 0.99950707}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Rittle_finger_R_3
+      parentName: Rig_Goblin:B_Rittle_finger_R_2
+      position: {x: -0.034588344, y: -6.217249e-17, z: -1.3322676e-17}
+      rotation: {x: 0.0004439405, y: -0.0181569, z: -0.013317411, w: 0.9997464}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Rittle_finger_R_end
+      parentName: Rig_Goblin:B_Rittle_finger_R_3
+      position: {x: -0.043452244, y: 5.4979095e-17, z: 8.616155e-18}
+      rotation: {x: 0.07141068, y: 0.4015172, z: 0.1937086, w: 0.8922788}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Clavicle_L
+      parentName: Rig_Goblin:B_Spine_2
+      position: {x: -0.12398207, y: 0.011358419, z: 0.060821656}
+      rotation: {x: -0.07138985, y: 0.59930974, z: 0.23325829, w: 0.7624447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Arm_L
+      parentName: Rig_Goblin:B_Clavicle_L
+      position: {x: -0.16362683, y: -1.4210854e-16, z: 0}
+      rotation: {x: 0.11799182, y: 0.14332442, z: -0.099080935, w: 0.9776088}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Forearm_L
+      parentName: Rig_Goblin:B_Arm_L
+      position: {x: -0.2236489, y: 0, z: -4.2632563e-16}
+      rotation: {x: -0.004179857, y: -0.016160404, z: -0.030940864, w: 0.99938184}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Forearm_L_Rotate
+      parentName: Rig_Goblin:B_Forearm_L
+      position: {x: -0.12926917, y: 0.000000087658435, z: -1.4210854e-16}
+      rotation: {x: -0.54686785, y: 0, z: -0, w: 0.83721894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Hand_L
+      parentName: Rig_Goblin:B_Forearm_L
+      position: {x: -0.22845104, y: -1.5099033e-16, z: 0}
+      rotation: {x: -0.077683486, y: 0.0938904, z: 0.22697076, w: 0.96624744}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Thumb_L_1
+      parentName: Rig_Goblin:B_Hand_L
+      position: {x: -0.049922947, y: 0.075519286, z: 0.026522769}
+      rotation: {x: -0.20640954, y: 0.19286864, z: -0.4605441, w: 0.84148437}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Thumb_L_2
+      parentName: Rig_Goblin:B_Thumb_L_1
+      position: {x: -0.04662056, y: 7.105427e-17, z: -3.5527136e-17}
+      rotation: {x: 0.028334554, y: -0.020260153, z: 0.033251733, w: 0.99883986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Thumb_L_3
+      parentName: Rig_Goblin:B_Thumb_L_2
+      position: {x: -0.033045, y: 0, z: 1.2434498e-16}
+      rotation: {x: 0.014207631, y: -0.013506956, z: 0.03551913, w: 0.99917674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Thumb_L_end
+      parentName: Rig_Goblin:B_Thumb_L_3
+      position: {x: -0.06577264, y: -1.2020726e-17, z: -2.2004928e-17}
+      rotation: {x: 0.9376012, y: 0.20072588, z: 0.2682274, w: -0.093098104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_index_finger_L_1
+      parentName: Rig_Goblin:B_Hand_L
+      position: {x: -0.16854954, y: 0.10869067, z: 0.00036621786}
+      rotation: {x: -0.00084318203, y: 0.076904856, z: -0.12079705, w: 0.98969346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_index_finger_L_2
+      parentName: Rig_Goblin:B_index_finger_L_1
+      position: {x: -0.045323905, y: 1.7763568e-17, z: -7.105427e-17}
+      rotation: {x: -0.004117636, y: 0.03994937, z: -0.007313365, w: 0.9991665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_index_finger_L_3
+      parentName: Rig_Goblin:B_index_finger_L_2
+      position: {x: -0.039834194, y: 1.0658141e-16, z: -1.4210854e-16}
+      rotation: {x: -0.007601475, y: 0.039829455, z: 0.0033294298, w: 0.99917203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_index_finger_L_end
+      parentName: Rig_Goblin:B_index_finger_L_3
+      position: {x: -0.048803978, y: 1.3060541e-17, z: -1.1752971e-16}
+      rotation: {x: 0.9682981, y: 0.13127181, z: 0.19793044, w: -0.0773958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_middle_finger_L_1
+      parentName: Rig_Goblin:B_Hand_L
+      position: {x: -0.18334417, y: 0.054277036, z: -0.0011313446}
+      rotation: {x: 0.0019079449, y: 0.03893054, z: -0.08713042, w: 0.9954341}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_middle_finger_L_2
+      parentName: Rig_Goblin:B_middle_finger_L_1
+      position: {x: -0.04852087, y: 1.7763568e-17, z: -2.842171e-16}
+      rotation: {x: -0.0121585755, y: 0.028614594, z: -0.00016803334, w: 0.99951655}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_middle_finger_L_3
+      parentName: Rig_Goblin:B_middle_finger_L_2
+      position: {x: -0.051275235, y: -8.881784e-18, z: 1.9539925e-16}
+      rotation: {x: -0.0012447303, y: 0.03792314, z: 0.013270591, w: 0.99919176}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_middle_finger_L_end
+      parentName: Rig_Goblin:B_middle_finger_L_3
+      position: {x: -0.056269053, y: -1.8374246e-17, z: 1.442897e-17}
+      rotation: {x: 0.9186704, y: 0.093274556, z: 0.38058266, w: -0.050014757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Little_finger_L_1
+      parentName: Rig_Goblin:B_Hand_L
+      position: {x: -0.179365, y: 7.105427e-17, z: -2.842171e-16}
+      rotation: {x: 0.004348277, y: 0.04363553, z: -0.079618536, w: 0.9958604}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Little_finger_L_2
+      parentName: Rig_Goblin:B_Little_finger_L_1
+      position: {x: -0.04177119, y: -7.105427e-17, z: -7.105427e-17}
+      rotation: {x: 0.015621031, y: 0.02683961, z: -0.0046226145, w: 0.999507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Little_finger_L_3
+      parentName: Rig_Goblin:B_Little_finger_L_2
+      position: {x: -0.034588005, y: 0, z: -1.0658141e-16}
+      rotation: {x: -0.00044440883, y: 0.018176408, z: -0.013318521, w: 0.999746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Little_finger_L_end
+      parentName: Rig_Goblin:B_Little_finger_L_3
+      position: {x: -0.04345193, y: -3.5885765e-17, z: -2.2211497e-17}
+      rotation: {x: -0.40152436, y: 0.07141182, z: 0.89227563, w: -0.19370821}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Neck
+      parentName: Rig_Goblin:B_Spine_2
+      position: {x: -0.2143916, y: 0.002734424, z: -8.880897e-17}
+      rotation: {x: -5.247661e-17, y: -1.4857323e-16, z: -0.26128423, w: 0.96526194}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Head
+      parentName: Rig_Goblin:B_Neck
+      position: {x: -0.061848, y: -0.027987411, z: 3.0133771e-16}
+      rotation: {x: 8.326673e-17, y: 3.2062134e-33, z: 0.27620474, w: 0.96109885}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Head_end
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.25439465, y: 0.02738235, z: 2.3060584e-17}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Ear_R_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.09665622, y: -0.0032635056, z: -0.138236}
+      rotation: {x: -0.02048442, y: -0.28140092, z: 0.5081599, w: 0.81373674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Ear_R_2
+      parentName: Rig_Goblin:B_Ear_R_1
+      position: {x: -0.07337921, y: 5.684342e-16, z: -7.105427e-17}
+      rotation: {x: -0.04110587, y: -0.072891824, z: -0.11673408, w: 0.98963135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Ear_R_3
+      parentName: Rig_Goblin:B_Ear_R_2
+      position: {x: -0.080127686, y: 1.4210854e-16, z: 9.947598e-16}
+      rotation: {x: -0.009386751, y: -0.030693581, z: -0.099057436, w: 0.99456394}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Ear_R_4
+      parentName: Rig_Goblin:B_Ear_R_3
+      position: {x: -0.075095855, y: 3.1974422e-16, z: 2.842171e-16}
+      rotation: {x: 0.3082462, y: 0.8671577, z: -0.056143094, w: -0.38713017}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Jaw
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.13662288, y: 0.08127145, z: 3.367731e-17}
+      rotation: {x: 0.757549, y: -0.6527783, z: -1.8491706e-16, w: 2.1459615e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Chin_3
+      parentName: Rig_Goblin:B_Jaw
+      position: {x: -0.10793813, y: -0.19509183, z: -8.4724934e-17}
+      rotation: {x: -3.5073027e-16, y: 2.624169e-16, z: -0.0064315484, w: 0.9999793}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Chin_2
+      parentName: Rig_Goblin:B_Jaw
+      position: {x: -0.20082082, y: -0.12101751, z: -9.628606e-17}
+      rotation: {x: -1.8041237e-16, y: 1.162272e-16, z: -0.0035373664, w: 0.99999374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Chin_1
+      parentName: Rig_Goblin:B_Jaw
+      position: {x: -0.20925906, y: 1.4210854e-16, z: -6.513035e-17}
+      rotation: {x: 1.3877788e-16, y: -1.3183898e-16, z: -0.6527783, w: 0.757549}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tongue_1
+      parentName: Rig_Goblin:B_Jaw
+      position: {x: -0.016537324, y: -0.07321236, z: -4.2167064e-17}
+      rotation: {x: -0.11867267, y: -0.69707733, z: -0.11867267, w: 0.69707733}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tongue_2
+      parentName: Rig_Goblin:B_Tongue_1
+      position: {x: -8.6592177e-19, y: 0.011269684, z: 0.06245097}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Tongue_3
+      parentName: Rig_Goblin:B_Tongue_2
+      position: {x: 1.4822753e-18, y: 0.000778389, z: 0.06378535}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Ear_L_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.09665711, y: -0.0032640072, z: 0.13823569}
+      rotation: {x: 0.020484189, y: 0.28140157, z: 0.508159, w: 0.81373703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Ear_L_2
+      parentName: Rig_Goblin:B_Ear_L_1
+      position: {x: -0.07337932, y: -2.842171e-16, z: 2.842171e-16}
+      rotation: {x: 0.04110663, y: 0.07289299, z: -0.11673102, w: 0.98963165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Ear_L_3
+      parentName: Rig_Goblin:B_Ear_L_2
+      position: {x: -0.080126986, y: 2.1316282e-16, z: -2.842171e-16}
+      rotation: {x: 0.009390863, y: 0.030706614, z: -0.09905779, w: 0.99456346}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Ear_L_4
+      parentName: Rig_Goblin:B_Ear_L_3
+      position: {x: -0.07509456, y: 3.5527136e-17, z: 0}
+      rotation: {x: 0.8671514, y: -0.3082456, z: 0.38714463, w: -0.056144536}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Nose_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.22366798, y: 0.19264808, z: 9.51071e-17}
+      rotation: {x: 0.77041656, y: -0.63754094, z: -2.0390172e-16, w: 4.8717275e-16}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Nose_2
+      parentName: Rig_Goblin:B_Nose_1
+      position: {x: -0.041575275, y: 5.684342e-16, z: 3.0048519e-18}
+      rotation: {x: -5.990217e-17, y: 2.9597406e-16, z: 0.20334342, w: 0.9791075}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Nose_3
+      parentName: Rig_Goblin:B_Nose_2
+      position: {x: -0.040473104, y: 1.4210854e-15, z: 1.7594601e-17}
+      rotation: {x: -5.3668008e-17, y: 3.7834167e-16, z: 0.15383291, w: 0.9880969}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Nose_4
+      parentName: Rig_Goblin:B_Nose_3
+      position: {x: -0.0377184, y: 0, z: 2.113162e-17}
+      rotation: {x: -4.8382522e-17, y: 4.1734542e-16, z: 0.10229661, w: 0.99475396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Nose_5
+      parentName: Rig_Goblin:B_Nose_4
+      position: {x: -0.04299944, y: -7.105427e-16, z: -5.1853657e-18}
+      rotation: {x: 0, y: 0, z: 0.9139835, w: -0.4057513}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eye_L
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.21283405, y: 0.11313152, z: 0.066720024}
+      rotation: {x: -0.6501464, y: 0.0981898, z: 0.4211872, w: 0.62471575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eye_R
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.21283624, y: 0.11313088, z: -0.06672}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Forehead
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.25425738, y: 0.1488578, z: -3.036016e-17}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eyebrow_L_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.24709317, y: 0.1617797, z: 0.03414042}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eyebrow_L_2
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.26332772, y: 0.1501521, z: 0.061051328}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eyebrow_L_3
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.25772732, y: 0.11698808, z: 0.09542991}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eyebrow_L_4
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.22688086, y: 0.083888546, z: 0.11456273}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Mouth_L
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.15667847, y: 0.1201655, z: 0.14082037}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_R_L
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20968328, y: 0.13457185, z: 0.03426975}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_U_L_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.23188776, y: 0.14508785, z: 0.05054008}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_U_L_2
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.2397175, y: 0.13876759, z: 0.08082349}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_U_L_3
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.2254605, y: 0.11904695, z: 0.10338024}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_L_L
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20266785, y: 0.09775935, z: 0.10451366}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_D_L_3
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20555523, y: 0.12617327, z: 0.10369955}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_D_L_2
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20754282, y: 0.14919867, z: 0.084883265}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_D_L_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20907211, y: 0.15101877, z: 0.05077281}
+      rotation: {x: 0.6055372, y: -0.36513662, z: -0.6055372, w: -0.36513662}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eyebrow_R_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.24709037, y: 0.16178063, z: -0.0341404}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eyebrow_R_2
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.26333004, y: 0.15015137, z: -0.0610513}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eyebrow_R_3
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.25772536, y: 0.11698904, z: -0.0954299}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Eyebrow_R_4
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.22688188, y: 0.083887696, z: -0.114562996}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Mouth_R
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.1566785, y: 0.1201659, z: -0.14082}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_R_R1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.2096788, y: 0.13457397, z: -0.0342698}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_U_R_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.23189227, y: 0.14508593, z: -0.050540097}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_U_R_2
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.23971792, y: 0.13876736, z: -0.080823496}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_U_R_3
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.2254569, y: 0.119048834, z: -0.10338}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_R_R
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20266731, y: 0.0977601, z: -0.104513995}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_D_R_3
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20555206, y: 0.12617514, z: -0.1037}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_D_R_2
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20754653, y: 0.1491962, z: -0.084883295}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_eyelid_D_R_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20907336, y: 0.15101823, z: -0.0507728}
+      rotation: {x: 0.36513662, y: 0.6055372, z: -0.36513662, w: 0.6055372}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Horn_L_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.2030294, y: -0.054957654, z: 0.10605306}
+      rotation: {x: -0.6666242, y: 0.032032557, z: 0.37876606, w: 0.64118826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Horn_L_2
+      parentName: Rig_Goblin:B_Horn_L_1
+      position: {x: -0.042165227, y: 4.2632563e-16, z: 1.4210854e-16}
+      rotation: {x: 0.22647052, y: -0.1646744, z: 0.04521702, w: 0.95893115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Horn_L_3
+      parentName: Rig_Goblin:B_Horn_L_2
+      position: {x: -0.051160023, y: -2.842171e-16, z: 8.8817837e-17}
+      rotation: {x: 0.14447287, y: -0.14596528, z: 0.112021126, w: 0.97225153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Horn_L_4
+      parentName: Rig_Goblin:B_Horn_L_3
+      position: {x: -0.0780088, y: 2.842171e-16, z: 0}
+      rotation: {x: 0.07592917, y: -0.12758765, z: 0.12695041, w: 0.9807343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Horn_R_1
+      parentName: Rig_Goblin:B_Head
+      position: {x: -0.20302609, y: -0.054955877, z: -0.106052995}
+      rotation: {x: 0.032032557, y: 0.6666242, z: -0.64118826, w: 0.37876606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Horn_R_2
+      parentName: Rig_Goblin:B_Horn_R_1
+      position: {x: 0.042171113, y: -0.0000039209117, z: -0.0000000036331118}
+      rotation: {x: 0.22647052, y: -0.1646744, z: 0.04521702, w: 0.95893115}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Horn_R_3
+      parentName: Rig_Goblin:B_Horn_R_2
+      position: {x: 0.051156614, y: 0.0000031439538, z: -0.00000023126472}
+      rotation: {x: 0.14447287, y: -0.14596528, z: 0.112021126, w: 0.97225153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:B_Horn_R_4
+      parentName: Rig_Goblin:B_Horn_R_3
+      position: {x: 0.078008905, y: -0.00000038499692, z: 0.0000003830576}
+      rotation: {x: 0.07592917, y: -0.12758765, z: 0.12695041, w: 0.9807343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:CHR_Body_add
+      parentName: Enemy_Goblin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Rig_Goblin:CHR_Body
+      parentName: Enemy_Goblin(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
