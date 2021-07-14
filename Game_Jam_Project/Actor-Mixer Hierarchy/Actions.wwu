@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{756E980A-2456-4088-BE4C-247614B3D622}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Actions" ID="{756E980A-2456-4088-BE4C-247614B3D622}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Effects" ID="{E8DE973E-5BCA-42C3-B279-EC8D01D69876}" ShortID="969254022">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3D9539A-3F14-4031-8984-C27E62E9CF0B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="Weapons" ID="{D4B93603-5D97-4EB4-B5B4-EC87EEF66FB6}" ShortID="314038871"/>
+						<Folder Name="Actions" ID="{7539DA21-B180-446B-8593-3BC2A7956916}" ShortID="1006751752"/>
+						<Folder Name="Enemy" ID="{740354F7-8398-4BB5-8E6E-95DC72EBCE3E}" ShortID="481820613"/>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
