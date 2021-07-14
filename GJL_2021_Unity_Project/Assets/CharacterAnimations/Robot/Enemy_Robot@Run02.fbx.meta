@@ -27,7 +27,7 @@ ModelImporter:
       transforms and has rotation animation that will be discarded.\n\t'roboter_2_0:R_Hip'
       is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
     animationRetargetingWarnings: 
-    animationDoRetargetingWarnings: 0
+    animationDoRetargetingWarnings: 1
     importAnimatedCustomProperties: 0
     importConstraints: 0
     animationCompression: 3

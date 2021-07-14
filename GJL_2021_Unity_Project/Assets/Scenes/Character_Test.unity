@@ -277,7 +277,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.2984692, g: 0.42294356, b: 0.6037736, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -317,13 +317,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1078820172}
-  m_LocalRotation: {x: -0.14644654, y: 0.8535535, z: -0.3535534, w: -0.35355324}
-  m_LocalPosition: {x: 2.172, y: 3.453, z: 3.712}
+  m_LocalRotation: {x: -0.022788584, y: 0.94163704, z: -0.0649955, w: -0.3295087}
+  m_LocalPosition: {x: 1.846, y: 1.49, z: 5.213}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 45, y: 225, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.899, y: 218.573, z: -0.005}
 --- !u!1 &1103648373 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b2e70a03589a0a5498e95f6000537e79, type: 3}
@@ -362,7 +362,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1149364538}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: 8cb4526088fb3b54c91aed76f53c5486, type: 3}
   m_Controller: {fileID: 9100000, guid: f37bd20438760904eb4d8009dd6ae181, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -457,7 +457,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.62228554, g: 0.6810122, b: 0.754717, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
