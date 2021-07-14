@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{55F6DF99-D3D1-4CF2-897E-3FC63A57CFE6}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{55F6DF99-D3D1-4CF2-897E-3FC63A57CFE6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Client_Music" ID="{E8427C9E-C0F2-4851-81D4-263A2B24FAA0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Client" ID="{F6EEE310-6888-488D-8DA8-0EF911C46A83}" WorkUnitID="{F6EEE310-6888-488D-8DA8-0EF911C46A83}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Client_Interface" ID="{112E1D0C-E3C7-48E0-BED8-CDAF35B3A539}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Client" ID="{F6EEE310-6888-488D-8DA8-0EF911C46A83}" WorkUnitID="{F6EEE310-6888-488D-8DA8-0EF911C46A83}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Game_Dialogue" ID="{B6660ACA-D8DA-4054-9EB5-296902D572C5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Dialgoue" ID="{04ED0A22-9237-4A4B-9847-ED46721BC7EC}" WorkUnitID="{04ED0A22-9237-4A4B-9847-ED46721BC7EC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Game_Music" ID="{74B7AE4F-82B0-46F6-8F4C-8B3CA9BC1431}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game" ID="{96279AB8-E966-4731-9E83-C25960117A2E}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Game_Environment" ID="{0015DA1D-9F58-4715-8164-E1EEBA1FBA6D}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Environment" ID="{CDD1D92A-3604-43F0-8B55-9441DCBBDBAB}" WorkUnitID="{CDD1D92A-3604-43F0-8B55-9441DCBBDBAB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Game_Interface" ID="{1FA1E394-E9A2-42A9-BC16-F245CE4B88A4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Game Interface" ID="{0075ABB0-B21B-4631-BF2E-44BB46FC178B}" WorkUnitID="{0075ABB0-B21B-4631-BF2E-44BB46FC178B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Game_Actions" ID="{099DF8CE-0973-43D4-9D04-854AE82DDB50}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Actions" ID="{756E980A-2456-4088-BE4C-247614B3D622}" WorkUnitID="{756E980A-2456-4088-BE4C-247614B3D622}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
