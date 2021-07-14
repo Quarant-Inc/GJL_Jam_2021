@@ -30,6 +30,14 @@ public class Player : MonoBehaviour
     const int maxHealth = 10;
     const int defaultSpeed = 10;
     const int maxArmour = 5;
+
+    public int MaxArmour
+    {
+        get
+        {
+            return maxArmour;
+        }
+    }
     int armour = 0;
     public int Armour
     {
@@ -50,6 +58,14 @@ public class Player : MonoBehaviour
             }
         }
     }
+    public int MaxHealth
+    {
+        get
+        {
+            return maxHealth;
+        }
+    }
+
     int health;
     public int Health
     {
@@ -258,5 +274,11 @@ public class Player : MonoBehaviour
 
             UIManager.Instance.UsedItem();
         }
+    }
+
+    // simple just to test hearts for now
+    public void TakeDamage()
+    {
+        Health --;
     }
 }

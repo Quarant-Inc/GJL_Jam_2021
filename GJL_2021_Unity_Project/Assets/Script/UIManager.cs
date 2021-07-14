@@ -35,6 +35,7 @@ public class UIManager : MonoBehaviour
         Player.Instance.HealthChanged += SetHealth;
         Player.Instance.SpeedChanged += SetSpeed;
         Player.Instance.ArmourChanged += SetArmour;
+        
     }
 
     void SetHealth(int health)
