@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c8bd33606c1cb2543a9fc48f78ff8e70
+guid: 4f668bfa424d4df4cb851080c01046c6
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -8,27 +8,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Rig_Goblin_lambert2
-    second: {fileID: 2100000, guid: 1a53006ac0e84cc4b8805b65176faa26, type: 2}
+    second: {fileID: 2100000, guid: ad81e7c5bb728524787dca70253e4daa, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: lambert1
-    second: {fileID: 2100000, guid: 081586f029884914d8aba4a3bf80a2c5, type: 2}
+    second: {fileID: 2100000, guid: c2d55d4ebe9a3f449a1b650657a4ac9b, type: 2}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: gobelin_albedo
-    second: {fileID: 2800000, guid: f4856bccff2cf95408d0df2fc143853b, type: 3}
+    second: {fileID: 2800000, guid: b63d00617bf964c44928088da5832063, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: plane_opacity
-    second: {fileID: 2800000, guid: 2f8e511a7383e354084c778d54e3af5b, type: 3}
+    second: {fileID: 2800000, guid: f89dd5cdcd9338b48b2a51ee2570bee4, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: plane_texture
-    second: {fileID: 2800000, guid: 56124265a9c836644a3ba06195b6cd8a, type: 3}
+    second: {fileID: 2800000, guid: 49f7dc33cbad6fd4bb86904ce9e3ecab, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -589,57 +589,57 @@ ModelImporter:
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_2
       parentName: Rig_Goblin:B_Tail_1
-      position: {x: -0.031015603, y: 2.842171e-16, z: -9.318459e-18}
+      position: {x: -0.0072520035, y: 0.0025038521, z: -2.0338212e-18}
       rotation: {x: 0, y: 0, z: 0.036562268, w: 0.99933136}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_3
       parentName: Rig_Goblin:B_Tail_2
-      position: {x: -0.09992294, y: 1.4210854e-16, z: -3.1773996e-17}
+      position: {x: -0.025997095, y: 0.0023543616, z: -8.718975e-18}
       rotation: {x: 0, y: 0, z: 0.013917957, w: 0.99990314}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_4
       parentName: Rig_Goblin:B_Tail_3
-      position: {x: -0.1590336, y: -1.4210854e-16, z: -5.156171e-17}
+      position: {x: -0.006274715, y: 0.00061104476, z: -3.879079e-18}
       rotation: {x: 0, y: -0, z: -0.0019367292, w: 0.99999815}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_5
       parentName: Rig_Goblin:B_Tail_4
-      position: {x: -0.16158186, y: -1.563194e-15, z: -5.225015e-17}
+      position: {x: -0.017651688, y: 0.0011332575, z: -7.283435e-18}
       rotation: {x: 0, y: 0, z: 0.00041562782, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_6
       parentName: Rig_Goblin:B_Tail_5
-      position: {x: -0.18066518, y: -5.684342e-16, z: -5.845419e-17}
+      position: {x: -0.009429772, y: 0.0012059015, z: -5.0245486e-18}
       rotation: {x: 0, y: 0, z: 0.0017353877, w: 0.9999985}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_7
       parentName: Rig_Goblin:B_Tail_6
-      position: {x: -0.17811736, y: -3.126388e-15, z: -5.7765774e-17}
+      position: {x: -0.014767023, y: 0.0005834028, z: -6.715547e-18}
       rotation: {x: 0, y: -0, z: -0.0001905708, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_8
       parentName: Rig_Goblin:B_Tail_7
-      position: {x: -0.16094196, y: 1.847411e-14, z: -5.218211e-17}
+      position: {x: -0.009940976, y: 0.0005968509, z: -5.0215294e-18}
       rotation: {x: 0, y: 0, z: 0.001976303, w: 0.99999803}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_9
       parentName: Rig_Goblin:B_Tail_8
-      position: {x: -0.11959228, y: 8.5265126e-16, z: -3.887876e-17}
+      position: {x: -0.002469859, y: -1.5916157e-14, z: -2.3034488e-18}
       rotation: {x: 0.9994699, y: 0.032556687, z: 1.993522e-18, w: 6.119988e-17}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_10
       parentName: Rig_Goblin:B_Tail_9
-      position: {x: -0.058648188, y: 1.4210854e-16, z: 1.985845e-17}
+      position: {x: -0.046166725, y: 0.00081400527, z: 1.5456067e-17}
       rotation: {x: 0, y: -0, z: -0.03893616, w: 0.9992417}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_11
       parentName: Rig_Goblin:B_Tail_10
-      position: {x: -0.080336496, y: -1.4210854e-16, z: 2.8348343e-17}
+      position: {x: -0.080336496, y: -2.842171e-16, z: 2.6980034e-17}
       rotation: {x: 0, y: -0, z: -0.10269604, w: 0.99471277}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_Tail_12
       parentName: Rig_Goblin:B_Tail_11
-      position: {x: -0.08190268, y: -1.4210854e-16, z: 3.1129374e-17}
+      position: {x: -0.08190268, y: 0, z: 3.1129374e-17}
       rotation: {x: 0.5887691, y: 0.80830127, z: 8.554589e-17, w: -1.3442472e-17}
       scale: {x: 1, y: 1, z: 1}
     - name: Rig_Goblin:B_leg_L_1
