@@ -1,44 +1,12 @@
 fileFormatVersion: 2
-guid: 8cb4526088fb3b54c91aed76f53c5486
+guid: fc2e6082edd37b04497389574c2f07ec
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
-  externalObjects:
+  internalIDToNameTable:
   - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roboter_2_0_Roboter_Brass01_mat
-    second: {fileID: 2100000, guid: b659a0cbf09000842b92c2b0d897c590, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roboter_2_0_Roboter_Brass02_mat
-    second: {fileID: 2100000, guid: 602a80eefff2093498857822b2f05975, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roboter_2_0_Roboter_Chrome01_mat
-    second: {fileID: 2100000, guid: cd294e625cfe194408de370ed55d13c9, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roboter_2_0_Roboter_Chrome02_mat
-    second: {fileID: 2100000, guid: 45d99e2028a820c42828e4ab1a7e51ec, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roboter_2_0_Roboter_Eye_mat
-    second: {fileID: 2100000, guid: 5da278266d69e4647b7c729f399ad24b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roboter_2_0_Roboter_Glass01_mat
-    second: {fileID: 2100000, guid: 62bd3cbe60ac8d946a1566aebe54ad6e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: roboter_2_0_Roboter_Glass02_mat
-    second: {fileID: 2100000, guid: 426e9b9df8fd5d84992b6823b0f97112, type: 2}
+      74: 4187507045013958805
+    second: Robnot_Run
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -69,7 +37,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 2
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -120,7 +88,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 2
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 1
