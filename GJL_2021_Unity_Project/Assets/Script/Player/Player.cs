@@ -230,13 +230,14 @@ public class Player : MonoBehaviour
         speed  = defaultSpeed;
     }
 
-    Item localItem;
+    PickupItem localItem;
 
     void OnTriggerEnter(Collider col)
     {
+        Debug.Log("Triggered by "+col.name);
         if (col.tag == TAG.Item.ToString())
         {
-            Item item = col.gameObject.GetComponent<Item>();
+            PickupItem item = col.gameObject.GetComponent<PickupItem>();
             //PickupItem(item);
             localItem = item;
         }
@@ -246,21 +247,24 @@ public class Player : MonoBehaviour
     {
         if (col.tag == TAG.Item.ToString())
         {
-            if (col.gameObject.GetComponent<Item>() == localItem)
+            if (col.gameObject.GetComponent<PickupItem>() == localItem)
             {
                 localItem = null;
             }
         }
     }
 
-    void PickupItem(Item item)
+    void PickupItem(PickupItem item)
     {
+        
+        
         ItemTemplate temp = new ItemTemplate();
         temp.name = item.name;
-        temp.type = item.type;
+        temp.type = item.itemSpec.type;
         items.Enqueue(temp);
 
-        UIManager.Instance.AddItem(temp);
+        //UIManager.Instance.AddItem(temp);
+        UIManager.Instance.AddItem(item.itemSpec);
 
         Destroy(item.gameObject);
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -668,10 +668,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 929419213}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61794c155ffcc934ca8e918b1d80df26, type: 3}
+  m_Script: {fileID: 11500000, guid: c163729a1a737184db768f80775400c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  itemSpec:
+    type: 0
+    name: Cube1
 --- !u!65 &929419215
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -873,10 +875,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1064407521}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61794c155ffcc934ca8e918b1d80df26, type: 3}
+  m_Script: {fileID: 11500000, guid: c163729a1a737184db768f80775400c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  itemSpec:
+    type: 0
+    name: Cube4
 --- !u!65 &1064407523
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -982,10 +986,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1106930524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61794c155ffcc934ca8e918b1d80df26, type: 3}
+  m_Script: {fileID: 11500000, guid: c163729a1a737184db768f80775400c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  itemSpec:
+    type: 0
+    name: Cube2
 --- !u!65 &1106930526
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1247,10 +1253,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1570440840}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61794c155ffcc934ca8e918b1d80df26, type: 3}
+  m_Script: {fileID: 11500000, guid: c163729a1a737184db768f80775400c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  itemSpec:
+    type: 0
+    name: Cube3
 --- !u!65 &1570440842
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1432,10 +1440,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1921744620}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61794c155ffcc934ca8e918b1d80df26, type: 3}
+  m_Script: {fileID: 11500000, guid: c163729a1a737184db768f80775400c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  itemSpec:
+    type: 0
+    name: Cube0
 --- !u!1001 &3426960980466501284
 PrefabInstance:
   m_ObjectHideFlags: 0

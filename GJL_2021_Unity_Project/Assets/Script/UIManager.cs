@@ -76,7 +76,7 @@ public class UIManager : MonoBehaviour
 
     List<string> items= new List<string>();
 
-    public void AddItem(ItemTemplate item)
+    public void AddItem(Item item)
     {
         items.Add(item.name);
         if (lblItemQueue != null)
