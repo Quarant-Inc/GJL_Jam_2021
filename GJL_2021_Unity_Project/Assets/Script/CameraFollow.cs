@@ -24,13 +24,7 @@ public class CameraFollow : MonoBehaviour
         }
     }
 
-    void Awake()
-    {
-        instance = this;
-    }
-
-    public Vector3 intercept = new Vector3(-3.4f, 6.82f, -3.24f);
-
+    
     Vector3 PlayerPosition
     {
         get
@@ -38,6 +32,14 @@ public class CameraFollow : MonoBehaviour
             return Player.Instance.transform.position;
         }
     }
+
+    public Vector3 intercept = new Vector3(-3.4f, 6.82f, -3.24f);
+
+    void Awake()
+    {
+        instance = this;
+    }
+
 
     // Update is called once per frame
     void Update()

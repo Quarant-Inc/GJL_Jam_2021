@@ -10563,7 +10563,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 66169324390536118, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: m_Name
-      value: LonkCharacter01
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 837885082112035084, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: m_RootOrder

@@ -183,15 +183,11 @@ public class Player : MonoBehaviour
         }
     }
     #endregion
-
-    //Queue<ItemTemplate> items = new Queue<ItemTemplate>();
+    
     Queue<Item> items = new Queue<Item>();
-    //Item localItem;
-    //GameObject localItemObject;
-    //List<ItemGameObjectPair> localItems = new List<ItemGameObjectPair>();
     Dictionary<int, ItemGameObjectPair> localItems = new Dictionary<int, ItemGameObjectPair>();
 
-
+    DIRECTION prevDirection = DIRECTION.NONE;
 
     void Awake()
     {
@@ -293,7 +289,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    DIRECTION prevDirection = DIRECTION.NONE;
+
 
     Vector3 GetDirectionVector(DIRECTION dir)
     {
