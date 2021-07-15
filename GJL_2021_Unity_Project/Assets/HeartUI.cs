@@ -14,15 +14,9 @@ public class HeartUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // draw all hearts
-        maxHealth = Player.Instance.MaxHealth;
-        for (var i = 0; i < maxHealth; i++)
-        {
-            GameObject h = Instantiate(heart, this.transform);
-            hearts.Add(h.GetComponent<Image>());
-        }
-
-        Player.Instance.HealthChanged += UpdateHearts;
+        AddHearts(Player.Instance.MaxHealth);
+        Player.Instance.MaxHeathChanged += AddHearts;
+        Player.Instance.HealthChanged += UpdateHearts;        
     }
 
     void UpdateHearts(int health)
@@ -38,6 +32,25 @@ public class HeartUI : MonoBehaviour
     }
 
     // TODO ?? add hearts function for increasing the max hearts if required
+    void AddHearts(int maxHealth)
+    {
+        // reset list
+        foreach(Image i in hearts)
+        {
+            Destroy(i.gameObject);
+        }
+        hearts.Clear();
+
+        // (re)draw all hearts for max health
+        //maxHealth = Player.Instance.MaxHealth;
+        for (var i = 0; i < maxHealth; i++)
+        {
+            GameObject h = Instantiate(heart, this.transform);
+            hearts.Add(h.GetComponent<Image>());
+        }
+
+        UpdateHearts(Player.Instance.Health);
+    }
 
     // Update is called once per frame
     void Update()

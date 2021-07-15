@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public delegate void HealthChanged(int health);
+public delegate void MaxHeathChanged(int maxHealth);
 public delegate void SpeedChanged(int speed);
 public delegate void ArmourChanged(int armour);
 public delegate void PlayerDied();
@@ -22,12 +23,13 @@ public class Player : MonoBehaviour
     #region PlayerEvents
     public PlayerDied PlayerDied;
     public HealthChanged HealthChanged;
+    public MaxHeathChanged MaxHeathChanged;
     public SpeedChanged SpeedChanged;
     public ArmourChanged ArmourChanged;
     #endregion
 
     #region Stats
-    const int maxHealth = 10;
+    int maxHealth = 10;
     const int defaultSpeed = 10;
     const int maxArmour = 5;
 
@@ -63,6 +65,11 @@ public class Player : MonoBehaviour
         get
         {
             return maxHealth;
+        }
+        private set
+        {
+            maxHealth = value;
+            MaxHeathChanged(maxHealth);
         }
     }
 
@@ -280,5 +287,16 @@ public class Player : MonoBehaviour
     public void TakeDamage()
     {
         Health --;
+    }
+
+    public void AddMaxHealth()
+    {        
+        MaxHealth ++; 
+        Debug.LogFormat("Increase max hp: {0}", MaxHealth);
+    }
+
+    public void FullHeal()
+    {
+        Health = MaxHealth;
     }
 }
