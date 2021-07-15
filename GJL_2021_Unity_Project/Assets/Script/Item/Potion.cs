@@ -15,4 +15,8 @@ public class Potion : Item
             }
         }
     }
+    public override string ToString()
+    {
+        return string.Format("Potion of type {0}",potionType);
+    }
 }

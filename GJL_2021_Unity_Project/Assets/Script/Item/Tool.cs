@@ -6,6 +6,14 @@ public class Tool : Item
     public TOOL_TYPE toolType;
     public override void Use()
     {
-        throw new System.NotImplementedException();
+        switch(toolType)
+        {
+
+        }
+    }
+
+    public override string ToString()
+    {
+        return string.Format("Tool of type {0}",toolType);
     }
 }

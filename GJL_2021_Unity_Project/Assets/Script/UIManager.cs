@@ -78,7 +78,7 @@ public class UIManager : MonoBehaviour
 
     public void AddItem(Item item)
     {
-        items.Add(string.Format("{0}({1})",item.name,item.type));
+        items.Add(item.ToString());
         if (lblItemQueue != null)
         {
             RefreshItems();
