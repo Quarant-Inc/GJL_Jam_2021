@@ -286,7 +286,15 @@ public class Player : MonoBehaviour
     // simple just to test hearts for now
     public void TakeDamage()
     {
-        Health --;
+        // take damage from armour value first. like temp hp
+        if (Armour > 0)
+        {
+            Armour--;
+        }
+        else
+        {
+            Health--;
+        }
     }
 
     public void AddMaxHealth()
@@ -298,5 +306,10 @@ public class Player : MonoBehaviour
     public void FullHeal()
     {
         Health = MaxHealth;
+    }
+
+    public void AddArmour()
+    {
+        Armour++;
     }
 }
