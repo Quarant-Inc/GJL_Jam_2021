@@ -13,6 +13,11 @@ public class Potion : Item
                 Player.Instance.IncreasePickupRadius();
                 break;
             }
+            case POTION_TYPE.SPEED_INCREASE:
+            {
+                Player.Instance.IncreaseSpeed();
+                break;
+            }
         }
     }
     public override string ToString()
