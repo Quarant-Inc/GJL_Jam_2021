@@ -401,6 +401,11 @@ public class Player : MonoBehaviour
         Health = MaxHealth;
     }
 
+    public void AddArmour()
+    {
+        Armour++;
+    }
+
     public float pickIncreaseTime = 3f;
 
     public void IncreasePickupRadius()
@@ -436,10 +441,5 @@ struct ItemGameObjectPair
         id = count++;
         item = _item;
         gameObject = _gameObject;
-    }
-
-    public void AddArmour()
-    {
-        Armour++;
     }
 }
