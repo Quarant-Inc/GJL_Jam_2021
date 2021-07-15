@@ -16,7 +16,11 @@ public enum DIRECTION
     FORWARD,
     BACKWARD,
     LEFT,
-    RIGHT
+    RIGHT,
+    FORWARD_RIGHT,
+    FORWARD_LEFT,
+    BACKWARD_RIGHT,
+    BACKWARD_LEFT
 }
 
 public enum PLAYER_ANIM_PARAMS

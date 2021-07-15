@@ -132,6 +132,14 @@ public class Player : MonoBehaviour
             SphereTrigger.radius = value;
         }
     }
+
+    Vector3 CameraGroundForward
+    {
+        get
+        {
+            return CameraFollow.Instance.CameraGroundForward;
+        }
+    }
     #endregion
 
     #region Components
@@ -183,6 +191,8 @@ public class Player : MonoBehaviour
     //List<ItemGameObjectPair> localItems = new List<ItemGameObjectPair>();
     Dictionary<int, ItemGameObjectPair> localItems = new Dictionary<int, ItemGameObjectPair>();
 
+
+
     void Awake()
     {
         instance = this;
@@ -207,15 +217,37 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            Move(DIRECTION.FORWARD);
+            if (Input.GetKey(KeyCode.A))
+            {
+                Move(DIRECTION.FORWARD_LEFT);
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                Move(DIRECTION.FORWARD_RIGHT);
+            }
+            else
+            {
+                Move(DIRECTION.FORWARD);
+            }
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            if (Input.GetKey(KeyCode.A))
+            {
+                Move(DIRECTION.BACKWARD_LEFT);
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                Move(DIRECTION.BACKWARD_RIGHT);
+            }
+            else
+            {
+                Move(DIRECTION.BACKWARD);
+            }
         }
         else if (Input.GetKey(KeyCode.A))
         {
             Move(DIRECTION.LEFT);
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            Move(DIRECTION.BACKWARD);
         }
         else if (Input.GetKey(KeyCode.D))
         {
@@ -263,11 +295,65 @@ public class Player : MonoBehaviour
 
     DIRECTION prevDirection = DIRECTION.NONE;
 
+    Vector3 GetDirectionVector(DIRECTION dir)
+    {
+        Vector3 forward = CameraGroundForward;
+        Vector3 backward = -forward;
+        Vector3 right = Quaternion.AngleAxis(90f, transform.up) * forward;
+        Vector3 left = Quaternion.AngleAxis(90f, transform.up) * backward;
+        
+        Vector3 forward_right = Quaternion.AngleAxis(45f, transform.up) * forward;
+        Vector3 forward_left = Quaternion.AngleAxis(-45f, transform.up) * forward;
+        Vector3 backward_right = Quaternion.AngleAxis(-45f, transform.up) * backward;
+        Vector3 backward_left = Quaternion.AngleAxis(45f, transform.up) * backward;
+
+        switch(dir)
+        {
+            case DIRECTION.FORWARD:
+            {
+                return forward;
+            }
+            case DIRECTION.BACKWARD:
+            {
+                return backward;
+            }
+            case DIRECTION.LEFT:
+            {
+                return left;
+            }
+            case DIRECTION.RIGHT:
+            {
+                return right;
+            }
+            case DIRECTION.FORWARD_RIGHT:
+            {
+                return forward_right;
+            }
+            case DIRECTION.FORWARD_LEFT:
+            {
+                return forward_left;
+            }
+            case DIRECTION.BACKWARD_RIGHT:
+            {
+                return backward_right;
+            }
+            case DIRECTION.BACKWARD_LEFT:
+            {
+                return backward_left;
+            }
+            default:
+            {
+                return new Vector3();
+            }
+        }
+    }
+
     void Move(DIRECTION dir)
     {
         Animator.SetTrigger(PLAYER_ANIM_PARAMS.MOVE.ToString());
 
-        Vector3 direction = directionVectors[dir];
+        //Vector3 direction = directionVectors[dir];
+        Vector3 direction = GetDirectionVector(dir);
         //Vector3 direction = GetDirectionVector(dir);
         if (prevDirection != dir)
         {
