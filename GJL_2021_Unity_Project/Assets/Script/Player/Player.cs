@@ -118,6 +118,19 @@ public class Player : MonoBehaviour
             }
         }
     }
+
+    float defaultMaxPickup = 1.1f;
+    float MaxPickupDistance
+    {
+        get
+        {
+            return SphereTrigger.radius;
+        }
+        set
+        {
+            SphereTrigger.radius = value;
+        }
+    }
     #endregion
 
     #region Components
@@ -147,9 +160,25 @@ public class Player : MonoBehaviour
             return body;
         }
     }
+
+    SphereCollider sphereTrigger;
+    SphereCollider SphereTrigger
+    {
+        get
+        {
+            if (sphereTrigger == null)
+            {
+                return sphereTrigger = GetComponent<SphereCollider>();
+            }
+            return sphereTrigger;
+        }
+    }
     #endregion
 
-    Queue<ItemTemplate> items = new Queue<ItemTemplate>();
+    //Queue<ItemTemplate> items = new Queue<ItemTemplate>();
+    Queue<Item> items = new Queue<Item>();
+    Item localItem;
+    GameObject localItemObject;
 
     void Awake()
     {
@@ -207,6 +236,10 @@ public class Player : MonoBehaviour
                 PickupItem(localItem);
                 localItem = null;
             }
+            else
+            {
+                Debug.Log("localItem is null, silly.");
+            }
         }
     }
 
@@ -237,23 +270,57 @@ public class Player : MonoBehaviour
         speed  = defaultSpeed;
     }
 
-    Item localItem;
+
 
     void OnTriggerEnter(Collider col)
     {
+        Debug.Log("Triggered by "+col.name);
         if (col.tag == TAG.Item.ToString())
         {
-            Item item = col.gameObject.GetComponent<Item>();
+            Debug.Log("item found");
+            Item item = GetItemFromPickup(col.gameObject);
+            if (item != null)
+            {
+                localItem = item;
+                localItemObject = col.gameObject;
+            }
+            //PickupItem<Item> item = col.gameObject.GetComponent<PickupItem<Item>>();
+            //Debug.Log(item);
             //PickupItem(item);
-            localItem = item;
+            //localItem = item;
         }
+    }
+
+    Item GetItemFromPickup(GameObject obj)
+    {
+        PickupItem<Weapon> weapon = obj.GetComponent<PickupItem<Weapon>>();
+        if (weapon != null)
+        {
+            return weapon.itemSpec;
+        }
+
+        PickupItem<Tool> tool = obj.GetComponent<PickupItem<Tool>>();
+        if (tool != null)
+        {
+            return tool.itemSpec;
+        }
+
+        PickupItem<Potion> potition = obj.GetComponent<PickupItem<Potion>>();
+        if (potition != null)
+        {
+            return potition.itemSpec;
+        }
+
+        return null;
     }
 
     void OnTriggerExit(Collider col)
     {
         if (col.tag == TAG.Item.ToString())
         {
-            if (col.gameObject.GetComponent<Item>() == localItem)
+            Item item = GetItemFromPickup(col.gameObject);
+            if (item != null && item == localItem)
+            //if (col.gameObject.GetComponent<PickupItem<Item>>() == localItem)
             {
                 localItem = null;
             }
@@ -262,21 +329,27 @@ public class Player : MonoBehaviour
 
     void PickupItem(Item item)
     {
-        ItemTemplate temp = new ItemTemplate();
+        Debug.Log("Pickup attempted");
+        
+        /*ItemTemplate temp = new ItemTemplate();
         temp.name = item.name;
-        temp.type = item.type;
-        items.Enqueue(temp);
+        temp.type = item.itemSpec.type;
+        items.Enqueue(temp);*/
 
-        UIManager.Instance.AddItem(temp);
+        items.Enqueue(item);
 
-        Destroy(item.gameObject);
+        //UIManager.Instance.AddItem(temp);
+        UIManager.Instance.AddItem(item);
+
+        Destroy(localItemObject);
     }
 
     void UseItem()
     {
         if (items.Count > 0)
         {
-            ItemTemplate item = items.Dequeue();
+            //ItemTemplate item = items.Dequeue();
+            Item item = items.Dequeue();
             Debug.LogFormat("Used {0}",item.name);
 
             UIManager.Instance.UsedItem();
@@ -306,6 +379,20 @@ public class Player : MonoBehaviour
     public void FullHeal()
     {
         Health = MaxHealth;
+    }
+
+    float pickIncreaseTime = 3f;
+
+    public void IncreasePickupRadius()
+    {
+
+    }
+
+    IEnumerator PickupWiden()
+    {
+        MaxPickupDistance = 3;
+        yield return new WaitForSeconds(pickIncreaseTime);
+        MaxPickupDistance = 1.1f;
     }
 
     public void AddArmour()
