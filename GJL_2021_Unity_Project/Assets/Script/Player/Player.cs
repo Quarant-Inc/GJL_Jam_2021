@@ -118,6 +118,19 @@ public class Player : MonoBehaviour
             }
         }
     }
+
+    float defaultMaxPickup = 1.1f;
+    float MaxPickupDistance
+    {
+        get
+        {
+            return SphereTrigger.radius;
+        }
+        set
+        {
+            SphereTrigger.radius = value;
+        }
+    }
     #endregion
 
     #region Components
@@ -145,6 +158,19 @@ public class Player : MonoBehaviour
                 return body = GetComponent<Rigidbody>();
             }
             return body;
+        }
+    }
+
+    SphereCollider sphereTrigger;
+    SphereCollider SphereTrigger
+    {
+        get
+        {
+            if (sphereTrigger == null)
+            {
+                return sphereTrigger = GetComponent<SphereCollider>();
+            }
+            return sphereTrigger;
         }
     }
     #endregion
@@ -345,5 +371,19 @@ public class Player : MonoBehaviour
     public void FullHeal()
     {
         Health = MaxHealth;
+    }
+
+    float pickIncreaseTime = 3f;
+
+    public void IncreasePickupRadius()
+    {
+
+    }
+
+    IEnumerator PickupWiden()
+    {
+        MaxPickupDistance = 3;
+        yield return new WaitForSeconds(pickIncreaseTime);
+        MaxPickupDistance = 1.1f;
     }
 }
