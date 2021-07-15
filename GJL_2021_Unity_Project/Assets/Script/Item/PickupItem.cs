@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PickupItem : MonoBehaviour
+public class PickupItem<T> : MonoBehaviour where T : Item
 {
-    public Item itemSpec;
+    public T itemSpec;
 }

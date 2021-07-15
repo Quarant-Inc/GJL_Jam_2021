@@ -142,7 +142,8 @@ public class Player : MonoBehaviour
     }
     #endregion
 
-    Queue<ItemTemplate> items = new Queue<ItemTemplate>();
+    //Queue<ItemTemplate> items = new Queue<ItemTemplate>();
+    Queue<Item> items = new Queue<Item>();
 
     void Awake()
     {
@@ -230,14 +231,14 @@ public class Player : MonoBehaviour
         speed  = defaultSpeed;
     }
 
-    PickupItem localItem;
+    PickupItem<Item> localItem;
 
     void OnTriggerEnter(Collider col)
     {
         Debug.Log("Triggered by "+col.name);
         if (col.tag == TAG.Item.ToString())
         {
-            PickupItem item = col.gameObject.GetComponent<PickupItem>();
+            PickupItem<Item> item = col.gameObject.GetComponent<PickupItem<Item>>();
             //PickupItem(item);
             localItem = item;
         }
@@ -247,24 +248,27 @@ public class Player : MonoBehaviour
     {
         if (col.tag == TAG.Item.ToString())
         {
-            if (col.gameObject.GetComponent<PickupItem>() == localItem)
+            if (col.gameObject.GetComponent<PickupItem<Item>>() == localItem)
             {
                 localItem = null;
             }
         }
     }
 
-    void PickupItem(PickupItem item)
+    void PickupItem(PickupItem<Item> item)
     {
+
         
-        
-        ItemTemplate temp = new ItemTemplate();
+        /*ItemTemplate temp = new ItemTemplate();
         temp.name = item.name;
         temp.type = item.itemSpec.type;
-        items.Enqueue(temp);
+        items.Enqueue(temp);*/
+
+        Item itemSpec = item.itemSpec;
+        items.Enqueue(itemSpec);
 
         //UIManager.Instance.AddItem(temp);
-        UIManager.Instance.AddItem(item.itemSpec);
+        UIManager.Instance.AddItem(itemSpec);
 
         Destroy(item.gameObject);
     }
@@ -273,7 +277,8 @@ public class Player : MonoBehaviour
     {
         if (items.Count > 0)
         {
-            ItemTemplate item = items.Dequeue();
+            //ItemTemplate item = items.Dequeue();
+            Item item = items.Dequeue();
             Debug.LogFormat("Used {0}",item.name);
 
             UIManager.Instance.UsedItem();

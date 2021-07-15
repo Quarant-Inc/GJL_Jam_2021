@@ -1,0 +1,1 @@
+public class WeaponPickupItem : PickupItem<Weapon> {}
