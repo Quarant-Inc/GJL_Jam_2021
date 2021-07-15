@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public delegate void HealthChanged(int health);
@@ -177,8 +178,10 @@ public class Player : MonoBehaviour
 
     //Queue<ItemTemplate> items = new Queue<ItemTemplate>();
     Queue<Item> items = new Queue<Item>();
-    Item localItem;
-    GameObject localItemObject;
+    //Item localItem;
+    //GameObject localItemObject;
+    //List<ItemGameObjectPair> localItems = new List<ItemGameObjectPair>();
+    Dictionary<int, ItemGameObjectPair> localItems = new Dictionary<int, ItemGameObjectPair>();
 
     void Awake()
     {
@@ -231,7 +234,22 @@ public class Player : MonoBehaviour
 
         if (Input.GetMouseButtonDown(1))
         {
-            if (localItem != null)
+            if (localItems.Count > 0)
+            {
+                ItemGameObjectPair closestPair = new ItemGameObjectPair(null, null);
+                float closestDist = float.MaxValue;
+                foreach(ItemGameObjectPair pair in localItems.Values)
+                {
+                    float distance = Vector3.Distance(transform.position, pair.gameObject.transform.position);
+                    if (distance < closestDist)
+                    {
+                        closestPair = pair;
+                        closestDist = distance;
+                    }
+                }
+                PickupItem(closestPair);
+            }
+            /*if (localItem != null)
             {
                 PickupItem(localItem);
                 localItem = null;
@@ -239,7 +257,7 @@ public class Player : MonoBehaviour
             else
             {
                 Debug.Log("localItem is null, silly.");
-            }
+            }*/
         }
     }
 
@@ -281,13 +299,11 @@ public class Player : MonoBehaviour
             Item item = GetItemFromPickup(col.gameObject);
             if (item != null)
             {
-                localItem = item;
-                localItemObject = col.gameObject;
+                ItemGameObjectPair pair = new ItemGameObjectPair(item,col.gameObject);
+                localItems.Add(pair.ID, pair);
+                // localItem = item;
+                // localItemObject = col.gameObject;
             }
-            //PickupItem<Item> item = col.gameObject.GetComponent<PickupItem<Item>>();
-            //Debug.Log(item);
-            //PickupItem(item);
-            //localItem = item;
         }
     }
 
@@ -319,15 +335,16 @@ public class Player : MonoBehaviour
         if (col.tag == TAG.Item.ToString())
         {
             Item item = GetItemFromPickup(col.gameObject);
-            if (item != null && item == localItem)
-            //if (col.gameObject.GetComponent<PickupItem<Item>>() == localItem)
+            if (item != null)
             {
-                localItem = null;
+                ItemGameObjectPair pair = localItems.Values.Where(i => i.gameObject == col.gameObject).ElementAt(0);
+    
+                //localItem = null;
             }
         }
     }
 
-    void PickupItem(Item item)
+    void PickupItem(ItemGameObjectPair pair)
     {
         Debug.Log("Pickup attempted");
         
@@ -336,12 +353,13 @@ public class Player : MonoBehaviour
         temp.type = item.itemSpec.type;
         items.Enqueue(temp);*/
 
-        items.Enqueue(item);
+        items.Enqueue(pair.item);
 
         //UIManager.Instance.AddItem(temp);
-        UIManager.Instance.AddItem(item);
+        UIManager.Instance.AddItem(pair.item);
 
-        Destroy(localItemObject);
+        localItems.Remove(pair.ID);
+        Destroy(pair.gameObject);
     }
 
     void UseItem()
@@ -351,6 +369,8 @@ public class Player : MonoBehaviour
             //ItemTemplate item = items.Dequeue();
             Item item = items.Dequeue();
             Debug.LogFormat("Used {0}",item.name);
+
+            item.Use();
 
             UIManager.Instance.UsedItem();
         }
@@ -373,17 +393,40 @@ public class Player : MonoBehaviour
         Health = MaxHealth;
     }
 
-    float pickIncreaseTime = 3f;
+    public float pickIncreaseTime = 3f;
 
     public void IncreasePickupRadius()
     {
-
+        StartCoroutine(PickupWiden());
     }
 
     IEnumerator PickupWiden()
     {
         MaxPickupDistance = 3;
+        Debug.LogFormat("MaxPickupDistance: {0};", MaxPickupDistance);
         yield return new WaitForSeconds(pickIncreaseTime);
         MaxPickupDistance = 1.1f;
+        Debug.LogFormat("MaxPickupDistance: {0};",MaxPickupDistance);
+    }
+}
+
+struct ItemGameObjectPair
+{
+    static int count = 0;
+    readonly int id;
+    public int ID
+    {
+        get
+        {
+            return id;
+        }
+    }
+    public Item item;
+    public GameObject gameObject;
+    public ItemGameObjectPair(Item _item, GameObject _gameObject)
+    {
+        id = count++;
+        item = _item;
+        gameObject = _gameObject;
     }
 }
