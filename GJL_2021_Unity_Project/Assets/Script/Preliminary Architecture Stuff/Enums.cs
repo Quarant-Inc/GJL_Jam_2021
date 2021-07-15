@@ -44,7 +44,7 @@ m
 
 public enum POTION_TYPE
 {
-m
+    MAGNET
 }
 
 public enum TOOL_TYPE
