@@ -151,6 +151,8 @@ public class Player : MonoBehaviour
 
     //Queue<ItemTemplate> items = new Queue<ItemTemplate>();
     Queue<Item> items = new Queue<Item>();
+    Item localItem;
+    GameObject localItemObject;
 
     void Awake()
     {
@@ -208,6 +210,10 @@ public class Player : MonoBehaviour
                 PickupItem(localItem);
                 localItem = null;
             }
+            else
+            {
+                Debug.Log("localItem is null, silly.");
+            }
         }
     }
 
@@ -238,46 +244,78 @@ public class Player : MonoBehaviour
         speed  = defaultSpeed;
     }
 
-    PickupItem<Item> localItem;
+
 
     void OnTriggerEnter(Collider col)
     {
         Debug.Log("Triggered by "+col.name);
         if (col.tag == TAG.Item.ToString())
         {
-            PickupItem<Item> item = col.gameObject.GetComponent<PickupItem<Item>>();
+            Debug.Log("item found");
+            Item item = GetItemFromPickup(col.gameObject);
+            if (item != null)
+            {
+                localItem = item;
+                localItemObject = col.gameObject;
+            }
+            //PickupItem<Item> item = col.gameObject.GetComponent<PickupItem<Item>>();
+            //Debug.Log(item);
             //PickupItem(item);
-            localItem = item;
+            //localItem = item;
         }
+    }
+
+    Item GetItemFromPickup(GameObject obj)
+    {
+        PickupItem<Weapon> weapon = obj.GetComponent<PickupItem<Weapon>>();
+        if (weapon != null)
+        {
+            return weapon.itemSpec;
+        }
+
+        PickupItem<Tool> tool = obj.GetComponent<PickupItem<Tool>>();
+        if (tool != null)
+        {
+            return tool.itemSpec;
+        }
+
+        PickupItem<Potion> potition = obj.GetComponent<PickupItem<Potion>>();
+        if (potition != null)
+        {
+            return potition.itemSpec;
+        }
+
+        return null;
     }
 
     void OnTriggerExit(Collider col)
     {
         if (col.tag == TAG.Item.ToString())
         {
-            if (col.gameObject.GetComponent<PickupItem<Item>>() == localItem)
+            Item item = GetItemFromPickup(col.gameObject);
+            if (item != null && item == localItem)
+            //if (col.gameObject.GetComponent<PickupItem<Item>>() == localItem)
             {
                 localItem = null;
             }
         }
     }
 
-    void PickupItem(PickupItem<Item> item)
+    void PickupItem(Item item)
     {
-
+        Debug.Log("Pickup attempted");
         
         /*ItemTemplate temp = new ItemTemplate();
         temp.name = item.name;
         temp.type = item.itemSpec.type;
         items.Enqueue(temp);*/
 
-        Item itemSpec = item.itemSpec;
-        items.Enqueue(itemSpec);
+        items.Enqueue(item);
 
         //UIManager.Instance.AddItem(temp);
-        UIManager.Instance.AddItem(itemSpec);
+        UIManager.Instance.AddItem(item);
 
-        Destroy(item.gameObject);
+        Destroy(localItemObject);
     }
 
     void UseItem()
