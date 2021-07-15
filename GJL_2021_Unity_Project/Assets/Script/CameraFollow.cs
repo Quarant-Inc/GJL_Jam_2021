@@ -5,7 +5,7 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Vector3 intercept = new Vector3(-3.4f, 6.82f, -3.24f);
-    
+
     Vector3 PlayerPosition
     {
         get
