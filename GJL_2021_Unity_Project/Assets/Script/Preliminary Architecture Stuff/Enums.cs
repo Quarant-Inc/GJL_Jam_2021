@@ -36,3 +36,18 @@ public enum ItemType
     POTION,
     TOOL
 }
+
+public enum WEAPON_TYPE
+{
+m
+}
+
+public enum POTION_TYPE
+{
+m
+}
+
+public enum TOOL_TYPE
+{
+m
+}
