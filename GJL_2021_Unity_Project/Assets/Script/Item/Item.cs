@@ -16,10 +16,9 @@ public abstract class Item
         bool item2Null = object.ReferenceEquals(item2, null);
         if (item1Null || item2Null)
         {
-            Debug.Log("reference equals weorked");
             return item1Null && item2Null;
         }
-        Debug.LogFormat("item1Name: {0}; item2Name: {1}; item1Type: {2}; item2Type: {3};", item1.name, item2.name, item1.type, item2.type);
+        //Debug.LogFormat("item1Name: {0}; item2Name: {1}; item1Type: {2}; item2Type: {3};", item1.name, item2.name, item1.type, item2.type);
         //TODO: Put something better here later on
         return item1.name == item2.name && item1.type == item2.type;
     }
