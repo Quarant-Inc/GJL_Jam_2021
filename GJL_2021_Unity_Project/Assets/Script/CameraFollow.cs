@@ -18,7 +18,9 @@ public class CameraFollow : MonoBehaviour
         get
         {
             Vector3 orientation = transform.rotation.eulerAngles;
-            return new Vector3(0, orientation.y, 0).normalized;
+            Vector3 facingUp =  new Vector3(0, orientation.y, 0);
+            Vector3 camGroundForward = Quaternion.Euler(facingUp) * Vector3.forward;
+            return camGroundForward;
         }
     }
 
