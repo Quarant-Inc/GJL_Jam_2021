@@ -33,14 +33,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Medievo intro" ID="{E1FEAC37-4D19-4D44-BAE1-E676F8758248}" ShortID="306068676">
+								<MusicTrack Name="Medievo intro" ID="{72A009C2-B260-49BB-8C6B-418E5106744E}" ShortID="820867937">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Medievo intro" ID="{8252E4B6-1250-47C7-AD47-D455BA3FB1C5}">
+										<AudioFileSource Name="Medievo intro" ID="{FBAD3D20-DEF1-473C-851D-F3F4DDA75DE4}">
 											<Language>SFX</Language>
 											<AudioFile>Medievo intro.wav</AudioFile>
 											<MediaIDList>
@@ -49,7 +49,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{CBE34CD7-FA7E-4CA3-B81A-83C292D99B88}">
+										<MusicTransition Name="Root" ID="{282A798B-EA7D-4282-99BD-819F5DEBCF64}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -60,18 +60,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{B83E399A-86C7-4272-A8C3-0874397188DB}">
+													<MusicTrackSequence Name="" ID="{AEF72C87-FD70-4C16-959E-3820F024A0ED}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Medievo intro" ID="{DECD4247-E62E-46D1-809A-130DFC3A242B}">
+																		<MusicClip Name="Medievo intro" ID="{4EA81C3F-066E-4813-8A94-36F3611D2365}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Medievo intro" ID="{8252E4B6-1250-47C7-AD47-D455BA3FB1C5}"/>
+																			<AudioSourceRef Name="Medievo intro" ID="{FBAD3D20-DEF1-473C-851D-F3F4DDA75DE4}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -201,14 +201,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Medievo 2" ID="{B64DBF2F-A269-4EC9-81A4-ABAB9B09336F}" ShortID="1023473490">
+								<MusicTrack Name="Medievo 2" ID="{E6264F49-3C9D-42FD-AB7C-33FEDD06DBAD}" ShortID="642392576">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Medievo 2" ID="{B118315B-475E-4433-A22C-2FA34AF9CFD8}">
+										<AudioFileSource Name="Medievo 2" ID="{A039DAE1-469F-4D95-90A2-5E3A217EFB56}">
 											<Language>SFX</Language>
 											<AudioFile>Medievo 2.wav</AudioFile>
 											<MediaIDList>
@@ -217,7 +217,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{4A52E860-4390-4717-AD27-D3D87E9E8EAD}">
+										<MusicTransition Name="Root" ID="{FDE4D5DF-BBDF-4043-B385-86026001C8B6}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -228,18 +228,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{B4E8856A-181F-4F96-A00C-898D7AE444D2}">
+													<MusicTrackSequence Name="" ID="{91B1768B-F918-4501-A7B5-E7388B41CB30}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Medievo 2" ID="{84C07F71-521D-4A88-B487-763F4E247EB9}">
+																		<MusicClip Name="Medievo 2" ID="{BB9AA243-1312-4F5E-BF4C-8F84D8873F17}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="152000"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Medievo 2" ID="{B118315B-475E-4433-A22C-2FA34AF9CFD8}"/>
+																			<AudioSourceRef Name="Medievo 2" ID="{A039DAE1-469F-4D95-90A2-5E3A217EFB56}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -285,14 +285,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Medievo 3" ID="{FD47404C-84DB-4045-A520-6D50C25AA4D4}" ShortID="520246433">
+								<MusicTrack Name="Medievo 3" ID="{4FE89FE1-66FC-4888-A388-EA027CB55D23}" ShortID="458714117">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Medievo 3" ID="{CAE67BE7-9FF4-4C64-982E-F8F50C54DD1D}">
+										<AudioFileSource Name="Medievo 3" ID="{9DA05E9A-A5E8-4945-B4DA-B2F8AD1FD5ED}">
 											<Language>SFX</Language>
 											<AudioFile>Medievo 3.wav</AudioFile>
 											<MediaIDList>
@@ -301,7 +301,7 @@
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{98369D28-914F-4873-9DFD-38FDE52CF1D7}">
+										<MusicTransition Name="Root" ID="{BCFE17D6-1ACD-424E-A589-7031DF76927D}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -312,18 +312,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{C0E37935-7403-431C-83F8-F1E50E597E6B}">
+													<MusicTrackSequence Name="" ID="{EEF6B60C-3441-42D8-A531-025CCEA45203}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Medievo 3" ID="{C47E2FC3-C326-4734-B910-75B1B06EF591}">
+																		<MusicClip Name="Medievo 3" ID="{182E4A27-2B74-4C11-92A6-72382F7152B4}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="160000"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Medievo 3" ID="{CAE67BE7-9FF4-4C64-982E-F8F50C54DD1D}"/>
+																			<AudioSourceRef Name="Medievo 3" ID="{9DA05E9A-A5E8-4945-B4DA-B2F8AD1FD5ED}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
