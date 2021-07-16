@@ -24,7 +24,43 @@ public class StraightRangedWeapon : Weapon
             Debug.Log("Is this being used?");
 
             //TODO: Fix bug which makes penetration only work once
-            RaycastHit hit;
+
+
+            for (int i = 0; i < penetrationLevel; i++)
+            {
+                //RaycastHit hit;
+                RaycastHit[] hits = Physics.SphereCastAll(pos, rayWidth/2, forward, 100,0);
+                foreach(RaycastHit hit in hits)
+                {
+                    if (hit.collider.tag == TAG.Enemy.ToString())
+                    {
+                        Enemy enemyScript = hit.collider.GetComponent<Enemy>();
+                        if (enemyScript != null)
+                        {
+                            enemyScript.DamageEnemy();
+                        }
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                // if (Physics.SphereCast(pos, rayWidth/2f, forward, out hit))
+                // {
+                //     if (hit.collider.tag == TAG.Enemy.ToString())
+                //     {
+                //         objToIgnore = hit.collider.gameObject;
+
+                //         Enemy enemyScript = hit.collider.GetComponent<Enemy>();
+                //         if (enemyScript != null)
+                //         {
+                //             enemyScript.DamageEnemy();
+                //         }
+                //     }
+                // }
+            }
+
+            /*RaycastHit hit;
             if (Physics.SphereCast(pos, rayWidth,forward, out hit))
             {
                 if (hit.collider.tag == TAG.Enemy.ToString())
@@ -36,7 +72,7 @@ public class StraightRangedWeapon : Weapon
                     }
                 }
 
-            }
+            }*/
         }
     }
 }
