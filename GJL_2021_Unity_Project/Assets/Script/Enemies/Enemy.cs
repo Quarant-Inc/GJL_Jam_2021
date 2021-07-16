@@ -19,10 +19,10 @@ public class Enemy : MonoBehaviour {
 
     void Update()    {
         // this just to see if it works
-        if (Input.GetMouseButtonDown(1))
+        /*if (Input.GetMouseButtonDown(1))
         {
             DamageEnemy();
-        }
+        }*/
     }
 
     public void DamageEnemy(){

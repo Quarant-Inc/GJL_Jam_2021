@@ -31,7 +31,8 @@ public enum PLAYER_ANIM_PARAMS
 
 public enum TAG
 {
-    Item
+    Item,
+    Enemy
 }
 
 public enum ItemType
@@ -43,7 +44,9 @@ public enum ItemType
 
 public enum WEAPON_TYPE
 {
-m
+    MELEE,
+    STRAIGHT_RANGED,
+    ARC_RANGED
 }
 
 public enum POTION_TYPE
