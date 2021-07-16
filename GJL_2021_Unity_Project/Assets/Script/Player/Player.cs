@@ -183,15 +183,11 @@ public class Player : MonoBehaviour
         }
     }
     #endregion
-
-    //Queue<ItemTemplate> items = new Queue<ItemTemplate>();
+    
     Queue<Item> items = new Queue<Item>();
-    //Item localItem;
-    //GameObject localItemObject;
-    //List<ItemGameObjectPair> localItems = new List<ItemGameObjectPair>();
     Dictionary<int, ItemGameObjectPair> localItems = new Dictionary<int, ItemGameObjectPair>();
 
-
+    DIRECTION prevDirection = DIRECTION.NONE;
 
     void Awake()
     {
@@ -293,7 +289,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    DIRECTION prevDirection = DIRECTION.NONE;
+
 
     Vector3 GetDirectionVector(DIRECTION dir)
     {
@@ -493,6 +489,7 @@ public class Player : MonoBehaviour
     }
 
     public float pickIncreaseTime = 3f;
+    public float speedIncreaseTime = 3f;
 
     public void IncreasePickupRadius()
     {
@@ -501,11 +498,25 @@ public class Player : MonoBehaviour
 
     IEnumerator PickupWiden()
     {
-        MaxPickupDistance = 3;
+        float prevPickupDistance = MaxPickupDistance;
+        MaxPickupDistance *= 2;
         Debug.LogFormat("MaxPickupDistance: {0};", MaxPickupDistance);
         yield return new WaitForSeconds(pickIncreaseTime);
-        MaxPickupDistance = 1.1f;
+        MaxPickupDistance = prevPickupDistance;
         Debug.LogFormat("MaxPickupDistance: {0};",MaxPickupDistance);
+    }
+
+    public void IncreaseSpeed()
+    {
+        StartCoroutine(SpeedUp());
+    }
+
+    IEnumerator SpeedUp()
+    {
+        int prevSpeed = Speed;
+        Speed *= 3;
+        yield return new WaitForSeconds(speedIncreaseTime);
+        Speed = prevSpeed;
     }
 }
 

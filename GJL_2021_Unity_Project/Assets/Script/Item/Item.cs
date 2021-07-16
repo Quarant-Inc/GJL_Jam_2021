@@ -4,6 +4,7 @@ using UnityEngine;
 [System.Serializable]
 public abstract class Item
 {
+    public GameObject itemPrefab;
     public ItemType type;
     public string name;
 

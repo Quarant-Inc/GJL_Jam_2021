@@ -48,7 +48,8 @@ m
 
 public enum POTION_TYPE
 {
-    MAGNET
+    MAGNET,
+    SPEED_INCREASE
 }
 
 public enum TOOL_TYPE
