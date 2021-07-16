@@ -1440,7 +1440,7 @@ MonoBehaviour:
     type: 0
     name: Cube1
     weaponType: 1
-    penetrationLevel: 0
+    penetrationLevel: 3
     chargeDelay: 0
     rayWidth: 1
 --- !u!65 &929419215
