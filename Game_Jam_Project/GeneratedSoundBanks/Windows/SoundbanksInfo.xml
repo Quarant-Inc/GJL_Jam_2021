@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="258110631" Language="SFX" Hash="2747544078">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game_Music</ObjectPath>
+			<ShortName>Game_Music</ShortName>
+			<Path>Game_Music.bnk</Path>
+			<IncludedMemoryFiles>
+				<File Id="51238858" Language="SFX">
+					<ShortName>Medievo intro.wav</ShortName>
+					<Path>SFX\Medievo intro_D79FB2B7.wem</Path>
+				</File>
+				<File Id="557630306" Language="SFX">
+					<ShortName>Medievo 1.wav</ShortName>
+					<Path>SFX\Medievo 1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="782717807" Language="SFX">
+					<ShortName>Medievo 3.wav</ShortName>
+					<Path>SFX\Medievo 3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="941141954" Language="SFX">
+					<ShortName>Medievo 2.wav</ShortName>
+					<Path>SFX\Medievo 2_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="419772119" Language="SFX" Hash="1463072555">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game_Interface</ObjectPath>
+			<ShortName>Game_Interface</ShortName>
+			<Path>Game_Interface.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="813360393" Language="SFX" Hash="3210641922">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game_Environment</ObjectPath>
+			<ShortName>Game_Environment</ShortName>
+			<Path>Game_Environment.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1088545924" Language="SFX" Hash="3855595447">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game_Dialogue</ObjectPath>
+			<ShortName>Game_Dialogue</ShortName>
+			<Path>Game_Dialogue.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1951330089">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="210910324" Name="Volume_Client_Effects" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Client_Effects"/>
+				<GameParameter Id="433054383" Name="Volume_Game_Effects" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Game_Effects"/>
+				<GameParameter Id="728432867" Name="Volume_Client_Music" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Client_Music"/>
+				<GameParameter Id="876971579" Name="Volume_Client" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Client"/>
+				<GameParameter Id="1102357403" Name="Volume_Client_Interface" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Client_Interface"/>
+				<GameParameter Id="1383951096" Name="Volume_Game_Interface" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Game_Interface"/>
+				<GameParameter Id="2086988932" Name="Volume_Game_Music" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Game_Music"/>
+				<GameParameter Id="2415467654" Name="Volume_Game_Environment" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Game_Environment"/>
+				<GameParameter Id="2635722944" Name="Volume_Game" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Game"/>
+				<GameParameter Id="3659685417" Name="Volume_Game_Dialogue" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Game_Dialogue"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2077971636" Language="SFX" Hash="916031172">
+			<ObjectPath>\SoundBanks\Default Work Unit\Client_Music</ObjectPath>
+			<ShortName>Client_Music</ShortName>
+			<Path>Client_Music.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3274524167" Language="SFX" Hash="2557149393">
+			<ObjectPath>\SoundBanks\Default Work Unit\Game_Actions</ObjectPath>
+			<ShortName>Game_Actions</ShortName>
+			<Path>Game_Actions.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4196122344" Language="SFX" Hash="3877624522">
+			<ObjectPath>\SoundBanks\Default Work Unit\Client_Interface</ObjectPath>
+			<ShortName>Client_Interface</ShortName>
+			<Path>Client_Interface.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
