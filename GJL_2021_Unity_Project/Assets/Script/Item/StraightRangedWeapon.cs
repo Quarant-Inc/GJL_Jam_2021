@@ -15,24 +15,28 @@ public class StraightRangedWeapon : Weapon
             //Do stuff with weapon object
         }
 
-        Vector3 forward = Player.Instance.transform.forward;
-        Vector3 pos = Player.Instance.transform.position;
-
-        Debug.Log("Is this being used?");
-
-        //TODO: Fix bug which makes penetration only work once
-        RaycastHit hit;
-        if (Physics.SphereCast(pos, rayWidth,forward, out hit))
+        Vector3 forward;
+        if (Util.GetCursorFromPlayerDir(out forward))
         {
-            if (hit.collider.tag == TAG.Enemy.ToString())
-            {
-                Enemy enemyScript = hit.collider.GetComponent<Enemy>();
-                if (enemyScript != null)
-                {
-                    enemyScript.DamageEnemy();
-                }
-            }
+            //Vector3 forward = Player.Instance.transform.forward;
+            Vector3 pos = Player.Instance.transform.position;
 
+            Debug.Log("Is this being used?");
+
+            //TODO: Fix bug which makes penetration only work once
+            RaycastHit hit;
+            if (Physics.SphereCast(pos, rayWidth,forward, out hit))
+            {
+                if (hit.collider.tag == TAG.Enemy.ToString())
+                {
+                    Enemy enemyScript = hit.collider.GetComponent<Enemy>();
+                    if (enemyScript != null)
+                    {
+                        enemyScript.DamageEnemy();
+                    }
+                }
+
+            }
         }
     }
 }
