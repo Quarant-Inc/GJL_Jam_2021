@@ -264,32 +264,28 @@ public class Player : MonoBehaviour
         {
             if (localItems.Count > 0)
             {
-                ItemGameObjectPair closestPair = new ItemGameObjectPair(null, null);
-                float closestDist = float.MaxValue;
-                foreach(ItemGameObjectPair pair in localItems.Values)
-                {
-                    float distance = Vector3.Distance(transform.position, pair.gameObject.transform.position);
-                    if (distance < closestDist)
-                    {
-                        closestPair = pair;
-                        closestDist = distance;
-                    }
-                }
+                Debug.Log("gjrigjr");
+                ItemGameObjectPair closestPair = GetClosestPair();
                 PickupItem(closestPair);
             }
-            /*if (localItem != null)
-            {
-                PickupItem(localItem);
-                localItem = null;
-            }
-            else
-            {
-                Debug.Log("localItem is null, silly.");
-            }*/
         }
     }
 
-
+    ItemGameObjectPair GetClosestPair()
+    {
+        ItemGameObjectPair closestPair = new ItemGameObjectPair(null, null);
+        float closestDist = float.MaxValue;
+        foreach(ItemGameObjectPair pair in localItems.Values)
+        {
+            float distance = Vector3.Distance(transform.position, pair.gameObject.transform.position);
+            if (distance < closestDist)
+            {
+                closestPair = pair;
+                closestDist = distance;
+            }
+        }
+        return closestPair;
+    }
 
     Vector3 GetDirectionVector(DIRECTION dir)
     {
@@ -391,11 +387,28 @@ public class Player : MonoBehaviour
 
     Item GetItemFromPickup(GameObject obj)
     {
-        PickupItem<Weapon> weapon = obj.GetComponent<PickupItem<Weapon>>();
-        if (weapon != null)
+        PickupItem<MeleeWeapon> meleeWeapon = obj.GetComponent<PickupItem<MeleeWeapon>>();
+        if (meleeWeapon != null)
         {
-            return weapon.itemSpec;
+            return meleeWeapon.itemSpec;
         }
+
+        PickupItem<StraightRangedWeapon> straightRangedWeapon = obj.GetComponent<PickupItem<StraightRangedWeapon>>();
+        if (straightRangedWeapon != null)
+        {
+            return straightRangedWeapon.itemSpec;
+        }
+
+        PickupItem<ArcRangedWeapon> arcRangedWeapon = obj.GetComponent<PickupItem<ArcRangedWeapon>>();
+        if (arcRangedWeapon != null)
+        {
+            return arcRangedWeapon.itemSpec;
+        }
+        // PickupItem<Weapon> weapon = obj.GetComponent<PickupItem<Weapon>>();
+        // if (weapon != null)
+        // {
+        //     return weapon.itemSpec;
+        // }
 
         PickupItem<Tool> tool = obj.GetComponent<PickupItem<Tool>>();
         if (tool != null)
