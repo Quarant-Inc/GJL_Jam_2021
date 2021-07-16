@@ -12,6 +12,7 @@ public class StraightRangedWeapon : Weapon
         if (itemPrefab != null)
         {
             GameObject weapon = GameObject.Instantiate(itemPrefab);
+            //Do stuff with weapon object
         }
         //Do something with it I guess
         switch(weaponType)
