@@ -24,6 +24,19 @@ public class CameraFollow : MonoBehaviour
         }
     }
 
+    Camera _camera;
+    public Camera Camera
+    {
+        get
+        {
+            if (_camera == null)
+            {
+                return _camera = GetComponent<Camera>();
+            }
+            return _camera;
+        }
+    }
+
     
     Vector3 PlayerPosition
     {
