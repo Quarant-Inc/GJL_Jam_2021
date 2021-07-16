@@ -14,11 +14,6 @@ public class StraightRangedWeapon : Weapon
             GameObject weapon = GameObject.Instantiate(itemPrefab);
             //Do stuff with weapon object
         }
-        //Do something with it I guess
-        switch(weaponType)
-        {
-
-        }
 
         Vector3 forward = Player.Instance.transform.forward;
         Vector3 pos = Player.Instance.transform.position;
