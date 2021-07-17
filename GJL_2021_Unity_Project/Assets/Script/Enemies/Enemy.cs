@@ -1,6 +1,21 @@
- using UnityEngine;
+using UnityEngine;
+using UnityEngine.AI;
 
-public class Enemy : MonoBehaviour {   
+[RequireComponent(typeof(NavMeshAgent))]
+public class Enemy : MonoBehaviour
+{
+    NavMeshAgent agent;
+    protected NavMeshAgent Agent
+    {
+        get
+        {
+            if (agent == null)
+            {
+                return agent = GetComponent<NavMeshAgent>();
+            }
+            return agent;
+        }
+    }
     public GameObject playerGO;
     
     // some of these might be better public idk
