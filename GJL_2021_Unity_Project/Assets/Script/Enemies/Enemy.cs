@@ -3,8 +3,29 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(Animator))]
 public abstract class Enemy : MonoBehaviour
 {
+        enum ENEMY_STATE
+    {
+        IDLE,
+        CHASING,
+        SEARCHING,
+        ATTACKING
+    }
+    #region Components
+    Animator animator;
+    protected Animator Animator
+    {
+        get
+        {
+            if (animator == null)
+            {
+                return animator = GetComponent<Animator>();
+            }
+            return animator;
+        }
+    }
     NavMeshAgent agent;
     protected NavMeshAgent Agent
     {
@@ -17,6 +38,7 @@ public abstract class Enemy : MonoBehaviour
             return agent;
         }
     }
+    #endregion
 
     Vector3 PlayerPosition
     {
@@ -25,6 +47,8 @@ public abstract class Enemy : MonoBehaviour
             return Player.Instance.transform.position;
         }
     }
+
+    #region Stats
     
     // some of these might be better public idk
     const int  maxHealth = 1;
@@ -36,13 +60,9 @@ public abstract class Enemy : MonoBehaviour
     public float sightRadius = 10f;
     public float attackRange;
 
-    enum ENEMY_STATE
-    {
-        IDLE,
-        CHASING,
-        SEARCHING,
-        ATTACKING
-    }
+    #endregion
+
+
 
     ENEMY_STATE currentState = ENEMY_STATE.IDLE;
 
