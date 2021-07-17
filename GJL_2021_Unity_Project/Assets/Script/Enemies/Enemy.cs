@@ -51,6 +51,11 @@ public abstract class Enemy : MonoBehaviour
 
     }
 
+    void Start()
+    {
+        StartCoroutine(PerformStateCheck());
+    }
+
     void Update()    {
         // this just to see if it works
         /*if (Input.GetMouseButtonDown(1))
@@ -81,6 +86,8 @@ public abstract class Enemy : MonoBehaviour
     protected abstract void StopAttack();
 
     Vector3 lastSeenPos;
+
+    const float stateCheckInterval = 0.5f;
 
     void StateCheck()
     {
@@ -148,15 +155,14 @@ public abstract class Enemy : MonoBehaviour
         return Vector3.Distance(transform.position, PlayerPosition) <= attackRange;
     }
 
-    bool checkingForPlayer = true;
+    bool runningStateCheck = true;
 
-    IEnumerator CheckForPlayer()
+    IEnumerator PerformStateCheck()
     {
-        //This desperately needs to be optimised.
-        while(checkingForPlayer)
+        while(runningStateCheck)
         {
-
-            yield return 0;
+            StateCheck();
+            yield return new WaitForSeconds(stateCheckInterval);
         }
     }
 }
