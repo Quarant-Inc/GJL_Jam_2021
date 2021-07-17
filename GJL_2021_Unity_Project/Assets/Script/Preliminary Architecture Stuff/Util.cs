@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
@@ -31,7 +32,7 @@ public static class Util
     }
 
     //https://answers.unity.com/questions/857827/pick-random-point-on-navmesh.html
-     public static Vector3 GetRandomNavMeshLocation()
+    public static Vector3 GetRandomNavMeshLocation()
      {
          NavMeshTriangulation navMeshData = NavMesh.CalculateTriangulation();
  
@@ -64,4 +65,8 @@ public static class Util
  
          return point;
      }
+    public static T GetRandomElement<T>(this IEnumerable<T> collection)
+    {
+        return collection.ElementAt(Random.Range(0, collection.Count()));
+    }
 }
