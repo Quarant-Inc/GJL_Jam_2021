@@ -8,6 +8,7 @@ public delegate void MaxHeathChanged(int maxHealth);
 public delegate void SpeedChanged(int speed);
 public delegate void ArmourChanged(int armour);
 public delegate void PlayerDied();
+public delegate void ItemPickedUp();
 public class Player : MonoBehaviour
 {
     #region SingletonStuff
@@ -27,6 +28,7 @@ public class Player : MonoBehaviour
     public MaxHeathChanged MaxHeathChanged;
     public SpeedChanged SpeedChanged;
     public ArmourChanged ArmourChanged;
+    public ItemPickedUp ItemPickedUp;
     #endregion
 
     #region Stats
@@ -455,6 +457,11 @@ public class Player : MonoBehaviour
 
         localItems.Remove(pair.ID);
         Destroy(pair.gameObject);
+
+        if(ItemPickedUp != null)
+        {
+            ItemPickedUp();
+        }
     }
 
     void UseItem()

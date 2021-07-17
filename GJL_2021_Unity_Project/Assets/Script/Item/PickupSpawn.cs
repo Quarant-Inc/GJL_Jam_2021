@@ -13,11 +13,22 @@ public class PickupSpawn : MonoBehaviour
     {
         for (uint i = 0; i < itemQuantity; i++)
         {
-            Vector3 pos = Util.GetRandomNavMeshLocation();
-            pos.y += 0.5f;
-            GameObject prefab = pickupPrefabs.GetRandomElement();
-            GameObject item = Instantiate(prefab,pos, Quaternion.identity);
+            SpawnItem();
         }
+        Player.Instance.ItemPickedUp += ItemPickedUp;
+    }
+
+    void ItemPickedUp()
+    {
+        SpawnItem();
+    }
+
+    void SpawnItem()
+    {
+        Vector3 pos = Util.GetRandomNavMeshLocation();
+        pos.y += 0.5f;
+        GameObject prefab = pickupPrefabs.GetRandomElement();
+        GameObject item = Instantiate(prefab,pos, Quaternion.identity);
     }
 
     // Update is called once per frame
