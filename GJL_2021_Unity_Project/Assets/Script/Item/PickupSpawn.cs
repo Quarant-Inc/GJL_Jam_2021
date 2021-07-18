@@ -21,7 +21,7 @@ public class PickupSpawn : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Implement the spawners prefab please xo");
+            Debug.LogWarning("Implement the spawners prefab please xo");
         }
     }
 
