@@ -1,0 +1,165 @@
+Event	ID	Name			Wwise Object Path	Notes
+	29605206	Health_Increase			\Default Work Unit\Effects\Buffs\Health_Increase	
+	144371737	Boomerang_Hit			\Default Work Unit\Weapons\Ranged arc\Boomerang_Hit	
+	399878796	Shield_Hit			\Default Work Unit\Weapons\Ranged arc\Shield_Hit	
+	476098351	Sword_Swing			\Default Work Unit\Weapons\Melee\Sword_Swing	
+	528420227	Railgun_Hit			\Default Work Unit\Weapons\Ranged straight\Railgun_Hit	
+	543618689	Bow_and_Arrow_Hit			\Default Work Unit\Weapons\Ranged arc\Bow_and_Arrow_Hit	
+	673267873	Railgun_Shoot			\Default Work Unit\Weapons\Ranged straight\Railgun_Shoot	
+	899428695	Grenade_Hit			\Default Work Unit\Weapons\Ranged arc\Grenade_Hit	
+	902717029	Pickup_Item			\Default Work Unit\Effects\Pickup\Pickup_Item	
+	934225790	Boomerang_Throw			\Default Work Unit\Weapons\Ranged arc\Boomerang_Throw	
+	1060853137	Katana_Hit			\Default Work Unit\Weapons\Melee\Katana_Hit	
+	1184469823	Electric_Whip_Hit			\Default Work Unit\Weapons\Melee\Electric_Whip_Hit	
+	1429962442	Baseball_Bat_Swing			\Default Work Unit\Weapons\Melee\Baseball_Bat_Swing	
+	1463549730	Sniper_Hit			\Default Work Unit\Weapons\Ranged straight\Sniper_Hit	
+	1573331525	Fire_Whip_Swing			\Default Work Unit\Weapons\Melee\Fire_Whip_Swing	
+	1610827655	Shield_Throw			\Default Work Unit\Weapons\Ranged arc\Shield_Throw	
+	1754944470	Pistol_Hit			\Default Work Unit\Weapons\Ranged straight\Pistol_Hit	
+	1799609931	Laser_Gun_Hit			\Default Work Unit\Weapons\Ranged straight\Laser_Gun_Hit	
+	1909771504	Rocks_Throw			\Default Work Unit\Weapons\Ranged arc\Rocks_Throw	
+	1941733387	Grappling_Hook			\Default Work Unit\Weapons\Tools\Grappling_Hook	
+	1949177413	Flamethrower_Hit			\Default Work Unit\Weapons\Melee\Flamethrower_Hit	
+	2123250479	Throwing_Dagger_Throw			\Default Work Unit\Weapons\Ranged arc\Throwing_Dagger_Throw	
+	2124970216	Pistol_Shoot			\Default Work Unit\Weapons\Ranged straight\Pistol_Shoot	
+	2234938040	Flamethrower_Swing			\Default Work Unit\Weapons\Melee\Flamethrower_Swing	
+	2313357241	Magic_Wand_Hit			\Default Work Unit\Weapons\Ranged straight\Magic_Wand_Hit	
+	2447146981	Item_Magnet			\Default Work Unit\Effects\Buffs\Item_Magnet	
+	2453392179	Player_Footstep			\Default Work Unit\Effects\Footsteps\Player_Footstep	
+	2526820802	Foresight			\Default Work Unit\Effects\Buffs\Foresight	
+	2567405418	Electric_Whip_Swing			\Default Work Unit\Weapons\Melee\Electric_Whip_Swing	
+	2584493269	Speed_Increase			\Default Work Unit\Effects\Buffs\Speed_Increase	
+	2665378999	Heart			\Default Work Unit\Effects\Health\Heart	
+	2725920228	Katana_Swing			\Default Work Unit\Weapons\Melee\Katana_Swing	
+	2801873252	Sniper_Shoot			\Default Work Unit\Weapons\Ranged straight\Sniper_Shoot	
+	2988633891	Magic_Wand_Shoot			\Default Work Unit\Weapons\Ranged straight\Magic_Wand_Shoot	
+	3191454527	Laser_Sword_Swing			\Default Work Unit\Weapons\Melee\Laser_Sword_Swing	
+	3301329608	Grenade_Throw			\Default Work Unit\Weapons\Ranged arc\Grenade_Throw	
+	3545396134	Bow_and_Arrow_Throw			\Default Work Unit\Weapons\Ranged arc\Bow_and_Arrow_Throw	
+	3626746553	Laser_Gun_Shoot			\Default Work Unit\Weapons\Ranged straight\Laser_Gun_Shoot	
+	3666808863	Rocks_Hit			\Default Work Unit\Weapons\Ranged arc\Rocks_Hit	
+	3680608169	Lasso			\Default Work Unit\Weapons\Tools\Lasso	
+	3822779060	Throwing_Dagger_Hit			\Default Work Unit\Weapons\Ranged arc\Throwing_Dagger_Hit	
+	4040622072	Fire_Whip_Hit			\Default Work Unit\Weapons\Melee\Fire_Whip_Hit	
+	4057287994	Sword_Hit			\Default Work Unit\Weapons\Melee\Sword_Hit	
+	4146399722	Laser_Sword_Hit			\Default Work Unit\Weapons\Melee\Laser_Sword_Hit	
+	4151873597	Armour			\Default Work Unit\Effects\Buffs\Armour	
+	4256860319	Baseball_Bat_Hit			\Default Work Unit\Weapons\Melee\Baseball_Bat_Hit	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4071417932	Player_State			\Default Work Unit\Player_State	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	Player_State			
+	748895195	None	Player_State			
+	2044049779	Dead	Player_State			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	338268871	Dead	Player_State	\Actor-Mixer Hierarchy\Actions\Effects\Actions\Health\Heart		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+
+Effect plug-ins	ID	Name	Type				Notes
+	9950053	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	386245128	Wwise Flanger (Custom)	Wwise Flanger			
+	421043782	Wwise Harmonizer (Custom)	Wwise Harmonizer			
+	682670408	Wwise Flanger (Custom)	Wwise Flanger			
+	714899448	Wwise Harmonizer (Custom)	Wwise Harmonizer			
+	734722522	Wwise Harmonizer (Custom)	Wwise Harmonizer			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	12500520	Light_Wand_Whoosh_2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Light_Wand_Whoosh_2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Magic_Wand_Shoot\Light_Wand_Whoosh_2		102464
+	15143170	Shadow Punch 5	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shadow Punch 5_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Boomerang_Hit\Shadow Punch 5		463116
+	22471866	Punch 4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Punch 4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Hit\Punch 4		198516
+	24920767	Arrow Hit Metal 1_2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Arrow Hit Metal 1_2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Bow_and_Arrow__Hit\Arrow Hit Metal 1_2		219896
+	25802768	Sword_Swing_5	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Sword_Swing_5_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Swing\Sword_Swing_5		138304
+	38737928	PM_FSSF2_WEAPONS_D1_SHOT	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_FSSF2_WEAPONS_D1_SHOT_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Tools\Grappling_Hook\PM_FSSF2_WEAPONS_D1_SHOT		229956
+	92922021	Knife-Attack-Metal_Impact_Clash_04	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Knife-Attack-Metal_Impact_Clash_04_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Hit\Knife-Attack-Metal_Impact_Clash_04		240044
+	93435390	Electric Punch 5	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Electric Punch 5_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Hit\Electric Punch 5		529264
+	94596370	Shield_Buff_v1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shield_Buff_v1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Armour\Shield_Buff_v1		247360
+	100510317	DeepExplosion02	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\DeepExplosion02_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Grenade_Hit\DeepExplosion02		1036608
+	101737377	Electric_Spell_Weapon_Attack_Swing_v2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Electric_Spell_Weapon_Attack_Swing_v2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Swing\Electric_Spell_Weapon_Attack_Swing_v2		310336
+	107833814	MAGIC FIRE Torch, Flamethrower, Short Deflagration, Burst 04	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\MAGIC FIRE Torch, Flamethrower, Short Deflagration, Burst 04_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Flamethrower_Swing\MAGIC FIRE Torch, Flamethrower, Short Deflagration, Burst 04		229444
+	110704282	Sword_Swing_6	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Sword_Swing_6_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Swing\Sword_Swing_6		120000
+	123537998	Subtle_Spell_Whoosh_1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Subtle_Spell_Whoosh_1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Speed_Increase\Subtle_Spell_Whoosh_1		241728
+	147057447	gravel3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel3		76744
+	155785528	Generic_Small_Whip_Impact_1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Generic_Small_Whip_Impact_1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Tools\Lasso\Generic_Small_Whip_Impact_1		81344
+	177756211	Punch 2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Punch 2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Hit\Punch 2		220564
+	179184798	Punch 38	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Punch 38_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Magic_Wand_Hit\Punch 38		192496
+	181018471	Fire Punch 4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire Punch 4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Fire_Whip_Hit\Fire Punch 4		256268
+	186423450	gravel1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel1		102544
+	206262257	Punch 40	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Punch 40_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Magic_Wand_Hit\Punch 40		196940
+	235254052	PM_SFG_VOL2_WEAPON_39_5_GUN_GUNSHOT_FUTURISTIC	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_SFG_VOL2_WEAPON_39_5_GUN_GUNSHOT_FUTURISTIC_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Sniper_Shoot\PM_SFG_VOL2_WEAPON_39_5_GUN_GUNSHOT_FUTURISTIC		208244
+	248963281	Ping 036	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Ping 036_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Foresight\Ping 036		1536064
+	263817045	Special Click 34	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Special Click 34_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Pickup\Pickup_Item\Special Click 34		509256
+	267309999	Punch 5	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Punch 5_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Hit\Punch 5		198516
+	267493830	Shield_Buff_v2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shield_Buff_v2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Armour\Shield_Buff_v2		170560
+	277025860	Punch 39	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Punch 39_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Magic_Wand_Hit\Punch 39		193836
+	287292642	Bluezone_BC0271_tank_artillery_cannon_shot_012	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Bluezone_BC0271_tank_artillery_cannon_shot_012_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Grenade_Hit\Bluezone_BC0271_tank_artillery_cannon_shot_012		766528
+	298744800	Rock Impact 38	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Rock Impact 38_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Rocks_Hit\Rock Impact 38		220564
+	298802092	Fire Punch 1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire Punch 1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Fire_Whip_Hit\Fire Punch 1		286716
+	315103155	Fire 01	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire 01_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Flamethrower_Hit\Fire 01		305752
+	316645398	PM_AG_5_1_ABSTRACT_GUNS	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_AG_5_1_ABSTRACT_GUNS_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Laser_Gun_Shoot\PM_AG_5_1_ABSTRACT_GUNS		187836
+	318392952	Shadow Punch 2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shadow Punch 2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Boomerang_Hit\Shadow Punch 2		529264
+	343063904	Rock Impact 37	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Rock Impact 37_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Rocks_Hit\Rock Impact 37		176464
+	353842845	Punch 3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Punch 3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Hit\Punch 3		220564
+	357709471	PM_OF_Electro_Magnetic_One_Shots_30	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_OF_Electro_Magnetic_One_Shots_30_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Item_Magnet\PM_OF_Electro_Magnetic_One_Shots_30		155072
+	372150394	Rock Impact 35	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Rock Impact 35_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Rocks_Hit\Rock Impact 35		176464
+	378795579	gravel2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel2		102104
+	388286903	Whoosh 01	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Whoosh 01_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Swing\Whoosh 01		132364
+	391375722	Fire 03	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire 03_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Flamethrower_Hit\Fire 03		264464
+	395560635	PM_SFG_VOL1_WEAPON_23_4_GUN_GUNSHOT_FUTURISTIC	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_SFG_VOL1_WEAPON_23_4_GUN_GUNSHOT_FUTURISTIC_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Railgun_Shoot\PM_SFG_VOL1_WEAPON_23_4_GUN_GUNSHOT_FUTURISTIC		127656
+	400443491	Punch 1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Punch 1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Hit\Punch 1		220564
+	413228649	Electric Punch 1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Electric Punch 1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Hit\Electric Punch 1		302532
+	428028034	hearbeat	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\hearbeat_D79FB2B7.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Health\Heart\hearbeat		356928
+	442907330	Electric Punch 3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Electric Punch 3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Hit\Electric Punch 3		333144
+	464199681	Electric_Spell_Weapon_Attack_Swing_v1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Electric_Spell_Weapon_Attack_Swing_v1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Swing\Electric_Spell_Weapon_Attack_Swing_v1		358976
+	489750722	Rock Impact 39	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Rock Impact 39_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Rocks_Hit\Rock Impact 39		220564
+	490798377	Knife-Attack-Metal_Impact_Clash_01	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Knife-Attack-Metal_Impact_Clash_01_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Hit\Knife-Attack-Metal_Impact_Clash_01		176464
+	504033280	Fire 05	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire 05_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Flamethrower_Hit\Fire 05		310188
+	514272270	Electric_Spell_Weapon_Attack_Swing_One_Shot_v1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Electric_Spell_Weapon_Attack_Swing_One_Shot_v1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Swing\Electric_Spell_Weapon_Attack_Swing_One_Shot_v1		129728
+	528668576	Sword_Swing_2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Sword_Swing_2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Swing\Sword_Swing_2		91712
+	533942742	Whoosh 03	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Whoosh 03_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Swing\Whoosh 03		132364
+	559188068	Arrow Hit Metal 1_3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Arrow Hit Metal 1_3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Bow_and_Arrow__Hit\Arrow Hit Metal 1_3		214328
+	569034497	Shield Wood 5_2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shield Wood 5_2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Shield_Hit\Shield Wood 5_2		209844
+	573900171	Shadow Punch 3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shadow Punch 3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Boomerang_Hit\Shadow Punch 3		529264
+	574615488	Fire 02	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire 02_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Flamethrower_Hit\Fire 02		262932
+	578636354	Electric Punch 2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Electric Punch 2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Hit\Electric Punch 2		282744
+	585298120	Shield Metal 5_1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shield Metal 5_1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Shield_Hit\Shield Metal 5_1		264664
+	651719431	Bluezone_BC0271_shell_trajectory_004	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Bluezone_BC0271_shell_trajectory_004_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Grenade_Hit\Bluezone_BC0271_shell_trajectory_004		1536064
+	651948316	PM_AG_12_2_ABSTRACT_GUNS	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_AG_12_2_ABSTRACT_GUNS_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Laser_Gun_Shoot\PM_AG_12_2_ABSTRACT_GUNS		134384
+	654418898	Fire 04	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire 04_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Flamethrower_Hit\Fire 04		309008
+	662816633	Fire_Tornado_Slash	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire_Tornado_Slash_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Fire_Whip_Swing\Fire_Tornado_Slash		193600
+	689345411	Electric Punch 4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Electric Punch 4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Hit\Electric Punch 4		330952
+	694178334	Fire Punch 5	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire Punch 5_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Fire_Whip_Hit\Fire Punch 5		253640
+	701151444	Shield Metal 5_2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shield Metal 5_2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Shield_Hit\Shield Metal 5_2		237652
+	708258088	PARTICLES_WHOOSH_Arrow 01	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PARTICLES_WHOOSH_Arrow 01_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Bow_and_Arrow__Throw\PARTICLES_WHOOSH_Arrow 01		297024
+	750885256	Sword_Swing_3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Sword_Swing_3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Swing\Sword_Swing_3		108608
+	779218884	Shield Wood 5_1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shield Wood 5_1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Shield_Hit\Shield Wood 5_1		220564
+	825351240	Shadow Punch 4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shadow Punch 4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Boomerang_Hit\Shadow Punch 4		661564
+	829944556	BigExplosion02	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\BigExplosion02_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Grenade_Hit\BigExplosion02		2938816
+	872300863	PM_SFG_VOL1_WEAPON_1_1_GUN_GUNSHOT_FUTURISTIC	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_SFG_VOL1_WEAPON_1_1_GUN_GUNSHOT_FUTURISTIC_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Pistol_Shoot\PM_SFG_VOL1_WEAPON_1_1_GUN_GUNSHOT_FUTURISTIC		141284
+	891238541	Arrow Hit Metal 1_1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Arrow Hit Metal 1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Bow_and_Arrow__Hit\Arrow Hit Metal 1_1		213280
+	906806637	Knife-Attack-Metal_Impact_Clash_02	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Knife-Attack-Metal_Impact_Clash_02_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Hit\Knife-Attack-Metal_Impact_Clash_02		176464
+	916909911	Rock Impact 36	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Rock Impact 36_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Rocks_Hit\Rock Impact 36		220564
+	919618937	Shadow Punch 1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Shadow Punch 1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Boomerang_Hit\Shadow Punch 1		529264
+	922531762	Fire Punch 3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire Punch 3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Fire_Whip_Hit\Fire Punch 3		269240
+	936998935	gravel5	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel5_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel5		103020
+	937351964	Electric_Spell_Weapon_Attack_Swing_One_Shot_v2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Electric_Spell_Weapon_Attack_Swing_One_Shot_v2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Swing\Electric_Spell_Weapon_Attack_Swing_One_Shot_v2		126400
+	944423224	PM_SFG_VOL2_WEAPON_17_6_GUN_GUNSHOT_FUTURISTIC	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_SFG_VOL2_WEAPON_17_6_GUN_GUNSHOT_FUTURISTIC_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Railgun_Shoot\PM_SFG_VOL2_WEAPON_17_6_GUN_GUNSHOT_FUTURISTIC		276316
+	953321999	PM_SFG_VOL2_WEAPON_45_1_GUN_GUNSHOT_FUTURISTIC	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_SFG_VOL2_WEAPON_45_1_GUN_GUNSHOT_FUTURISTIC_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Sniper_Shoot\PM_SFG_VOL2_WEAPON_45_1_GUN_GUNSHOT_FUTURISTIC		230204
+	953695501	Knife-Attack-Metal_Impact_Clash_03	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Knife-Attack-Metal_Impact_Clash_03_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Hit\Knife-Attack-Metal_Impact_Clash_03		176464
+	970778476	Arrow Hit Wood 2_1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Arrow Hit Wood 2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Bow_and_Arrow__Hit\Arrow Hit Wood 2_1		208832
+	982441496	Rock Impact 40	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Rock Impact 40_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Rocks_Hit\Rock Impact 40		176464
+	985657504	PM_SFG_VOL1_WEAPON_7_4_GUN_GUNSHOT_FUTURISTIC	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\PM_SFG_VOL1_WEAPON_7_4_GUN_GUNSHOT_FUTURISTIC_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Pistol_Shoot\PM_SFG_VOL1_WEAPON_7_4_GUN_GUNSHOT_FUTURISTIC		229272
+	988615799	Fire Punch 2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Fire Punch 2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Fire_Whip_Hit\Fire Punch 2		267676
+	992433187	Magic Chimes 03	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Magic Chimes 03_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Health_Increase\Magic Chimes 03		472624
+	998985602	Sword_Swing_1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Sword_Swing_1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Swing\Sword_Swing_1		138080
+	1005256366	Light_Wand_Whoosh_1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Light_Wand_Whoosh_1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Magic_Wand_Shoot\Light_Wand_Whoosh_1		75328
+	1029774079	Bluezone_BC0271_debris_falling_rock_dust_002	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Bluezone_BC0271_debris_falling_rock_dust_002_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Grenade_Hit\Bluezone_BC0271_debris_falling_rock_dust_002		474612
+	1034540553	Whoosh 04	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Whoosh 04_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Swing\Whoosh 04		132364
+	1061275496	Whoosh 02	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Whoosh 02_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Swing\Whoosh 02		132364
+	1062139568	Sword_Swing_4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Sword_Swing_4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Swing\Sword_Swing_4		104224
+	1069306195	gravel4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel4		85636
+
