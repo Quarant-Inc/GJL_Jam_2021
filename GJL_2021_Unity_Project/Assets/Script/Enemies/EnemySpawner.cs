@@ -19,7 +19,7 @@ public class EnemySpawner : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Implement the spawners prefab please xo");
+            Debug.LogError("Implement the spawners prefab please xo");
         }
     }
 
