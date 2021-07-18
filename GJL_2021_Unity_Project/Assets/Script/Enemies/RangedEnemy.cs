@@ -41,9 +41,29 @@ public class RangedEnemy : Enemy {
         {
             //nextFire = Time.time + fireRate;
             shotsRemaining--;
+            Fire();
             // TODO handle actual firing/damage to player
             Debug.LogFormat("BANG ! Fired Weapon. {0}/{1} Shots remaining", shotsRemaining, clipSize);
             return fireRate;
+        }
+    }
+
+    void Fire()
+    {
+        Debug.Log("Fire()");
+        Vector3 dir = (PlayerPosition - transform.position).normalized;
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, dir, out hit, attackRange))
+        {
+            Debug.Log("Ray cast hit");
+            if (hit.collider.tag == TAG.Player.ToString())
+            {
+                Player.Instance.TakeDamage();
+            }
+        }
+        else
+        {
+            Debug.Log("Ray cast miss :'(");
         }
     }
 
@@ -61,10 +81,13 @@ public class RangedEnemy : Enemy {
     protected override void Attack()
     {
         StartCoroutine(Shooting());
+        Agent.SetDestination(transform.position);
+        //Agent.isStopped = true;
     }
 
     protected override void StopAttack()
     {
         shooting = false;
+        //Agent.isStopped = false;
     }
 }
