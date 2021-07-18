@@ -12,13 +12,15 @@ public class EnemySpawner : MonoBehaviour
         {
             SpawnEnemy();
         }
+        
+        Enemy.EnemyKilled += SpawnEnemy;
     }
 
     void SpawnEnemy()
     {
         Vector3 pos = Util.GetRandomNavMeshLocation();
         GameObject prefab = enemyPrefabs.GetRandomElement();
-        GameObject enemy = Instantiate(prefab);
+        GameObject enemy = Instantiate(prefab,pos,Quaternion.identity);
         enemy.SetActive(true);
     }
 }
