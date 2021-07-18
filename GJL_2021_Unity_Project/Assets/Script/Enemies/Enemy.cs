@@ -50,7 +50,7 @@ public abstract class Enemy : MonoBehaviour
     }
     #endregion
 
-    Vector3 PlayerPosition
+    protected Vector3 PlayerPosition
     {
         get
         {
