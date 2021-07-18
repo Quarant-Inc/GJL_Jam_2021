@@ -14,7 +14,7 @@ public abstract class Enemy : MonoBehaviour
         ATTACKING
     }
 
-    enum ENEMY_ANIMATION
+    protected enum ENEMY_ANIMATION
     {
         IDLE,
         ATTACK,
@@ -105,11 +105,21 @@ public abstract class Enemy : MonoBehaviour
             KillEnemy();
         }
         Debug.LogFormat("Armour: {0}. Health: {1}.", armour, health);
+        SetAnimation(ENEMY_ANIMATION.DAMAGED);
+        //Animator.SetTrigger(ENEMY_ANIMATION.DAMAGED.ToString());
     }
 
-    private void KillEnemy(){
+    private void KillEnemy()
+    {
+        SetAnimation(ENEMY_ANIMATION.DEATH);
+        //Animator.SetTrigger(ENEMY_ANIMATION.DEATH.ToString());
         // do other killing stuff here
         Destroy(gameObject);
+    }
+
+    void SetAnimation(ENEMY_ANIMATION anim)
+    {
+        Animator.SetTrigger(anim.ToString());
     }
 
     protected abstract void Attack();
@@ -129,6 +139,7 @@ public abstract class Enemy : MonoBehaviour
                 {
                     lastSeenPos = PlayerPosition;
                     currentState = ENEMY_STATE.CHASING;
+                    SetAnimation(ENEMY_ANIMATION.RUN);
                 }
                 break;
             }
@@ -160,6 +171,7 @@ public abstract class Enemy : MonoBehaviour
                 else if (Vector3.Distance(lastSeenPos, transform.position) < 1.5f)
                 {
                     currentState = ENEMY_STATE.IDLE;
+                    SetAnimation(ENEMY_ANIMATION.IDLE);
                 }
                 break;
             }

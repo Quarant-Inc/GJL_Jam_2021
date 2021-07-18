@@ -12,8 +12,14 @@ public class MeleeEnemy : Enemy
         attacking = true;
         while(attacking)
         {
+            Swipe();
             yield return new WaitForSeconds(1f/attackSpeed);
         }
+    }
+
+    void Swipe()
+    {
+        Animator.SetTrigger(ENEMY_ANIMATION.ATTACK.ToString());
     }
 
     protected override void Attack()
