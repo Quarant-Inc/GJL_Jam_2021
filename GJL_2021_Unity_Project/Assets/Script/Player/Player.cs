@@ -267,26 +267,36 @@ public class Player : MonoBehaviour
             if (localItems.Count > 0)
             {
                 Debug.Log("gjrigjr");
-                ItemGameObjectPair closestPair = GetClosestPair();
-                PickupItem(closestPair);
+                ItemGameObjectPair closestPair;// = GetClosestPair();
+                if (GetClosestPair(out closestPair))
+                {
+                    PickupItem(closestPair);
+                }
             }
         }
     }
 
-    ItemGameObjectPair GetClosestPair()
+    bool GetClosestPair(out ItemGameObjectPair igoPair)
     {
+        bool foundOne = false;
         ItemGameObjectPair closestPair = new ItemGameObjectPair(null, null);
         float closestDist = float.MaxValue;
         foreach(ItemGameObjectPair pair in localItems.Values)
         {
+            if (pair.gameObject == null)
+            {
+                continue;
+            }
             float distance = Vector3.Distance(transform.position, pair.gameObject.transform.position);
             if (distance < closestDist)
             {
                 closestPair = pair;
                 closestDist = distance;
+                foundOne = true;
             }
         }
-        return closestPair;
+        igoPair = closestPair;
+        return foundOne;
     }
 
     Vector3 GetDirectionVector(DIRECTION dir)
@@ -446,24 +456,27 @@ public class Player : MonoBehaviour
 
     void PickupItem(ItemGameObjectPair pair)
     {
-        Debug.Log("Pickup attempted");
-        
-        /*ItemTemplate temp = new ItemTemplate();
-        temp.name = item.name;
-        temp.type = item.itemSpec.type;
-        items.Enqueue(temp);*/
-
-        items.Enqueue(pair.item);
-
-        //UIManager.Instance.AddItem(temp);
-        UIManager.Instance.AddItem(pair.item);
-
-        localItems.Remove(pair.ID);
-        Destroy(pair.gameObject);
-
-        if(ItemPickedUp != null)
+        if (pair.gameObject != null)
         {
-            ItemPickedUp();
+            Debug.Log("Pickup attempted");
+            
+            /*ItemTemplate temp = new ItemTemplate();
+            temp.name = item.name;
+            temp.type = item.itemSpec.type;
+            items.Enqueue(temp);*/
+
+            items.Enqueue(pair.item);
+
+            //UIManager.Instance.AddItem(temp);
+            UIManager.Instance.AddItem(pair.item);
+
+            localItems.Remove(pair.ID);
+            Destroy(pair.gameObject);
+
+            if(ItemPickedUp != null)
+            {
+                ItemPickedUp();
+            }
         }
     }
 
