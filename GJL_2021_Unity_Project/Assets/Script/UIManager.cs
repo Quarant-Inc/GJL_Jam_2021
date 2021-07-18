@@ -12,13 +12,18 @@ public class UIManager : MonoBehaviour
     public Text lblItemQueue;
 
     static UIManager instance;
-    public static UIManager Instance
+    public static bool InstanceExists(out UIManager uiManager)
+    {
+        uiManager = instance;
+        return instance != null;
+    }
+    /*public static UIManager Instance
     {
         get
         {
             return instance;
         }
-    }
+    }*/
 
     void Awake()
     {

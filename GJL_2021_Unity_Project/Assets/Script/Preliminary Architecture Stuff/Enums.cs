@@ -26,7 +26,14 @@ public enum DIRECTION
 public enum PLAYER_ANIM_PARAMS
 {
     MOVE,
-    STOP_MOVING
+    STOP_MOVING,
+    PISTOL,
+    BOW,
+    DAGGER_THROW,
+    SWORD,
+    THROW,
+    CONSUME,
+    DASH
 }
 
 public enum TAG

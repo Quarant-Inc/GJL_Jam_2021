@@ -19,6 +19,7 @@ public class Potion : Item
                 break;
             }
         }
+        Player.Instance.SetAnimation(PLAYER_ANIM_PARAMS.CONSUME);
     }
     public override string ToString()
     {

@@ -57,6 +57,7 @@ public class StraightRangedWeapon : Weapon
                     {
                         enemyScript.DamageEnemy();
                     }
+                    Player.Instance.SetAnimation(PLAYER_ANIM_PARAMS.PISTOL);
                 }
 
             }

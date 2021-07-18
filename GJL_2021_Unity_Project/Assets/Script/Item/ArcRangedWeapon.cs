@@ -31,6 +31,7 @@ public class ArcRangedWeapon : Weapon
                 {
                     deployedScript.Fire(start, trajectory, detonationDelay, maxDistance);
                 }
+                Player.Instance.SetAnimation(PLAYER_ANIM_PARAMS.THROW);
             }
 
             /*if (Physics.Raycast(ray, out hit))
