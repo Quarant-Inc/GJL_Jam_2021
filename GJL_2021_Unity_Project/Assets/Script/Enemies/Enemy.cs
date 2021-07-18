@@ -127,10 +127,11 @@ public abstract class Enemy : MonoBehaviour
 
     Vector3 lastSeenPos;
 
-    const float stateCheckInterval = 0.5f;
+    const float stateCheckInterval = 0.125f;
 
     void StateCheck()
     {
+        Debug.LogFormat("{0} state is {1}",name,currentState);
         switch(currentState)
         {
             case ENEMY_STATE.IDLE:
