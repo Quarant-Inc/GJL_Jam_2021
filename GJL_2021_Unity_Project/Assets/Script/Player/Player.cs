@@ -202,6 +202,11 @@ public class Player : MonoBehaviour
         
     }
 
+    public void SetAnimation(PLAYER_ANIM_PARAMS anim)
+    {
+        Animator.SetTrigger(anim.ToString());
+    }
+
     Dictionary<DIRECTION, Vector3> directionVectors = new Dictionary<DIRECTION, Vector3>()
     {
         {DIRECTION.FORWARD, Vector3.forward},
