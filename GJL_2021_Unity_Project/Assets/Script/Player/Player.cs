@@ -91,7 +91,10 @@ public class Player : MonoBehaviour
                 value >= maxHealth ? maxHealth : 0
             );
 
-            HealthChanged(health);
+            if (HealthChanged != null)
+            {
+                HealthChanged(health);
+            }
 
             //Activate death event if health runs out.
             if (value <= 0)
@@ -473,7 +476,11 @@ public class Player : MonoBehaviour
             items.Enqueue(pair.item);
 
             //UIManager.Instance.AddItem(temp);
-            UIManager.Instance.AddItem(pair.item);
+            UIManager uIManager;
+            if (UIManager.InstanceExists(out uIManager))
+            {
+                uIManager.AddItem(pair.item);
+            }
 
             localItems.Remove(pair.ID);
             Destroy(pair.gameObject);
@@ -495,7 +502,11 @@ public class Player : MonoBehaviour
 
             item.Use();
 
-            UIManager.Instance.UsedItem();
+            UIManager uIManager;
+            if (UIManager.InstanceExists(out uIManager))
+            {
+                uIManager.UsedItem();
+            }
         }
     }
 
