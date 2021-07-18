@@ -3,7 +3,12 @@ guid: f0a3ba835b76b514bbe5c0698f035155
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: melee_diff
+    second: {fileID: 2800000, guid: ac402ed646ed17848ac4ecaa6d4ee745, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
