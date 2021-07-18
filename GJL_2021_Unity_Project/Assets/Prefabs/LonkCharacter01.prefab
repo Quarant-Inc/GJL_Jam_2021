@@ -197,7 +197,7 @@ GameObject:
   - component: {fileID: 876651029802675937}
   m_Layer: 0
   m_Name: LonkCharacter01
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -294,7 +294,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a11f8fe8f37d31b40adae3b1cc0d8f4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  forceMultiplier: 1
   pickIncreaseTime: 3
+  speedIncreaseTime: 3
 --- !u!1 &67949971384405952
 GameObject:
   m_ObjectHideFlags: 0
