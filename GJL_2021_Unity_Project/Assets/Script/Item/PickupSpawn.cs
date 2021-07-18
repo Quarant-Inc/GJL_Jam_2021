@@ -25,10 +25,16 @@ public class PickupSpawn : MonoBehaviour
 
     void SpawnItem()
     {
-        Vector3 pos = Util.GetRandomNavMeshLocation();
+        Vector3 pos = GetRandomPosition();
+        //Vector3 pos = Util.GetRandomNavMeshLocation();
         pos.y += 0.5f;
         GameObject prefab = pickupPrefabs.GetRandomElement();
         GameObject item = Instantiate(prefab,pos, Quaternion.identity);
+    }
+
+    Vector3 GetRandomPosition()
+    {
+        return ItemSpawnPoint.Instances.GetRandomElement().transform.position;
     }
 
     // Update is called once per frame
