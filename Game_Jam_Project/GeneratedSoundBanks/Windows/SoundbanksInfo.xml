@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="258110631" Language="SFX" Hash="2747544078">
+		<SoundBank Id="258110631" Language="SFX" Hash="3811108682">
 			<ObjectPath>\SoundBanks\Default Work Unit\Game_Music</ObjectPath>
 			<ShortName>Game_Music</ShortName>
 			<Path>Game_Music.bnk</Path>
