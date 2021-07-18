@@ -342,6 +342,8 @@ public class Player : MonoBehaviour
         }
     }
 
+    public float forceMultiplier = 1f;
+
     void Move(DIRECTION dir)
     {
         Animator.SetTrigger(PLAYER_ANIM_PARAMS.MOVE.ToString());
@@ -356,7 +358,8 @@ public class Player : MonoBehaviour
         //
         //Vector3 direction = directionVectors[dir];
         transform.LookAt(transform.position + direction, transform.up);
-        RigidBody.velocity = direction * speed;
+        RigidBody.AddForce(direction*speed);
+        //RigidBody.velocity = direction * speed;
 
         prevDirection = dir;
         
