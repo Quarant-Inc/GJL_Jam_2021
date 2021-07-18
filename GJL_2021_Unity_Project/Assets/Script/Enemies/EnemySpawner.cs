@@ -19,5 +19,6 @@ public class EnemySpawner : MonoBehaviour
         Vector3 pos = Util.GetRandomNavMeshLocation();
         GameObject prefab = enemyPrefabs.GetRandomElement();
         GameObject enemy = Instantiate(prefab);
+        enemy.SetActive(true);
     }
 }
