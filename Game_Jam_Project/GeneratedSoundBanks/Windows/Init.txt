@@ -1,11 +1,3 @@
-State Group	ID	Name			Wwise Object Path	Notes
-	4071417932	Player_State			\Default Work Unit\Player_State	
-
-State	ID	Name	State Group			Notes
-	655265632	Alive	Player_State			
-	748895195	None	Player_State			
-	2044049779	Dead	Player_State			
-
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	210910324	Volume_Client_Effects			\Bus Control\Volume\Volume_Client_Effects	
 	433054383	Volume_Game_Effects			\Bus Control\Volume\Volume_Game_Effects	

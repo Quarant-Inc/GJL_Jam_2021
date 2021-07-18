@@ -1,21 +1,6 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2005704188	Main_Menu			\Default Work Unit\Music\Main_Menu	
-	2782712965	Level			\Default Work Unit\Music\Level	
-
-State Group	ID	Name			Wwise Object Path	Notes
-	4071417932	Player_State			\Default Work Unit\Player_State	
-
-State	ID	Name	State Group			Notes
-	655265632	Alive	Player_State			
-	748895195	None	Player_State			
-	2044049779	Dead	Player_State			
-
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	51238858	Medievo intro	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Medievo intro_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Level\Music\Medievo intro\Medievo intro		9878464
-	324109738	Death	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Death_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Level\Death\Death\Death		1411264
-	387289223	DisposableArmsMainSection(master4)	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\DisposableArmsMainSection(master4)_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Main_Menu\DisposableArmsMainSection(master4)\DisposableArmsMainSection(master4)		24858352
-	446790971	DisposableArmsIntro(master1)	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\DisposableArmsIntro(master1)_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Main_Menu\DisposableArmsIntro(master1)\DisposableArmsIntro(master1)		3107604
-	557630306	Medievo 1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Medievo 1_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Level\Music\Medievo 1\Medievo 1		33868864
-	782717807	Medievo 3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Medievo 3_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Level\Music\Medievo 3\Medievo 3		28224064
-	941141954	Medievo 2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Medievo 2_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Level\Music\Medievo 2\Medievo 2		26812864
+	51238858	Medievo intro	C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Medievo intro_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Music\Medievo intro\Medievo intro		9878464
+	557630306	Medievo 1	C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Medievo 1_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Music\Medievo 1\Medievo 1		33868864
+	782717807	Medievo 3	C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Medievo 3_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Music\Medievo 3\Medievo 3		28224064
+	941141954	Medievo 2	C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\Medievo 2_D79FB2B7.wem		\Interactive Music Hierarchy\Game\Music\Medievo 2\Medievo 2		26812864
 

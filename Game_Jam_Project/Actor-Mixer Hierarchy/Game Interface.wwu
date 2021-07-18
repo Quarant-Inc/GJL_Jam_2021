@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{04ED0A22-9237-4A4B-9847-ED46721BC7EC}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{0075ABB0-B21B-4631-BF2E-44BB46FC178B}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Dialgoue" ID="{04ED0A22-9237-4A4B-9847-ED46721BC7EC}" PersistMode="Standalone">
+		<WorkUnit Name="Game Interface" ID="{0075ABB0-B21B-4631-BF2E-44BB46FC178B}" PersistMode="Standalone">
 			<ChildrenList>
-				<ActorMixer Name="Voice" ID="{94F47A69-AA87-476F-84F5-B99764EA7758}" ShortID="113196704">
+				<ActorMixer Name="Interface" ID="{2894AD3C-E094-45AC-9589-E54C34259A47}" ShortID="386301186">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3D9539A-3F14-4031-8984-C27E62E9CF0B}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Game_Dialogue" ID="{36D780CD-4468-4D92-9AFA-02D9F2146530}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+							<ObjectRef Name="Game_Interface" ID="{8D09C6CE-D4F2-4CF3-8F6A-9B50B673861F}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 						</Reference>
 					</ReferenceList>
 					<ObjectLists/>
