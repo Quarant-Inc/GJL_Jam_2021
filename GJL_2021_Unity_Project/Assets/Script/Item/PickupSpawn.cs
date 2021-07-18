@@ -11,11 +11,18 @@ public class PickupSpawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for (uint i = 0; i < itemQuantity; i++)
+        if (ItemSpawnPoint.Instances.Length > 0)
         {
-            SpawnItem();
+            for (uint i = 0; i < itemQuantity; i++)
+            {
+                SpawnItem();
+            }
+            Player.Instance.ItemPickedUp += ItemPickedUp;
         }
-        Player.Instance.ItemPickedUp += ItemPickedUp;
+        else
+        {
+            Debug.LogWarning("Implement the spawners prefab please xo");
+        }
     }
 
     void ItemPickedUp()

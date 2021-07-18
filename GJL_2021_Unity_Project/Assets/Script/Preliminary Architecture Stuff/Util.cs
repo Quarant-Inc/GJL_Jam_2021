@@ -73,4 +73,13 @@ public static class Util
         }
         return collection.ElementAt(Random.Range(0, collection.Count()));
     }
+
+    public static void Quit()
+    {
+        #if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+        #else
+            Application.Quit();
+        #endif
+    }
 }

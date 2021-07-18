@@ -8,12 +8,19 @@ public class EnemySpawner : MonoBehaviour
 
     void Start()
     {
-        for (int i = 0; i < enemyQuantity; i++)
+        if (EnemySpawnPoint.Instances.Length > 0)
         {
-            SpawnEnemy();
+            for (int i = 0; i < enemyQuantity; i++)
+            {
+                SpawnEnemy();
+            }
+            
+            Enemy.EnemyKilled += SpawnEnemy;
         }
-        
-        Enemy.EnemyKilled += SpawnEnemy;
+        else
+        {
+            Debug.LogWarning("Implement the spawners prefab please xo");
+        }
     }
 
     void SpawnEnemy()
