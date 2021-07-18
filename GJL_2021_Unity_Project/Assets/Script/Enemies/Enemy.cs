@@ -6,13 +6,23 @@ using UnityEngine.AI;
 [RequireComponent(typeof(Animator))]
 public abstract class Enemy : MonoBehaviour
 {
-        enum ENEMY_STATE
+    enum ENEMY_STATE
     {
         IDLE,
         CHASING,
         SEARCHING,
         ATTACKING
     }
+
+    enum ENEMY_ANIMATION
+    {
+        IDLE,
+        ATTACK,
+        DAMAGED,
+        DEATH,
+        RUN
+    }
+
     #region Components
     Animator animator;
     protected Animator Animator
