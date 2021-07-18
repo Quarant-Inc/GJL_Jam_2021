@@ -6,12 +6,743 @@
 				<ActorMixer Name="Voice" ID="{94F47A69-AA87-476F-84F5-B99764EA7758}" ShortID="113196704">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3D9539A-3F14-4031-8984-C27E62E9CF0B}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Game_Dialogue" ID="{36D780CD-4468-4D92-9AFA-02D9F2146530}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="Enemy" ID="{740354F7-8398-4BB5-8E6E-95DC72EBCE3E}" ShortID="481820613">
+							<ChildrenList>
+								<Folder Name="Goblin" ID="{92197F54-9DDD-48A1-8467-C4F1E1328129}" ShortID="334520415">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Goblin_Death_Sound" ID="{4ACB5EC9-3201-4526-9C21-E32B5A3F9D09}" ShortID="519470666">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Dialogue" ID="{36D780CD-4468-4D92-9AFA-02D9F2146530}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="GoblinDeath1" ID="{BD0F90D5-2398-44B4-9E78-C09A54B392EC}" ShortID="692186353">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath1" ID="{271049A3-7877-4FCC-BC91-2D94746A656A}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="641934203"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath1" ID="{271049A3-7877-4FCC-BC91-2D94746A656A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDeath2" ID="{6224935E-82F6-4238-862D-13735492C4C6}" ShortID="812270706">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath2" ID="{4C8EBB78-4EAB-4334-A11A-E4A502ABB61D}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="997357392"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath2" ID="{4C8EBB78-4EAB-4334-A11A-E4A502ABB61D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDeath3" ID="{8C066058-4591-400F-B69E-29936A6AAAE1}" ShortID="883051569">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath3" ID="{65C6F6FC-9033-4956-AE2E-C0F1740573AF}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="65010938"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath3" ID="{65C6F6FC-9033-4956-AE2E-C0F1740573AF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDeath4" ID="{534F9961-45D3-455F-B8E4-A0BC97A02228}" ShortID="742167511">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath4" ID="{AF51C0E7-711B-48C8-B074-B42AEEFD0864}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="521747591"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath4" ID="{AF51C0E7-711B-48C8-B074-B42AEEFD0864}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDeath5" ID="{799C759B-B4E1-4E9D-A06C-478051F2648B}" ShortID="630505272">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath5" ID="{E234EEAA-B2B4-4EB6-9D07-3DB6EB731A7F}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="540861767"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath5" ID="{E234EEAA-B2B4-4EB6-9D07-3DB6EB731A7F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDeath6" ID="{0DCA6C11-E668-4D56-ADDA-B7613F4CBE8A}" ShortID="713760185">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath6" ID="{A3B21465-888C-483E-B47A-3C93744A8FF4}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="799060511"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath6" ID="{A3B21465-888C-483E-B47A-3C93744A8FF4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDeath7" ID="{5C10B627-8754-48ED-B235-D1BA7EA6A424}" ShortID="400236779">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath7" ID="{FF3030C9-7167-407D-80E6-4F932DCE888F}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath7.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="151765555"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath7" ID="{FF3030C9-7167-407D-80E6-4F932DCE888F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDeath8" ID="{35901A09-6D64-4593-9B18-FCC3C9DAF9AE}" ShortID="154619885">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath8" ID="{CBE3C595-6762-4334-942E-40B93690EA97}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath8.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="787256433"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath8" ID="{CBE3C595-6762-4334-942E-40B93690EA97}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDeath9" ID="{C9C44CDA-74B3-4B65-9D74-BC9784AC6835}" ShortID="105124004">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath9" ID="{5857497E-18D5-4B48-9C78-251501D82443}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath9.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="589124662"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath9" ID="{5857497E-18D5-4B48-9C78-251501D82443}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDeath10" ID="{8FF9AC98-91C4-4687-B7D5-BC07610E205B}" ShortID="400842927">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDeath10" ID="{7E7651E9-0730-4537-8E90-34B6EA1B2A56}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDeath10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="707225415"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDeath10" ID="{7E7651E9-0730-4537-8E90-34B6EA1B2A56}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Goblin_Detect" ID="{1D899C28-E1E2-4DFB-8E40-F2BB4AA76585}" ShortID="368512963">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Dialogue" ID="{36D780CD-4468-4D92-9AFA-02D9F2146530}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="GoblinDetect1" ID="{427DB288-53CF-4107-9BB3-A0C71BF018C3}" ShortID="1022812993">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDetect1" ID="{B026003C-76B2-4391-8974-AB5DFF4401AC}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDetect1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="21313093"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDetect1" ID="{B026003C-76B2-4391-8974-AB5DFF4401AC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDetect2" ID="{9D60CC9E-C127-4BD7-82DD-8B03DD5626E3}" ShortID="50247707">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDetect2" ID="{05B4AC4C-E382-4318-851E-14C9F85E6865}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDetect2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="425111805"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDetect2" ID="{05B4AC4C-E382-4318-851E-14C9F85E6865}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDetect3" ID="{668BE907-3787-4C1D-A35F-D552AA285FBF}" ShortID="439462592">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDetect3" ID="{013740AF-CE2A-40DE-940F-FE9B1D016066}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDetect3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1027266650"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDetect3" ID="{013740AF-CE2A-40DE-940F-FE9B1D016066}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinDetect4" ID="{EFF00A01-8AC7-4DA2-A30C-07F3FB030DAF}" ShortID="401838688">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinDetect4" ID="{34D63483-F689-4317-923A-7CE07B58E79E}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinDetect4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="825193370"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinDetect4" ID="{34D63483-F689-4317-923A-7CE07B58E79E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Goblin_Lost_Sight" ID="{8A8C10B6-8846-40CE-9B78-08D496B545A2}" ShortID="875181763">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Dialogue" ID="{36D780CD-4468-4D92-9AFA-02D9F2146530}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="GoblinLostSight1" ID="{F58B123B-61EC-41D4-BA73-1AE8F2EB66C9}" ShortID="653336354">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinLostSight1" ID="{7A5C049D-ED76-42C6-8C80-D98D16A9860A}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinLostSight1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="244499503"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinLostSight1" ID="{7A5C049D-ED76-42C6-8C80-D98D16A9860A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GoblinLostSight2" ID="{3F3136E6-242D-489C-8168-88EC34DF686B}" ShortID="740015404">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GoblinLostSight2" ID="{427EF08F-5D4E-42F7-8D4E-CD9FF112DEBB}">
+															<Language>SFX</Language>
+															<AudioFile>GoblinLostSight2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="793359449"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GoblinLostSight2" ID="{427EF08F-5D4E-42F7-8D4E-CD9FF112DEBB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Robot" ID="{7016F398-B02E-4276-AB7E-2E5CF06BD007}" ShortID="566428265">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Searching_For_Human" ID="{7A913B7F-EFF2-4778-BCBC-542A7D868003}" ShortID="749500717">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SearchingForHuman1_Robot" ID="{A6225DD1-957E-4E5B-A9EF-48D920E3B9E9}" ShortID="656381390">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SearchingForHuman1_Robot" ID="{10C4A441-A4FD-4E83-8EBB-33F5AE5EE60B}">
+															<Language>SFX</Language>
+															<AudioFile>SearchingForHuman1_Robot.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1023815843"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SearchingForHuman1_Robot" ID="{10C4A441-A4FD-4E83-8EBB-33F5AE5EE60B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="SearchingForHuman2_Robot" ID="{AD7CF4FE-5312-4265-912F-98CD42871634}" ShortID="401366827">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SearchingForHuman2_Robot" ID="{2047CABE-E953-4BF5-8AE8-BB06C578142D}">
+															<Language>SFX</Language>
+															<AudioFile>SearchingForHuman2_Robot.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="285975101"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="SearchingForHuman2_Robot" ID="{2047CABE-E953-4BF5-8AE8-BB06C578142D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Robot_Kill_or_Hit_Player" ID="{F967D7AD-64CD-434D-AB60-D4215C55A610}" ShortID="462372229">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="RobotKillorHitPlayer1" ID="{6FEFABD0-262B-4747-AA75-F23FD661F196}" ShortID="1041116678">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RobotKillorHitPlayer1" ID="{48F35A03-DA35-4FA0-9D23-9429BEA91895}">
+															<Language>SFX</Language>
+															<AudioFile>RobotKillorHitPlayer1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="585659336"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="RobotKillorHitPlayer1" ID="{48F35A03-DA35-4FA0-9D23-9429BEA91895}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="RobotKillorHitPlayer2" ID="{EEA5AE30-4826-40E4-BFA7-CCA295A72C9B}" ShortID="721883326">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="RobotKillorHitPlayer2" ID="{8DB919B5-E1C0-4540-BAAA-9E8724F5AF61}">
+															<Language>SFX</Language>
+															<AudioFile>RobotKillorHitPlayer2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="707789392"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="RobotKillorHitPlayer2" ID="{8DB919B5-E1C0-4540-BAAA-9E8724F5AF61}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Robot_Insult" ID="{EB00BF61-E907-49A9-9EEF-197C87B002DE}" ShortID="963201376">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="CalculatorTimesABillion1_Robot" ID="{8194AB13-A86D-4322-86B0-5A98DAF685C5}" ShortID="480284791">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="CalculatorTimesABillion1_Robot" ID="{D21923A5-C673-4999-8932-17B83AFBC513}">
+															<Language>SFX</Language>
+															<AudioFile>CalculatorTimesABillion1_Robot.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="894092970"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="CalculatorTimesABillion1_Robot" ID="{D21923A5-C673-4999-8932-17B83AFBC513}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="GreatestSuperComputer_Robot1" ID="{229F4F17-EF09-48A7-8A96-F0F793B6AE61}" ShortID="930473216">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="GreatestSuperComputer_Robot1" ID="{93572F75-50E3-43E5-B0F9-8683F1C9F091}">
+															<Language>SFX</Language>
+															<AudioFile>GreatestSuperComputer_Robot1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="925922109"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="GreatestSuperComputer_Robot1" ID="{93572F75-50E3-43E5-B0F9-8683F1C9F091}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Human_Detected" ID="{CFF49AFE-74D8-482E-9B49-91716493B051}" ShortID="634049568">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="HumanDetected_Robot1" ID="{6743C84B-9968-4A06-8B0A-65CD2D747156}" ShortID="982118679">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HumanDetected_Robot1" ID="{B1D2F102-87C8-4951-8C52-0356FF129C4B}">
+															<Language>SFX</Language>
+															<AudioFile>HumanDetected_Robot1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="577004435"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="HumanDetected_Robot1" ID="{B1D2F102-87C8-4951-8C52-0356FF129C4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="HumanScum_Robot1" ID="{2D68336B-9DDE-48F0-8B54-33DEDD443E10}" ShortID="819563140">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HumanScum_Robot1" ID="{0681C364-35ED-49E3-ACF7-E960F5331CF4}">
+															<Language>SFX</Language>
+															<AudioFile>HumanScum_Robot1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="421518787"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="HumanScum_Robot1" ID="{0681C364-35ED-49E3-ACF7-E960F5331CF4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Human_Lost" ID="{7940376D-AD67-47B2-9349-FBFFC6E06953}" ShortID="153594500">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="HumanLost1_Robot" ID="{91902B5E-2CCA-4F70-90ED-66E12AF33EC5}" ShortID="215327757">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HumanLost1_Robot" ID="{05DA5BC5-BA34-4BCF-8311-86A44C824C69}">
+															<Language>SFX</Language>
+															<AudioFile>HumanLost1_Robot.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="101911425"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="HumanLost1_Robot" ID="{05DA5BC5-BA34-4BCF-8311-86A44C824C69}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="HumanLost2_Robot" ID="{B3B2CD1B-3769-41C2-BAAE-136981FBAF58}" ShortID="757545137">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="HumanLost2_Robot" ID="{324E94B2-6808-42D5-8672-2F1D6ECB2CCF}">
+															<Language>SFX</Language>
+															<AudioFile>HumanLost2_Robot.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="235400983"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="HumanLost2_Robot" ID="{324E94B2-6808-42D5-8672-2F1D6ECB2CCF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Intro" ID="{A933A3CD-C369-4DB3-9001-05D4E8512BF9}" ShortID="437998163">
+							<ChildrenList>
+								<RandomSequenceContainer Name="Intro_Script" ID="{6DF043CC-BCBA-4E72-80FD-07B2A94E6B9C}" ShortID="779018281">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>

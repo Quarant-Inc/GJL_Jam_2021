@@ -9,6 +9,7 @@ public delegate void SpeedChanged(int speed);
 public delegate void ArmourChanged(int armour);
 public delegate void PlayerDied();
 public delegate void ItemPickedUp();
+public delegate void ItemUsed();
 public class Player : MonoBehaviour
 {
     #region SingletonStuff
@@ -29,6 +30,7 @@ public class Player : MonoBehaviour
     public SpeedChanged SpeedChanged;
     public ArmourChanged ArmourChanged;
     public ItemPickedUp ItemPickedUp;
+    public ItemUsed ItemUsed;
     #endregion
 
     #region Stats
@@ -188,8 +190,15 @@ public class Player : MonoBehaviour
         }
     }
     #endregion
-    
+
     Queue<Item> items = new Queue<Item>();
+    public List<Item> Items{
+        get
+        {
+            return items.ToList();
+        }
+    }
+
     Dictionary<int, ItemGameObjectPair> localItems = new Dictionary<int, ItemGameObjectPair>();
 
     DIRECTION prevDirection = DIRECTION.NONE;
@@ -501,6 +510,8 @@ public class Player : MonoBehaviour
             Debug.LogFormat("Used {0}",item.name);
 
             item.Use();
+
+            ItemUsed();
 
             UIManager uIManager;
             if (UIManager.InstanceExists(out uIManager))

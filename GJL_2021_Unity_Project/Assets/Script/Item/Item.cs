@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 
 [System.Serializable]
 public abstract class Item
@@ -7,6 +7,7 @@ public abstract class Item
     public GameObject itemPrefab;
     public ItemType type;
     public string name;
+    public Sprite inventorySprite;
 
     public abstract void Use();
 
