@@ -4,10 +4,10 @@ using UnityEngine;
 
 public enum SCENE
 {
-    INTRO = 0,
-    MENU = 1,
-    OPTIONS = 2,
-    MAINGAME = 3
+    //INTRO = 0,
+    MENU,
+    OPTIONS,
+    MAINGAME
 }
 
 public enum DIRECTION
