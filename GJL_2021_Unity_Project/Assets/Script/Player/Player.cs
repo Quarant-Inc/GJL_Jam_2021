@@ -358,7 +358,7 @@ public class Player : MonoBehaviour
         //
         //Vector3 direction = directionVectors[dir];
         transform.LookAt(transform.position + direction, transform.up);
-        RigidBody.AddForce(direction*speed);
+        RigidBody.AddForce(direction*speed*forceMultiplier);
         //RigidBody.velocity = direction * speed;
 
         prevDirection = dir;
