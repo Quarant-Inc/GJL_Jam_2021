@@ -651,21 +651,1604 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: be20056c05d9eb448421430d07341a73
     GuidInternal: 
-    m_lastTime: -8585752643848437311
-    List: []
-  - PhysicalPath: Events\Factory Tencent GME.wwu
-    PathAndIcons:
-    - ElementName: Events
-      ObjectType: 5
-      guid: 00000000000000000000000000000000
-    - ElementName: Factory Tencent GME
-      ObjectType: 12
-      guid: b1390e77527c2a44a4f7653ae6b0c847
-    ParentPath: Events\Factory Tencent GME
-    guid: b1390e77527c2a44a4f7653ae6b0c847
-    GuidInternal: 
-    m_lastTime: -8585752643848078508
-    List: []
+    m_lastTime: -8585749639560221520
+    List:
+    - name: Armour
+      guid: 88f3eb3a2ad9094e9c432b4935d01976
+      id: 4151873597
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Buffs
+        ObjectType: 4
+        guid: b49078099e362745a2c4a2f14781f641
+      - ElementName: Armour
+        ObjectType: 3
+        guid: 88f3eb3a2ad9094e9c432b4935d01976
+      Path: Events\Default Work Unit\Effects\Buffs\Armour
+      maxAttenuation: 0
+      maxDuration: 1.686937
+      minDuration: 1.686937
+    - name: Baseball_Bat_Hit
+      guid: 5b4c22eb66f0c44dace246e9b9531395
+      id: 4256860319
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Baseball_Bat_Hit
+        ObjectType: 3
+        guid: 5b4c22eb66f0c44dace246e9b9531395
+      Path: Events\Default Work Unit\Weapons\Melee\Baseball_Bat_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Baseball_Bat_Swing
+      guid: 1fb60a0a6ccba04287f364ee17266878
+      id: 1429962442
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Baseball_Bat_Swing
+        ObjectType: 3
+        guid: 1fb60a0a6ccba04287f364ee17266878
+      Path: Events\Default Work Unit\Weapons\Melee\Baseball_Bat_Swing
+      maxAttenuation: 0
+      maxDuration: 1.147166
+      minDuration: 0.990198
+    - name: Boomerang_Hit
+      guid: 50052a8eec105f45a97b08468dd18518
+      id: 144371737
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Boomerang_Hit
+        ObjectType: 3
+        guid: 50052a8eec105f45a97b08468dd18518
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Boomerang_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Boomerang_Throw
+      guid: c09ca8bb8f0c884ebc06dbafcffad463
+      id: 934225790
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Boomerang_Throw
+        ObjectType: 3
+        guid: c09ca8bb8f0c884ebc06dbafcffad463
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Boomerang_Throw
+      maxAttenuation: 0
+      maxDuration: 0.877333
+      minDuration: 0.877333
+    - name: Bow_and_Arrow_Hit
+      guid: e7dcb2fcb091474889003f386a003fdd
+      id: 543618689
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Bow_and_Arrow_Hit
+        ObjectType: 3
+        guid: e7dcb2fcb091474889003f386a003fdd
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Bow_and_Arrow_Hit
+      maxAttenuation: 0
+      maxDuration: 0.290807
+      minDuration: 0.290807
+    - name: Bow_and_Arrow_Throw
+      guid: 556c03795c6eda41b8965dd68fd677d3
+      id: 3545396134
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Bow_and_Arrow_Throw
+        ObjectType: 3
+        guid: 556c03795c6eda41b8965dd68fd677d3
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Bow_and_Arrow_Throw
+      maxAttenuation: 0
+      maxDuration: 0.633381
+      minDuration: 0.633381
+    - name: Buffs
+      guid: b49078099e362745a2c4a2f14781f641
+      id: 3684901969
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Buffs
+        ObjectType: 4
+        guid: b49078099e362745a2c4a2f14781f641
+      Path: Events\Default Work Unit\Effects\Buffs
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dialogue
+      guid: 7d62003dc683574fb15f4dfe2657d6fd
+      id: 3930136735
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      Path: Events\Default Work Unit\Dialogue
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Effects
+      guid: 86b396c8303dfe4c875fc68623eb1c6b
+      id: 1942696649
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      Path: Events\Default Work Unit\Effects
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Electric_Whip_Hit
+      guid: ddab04c45c3b924cb39cf7e1deb5d697
+      id: 1184469823
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Electric_Whip_Hit
+        ObjectType: 3
+        guid: ddab04c45c3b924cb39cf7e1deb5d697
+      Path: Events\Default Work Unit\Weapons\Melee\Electric_Whip_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Electric_Whip_Swing
+      guid: 417b80bfcbf38b43be781454aca93781
+      id: 2567405418
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Electric_Whip_Swing
+        ObjectType: 3
+        guid: 417b80bfcbf38b43be781454aca93781
+      Path: Events\Default Work Unit\Weapons\Melee\Electric_Whip_Swing
+      maxAttenuation: 0
+      maxDuration: 0.682109
+      minDuration: 0.682109
+    - name: Enemy
+      guid: b1c37992e2657741a90953052d75dc2c
+      id: 2299321487
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: b1c37992e2657741a90953052d75dc2c
+      Path: Events\Default Work Unit\Dialogue\Enemy
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Fire_Whip_Hit
+      guid: 824a151406e4314686bd96bc3aaa148a
+      id: 4040622072
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Fire_Whip_Hit
+        ObjectType: 3
+        guid: 824a151406e4314686bd96bc3aaa148a
+      Path: Events\Default Work Unit\Weapons\Melee\Fire_Whip_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Fire_Whip_Swing
+      guid: d17eac923dbbc048bfc1da4dd73d89af
+      id: 1573331525
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Fire_Whip_Swing
+        ObjectType: 3
+        guid: d17eac923dbbc048bfc1da4dd73d89af
+      Path: Events\Default Work Unit\Weapons\Melee\Fire_Whip_Swing
+      maxAttenuation: 0
+      maxDuration: 0.682109
+      minDuration: 0.682109
+    - name: Flamethrower_Hit
+      guid: 95c9978ddad489499ce144b6c6fd1681
+      id: 1949177413
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Flamethrower_Hit
+        ObjectType: 3
+        guid: 95c9978ddad489499ce144b6c6fd1681
+      Path: Events\Default Work Unit\Weapons\Melee\Flamethrower_Hit
+      maxAttenuation: 0
+      maxDuration: 4.338046
+      minDuration: 4.338046
+    - name: Flamethrower_Swing
+      guid: 969d152e63a18447b5298d49d58cb4da
+      id: 2234938040
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Flamethrower_Swing
+        ObjectType: 3
+        guid: 969d152e63a18447b5298d49d58cb4da
+      Path: Events\Default Work Unit\Weapons\Melee\Flamethrower_Swing
+      maxAttenuation: 0
+      maxDuration: 7.448324
+      minDuration: 7.448324
+    - name: Footsteps
+      guid: 47d5d012ecf41e4385dd7d10b08f3073
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 47d5d012ecf41e4385dd7d10b08f3073
+      Path: Events\Default Work Unit\Effects\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Foresight
+      guid: 92ef95325dafcd4b91fae6b627d20f45
+      id: 2526820802
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Buffs
+        ObjectType: 4
+        guid: b49078099e362745a2c4a2f14781f641
+      - ElementName: Foresight
+        ObjectType: 3
+        guid: 92ef95325dafcd4b91fae6b627d20f45
+      Path: Events\Default Work Unit\Effects\Buffs\Foresight
+      maxAttenuation: 0
+      maxDuration: 2.399841
+      minDuration: 2.399841
+    - name: Goblin_Death_Sound
+      guid: 922c82384c1e8e4c8ad3d29851a578d8
+      id: 3732585223
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: b1c37992e2657741a90953052d75dc2c
+      - ElementName: Goblin_Death_Sound
+        ObjectType: 3
+        guid: 922c82384c1e8e4c8ad3d29851a578d8
+      Path: Events\Default Work Unit\Dialogue\Enemy\Goblin_Death_Sound
+      maxAttenuation: 0
+      maxDuration: 0.772313
+      minDuration: 0.468753
+    - name: Goblin_Detect
+      guid: f1bdf8b78111e14da15c2d54095a437f
+      id: 1799648038
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: b1c37992e2657741a90953052d75dc2c
+      - ElementName: Goblin_Detect
+        ObjectType: 3
+        guid: f1bdf8b78111e14da15c2d54095a437f
+      Path: Events\Default Work Unit\Dialogue\Enemy\Goblin_Detect
+      maxAttenuation: 0
+      maxDuration: 2.642857
+      minDuration: 1.058027
+    - name: Goblin_Lost_Sight
+      guid: 159fe12a45ac25459dda271132b09972
+      id: 3456469455
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: b1c37992e2657741a90953052d75dc2c
+      - ElementName: Goblin_Lost_Sight
+        ObjectType: 3
+        guid: 159fe12a45ac25459dda271132b09972
+      Path: Events\Default Work Unit\Dialogue\Enemy\Goblin_Lost_Sight
+      maxAttenuation: 0
+      maxDuration: 2.022313
+      minDuration: 1.892857
+    - name: Grappling_Hook
+      guid: 144e52216c295f46a3c25305998448dc
+      id: 1941733387
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Tools
+        ObjectType: 4
+        guid: c8aaddf67f0e4049990ce1d9f3f6e262
+      - ElementName: Grappling_Hook
+        ObjectType: 3
+        guid: 144e52216c295f46a3c25305998448dc
+      Path: Events\Default Work Unit\Weapons\Tools\Grappling_Hook
+      maxAttenuation: 0
+      maxDuration: 0.438769
+      minDuration: 0.438769
+    - name: Grenade_Hit
+      guid: cd82603f4b054741b0f44511f86a39cb
+      id: 899428695
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Grenade_Hit
+        ObjectType: 3
+        guid: cd82603f4b054741b0f44511f86a39cb
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Grenade_Hit
+      maxAttenuation: 0
+      maxDuration: 3.684044
+      minDuration: 3.684044
+    - name: Grenade_Throw
+      guid: 02e67d9a35062e49a8e0215bd2f36b77
+      id: 3301329608
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Grenade_Throw
+        ObjectType: 3
+        guid: 02e67d9a35062e49a8e0215bd2f36b77
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Grenade_Throw
+      maxAttenuation: 0
+      maxDuration: 0.266667
+      minDuration: 0.266667
+    - name: Health
+      guid: 0cc712daad13544486afc4029e636bcc
+      id: 3677180323
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Health
+        ObjectType: 4
+        guid: 0cc712daad13544486afc4029e636bcc
+      Path: Events\Default Work Unit\Effects\Health
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Health_Increase
+      guid: 6d963c0648987046a011d4705aad2f3b
+      id: 29605206
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Buffs
+        ObjectType: 4
+        guid: b49078099e362745a2c4a2f14781f641
+      - ElementName: Health_Increase
+        ObjectType: 3
+        guid: 6d963c0648987046a011d4705aad2f3b
+      Path: Events\Default Work Unit\Effects\Buffs\Health_Increase
+      maxAttenuation: 0
+      maxDuration: 1.678322
+      minDuration: 1.678322
+    - name: Heart
+      guid: ad6c4c304e8ba04e9a4d9d8a52ff80e8
+      id: 2665378999
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Health
+        ObjectType: 4
+        guid: 0cc712daad13544486afc4029e636bcc
+      - ElementName: Heart
+        ObjectType: 3
+        guid: ad6c4c304e8ba04e9a4d9d8a52ff80e8
+      Path: Events\Default Work Unit\Effects\Health\Heart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Human_Detected
+      guid: d990f81493300646b3591441a5d5c241
+      id: 2106428477
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: b1c37992e2657741a90953052d75dc2c
+      - ElementName: Human_Detected
+        ObjectType: 3
+        guid: d990f81493300646b3591441a5d5c241
+      Path: Events\Default Work Unit\Dialogue\Enemy\Human_Detected
+      maxAttenuation: 0
+      maxDuration: 1.928571
+      minDuration: 1.558027
+    - name: Human_Lost
+      guid: 98beefe5e9aaba4ba4186eb46a5ece00
+      id: 3344543189
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: b1c37992e2657741a90953052d75dc2c
+      - ElementName: Human_Lost
+        ObjectType: 3
+        guid: 98beefe5e9aaba4ba4186eb46a5ece00
+      Path: Events\Default Work Unit\Dialogue\Enemy\Human_Lost
+      maxAttenuation: 0
+      maxDuration: 3.86161
+      minDuration: 1.357143
+    - name: Intro
+      guid: a3a161889c35d74db36e7e2d9132370f
+      id: 1125500713
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Intro
+        ObjectType: 4
+        guid: a3a161889c35d74db36e7e2d9132370f
+      Path: Events\Default Work Unit\Dialogue\Intro
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Intro_Script
+      guid: 112ccfb1eb84fd42a45a951edd5a790d
+      id: 3701845373
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Intro
+        ObjectType: 4
+        guid: a3a161889c35d74db36e7e2d9132370f
+      - ElementName: Intro_Script
+        ObjectType: 3
+        guid: 112ccfb1eb84fd42a45a951edd5a790d
+      Path: Events\Default Work Unit\Dialogue\Intro\Intro_Script
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Item_Magnet
+      guid: ac763e86c5b6b148b87a54afa5c5782a
+      id: 2447146981
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Buffs
+        ObjectType: 4
+        guid: b49078099e362745a2c4a2f14781f641
+      - ElementName: Item_Magnet
+        ObjectType: 3
+        guid: ac763e86c5b6b148b87a54afa5c5782a
+      Path: Events\Default Work Unit\Effects\Buffs\Item_Magnet
+      maxAttenuation: 0
+      maxDuration: 1.028798
+      minDuration: 1.028798
+    - name: Katana_Hit
+      guid: 0e663967de06844597ebe573a223a923
+      id: 1060853137
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Katana_Hit
+        ObjectType: 3
+        guid: 0e663967de06844597ebe573a223a923
+      Path: Events\Default Work Unit\Weapons\Melee\Katana_Hit
+      maxAttenuation: 0
+      maxDuration: 0.7
+      minDuration: 0.7
+    - name: Katana_Swing
+      guid: 24950b057bae5b45aff02547e2956f52
+      id: 2725920228
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Katana_Swing
+        ObjectType: 3
+        guid: 24950b057bae5b45aff02547e2956f52
+      Path: Events\Default Work Unit\Weapons\Melee\Katana_Swing
+      maxAttenuation: 0
+      maxDuration: 2.158029
+      minDuration: 0.35124
+    - name: Laser_Gun_Hit
+      guid: 4d0bd8edb84c694c807409a77a327d16
+      id: 1799609931
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Laser_Gun_Hit
+        ObjectType: 3
+        guid: 4d0bd8edb84c694c807409a77a327d16
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Laser_Gun_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Laser_Gun_Shoot
+      guid: cbce1ed2e325b347a1016060d6626fbf
+      id: 3626746553
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Laser_Gun_Shoot
+        ObjectType: 3
+        guid: cbce1ed2e325b347a1016060d6626fbf
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Laser_Gun_Shoot
+      maxAttenuation: 0
+      maxDuration: 0.834775
+      minDuration: 0.834775
+    - name: Laser_Sword_Hit
+      guid: dde104a52adba042b3a51512ecc0cfc1
+      id: 4146399722
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Laser_Sword_Hit
+        ObjectType: 3
+        guid: dde104a52adba042b3a51512ecc0cfc1
+      Path: Events\Default Work Unit\Weapons\Melee\Laser_Sword_Hit
+      maxAttenuation: 0
+      maxDuration: 0.7
+      minDuration: 0.7
+    - name: Laser_Sword_Swing
+      guid: 086b9a3b1b67cb4280aa99a1506531a3
+      id: 3191454527
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Laser_Sword_Swing
+        ObjectType: 3
+        guid: 086b9a3b1b67cb4280aa99a1506531a3
+      Path: Events\Default Work Unit\Weapons\Melee\Laser_Sword_Swing
+      maxAttenuation: 0
+      maxDuration: 2.158029
+      minDuration: 0.35124
+    - name: Lasso
+      guid: 778d8db856792e419e93f4980f5da5d1
+      id: 3680608169
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Tools
+        ObjectType: 4
+        guid: c8aaddf67f0e4049990ce1d9f3f6e262
+      - ElementName: Lasso
+        ObjectType: 3
+        guid: 778d8db856792e419e93f4980f5da5d1
+      Path: Events\Default Work Unit\Weapons\Tools\Lasso
+      maxAttenuation: 0
+      maxDuration: 0.349773
+      minDuration: 0.349773
+    - name: Level
+      guid: 74e91957d2434743a4cde28a161c0b6f
+      id: 2782712965
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Music
+        ObjectType: 4
+        guid: 592ab1dd57c2dd4aa748f50b00b786e6
+      - ElementName: Level
+        ObjectType: 3
+        guid: 74e91957d2434743a4cde28a161c0b6f
+      Path: Events\Default Work Unit\Music\Level
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Magic_Wand_Hit
+      guid: 0f484140071a824b84b3f511c6bbac1e
+      id: 2313357241
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Magic_Wand_Hit
+        ObjectType: 3
+        guid: 0f484140071a824b84b3f511c6bbac1e
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Magic_Wand_Hit
+      maxAttenuation: 0
+      maxDuration: 0.716292
+      minDuration: 0.716292
+    - name: Magic_Wand_Shoot
+      guid: 1d24f46161b5a344bd6f6a6ccaaab6c6
+      id: 2988633891
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Magic_Wand_Shoot
+        ObjectType: 3
+        guid: 1d24f46161b5a344bd6f6a6ccaaab6c6
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Magic_Wand_Shoot
+      maxAttenuation: 0
+      maxDuration: 5.51951
+      minDuration: 5.51951
+    - name: Main_Menu
+      guid: 8cc61214493588419b9d362d53b8279d
+      id: 2005704188
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Music
+        ObjectType: 4
+        guid: 592ab1dd57c2dd4aa748f50b00b786e6
+      - ElementName: Main_Menu
+        ObjectType: 3
+        guid: 8cc61214493588419b9d362d53b8279d
+      Path: Events\Default Work Unit\Music\Main_Menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Melee
+      guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      id: 3208241451
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      Path: Events\Default Work Unit\Weapons\Melee
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 592ab1dd57c2dd4aa748f50b00b786e6
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Music
+        ObjectType: 4
+        guid: 592ab1dd57c2dd4aa748f50b00b786e6
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Pickup
+      guid: 38eb0ccf3a41284d9d8613e60e8205d4
+      id: 3978245845
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Pickup
+        ObjectType: 4
+        guid: 38eb0ccf3a41284d9d8613e60e8205d4
+      Path: Events\Default Work Unit\Effects\Pickup
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Pickup_Item
+      guid: 8e9f144d09dd6e4b9c2158e735f1d427
+      id: 902717029
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Pickup
+        ObjectType: 4
+        guid: 38eb0ccf3a41284d9d8613e60e8205d4
+      - ElementName: Pickup_Item
+        ObjectType: 3
+        guid: 8e9f144d09dd6e4b9c2158e735f1d427
+      Path: Events\Default Work Unit\Effects\Pickup\Pickup_Item
+      maxAttenuation: 0
+      maxDuration: 0.389138
+      minDuration: 0.389138
+    - name: Pistol_Hit
+      guid: 426b50327a5107478658400aebf13cc9
+      id: 1754944470
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Pistol_Hit
+        ObjectType: 3
+        guid: 426b50327a5107478658400aebf13cc9
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Pistol_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Pistol_Shoot
+      guid: 42b21989d84ce54f9ec471c14d8c3aa5
+      id: 2124970216
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Pistol_Shoot
+        ObjectType: 3
+        guid: 42b21989d84ce54f9ec471c14d8c3aa5
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Pistol_Shoot
+      maxAttenuation: 0
+      maxDuration: 2.425937
+      minDuration: 2.425937
+    - name: Player_Footstep
+      guid: 856c6f1dd3ae87489cad7db8d13a81b7
+      id: 2453392179
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 47d5d012ecf41e4385dd7d10b08f3073
+      - ElementName: Player_Footstep
+        ObjectType: 3
+        guid: 856c6f1dd3ae87489cad7db8d13a81b7
+      Path: Events\Default Work Unit\Effects\Footsteps\Player_Footstep
+      maxAttenuation: 0
+      maxDuration: 0.583651
+      minDuration: 0.434694
+    - name: Railgun_Hit
+      guid: 833e7043e60bef4fb4a8efe2fd7c4c25
+      id: 528420227
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Railgun_Hit
+        ObjectType: 3
+        guid: 833e7043e60bef4fb4a8efe2fd7c4c25
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Railgun_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Railgun_Shoot
+      guid: d6300d66d058b843a9592910c8b8d3be
+      id: 673267873
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Railgun_Shoot
+        ObjectType: 3
+        guid: d6300d66d058b843a9592910c8b8d3be
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Railgun_Shoot
+      maxAttenuation: 0
+      maxDuration: 1.212969
+      minDuration: 1.212969
+    - name: Ranged arc
+      guid: 69ea1fec7d67a34d9464b7d7e061f558
+      id: 317946560
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      Path: Events\Default Work Unit\Weapons\Ranged arc
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Ranged straight
+      guid: 6de8865e66da9b4a8eb01061e363de2a
+      id: 3205418834
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      Path: Events\Default Work Unit\Weapons\Ranged straight
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_Insult
+      guid: 7b3c313af2f1734f8d654aaa62d0ec3f
+      id: 3122074043
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: b1c37992e2657741a90953052d75dc2c
+      - ElementName: Robot_Insult
+        ObjectType: 3
+        guid: 7b3c313af2f1734f8d654aaa62d0ec3f
+      Path: Events\Default Work Unit\Dialogue\Enemy\Robot_Insult
+      maxAttenuation: 0
+      maxDuration: 7.200884
+      minDuration: 4.839274
+    - name: Robot_Kill_or_Hit_Player
+      guid: f36f722f19cb704eb5840bf7c35385dc
+      id: 437304868
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: b1c37992e2657741a90953052d75dc2c
+      - ElementName: Robot_Kill_or_Hit_Player
+        ObjectType: 3
+        guid: f36f722f19cb704eb5840bf7c35385dc
+      Path: Events\Default Work Unit\Dialogue\Enemy\Robot_Kill_or_Hit_Player
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Rocks_Hit
+      guid: c7a39f02048bb340bcc06cb6033e94ab
+      id: 3666808863
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Rocks_Hit
+        ObjectType: 3
+        guid: c7a39f02048bb340bcc06cb6033e94ab
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Rocks_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Rocks_Throw
+      guid: c8d5eb70dc9d254393712ed984af77b8
+      id: 1909771504
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Rocks_Throw
+        ObjectType: 3
+        guid: c8d5eb70dc9d254393712ed984af77b8
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Rocks_Throw
+      maxAttenuation: 0
+      maxDuration: 0.266667
+      minDuration: 0.266667
+    - name: Searching_For_Human
+      guid: f1bfccea4103dc4b86c9204bfd8a016a
+      id: 1027391417
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Dialogue
+        ObjectType: 4
+        guid: 7d62003dc683574fb15f4dfe2657d6fd
+      - ElementName: Enemy
+        ObjectType: 4
+        guid: b1c37992e2657741a90953052d75dc2c
+      - ElementName: Searching_For_Human
+        ObjectType: 3
+        guid: f1bfccea4103dc4b86c9204bfd8a016a
+      Path: Events\Default Work Unit\Dialogue\Enemy\Searching_For_Human
+      maxAttenuation: 0
+      maxDuration: 2.58483
+      minDuration: 1.803583
+    - name: Shield_Hit
+      guid: 9f261f0030c56b479568692fe6d8d4c4
+      id: 399878796
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Shield_Hit
+        ObjectType: 3
+        guid: 9f261f0030c56b479568692fe6d8d4c4
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Shield_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Shield_Throw
+      guid: 48dbfbf398965c47b9b7f962161458b6
+      id: 1610827655
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Shield_Throw
+        ObjectType: 3
+        guid: 48dbfbf398965c47b9b7f962161458b6
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Shield_Throw
+      maxAttenuation: 0
+      maxDuration: 0.877333
+      minDuration: 0.877333
+    - name: Sniper_Hit
+      guid: fb975ee4c416c54ab370b2480a928bd7
+      id: 1463549730
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Sniper_Hit
+        ObjectType: 3
+        guid: fb975ee4c416c54ab370b2480a928bd7
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Sniper_Hit
+      maxAttenuation: 0
+      maxDuration: 4.011
+      minDuration: 4.011
+    - name: Sniper_Shoot
+      guid: 9025846efb7fd348b84ad88f49906b12
+      id: 2801873252
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged straight
+        ObjectType: 4
+        guid: 6de8865e66da9b4a8eb01061e363de2a
+      - ElementName: Sniper_Shoot
+        ObjectType: 3
+        guid: 9025846efb7fd348b84ad88f49906b12
+      Path: Events\Default Work Unit\Weapons\Ranged straight\Sniper_Shoot
+      maxAttenuation: 0
+      maxDuration: 1.320115
+      minDuration: 1.320115
+    - name: Speed_Increase
+      guid: f5691bed7084674a9b61ca1abeeb755e
+      id: 2584493269
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Buffs
+        ObjectType: 4
+        guid: b49078099e362745a2c4a2f14781f641
+      - ElementName: Speed_Increase
+        ObjectType: 3
+        guid: f5691bed7084674a9b61ca1abeeb755e
+      Path: Events\Default Work Unit\Effects\Buffs\Speed_Increase
+      maxAttenuation: 0
+      maxDuration: 1.333333
+      minDuration: 1.333333
+    - name: Spell_Scroll
+      guid: 54d441f6866d08448aa03e2679eef043
+      id: 1693336487
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Tools
+        ObjectType: 4
+        guid: c8aaddf67f0e4049990ce1d9f3f6e262
+      - ElementName: Spell_Scroll
+        ObjectType: 3
+        guid: 54d441f6866d08448aa03e2679eef043
+      Path: Events\Default Work Unit\Weapons\Tools\Spell_Scroll
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Sword_Hit
+      guid: 69e3dcf10914fb4698f58f82a17ae950
+      id: 4057287994
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Sword_Hit
+        ObjectType: 3
+        guid: 69e3dcf10914fb4698f58f82a17ae950
+      Path: Events\Default Work Unit\Weapons\Melee\Sword_Hit
+      maxAttenuation: 0
+      maxDuration: 0.416222
+      minDuration: 0.416222
+    - name: Sword_Swing
+      guid: 3b0628a30489724c98683a92be2e5c6b
+      id: 476098351
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Melee
+        ObjectType: 4
+        guid: 30b6c4807c2ac54cb7acf5002022e4dc
+      - ElementName: Sword_Swing
+        ObjectType: 3
+        guid: 3b0628a30489724c98683a92be2e5c6b
+      Path: Events\Default Work Unit\Weapons\Melee\Sword_Swing
+      maxAttenuation: 0
+      maxDuration: 1.283171
+      minDuration: 0.208848
+    - name: Throwing_Dagger_Hit
+      guid: 05f082f02c1db542afc806a9cd7c6e96
+      id: 3822779060
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Throwing_Dagger_Hit
+        ObjectType: 3
+        guid: 05f082f02c1db542afc806a9cd7c6e96
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Throwing_Dagger_Hit
+      maxAttenuation: 0
+      maxDuration: 0.7
+      minDuration: 0.7
+    - name: Throwing_Dagger_Throw
+      guid: 920dae10a575094ebb1f58a36d378975
+      id: 2123250479
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Ranged arc
+        ObjectType: 4
+        guid: 69ea1fec7d67a34d9464b7d7e061f558
+      - ElementName: Throwing_Dagger_Throw
+        ObjectType: 3
+        guid: 920dae10a575094ebb1f58a36d378975
+      Path: Events\Default Work Unit\Weapons\Ranged arc\Throwing_Dagger_Throw
+      maxAttenuation: 0
+      maxDuration: 0.266667
+      minDuration: 0.266667
+    - name: Tools
+      guid: c8aaddf67f0e4049990ce1d9f3f6e262
+      id: 1353321450
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      - ElementName: Tools
+        ObjectType: 4
+        guid: c8aaddf67f0e4049990ce1d9f3f6e262
+      Path: Events\Default Work Unit\Weapons\Tools
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Weapons
+      guid: 0f195a8489e74442ad76043a002daf64
+      id: 1467963052
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Weapons
+        ObjectType: 4
+        guid: 0f195a8489e74442ad76043a002daf64
+      Path: Events\Default Work Unit\Weapons
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Bus Control.wwu
     PathAndIcons:
@@ -875,8 +2458,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 96133a49e5c6094fb6d876f8a09dc25f
     GuidInternal: 
-    m_lastTime: -8585752643847759577
-    List: []
+    m_lastTime: -8585749639560211545
+    List:
+    - name: Player_Health
+      guid: 88bcc935d8f63342b0acaf07bf7fe12f
+      id: 215992295
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 96133a49e5c6094fb6d876f8a09dc25f
+      - ElementName: Player_Health
+        ObjectType: 13
+        guid: 88bcc935d8f63342b0acaf07bf7fe12f
+      Path: Game Parameters\Default Work Unit\Player_Health
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -889,8 +2486,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: d388d6d9dbe086468c7e31140393dc17
     GuidInternal: 
-    m_lastTime: -8585752643841271222
-    List: []
+    m_lastTime: -8585749639546647519
+    List:
+    - name: Player_State
+      guid: 638b5413c546b7419cff29063f7c13bb
+      id: 4071417932
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d388d6d9dbe086468c7e31140393dc17
+      - ElementName: Player_State
+        ObjectType: 9
+        guid: 638b5413c546b7419cff29063f7c13bb
+      Path: States\Default Work Unit\Player_State
+      values:
+      - name: Alive
+        guid: 1b5cc01a7756834090ca868d3e45cdfa
+        id: 655265632
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d388d6d9dbe086468c7e31140393dc17
+        - ElementName: Player_State
+          ObjectType: 9
+          guid: 638b5413c546b7419cff29063f7c13bb
+        - ElementName: Alive
+          ObjectType: 8
+          guid: 1b5cc01a7756834090ca868d3e45cdfa
+      - name: Dead
+        guid: e8619c452634f74ca9ce2645e173b89f
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d388d6d9dbe086468c7e31140393dc17
+        - ElementName: Player_State
+          ObjectType: 9
+          guid: 638b5413c546b7419cff29063f7c13bb
+        - ElementName: Dead
+          ObjectType: 8
+          guid: e8619c452634f74ca9ce2645e173b89f
+      - name: None
+        guid: 2d3fe376a075b64f9af534d78bb4e51f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d388d6d9dbe086468c7e31140393dc17
+        - ElementName: Player_State
+          ObjectType: 9
+          guid: 638b5413c546b7419cff29063f7c13bb
+        - ElementName: None
+          ObjectType: 8
+          guid: 2d3fe376a075b64f9af534d78bb4e51f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
