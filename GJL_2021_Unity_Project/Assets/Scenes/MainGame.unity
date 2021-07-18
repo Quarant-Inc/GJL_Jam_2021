@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1293,6 +1293,66 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.size
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[0]
+      value: 
+      objectReference: {fileID: 560260848501951222, guid: 71dfe044723710e42aa29367016fd144, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[1]
+      value: 
+      objectReference: {fileID: 2652318476081608013, guid: 837e121926439684fa1ecc6ba569833e, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[2]
+      value: 
+      objectReference: {fileID: 5852161828822664503, guid: 90a7828d66d017e42977d042e1161349, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[3]
+      value: 
+      objectReference: {fileID: 7888440404206202851, guid: 33469fea2e77b124d90e70037de51c99, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[4]
+      value: 
+      objectReference: {fileID: 4172923136453905359, guid: 211373badedd2754993b9166859b12a4, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[5]
+      value: 
+      objectReference: {fileID: 1526860129876441818, guid: b43b8715360b6664bb5ebcc793361aa4, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[6]
+      value: 
+      objectReference: {fileID: 7403878585214150190, guid: 4c2acb0db9819e44c848bb446876d795, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[7]
+      value: 
+      objectReference: {fileID: 6764675390512159347, guid: 5ed5e9998c592444f8d450d236b8d76e, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[8]
+      value: 
+      objectReference: {fileID: 4613649215869639821, guid: 1ec9510310dac4b4eb43df468aa1656e, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[9]
+      value: 
+      objectReference: {fileID: 1784667231898462156, guid: 4a5418ab388739c4da2bc0b3a293b398, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[10]
+      value: 
+      objectReference: {fileID: 1920735181046926292, guid: aae9016899408b94a85fbf6576037677, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[11]
+      value: 
+      objectReference: {fileID: 5180832207165182667, guid: 0c5157f19ca8d4347bdf9c41ee9c205d, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[12]
+      value: 
+      objectReference: {fileID: 7851042701153268598, guid: 7850a3d07d12d114ebc152ee7f9e8b84, type: 3}
+    - target: {fileID: 6085779575279507727, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
+      propertyPath: pickupPrefabs.Array.data[13]
+      value: 
+      objectReference: {fileID: 8301653620449110840, guid: 453234ce56b46a14c9092f2dddeb8239, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d63744e9ae4c994f8a51f67a2627fc3, type: 3}
 --- !u!1001 &81759656
