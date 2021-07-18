@@ -107,8 +107,6 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID GAME_ACTIONS = 3274524167U;
-        static const AkUniqueID GAME_DIALOGUE = 1088545924U;
-        static const AkUniqueID GAME_ENVIRONMENT = 813360393U;
         static const AkUniqueID GAME_MUSIC = 258110631U;
     } // namespace BANKS
 

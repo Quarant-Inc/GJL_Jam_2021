@@ -59,133 +59,6 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="813360393" Language="SFX" Hash="3210641922">
-			<ObjectPath>\SoundBanks\Default Work Unit\Game_Environment</ObjectPath>
-			<ShortName>Game_Environment</ShortName>
-			<Path>Game_Environment.bnk</Path>
-		</SoundBank>
-		<SoundBank Id="1088545924" Language="SFX" Hash="3233396178">
-			<ObjectPath>\SoundBanks\Default Work Unit\Game_Dialogue</ObjectPath>
-			<ShortName>Game_Dialogue</ShortName>
-			<Path>Game_Dialogue.bnk</Path>
-			<IncludedEvents>
-				<Event Id="3732585223" Name="Goblin_Death_Sound" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Goblin_Death_Sound" DurationType="OneShot" DurationMin="0.468753" DurationMax="0.772313"/>
-				<Event Id="1799648038" Name="Goblin_Detect" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Goblin_Detect" DurationType="OneShot" DurationMin="1.058027" DurationMax="2.642857"/>
-				<Event Id="3456469455" Name="Goblin_Lost_Sight" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Goblin_Lost_Sight" DurationType="OneShot" DurationMin="1.892857" DurationMax="2.022313"/>
-				<Event Id="2106428477" Name="Human_Detected" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Human_Detected" DurationType="OneShot" DurationMin="1.558027" DurationMax="1.928571"/>
-				<Event Id="3344543189" Name="Human_Lost" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Human_Lost" DurationType="OneShot" DurationMin="1.357143" DurationMax="3.861610"/>
-				<Event Id="3701845373" Name="Intro_Script" ObjectPath="\Events\Default Work Unit\Dialogue\Intro\Intro_Script" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3122074043" Name="Robot_Insult" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Robot_Insult" DurationType="OneShot" DurationMin="4.839274" DurationMax="7.200884"/>
-				<Event Id="437304868" Name="Robot_Kill_or_Hit_Player" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Robot_Kill_or_Hit_Player" DurationType="OneShot" DurationMin="9.066961" DurationMax="9.227687"/>
-				<Event Id="1027391417" Name="Searching_For_Human" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Searching_For_Human" DurationType="OneShot" DurationMin="1.803583" DurationMax="2.584830"/>
-			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="21313093" Language="SFX">
-					<ShortName>GoblinDetect1.wav</ShortName>
-					<Path>SFX\GoblinDetect1_10C4C929.wem</Path>
-				</File>
-				<File Id="65010938" Language="SFX">
-					<ShortName>GoblinDeath3.wav</ShortName>
-					<Path>SFX\GoblinDeath3_10C4C929.wem</Path>
-				</File>
-				<File Id="101911425" Language="SFX">
-					<ShortName>HumanLost1_Robot.wav</ShortName>
-					<Path>SFX\HumanLost1_Robot_10C4C929.wem</Path>
-				</File>
-				<File Id="151765555" Language="SFX">
-					<ShortName>GoblinDeath7.wav</ShortName>
-					<Path>SFX\GoblinDeath7_10C4C929.wem</Path>
-				</File>
-				<File Id="235400983" Language="SFX">
-					<ShortName>HumanLost2_Robot.wav</ShortName>
-					<Path>SFX\HumanLost2_Robot_10C4C929.wem</Path>
-				</File>
-				<File Id="244499503" Language="SFX">
-					<ShortName>GoblinLostSight1.wav</ShortName>
-					<Path>SFX\GoblinLostSight1_10C4C929.wem</Path>
-				</File>
-				<File Id="285975101" Language="SFX">
-					<ShortName>SearchingForHuman2_Robot.wav</ShortName>
-					<Path>SFX\SearchingForHuman2_Robot_10C4C929.wem</Path>
-				</File>
-				<File Id="421518787" Language="SFX">
-					<ShortName>HumanScum_Robot1.wav</ShortName>
-					<Path>SFX\HumanScum_Robot1_10C4C929.wem</Path>
-				</File>
-				<File Id="425111805" Language="SFX">
-					<ShortName>GoblinDetect2.wav</ShortName>
-					<Path>SFX\GoblinDetect2_10C4C929.wem</Path>
-				</File>
-				<File Id="521747591" Language="SFX">
-					<ShortName>GoblinDeath4.wav</ShortName>
-					<Path>SFX\GoblinDeath4_10C4C929.wem</Path>
-				</File>
-				<File Id="540861767" Language="SFX">
-					<ShortName>GoblinDeath5.wav</ShortName>
-					<Path>SFX\GoblinDeath5_10C4C929.wem</Path>
-				</File>
-				<File Id="577004435" Language="SFX">
-					<ShortName>HumanDetected_Robot1.wav</ShortName>
-					<Path>SFX\HumanDetected_Robot1_10C4C929.wem</Path>
-				</File>
-				<File Id="585659336" Language="SFX">
-					<ShortName>RobotKillorHitPlayer1.wav</ShortName>
-					<Path>SFX\RobotKillorHitPlayer1_10C4C929.wem</Path>
-				</File>
-				<File Id="589124662" Language="SFX">
-					<ShortName>GoblinDeath9.wav</ShortName>
-					<Path>SFX\GoblinDeath9_10C4C929.wem</Path>
-				</File>
-				<File Id="641934203" Language="SFX">
-					<ShortName>GoblinDeath1.wav</ShortName>
-					<Path>SFX\GoblinDeath1_10C4C929.wem</Path>
-				</File>
-				<File Id="707225415" Language="SFX">
-					<ShortName>GoblinDeath10.wav</ShortName>
-					<Path>SFX\GoblinDeath10_10C4C929.wem</Path>
-				</File>
-				<File Id="707789392" Language="SFX">
-					<ShortName>RobotKillorHitPlayer2.wav</ShortName>
-					<Path>SFX\RobotKillorHitPlayer2_10C4C929.wem</Path>
-				</File>
-				<File Id="787256433" Language="SFX">
-					<ShortName>GoblinDeath8.wav</ShortName>
-					<Path>SFX\GoblinDeath8_10C4C929.wem</Path>
-				</File>
-				<File Id="793359449" Language="SFX">
-					<ShortName>GoblinLostSight2.wav</ShortName>
-					<Path>SFX\GoblinLostSight2_10C4C929.wem</Path>
-				</File>
-				<File Id="799060511" Language="SFX">
-					<ShortName>GoblinDeath6.wav</ShortName>
-					<Path>SFX\GoblinDeath6_10C4C929.wem</Path>
-				</File>
-				<File Id="825193370" Language="SFX">
-					<ShortName>GoblinDetect4.wav</ShortName>
-					<Path>SFX\GoblinDetect4_10C4C929.wem</Path>
-				</File>
-				<File Id="894092970" Language="SFX">
-					<ShortName>CalculatorTimesABillion1_Robot.wav</ShortName>
-					<Path>SFX\CalculatorTimesABillion1_Robot_10C4C929.wem</Path>
-				</File>
-				<File Id="925922109" Language="SFX">
-					<ShortName>GreatestSuperComputer_Robot1.wav</ShortName>
-					<Path>SFX\GreatestSuperComputer_Robot1_10C4C929.wem</Path>
-				</File>
-				<File Id="997357392" Language="SFX">
-					<ShortName>GoblinDeath2.wav</ShortName>
-					<Path>SFX\GoblinDeath2_10C4C929.wem</Path>
-				</File>
-				<File Id="1023815843" Language="SFX">
-					<ShortName>SearchingForHuman1_Robot.wav</ShortName>
-					<Path>SFX\SearchingForHuman1_Robot_10C4C929.wem</Path>
-				</File>
-				<File Id="1027266650" Language="SFX">
-					<ShortName>GoblinDetect3.wav</ShortName>
-					<Path>SFX\GoblinDetect3_10C4C929.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
-		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="1653066529">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -203,7 +76,7 @@
 				<GameParameter Id="3659685417" Name="Volume_Game_Dialogue" ObjectPath="\Game Parameters\Bus Control\Volume\Volume_Game_Dialogue"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3274524167" Language="SFX" Hash="2001158834">
+		<SoundBank Id="3274524167" Language="SFX" Hash="2773727419">
 			<ObjectPath>\SoundBanks\Default Work Unit\Game_Actions</ObjectPath>
 			<ShortName>Game_Actions</ShortName>
 			<Path>Game_Actions.bnk</Path>
@@ -222,11 +95,17 @@
 				<Event Id="1949177413" Name="Flamethrower_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Melee\Flamethrower_Hit" DurationType="OneShot" DurationMin="4.338046" DurationMax="4.338046"/>
 				<Event Id="2234938040" Name="Flamethrower_Swing" ObjectPath="\Events\Default Work Unit\Weapons\Melee\Flamethrower_Swing" DurationType="OneShot" DurationMin="7.448324" DurationMax="7.448324"/>
 				<Event Id="2526820802" Name="Foresight" ObjectPath="\Events\Default Work Unit\Effects\Buffs\Foresight" DurationType="OneShot" DurationMin="2.399841" DurationMax="2.399841"/>
+				<Event Id="3732585223" Name="Goblin_Death_Sound" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Goblin_Death_Sound" DurationType="OneShot" DurationMin="0.468753" DurationMax="0.772313"/>
+				<Event Id="1799648038" Name="Goblin_Detect" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Goblin_Detect" DurationType="OneShot" DurationMin="1.058027" DurationMax="2.642857"/>
+				<Event Id="3456469455" Name="Goblin_Lost_Sight" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Goblin_Lost_Sight" DurationType="OneShot" DurationMin="1.892857" DurationMax="2.022313"/>
 				<Event Id="1941733387" Name="Grappling_Hook" ObjectPath="\Events\Default Work Unit\Weapons\Tools\Grappling_Hook" DurationType="OneShot" DurationMin="0.438769" DurationMax="0.438769"/>
 				<Event Id="899428695" Name="Grenade_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Ranged arc\Grenade_Hit" DurationType="OneShot" DurationMin="3.684044" DurationMax="3.684044"/>
 				<Event Id="3301329608" Name="Grenade_Throw" ObjectPath="\Events\Default Work Unit\Weapons\Ranged arc\Grenade_Throw" DurationType="OneShot" DurationMin="0.266667" DurationMax="0.266667"/>
 				<Event Id="29605206" Name="Health_Increase" ObjectPath="\Events\Default Work Unit\Effects\Buffs\Health_Increase" DurationType="OneShot" DurationMin="1.678322" DurationMax="1.678322"/>
 				<Event Id="2665378999" Name="Heart" ObjectPath="\Events\Default Work Unit\Effects\Health\Heart" DurationType="Infinite"/>
+				<Event Id="2106428477" Name="Human_Detected" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Human_Detected" DurationType="OneShot" DurationMin="1.558027" DurationMax="1.928571"/>
+				<Event Id="3344543189" Name="Human_Lost" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Human_Lost" DurationType="OneShot" DurationMin="1.357143" DurationMax="3.861610"/>
+				<Event Id="3701845373" Name="Intro_Script" ObjectPath="\Events\Default Work Unit\Dialogue\Intro\Intro_Script" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2447146981" Name="Item_Magnet" ObjectPath="\Events\Default Work Unit\Effects\Buffs\Item_Magnet" DurationType="OneShot" DurationMin="1.028798" DurationMax="1.028798"/>
 				<Event Id="1060853137" Name="Katana_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Melee\Katana_Hit" DurationType="OneShot" DurationMin="0.700000" DurationMax="0.700000"/>
 				<Event Id="2725920228" Name="Katana_Swing" ObjectPath="\Events\Default Work Unit\Weapons\Melee\Katana_Swing" DurationType="OneShot" DurationMin="0.351240" DurationMax="2.158029"/>
@@ -243,8 +122,11 @@
 				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\Effects\Footsteps\Player_Footstep" DurationType="OneShot" DurationMin="0.434694" DurationMax="0.583651"/>
 				<Event Id="528420227" Name="Railgun_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Ranged straight\Railgun_Hit" DurationType="OneShot" DurationMin="4.011000" DurationMax="4.011000"/>
 				<Event Id="673267873" Name="Railgun_Shoot" ObjectPath="\Events\Default Work Unit\Weapons\Ranged straight\Railgun_Shoot" DurationType="OneShot" DurationMin="1.212969" DurationMax="1.212969"/>
+				<Event Id="3122074043" Name="Robot_Insult" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Robot_Insult" DurationType="OneShot" DurationMin="4.839274" DurationMax="7.200884"/>
+				<Event Id="437304868" Name="Robot_Kill_or_Hit_Player" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Robot_Kill_or_Hit_Player" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="3666808863" Name="Rocks_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Ranged arc\Rocks_Hit" DurationType="OneShot" DurationMin="4.011000" DurationMax="4.011000"/>
 				<Event Id="1909771504" Name="Rocks_Throw" ObjectPath="\Events\Default Work Unit\Weapons\Ranged arc\Rocks_Throw" DurationType="OneShot" DurationMin="0.266667" DurationMax="0.266667"/>
+				<Event Id="1027391417" Name="Searching_For_Human" ObjectPath="\Events\Default Work Unit\Dialogue\Enemy\Searching_For_Human" DurationType="OneShot" DurationMin="1.803583" DurationMax="2.584830"/>
 				<Event Id="399878796" Name="Shield_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Ranged arc\Shield_Hit" DurationType="OneShot" DurationMin="4.011000" DurationMax="4.011000"/>
 				<Event Id="1610827655" Name="Shield_Throw" ObjectPath="\Events\Default Work Unit\Weapons\Ranged arc\Shield_Throw" DurationType="OneShot" DurationMin="0.877333" DurationMax="0.877333"/>
 				<Event Id="1463549730" Name="Sniper_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Ranged straight\Sniper_Hit" DurationType="OneShot" DurationMin="4.011000" DurationMax="4.011000"/>
@@ -264,6 +146,10 @@
 					<ShortName>swordswing4.wav</ShortName>
 					<Path>SFX\swordswing4_10C4C929.wem</Path>
 				</File>
+				<File Id="21313093" Language="SFX">
+					<ShortName>GoblinDetect1.wav</ShortName>
+					<Path>SFX\GoblinDetect1_10C4C929.wem</Path>
+				</File>
 				<File Id="44045151" Language="SFX">
 					<ShortName>348241__newagesoup__punch-boxing-04.wav</ShortName>
 					<Path>SFX\348241__newagesoup__punch-boxing-04_10C4C929.wem</Path>
@@ -272,9 +158,17 @@
 					<ShortName>swordswing3.wav</ShortName>
 					<Path>SFX\swordswing3_10C4C929.wem</Path>
 				</File>
+				<File Id="65010938" Language="SFX">
+					<ShortName>GoblinDeath3.wav</ShortName>
+					<Path>SFX\GoblinDeath3_10C4C929.wem</Path>
+				</File>
 				<File Id="73802327" Language="SFX">
 					<ShortName>263675__porkmuncher__bow-release.wav</ShortName>
 					<Path>SFX\263675__porkmuncher__bow-release_C957CBFD.wem</Path>
+				</File>
+				<File Id="101911425" Language="SFX">
+					<ShortName>HumanLost1_Robot.wav</ShortName>
+					<Path>SFX\HumanLost1_Robot_10C4C929.wem</Path>
 				</File>
 				<File Id="117634413" Language="SFX">
 					<ShortName>421879__gregorquendel__fire-effects-swooshes-bursts-evolving.wav</ShortName>
@@ -287,6 +181,10 @@
 				<File Id="147057447" Language="SFX">
 					<ShortName>gravel3.wav</ShortName>
 					<Path>SFX\gravel3_10C4C929.wem</Path>
+				</File>
+				<File Id="151765555" Language="SFX">
+					<ShortName>GoblinDeath7.wav</ShortName>
+					<Path>SFX\GoblinDeath7_10C4C929.wem</Path>
 				</File>
 				<File Id="186423450" Language="SFX">
 					<ShortName>gravel1.wav</ShortName>
@@ -308,9 +206,21 @@
 					<ShortName>swordswing5.wav</ShortName>
 					<Path>SFX\swordswing5_10C4C929.wem</Path>
 				</File>
+				<File Id="235400983" Language="SFX">
+					<ShortName>HumanLost2_Robot.wav</ShortName>
+					<Path>SFX\HumanLost2_Robot_10C4C929.wem</Path>
+				</File>
+				<File Id="244499503" Language="SFX">
+					<ShortName>GoblinLostSight1.wav</ShortName>
+					<Path>SFX\GoblinLostSight1_10C4C929.wem</Path>
+				</File>
 				<File Id="269602033" Language="SFX">
 					<ShortName>160421__bigkahuna360__electrical-shock-zap.wav</ShortName>
 					<Path>SFX\160421__bigkahuna360__electrical-shock-zap_328E1CB8.wem</Path>
+				</File>
+				<File Id="285975101" Language="SFX">
+					<ShortName>SearchingForHuman2_Robot.wav</ShortName>
+					<Path>SFX\SearchingForHuman2_Robot_10C4C929.wem</Path>
 				</File>
 				<File Id="310504248" Language="SFX">
 					<ShortName>swordswing2.wav</ShortName>
@@ -332,6 +242,14 @@
 					<ShortName>67376__noisecollector__digital-boomerang.wav</ShortName>
 					<Path>SFX\67376__noisecollector__digital-boomerang_10C4C929.wem</Path>
 				</File>
+				<File Id="421518787" Language="SFX">
+					<ShortName>HumanScum_Robot1.wav</ShortName>
+					<Path>SFX\HumanScum_Robot1_10C4C929.wem</Path>
+				</File>
+				<File Id="425111805" Language="SFX">
+					<ShortName>GoblinDetect2.wav</ShortName>
+					<Path>SFX\GoblinDetect2_10C4C929.wem</Path>
+				</File>
 				<File Id="428028034" Language="SFX">
 					<ShortName>hearbeat.wav</ShortName>
 					<Path>SFX\hearbeat_D79FB2B7.wem</Path>
@@ -344,9 +262,29 @@
 					<ShortName>376694__daleonfire__laser.wav</ShortName>
 					<Path>SFX\376694__daleonfire__laser_65F8BD39.wem</Path>
 				</File>
+				<File Id="521747591" Language="SFX">
+					<ShortName>GoblinDeath4.wav</ShortName>
+					<Path>SFX\GoblinDeath4_10C4C929.wem</Path>
+				</File>
+				<File Id="540861767" Language="SFX">
+					<ShortName>GoblinDeath5.wav</ShortName>
+					<Path>SFX\GoblinDeath5_10C4C929.wem</Path>
+				</File>
+				<File Id="577004435" Language="SFX">
+					<ShortName>HumanDetected_Robot1.wav</ShortName>
+					<Path>SFX\HumanDetected_Robot1_10C4C929.wem</Path>
+				</File>
+				<File Id="589124662" Language="SFX">
+					<ShortName>GoblinDeath9.wav</ShortName>
+					<Path>SFX\GoblinDeath9_10C4C929.wem</Path>
+				</File>
 				<File Id="625391847" Language="SFX">
 					<ShortName>263675__porkmuncher__bow-release.wav</ShortName>
 					<Path>SFX\263675__porkmuncher__bow-release_31CF4E60.wem</Path>
+				</File>
+				<File Id="641934203" Language="SFX">
+					<ShortName>GoblinDeath1.wav</ShortName>
+					<Path>SFX\GoblinDeath1_10C4C929.wem</Path>
 				</File>
 				<File Id="646956139" Language="SFX">
 					<ShortName>349468__vr__magic.wav</ShortName>
@@ -360,17 +298,45 @@
 					<ShortName>420676__sypherzent__spell-cast-buff-high-tone.wav</ShortName>
 					<Path>SFX\420676__sypherzent__spell-cast-buff-high-tone_10C4C929.wem</Path>
 				</File>
+				<File Id="707225415" Language="SFX">
+					<ShortName>GoblinDeath10.wav</ShortName>
+					<Path>SFX\GoblinDeath10_10C4C929.wem</Path>
+				</File>
 				<File Id="786816581" Language="SFX">
 					<ShortName>403009__inspectorj__ui-confirmation-alert-b3.wav</ShortName>
 					<Path>SFX\403009__inspectorj__ui-confirmation-alert-b3_10C4C929.wem</Path>
+				</File>
+				<File Id="787256433" Language="SFX">
+					<ShortName>GoblinDeath8.wav</ShortName>
+					<Path>SFX\GoblinDeath8_10C4C929.wem</Path>
+				</File>
+				<File Id="793359449" Language="SFX">
+					<ShortName>GoblinLostSight2.wav</ShortName>
+					<Path>SFX\GoblinLostSight2_10C4C929.wem</Path>
+				</File>
+				<File Id="799060511" Language="SFX">
+					<ShortName>GoblinDeath6.wav</ShortName>
+					<Path>SFX\GoblinDeath6_10C4C929.wem</Path>
 				</File>
 				<File Id="807672251" Language="SFX">
 					<ShortName>541975__16bitstudios__grappling-hook.wav</ShortName>
 					<Path>SFX\541975__16bitstudios__grappling-hook_CD747E08.wem</Path>
 				</File>
+				<File Id="825193370" Language="SFX">
+					<ShortName>GoblinDetect4.wav</ShortName>
+					<Path>SFX\GoblinDetect4_10C4C929.wem</Path>
+				</File>
 				<File Id="847158851" Language="SFX">
 					<ShortName>pickup.wav</ShortName>
 					<Path>SFX\pickup_10C4C929.wem</Path>
+				</File>
+				<File Id="894092970" Language="SFX">
+					<ShortName>CalculatorTimesABillion1_Robot.wav</ShortName>
+					<Path>SFX\CalculatorTimesABillion1_Robot_10C4C929.wem</Path>
+				</File>
+				<File Id="925922109" Language="SFX">
+					<ShortName>GreatestSuperComputer_Robot1.wav</ShortName>
+					<Path>SFX\GreatestSuperComputer_Robot1_10C4C929.wem</Path>
 				</File>
 				<File Id="936998935" Language="SFX">
 					<ShortName>gravel5.wav</ShortName>
@@ -384,9 +350,21 @@
 					<ShortName>166188__drminky__potion-drink-regen.wav</ShortName>
 					<Path>SFX\166188__drminky__potion-drink-regen_10C4C929.wem</Path>
 				</File>
+				<File Id="997357392" Language="SFX">
+					<ShortName>GoblinDeath2.wav</ShortName>
+					<Path>SFX\GoblinDeath2_10C4C929.wem</Path>
+				</File>
 				<File Id="1020197683" Language="SFX">
 					<ShortName>411164__inspectorj__oidz-magnet-a-h1.wav</ShortName>
 					<Path>SFX\411164__inspectorj__oidz-magnet-a-h1_10C4C929.wem</Path>
+				</File>
+				<File Id="1023815843" Language="SFX">
+					<ShortName>SearchingForHuman1_Robot.wav</ShortName>
+					<Path>SFX\SearchingForHuman1_Robot_10C4C929.wem</Path>
+				</File>
+				<File Id="1027266650" Language="SFX">
+					<ShortName>GoblinDetect3.wav</ShortName>
+					<Path>SFX\GoblinDetect3_10C4C929.wem</Path>
 				</File>
 				<File Id="1063458112" Language="SFX">
 					<ShortName>gunshot.wav</ShortName>

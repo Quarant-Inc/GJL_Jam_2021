@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{4367525F-DA97-4C23-88CA-D648C5496FF9}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\chris\Downloads\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\College\Sound Folder\Wwise Assignment\Weapons\"/>
 				<Property Name="Event Action List\{001F269F-C530-476B-9568-692FE6D8D4C4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{029FA3C7-8B04-40B3-BCC0-6CB6033E94AB}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{050B9524-AE7B-455B-AFF0-2547E2956F52}\x64_Expand States" Type="string" Value=""/>
