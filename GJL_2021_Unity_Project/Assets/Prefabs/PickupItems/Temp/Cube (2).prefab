@@ -113,6 +113,6 @@ MonoBehaviour:
     type: 0
     name: Cube2
     weaponType: 0
-    range: 0
+    range: 2.5
     coneAngle: 0
     penetrative: 0

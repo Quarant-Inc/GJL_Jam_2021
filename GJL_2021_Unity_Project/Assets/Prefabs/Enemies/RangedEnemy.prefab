@@ -1643,9 +1643,10 @@ GameObject:
   - component: {fileID: 4212370143561399993}
   - component: {fileID: 7719114760745157431}
   - component: {fileID: 7719114760745157430}
+  - component: {fileID: 2229623436570353}
   m_Layer: 0
   m_Name: RangedEnemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1722,6 +1723,20 @@ MonoBehaviour:
   armour: 0
   sightRadius: 10
   attackRange: 0
+--- !u!136 &2229623436570353
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7484600138728324729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2.4618764
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.7309382, z: 0}
 --- !u!1 &7648304641503447244
 GameObject:
   m_ObjectHideFlags: 0
