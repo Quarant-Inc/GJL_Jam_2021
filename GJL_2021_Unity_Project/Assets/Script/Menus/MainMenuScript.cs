@@ -40,8 +40,8 @@ public class MainMenuScript : MonoBehaviour
     {
         yield return new WaitForSeconds(0.04f);
         playButton.GetComponentInChildren<Text>().alignment = TextAnchor.UpperCenter;
-        SceneManager.LoadScene("MainGame");
-
+        //SceneManager.LoadScene("MainGame");
+        Util.LoadScene(SCENE.MAINGAME);
     }
 
     public void GoOptions()
@@ -54,7 +54,8 @@ public class MainMenuScript : MonoBehaviour
     {
         yield return new WaitForSeconds(0.04f);
         optionsButton.GetComponentInChildren<Text>().alignment = TextAnchor.UpperCenter;
-        SceneManager.LoadScene("Options");
+        //SceneManager.LoadScene("Options");
+        Util.LoadScene(SCENE.OPTIONS);
     }
 
     public void ExitGame()
