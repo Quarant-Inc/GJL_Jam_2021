@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Options.unity
     guid: 93cd3e412294bc141bc628010e94f77e
   - enabled: 1
-    path: Assets/Scenes/KillianScene.unity
+    path: Assets/Scenes/MainGame.unity
     guid: 272f2a8b583d9b44ab4f7680309a216f
   m_configObjects: {}
