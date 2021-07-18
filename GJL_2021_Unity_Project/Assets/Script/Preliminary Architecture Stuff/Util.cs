@@ -65,8 +65,12 @@ public static class Util
  
          return point;
      }
-    public static T GetRandomElement<T>(this IEnumerable<T> collection)
+    public static T GetRandomElement<T>(this IEnumerable<T> collection) where T : class
     {
+        if (collection.Count() < 1)
+        {
+            return null;
+        }
         return collection.ElementAt(Random.Range(0, collection.Count()));
     }
 }

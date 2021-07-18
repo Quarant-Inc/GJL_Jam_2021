@@ -2,10 +2,12 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
+public delegate void EnemyKilled();
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(Animator))]
 public abstract class Enemy : MonoBehaviour
 {
+    public static EnemyKilled EnemyKilled;
     enum ENEMY_STATE
     {
         IDLE,
@@ -115,6 +117,10 @@ public abstract class Enemy : MonoBehaviour
         //Animator.SetTrigger(ENEMY_ANIMATION.DEATH.ToString());
         // do other killing stuff here
         Destroy(gameObject);
+        if (EnemyKilled != null)
+        {
+            EnemyKilled();
+        }
     }
 
     void SetAnimation(ENEMY_ANIMATION anim)
