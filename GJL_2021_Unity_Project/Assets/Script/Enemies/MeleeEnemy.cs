@@ -20,6 +20,15 @@ public class MeleeEnemy : Enemy
     void Swipe()
     {
         Animator.SetTrigger(ENEMY_ANIMATION.ATTACK.ToString());
+        Collider[] nearbyColliders = Physics.OverlapSphere(transform.position, attackRange);
+        foreach(Collider col in nearbyColliders)
+        {
+            if (col.tag == TAG.Player.ToString())
+            {
+                Player.Instance.TakeDamage();
+                break;
+            }
+        }
     }
 
     protected override void Attack()
