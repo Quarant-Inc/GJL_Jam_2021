@@ -155,9 +155,9 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 463931128}
   - {fileID: 292833196}
   - {fileID: 42348013}
-  - {fileID: 463931128}
   - {fileID: 1763494594}
   m_Father: {fileID: 740781674}
   m_RootOrder: 10
@@ -373,6 +373,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 262775464}
     m_Modifications:
+    - target: {fileID: 6294815859433651652, guid: 632027337cabb164ca05cfb40455f262, type: 3}
+      propertyPath: RingIndex
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6294815859433651653, guid: 632027337cabb164ca05cfb40455f262, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -489,7 +493,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2284292947553528314, guid: 4175432659b962043b560e2db031688d, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2284292947553528314, guid: 4175432659b962043b560e2db031688d, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1653,13 +1657,13 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 5
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 2
   m_StartCorner: 1
   m_StartAxis: 0
   m_CellSize: {x: 32, y: 32}
   m_Spacing: {x: 5, y: 2}
-  m_Constraint: 0
-  m_ConstraintCount: 2
+  m_Constraint: 2
+  m_ConstraintCount: 1
 --- !u!1 &899779696 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8368935810967024311, guid: 24b765168b78bbe4282cfe5cd52e0c51, type: 3}
@@ -1686,7 +1690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2284292947553528314, guid: 4175432659b962043b560e2db031688d, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2284292947553528314, guid: 4175432659b962043b560e2db031688d, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2444,7 +2448,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 0
     name: Cube2
-    inventorySprite: {fileID: 0}
+    inventorySprite: {fileID: 21300000, guid: b0f561a62481a744c85321132e6940fd, type: 3}
     weaponType: 0
     range: 0
     coneAngle: 0
@@ -2660,7 +2664,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2284292947553528314, guid: 4175432659b962043b560e2db031688d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2284292947553528314, guid: 4175432659b962043b560e2db031688d, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2943,7 +2947,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 0
     name: Cube3
-    inventorySprite: {fileID: 0}
+    inventorySprite: {fileID: 21300000, guid: b0f561a62481a744c85321132e6940fd, type: 3}
     weaponType: 0
     range: 0
     coneAngle: 0
@@ -3496,7 +3500,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 899779696}
     type: 0
     name: Cube
-    inventorySprite: {fileID: 0}
+    inventorySprite: {fileID: 21300000, guid: b0f561a62481a744c85321132e6940fd, type: 3}
     weaponType: 2
     maxDistance: 20
     arcAxis: 45
@@ -3688,7 +3692,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 5
     m_Bottom: 0
-  m_ChildAlignment: 0
+  m_ChildAlignment: 2
   m_StartCorner: 1
   m_StartAxis: 0
   m_CellSize: {x: 32, y: 32}
