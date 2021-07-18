@@ -6,16 +6,2326 @@
 				<ActorMixer Name="Effects" ID="{E8DE973E-5BCA-42C3-B279-EC8D01D69876}" ShortID="969254022">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D3D9539A-3F14-4031-8984-C27E62E9CF0B}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<Folder Name="Weapons" ID="{D4B93603-5D97-4EB4-B5B4-EC87EEF66FB6}" ShortID="314038871"/>
-						<Folder Name="Actions" ID="{7539DA21-B180-446B-8593-3BC2A7956916}" ShortID="1006751752"/>
-						<Folder Name="Enemy" ID="{740354F7-8398-4BB5-8E6E-95DC72EBCE3E}" ShortID="481820613"/>
+						<Folder Name="Weapons" ID="{D4B93603-5D97-4EB4-B5B4-EC87EEF66FB6}" ShortID="314038871">
+							<ChildrenList>
+								<Folder Name="Melee" ID="{F92A70CE-3F0F-491A-A344-4937BFE6B2DC}" ShortID="99034419">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Baseball_Bat_Swing" ID="{C9B20B5C-6F2F-4B96-A13A-C1F0FEB706F0}" ShortID="82874165">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-900</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="swordswing3" ID="{FADFA748-4C65-4966-A765-6987CA247C35}" ShortID="1039130339">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing3" ID="{E9E3F4CF-9CC3-4190-93A9-05FE20E77007}">
+															<Language>SFX</Language>
+															<AudioFile>swordswing3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="64951995"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing3" ID="{E9E3F4CF-9CC3-4190-93A9-05FE20E77007}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="swordswing4" ID="{4AD634CF-9A85-458E-A3A3-1E84E25A1617}" ShortID="237048161">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing4" ID="{8C28B345-D599-4F00-BB6D-B0251CB8C088}">
+															<Language>SFX</Language>
+															<AudioFile>swordswing4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="15677017"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing4" ID="{8C28B345-D599-4F00-BB6D-B0251CB8C088}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="swordswing5" ID="{E29639E2-AA62-4764-8842-E0AE9EA17F1B}" ShortID="261585514">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing5" ID="{8CA58BB8-2305-44ED-956C-85A1BEA803A3}">
+															<Language>SFX</Language>
+															<AudioFile>swordswing5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="235218378"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing5" ID="{8CA58BB8-2305-44ED-956C-85A1BEA803A3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Sword_Swing" ID="{53486260-3E89-4F66-89A8-AD0135712766}" ShortID="450874328">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>900</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="swordswing1" ID="{42360401-6E48-4F93-A686-2417C1AA0B29}" ShortID="124619038">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{D5A85992-72D2-49AF-8313-A7FF2B6A17BD}" ShortID="708829290" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect1">
+															<Custom>
+																<Effect Name="Wwise Flanger (Custom)" ID="{E220975D-459C-468D-895C-501B060ADB27}" ShortID="836181660" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect2">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{AE946292-178E-47E3-A8C1-DFE4AA62885E}" ShortID="702339559" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing1" ID="{9684DF1D-B786-4B26-97D0-E031824833A5}">
+															<Language>SFX</Language>
+															<AudioFile>swordswing1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="143638893"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing1" ID="{9684DF1D-B786-4B26-97D0-E031824833A5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="swordswing2" ID="{20F94DE5-7575-4FA6-9413-60FBFC1C4228}" ShortID="70032977">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{EA603547-95FB-41BA-8A85-5E0B154CBC2F}" ShortID="949397927" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect1">
+															<Custom>
+																<Effect Name="Wwise Flanger (Custom)" ID="{97EF18DF-EEA3-45BD-A4A9-DC81AA60B3C6}" ShortID="1013161763" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect2">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{2DAEC538-E305-4235-A1E3-4F4482201EF4}" ShortID="637645575" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing2" ID="{31A67EF2-29D6-4E1A-B145-58440A8A3678}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="1.76154047553511"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.76154047553511"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>swordswing2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="310504248"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing2" ID="{31A67EF2-29D6-4E1A-B145-58440A8A3678}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Sword_Hit" ID="{240A141E-3DD3-4C9D-90DA-C28D56A50C7A}" ShortID="935585903">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>900</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="536105__eminyildirim__sword-hit-medium" ID="{81DD4D64-403B-46B9-9648-5F6FE2D11885}" ShortID="516977017">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise Flanger (Custom)" ID="{CE5C038B-8746-48E7-BDDC-533A898A409D}" ShortID="625169306" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect1">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{D2249D3C-8215-4F52-B513-401E423FF6C8}" ShortID="920831468" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect2">
+															<Custom>
+																<Effect Name="Wwise Guitar Distortion (Custom)" ID="{606E6CC5-1E95-4ADE-8249-9305D91B23DD}" ShortID="522350066" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="536105__eminyildirim__sword-hit-medium" ID="{404D5E7D-EF60-4CA9-BC07-A5A6A89D0726}">
+															<Language>SFX</Language>
+															<AudioFile>536105__eminyildirim__sword-hit-medium.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="222881840"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="536105__eminyildirim__sword-hit-medium" ID="{404D5E7D-EF60-4CA9-BC07-A5A6A89D0726}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Baseball_Bat_Hit" ID="{9F857EC7-EAE8-44BF-A605-A8532919BFB6}" ShortID="977807242">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="348241__newagesoup__punch-boxing-04" ID="{E83AB3ED-E9DD-4742-814F-F74FB5588D38}" ShortID="932701346">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{5D1509D1-D7C9-4690-B629-391F9257A6F9}">
+															<Language>SFX</Language>
+															<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="44045151"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{5D1509D1-D7C9-4690-B629-391F9257A6F9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Katana_Swing" ID="{D4E44957-5A92-4705-9682-1AC7FE52C53C}" ShortID="620990620">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="swordswing1" ID="{FBE372E1-702C-4375-8F05-17A16AF6E04C}" ShortID="1020399388">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{8D1AF5B3-EA39-419A-B85D-1A63C83FEF9A}" ShortID="264607104" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect1">
+															<Custom>
+																<Effect Name="Wwise Flanger (Custom)" ID="{8A7D83C7-766A-475E-9387-90AB009F32D7}" ShortID="499839074" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect2">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{D0E37CC9-8694-4275-B7CB-A4EEDFBE1D1E}" ShortID="651921277" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing1" ID="{7BACAC4A-EC1B-40E6-B7F8-FD445634AE0C}">
+															<Language>SFX</Language>
+															<AudioFile>swordswing1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="143638893"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing1" ID="{7BACAC4A-EC1B-40E6-B7F8-FD445634AE0C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="swordswing2" ID="{BBA275A9-24CB-4369-B4EC-DE333CFDC078}" ShortID="124981755">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{A435234E-7EAE-45DE-8B13-4236BFA5825E}" ShortID="542666909" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect1">
+															<Custom>
+																<Effect Name="Wwise Flanger (Custom)" ID="{1200BD92-40CB-4E45-928D-4110F5606816}" ShortID="951607958" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect2">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{BA12B372-BC07-470A-A504-6429D55D7523}" ShortID="190394683" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing2" ID="{682ECAAE-4F3B-46BD-A58C-35DF37E647DF}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="1.76154047553511"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.76154047553511"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>swordswing2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="310504248"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing2" ID="{682ECAAE-4F3B-46BD-A58C-35DF37E647DF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Katana_Hit" ID="{5E783A14-0467-4160-BFB0-B9598EC97278}" ShortID="758341760">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="536105__eminyildirim__sword-hit-medium" ID="{6FC4E922-2AC4-4B29-AAB4-33DB6C230D42}" ShortID="430648781">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="Effect0">
+															<Custom>
+																<Effect Name="Wwise Flanger (Custom)" ID="{04CB3129-F82D-4B5C-AA2E-EDF8A3D18B27}" ShortID="645367280" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect1">
+															<Custom>
+																<Effect Name="Wwise Harmonizer (Custom)" ID="{25E7740A-CACA-46A0-862A-9E6D63E18ADC}" ShortID="1042842330" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="Effect2">
+															<Custom>
+																<Effect Name="Wwise Guitar Distortion (Custom)" ID="{9F22DF3E-295E-43DB-9118-2FA0ED81FFA2}" ShortID="758795521" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3"/>
+															</Custom>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="536105__eminyildirim__sword-hit-medium" ID="{147795EA-85BD-413C-8445-02CE02A1DFEC}">
+															<Language>SFX</Language>
+															<AudioFile>536105__eminyildirim__sword-hit-medium.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="222881840"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="536105__eminyildirim__sword-hit-medium" ID="{147795EA-85BD-413C-8445-02CE02A1DFEC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Flamethrower_Swing" ID="{E3B3B4D7-C2D6-4260-999B-51D06EB5B613}" ShortID="407130932">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="396890__pugaeme__flamethrower" ID="{29A93B60-F5E0-4C59-B479-40CD7917F59B}" ShortID="385569606">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="396890__pugaeme__flamethrower" ID="{27BE84CF-CD0A-426B-9298-7DA19DDB162F}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="3.87967630057804"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.87967630057804"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>396890__pugaeme__flamethrower.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="194112902"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="396890__pugaeme__flamethrower" ID="{27BE84CF-CD0A-426B-9298-7DA19DDB162F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Flamethrower_Hit" ID="{A1ECA7D1-710C-402A-A24A-B5589E08A200}" ShortID="450104567">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="421879__gregorquendel__fire-effects-swooshes-bursts-evolving" ID="{ABFF3DF8-B983-49C7-9436-55A42BF2865D}" ShortID="13821283">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="421879__gregorquendel__fire-effects-swooshes-bursts-evolving" ID="{C437A6CE-2FDF-479A-95FE-8AB3ACC1C2A7}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.22107947976879"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>421879__gregorquendel__fire-effects-swooshes-bursts-evolving.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="117634413"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="421879__gregorquendel__fire-effects-swooshes-bursts-evolving" ID="{C437A6CE-2FDF-479A-95FE-8AB3ACC1C2A7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Fire_Whip_Swing" ID="{E4CA10EE-9D6D-45FB-805E-BA79B8F2EE31}" ShortID="232978861">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="swordswing4" ID="{4C0B9455-2D14-4565-8F7C-EE397BCA9D93}" ShortID="213056966">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing4" ID="{ADFECFBA-2593-41A2-8F72-2B3BC332CBD8}">
+															<Language>SFX</Language>
+															<AudioFile>swordswing4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="15677017"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing4" ID="{ADFECFBA-2593-41A2-8F72-2B3BC332CBD8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Fire_Whip_Hit" ID="{33115724-A301-401A-A730-C24289F2BC29}" ShortID="40286047">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<BlendContainer Name="blend" ID="{E459C53D-B36A-442F-8205-F13071742540}" ShortID="229151848">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="348241__newagesoup__punch-boxing-04" ID="{9C34E67A-22AB-4CD8-B465-C0FFEEFC8511}" ShortID="842634860">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{D4A055B9-76DF-4AA9-877B-E5AA7A0434F3}">
+																	<Language>SFX</Language>
+																	<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="44045151"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{D4A055B9-76DF-4AA9-877B-E5AA7A0434F3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="540831__eminyildirim__fire-fuse-ignite-flame-mid" ID="{F0AED29C-783B-4941-BE4D-8F53E5AED8A3}" ShortID="606088831">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="540831__eminyildirim__fire-fuse-ignite-flame-mid" ID="{DCA7ABA7-3E82-486E-93CF-1478964C950F}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.726782273603082"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.88188824662813"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>540831__eminyildirim__fire-fuse-ignite-flame-mid.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="938870794"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="540831__eminyildirim__fire-fuse-ignite-flame-mid" ID="{DCA7ABA7-3E82-486E-93CF-1478964C950F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+												</BlendContainer>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Electric_Whip_Swing" ID="{434C6B4B-BE94-4297-8EBD-7BED7D1C8980}" ShortID="435718912">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="swordswing4" ID="{B16C0795-4905-4748-80D8-2733B23D8443}" ShortID="711744706">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing4" ID="{F8034777-E7B2-4351-831D-4602964F64C4}">
+															<Language>SFX</Language>
+															<AudioFile>swordswing4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="15677017"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing4" ID="{F8034777-E7B2-4351-831D-4602964F64C4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Electric_Whip_Hit" ID="{D1586663-81C1-4035-91C5-D1A2777DA950}" ShortID="10697262">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<BlendContainer Name="blend" ID="{C8E7A94D-A832-4067-B606-B6A1D19DC466}" ShortID="861858091">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="348241__newagesoup__punch-boxing-04" ID="{B90417B9-AE5E-493F-BE47-D06990E0660B}" ShortID="320426565">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{D58A3F5F-5A99-434D-8668-B72FBB36F141}">
+																	<Language>SFX</Language>
+																	<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="44045151"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{D58A3F5F-5A99-434D-8668-B72FBB36F141}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="160421__bigkahuna360__electrical-shock-zap" ID="{07BBA938-5056-4F1F-93AA-C0626D70FC1C}" ShortID="278069746">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="160421__bigkahuna360__electrical-shock-zap" ID="{EE6B963C-9646-421F-A744-E3ADBE159B1E}">
+																	<PropertyList>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.526183164739884"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>160421__bigkahuna360__electrical-shock-zap.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="269602033"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="160421__bigkahuna360__electrical-shock-zap" ID="{EE6B963C-9646-421F-A744-E3ADBE159B1E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+												</BlendContainer>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Laser_Sword_Swing" ID="{216153BD-4ECD-4470-820B-9E55424094C6}" ShortID="559758084">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Harmonizer (Custom)" ID="{E7DB5E55-090B-42F1-85BF-FAA4758BC105}" ShortID="734722522" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect1">
+													<Custom>
+														<Effect Name="Wwise Flanger (Custom)" ID="{770AFE68-9836-4772-A4C1-A262586BD2B5}" ShortID="682670408" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect2">
+													<Custom>
+														<Effect Name="Wwise Harmonizer (Custom)" ID="{D416A66E-6FA3-42F3-A1F4-5DB91A5ACABB}" ShortID="421043782" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="swordswing1" ID="{7A39F1EE-922B-4DFB-BA7C-E3CF697DB1B2}" ShortID="356693687">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing1" ID="{E58714D0-1038-49E2-A613-7B9068C2EC9E}">
+															<Language>SFX</Language>
+															<AudioFile>swordswing1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="143638893"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing1" ID="{E58714D0-1038-49E2-A613-7B9068C2EC9E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="swordswing2" ID="{62FF8488-CE2F-4DC3-A8AA-750556271D3C}" ShortID="975149964">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="swordswing2" ID="{914ACEBE-3B6A-4CF1-8851-3D7D6111E3BF}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="1.76154047553511"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.76154047553511"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>swordswing2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="310504248"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="swordswing2" ID="{914ACEBE-3B6A-4CF1-8851-3D7D6111E3BF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Laser_Sword_Hit" ID="{C60C1B79-599C-47BC-BADA-B6ADC60448D4}" ShortID="290088221">
+											<PropertyList>
+												<Property Name="OverrideEffect" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="Effect0">
+													<Custom>
+														<Effect Name="Wwise Flanger (Custom)" ID="{27B63E39-FB98-4CC3-B118-6C202963576A}" ShortID="386245128" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect1">
+													<Custom>
+														<Effect Name="Wwise Harmonizer (Custom)" ID="{896BF7BA-AFA0-476E-94A1-298ACF23B755}" ShortID="714899448" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="Effect2">
+													<Custom>
+														<Effect Name="Wwise Guitar Distortion (Custom)" ID="{8C267D28-E259-4CA9-B678-1AFBA1E4FC55}" ShortID="9950053" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3"/>
+													</Custom>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="536105__eminyildirim__sword-hit-medium" ID="{16384B1B-BB25-4B5A-A6F6-D865FED8E534}" ShortID="992093869">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="536105__eminyildirim__sword-hit-medium" ID="{08B5E34B-6A25-4A2E-956F-F399FC19FE10}">
+															<Language>SFX</Language>
+															<AudioFile>536105__eminyildirim__sword-hit-medium.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="222881840"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="536105__eminyildirim__sword-hit-medium" ID="{08B5E34B-6A25-4A2E-956F-F399FC19FE10}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Ranged Arc" ID="{5B698A10-BD09-4D72-9284-BD0139F7C524}" ShortID="563812079">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Rocks_Throw" ID="{CACEBDB0-C0B4-4A77-9E8F-EB2337E5E918}" ShortID="844526877">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="541210__eminyildirim__combat-whoosh" ID="{EACDA3A2-A156-4055-AEFD-B068A67F5D06}" ShortID="1017479242">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="541210__eminyildirim__combat-whoosh" ID="{AAA8305E-60A8-4094-AFA8-A2FFAB7192AE}">
+															<Language>SFX</Language>
+															<AudioFile>541210__eminyildirim__combat-whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="436679795"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="541210__eminyildirim__combat-whoosh" ID="{AAA8305E-60A8-4094-AFA8-A2FFAB7192AE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Rocks_Hit" ID="{F366B86E-771E-4D1B-A2A5-3299F98D872F}" ShortID="984941894">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="348241__newagesoup__punch-boxing-04" ID="{AEAC4605-709E-4E9C-93F2-6905E2AEED2D}" ShortID="493955507">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{D3F5889A-32C7-4E26-B2C6-F86397AE098A}">
+															<Language>SFX</Language>
+															<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="44045151"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{D3F5889A-32C7-4E26-B2C6-F86397AE098A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bow_and_Arrow__Throw" ID="{E753BE82-BAAE-435D-8EA4-1C7110DB9FF5}" ShortID="471161278">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="263675__porkmuncher__bow-release" ID="{0A42EFB2-3F54-4AEB-A789-0832146B0C4F}" ShortID="696685546">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="263675__porkmuncher__bow-release" ID="{18E0C5BA-4565-4771-9B6C-317C01E51E4B}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.117236443710432"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.75061774999017"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>263675__porkmuncher__bow-release.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="625391847"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="263675__porkmuncher__bow-release" ID="{18E0C5BA-4565-4771-9B6C-317C01E51E4B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bow_and_Arrow__Hit" ID="{5B89432A-622D-4C9A-9F41-9FA439FB3A23}" ShortID="108971938">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="263675__porkmuncher__bow-release" ID="{387BDBB6-4501-4B62-B9B9-4AD95D393E6E}" ShortID="22364151">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="263675__porkmuncher__bow-release" ID="{1DFB31F2-F4B6-4D52-8848-7CF7BE9E69FB}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.762798159726318"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>263675__porkmuncher__bow-release.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="73802327"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="263675__porkmuncher__bow-release" ID="{1DFB31F2-F4B6-4D52-8848-7CF7BE9E69FB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Boomerang_Throw" ID="{6F1C6360-96B0-48BC-AE12-23601C2AB02A}" ShortID="586801328">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="67376__noisecollector__digital-boomerang" ID="{9814FA45-ED3C-4B90-8C9B-6A1609DAEC36}" ShortID="448205798">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="67376__noisecollector__digital-boomerang" ID="{4871957A-6D0A-47F7-951A-C847025B8739}">
+															<Language>SFX</Language>
+															<AudioFile>67376__noisecollector__digital-boomerang.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="398143944"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="67376__noisecollector__digital-boomerang" ID="{4871957A-6D0A-47F7-951A-C847025B8739}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Boomerang_Hit" ID="{47009BB0-2624-4E4F-BF2D-26AEE36C9314}" ShortID="406339418">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="348241__newagesoup__punch-boxing-04" ID="{931F8906-6064-4E47-8424-2AE76DD17F80}" ShortID="84657564">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{3540862E-8066-4A5C-8E50-DA471EF23BFA}">
+															<Language>SFX</Language>
+															<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="44045151"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{3540862E-8066-4A5C-8E50-DA471EF23BFA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Shield_Throw" ID="{94F95B8E-41C5-4D68-AEA2-FE9EEBBA7F21}" ShortID="464212505">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="67376__noisecollector__digital-boomerang" ID="{29F4D54B-CC5D-4F27-9280-A391C0629031}" ShortID="808530894">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="67376__noisecollector__digital-boomerang" ID="{3D0F705A-0512-43FA-AD1B-BFF9EA6EF547}">
+															<Language>SFX</Language>
+															<AudioFile>67376__noisecollector__digital-boomerang.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="398143944"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="67376__noisecollector__digital-boomerang" ID="{3D0F705A-0512-43FA-AD1B-BFF9EA6EF547}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Shield_Hit" ID="{64AB36AE-4465-4888-A20E-D7E0A7954010}" ShortID="804963209">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<BlendContainer Name="blend" ID="{FA2AF912-6894-4254-8FEA-CB3EC352978E}" ShortID="961175169">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="348241__newagesoup__punch-boxing-04" ID="{105E921C-4DF7-488E-A1A6-6BCD6BD1D3A6}" ShortID="476201802">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{5F2B0D23-84C2-4945-8892-D3A6C4155DE3}">
+																	<Language>SFX</Language>
+																	<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="44045151"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{5F2B0D23-84C2-4945-8892-D3A6C4155DE3}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="536105__eminyildirim__sword-hit-medium" ID="{BEA87675-84BE-4A2C-8BB5-370DBB67CE4E}" ShortID="235650364">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="536105__eminyildirim__sword-hit-medium" ID="{5A266F0A-D84C-44EF-8CEB-88FDE169E9F7}">
+																	<PropertyList>
+																		<Property Name="LoopBegin" Type="Real64" Value="0.0495664739884393"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.0495664739884393"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>536105__eminyildirim__sword-hit-medium.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="198276546"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="536105__eminyildirim__sword-hit-medium" ID="{5A266F0A-D84C-44EF-8CEB-88FDE169E9F7}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+												</BlendContainer>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Throwing_Dagger_Throw" ID="{4B975B30-1CE7-45B6-B249-C913B4142E94}" ShortID="635283845">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="541210__eminyildirim__combat-whoosh" ID="{AF4CFF87-800B-4EC8-946A-5FA49BC9C28A}" ShortID="194374651">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="541210__eminyildirim__combat-whoosh" ID="{32AAA67A-1EC1-4E22-90EC-C404EB9CDA21}">
+															<Language>SFX</Language>
+															<AudioFile>541210__eminyildirim__combat-whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="436679795"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="541210__eminyildirim__combat-whoosh" ID="{32AAA67A-1EC1-4E22-90EC-C404EB9CDA21}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Throwing_Dagger_Hit" ID="{E2CA5DF9-0763-446A-B73C-C1EE6D1F8FE4}" ShortID="592270689">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="536105__eminyildirim__sword-hit-medium" ID="{2000C65D-8B1A-46E7-8851-7E10E7DADB4F}" ShortID="1057467494">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="536105__eminyildirim__sword-hit-medium" ID="{95DE79FC-D2D5-41F2-B640-5BE8CAABE478}">
+															<Language>SFX</Language>
+															<AudioFile>536105__eminyildirim__sword-hit-medium.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="222881840"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="536105__eminyildirim__sword-hit-medium" ID="{95DE79FC-D2D5-41F2-B640-5BE8CAABE478}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Grenade_Throw" ID="{A0BC0ECA-DE69-46D2-91AC-FC601E349746}" ShortID="269110420">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="541210__eminyildirim__combat-whoosh" ID="{8963DB25-D08F-4CBD-A691-D04D4335868E}" ShortID="954491284">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="541210__eminyildirim__combat-whoosh" ID="{F4E44040-887B-4872-AA2D-33B78D338377}">
+															<Language>SFX</Language>
+															<AudioFile>541210__eminyildirim__combat-whoosh.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="436679795"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="541210__eminyildirim__combat-whoosh" ID="{F4E44040-887B-4872-AA2D-33B78D338377}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Grenade_Hit" ID="{FB52B029-FBAE-4A81-A22F-D286835EB487}" ShortID="842921267">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="482992__v-ktor__large-explosion-2" ID="{B9985267-5B46-4531-822B-831D61E6B392}" ShortID="968848940">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="482992__v-ktor__large-explosion-2" ID="{DD8EC8BE-AB05-430D-A78B-545F0D83FB33}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.184481734890488"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.184481734890488"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>482992__v-ktor__large-explosion-2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="333698831"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="482992__v-ktor__large-explosion-2" ID="{DD8EC8BE-AB05-430D-A78B-545F0D83FB33}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Ranged Straight" ID="{709421D3-FFFC-4F77-B7FD-5D013C663B10}" ShortID="73129784">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Magic_Wand_Shoot" ID="{26AD01D5-AB48-4D4C-B980-89DD729358E5}" ShortID="522611308">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="349468__vr__magic" ID="{F92E976A-8B4B-4FD3-AAE6-D0B8C22DE587}" ShortID="965008528">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="349468__vr__magic" ID="{3D77859D-C76A-4BC3-BDA7-9EDBDC447462}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.258857496755928"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.258857496755928"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>349468__vr__magic.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="646956139"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="349468__vr__magic" ID="{3D77859D-C76A-4BC3-BDA7-9EDBDC447462}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Magic_Wand_Hit" ID="{1D574453-01FB-4E5B-A7C7-32D416DAB575}" ShortID="882709313">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="219014__cusconauta__hitting-magic" ID="{754C8C7D-469C-444E-9921-66E7F2BBB463}" ShortID="30552761">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="219014__cusconauta__hitting-magic" ID="{C28B3C20-7A62-4288-883E-D5CDB029FD8E}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.211936717244702"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.211936717244702"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>219014__cusconauta__hitting-magic.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="75170"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="219014__cusconauta__hitting-magic" ID="{C28B3C20-7A62-4288-883E-D5CDB029FD8E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Pistol_Shoot" ID="{5DE4E00F-8738-4A15-893D-5D064130FF24}" ShortID="177604977">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="rifle" ID="{60EC6AD3-3BE3-4DDC-8687-D72C4FC39FB8}" ShortID="424713170">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="rifle" ID="{A24E5A8D-9CB5-41B9-BF43-930CADFFDAE8}">
+															<Language>SFX</Language>
+															<AudioFile>rifle.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="340259568"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="rifle" ID="{A24E5A8D-9CB5-41B9-BF43-930CADFFDAE8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Pistol_Hit" ID="{0C0D4AA4-BD7D-4FA8-A0BA-6679A81B3E8E}" ShortID="710600427">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="348241__newagesoup__punch-boxing-04" ID="{38F10A89-1416-414B-86E5-9E81C7D69563}" ShortID="415095905">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{61E0179B-D89D-424C-973D-9E264EC2F19B}">
+															<Language>SFX</Language>
+															<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="44045151"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{61E0179B-D89D-424C-973D-9E264EC2F19B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Laser_Gun_Shoot" ID="{E325A785-8489-4390-A506-4A3ED1643991}" ShortID="387571658">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="376694__daleonfire__laser" ID="{41C5ECAD-FB52-42B7-B4CD-8D7471D39B4B}" ShortID="52816536">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="376694__daleonfire__laser" ID="{5116A006-8E17-4028-8916-EF33F56CF886}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.232996236753372"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.232996236753372"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>376694__daleonfire__laser.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="450296005"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="376694__daleonfire__laser" ID="{5116A006-8E17-4028-8916-EF33F56CF886}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Laser_Gun_Hit" ID="{2CF5F356-836C-46D0-87CF-C68B6547C989}" ShortID="110962902">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="348241__newagesoup__punch-boxing-04" ID="{AB3FA4E3-E5AB-462E-934D-0FDD2232E883}" ShortID="1002859968">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{7E68BE6D-890B-4717-8FA8-02907A4F17BC}">
+															<Language>SFX</Language>
+															<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="44045151"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{7E68BE6D-890B-4717-8FA8-02907A4F17BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Railgun_Shoot" ID="{6D712270-FCE4-4366-92AD-153B4B7B41F8}" ShortID="490585482">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="rifle" ID="{73DCE040-F5CD-4649-925F-F89381AE6CB0}" ShortID="107082663">
+													<PropertyList>
+														<Property Name="Pitch" Type="int32">
+															<ValueList>
+																<Value>1200</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="rifle" ID="{A38947A1-B2D3-4C91-B654-34CCAC19B542}">
+															<Language>SFX</Language>
+															<AudioFile>rifle.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="340259568"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="rifle" ID="{A38947A1-B2D3-4C91-B654-34CCAC19B542}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Railgun_Hit" ID="{47FC6AA8-F288-4523-B3E9-FF77F4330D80}" ShortID="459368988">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="348241__newagesoup__punch-boxing-04" ID="{4F9280FC-1C1A-4996-847A-7EC9733E70BF}" ShortID="824877854">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{44567513-E1BF-4A54-AC16-A608F0B56E3E}">
+															<Language>SFX</Language>
+															<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="44045151"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{44567513-E1BF-4A54-AC16-A608F0B56E3E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Sniper_Shoot" ID="{FE6658CA-0331-4D5A-B0C7-727AFD791CA6}" ShortID="222631097">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="gunshot" ID="{84D77770-CEC0-4A14-8182-C1F4B960FB4C}" ShortID="57912984">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="gunshot" ID="{5E57ECFE-491D-4D87-A175-4F64CDA8E94E}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.514261596738888"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.514261596738888"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>gunshot.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1063458112"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="gunshot" ID="{5E57ECFE-491D-4D87-A175-4F64CDA8E94E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Sniper_Hit" ID="{4F371874-CE7C-4C47-A50A-D922B439601B}" ShortID="947830364">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="348241__newagesoup__punch-boxing-04" ID="{8856A7D8-A731-4A71-8368-8EAF8B7DAB5D}" ShortID="917496514">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="348241__newagesoup__punch-boxing-04" ID="{B1BD7D82-61BF-40E1-9787-B80F0CADFC16}">
+															<Language>SFX</Language>
+															<AudioFile>348241__newagesoup__punch-boxing-04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="44045151"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="348241__newagesoup__punch-boxing-04" ID="{B1BD7D82-61BF-40E1-9787-B80F0CADFC16}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Tools" ID="{C1152C81-8C7E-4A4E-8574-CDB1A52C5B8A}" ShortID="597179431">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Grappling_Hook" ID="{B460E5FD-BBD3-4088-BAA2-884BC4433E77}" ShortID="658667461">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="541975__16bitstudios__grappling-hook" ID="{C27FA48B-FDAC-427D-B3A5-BA8C02BF0A4A}" ShortID="216935387">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="541975__16bitstudios__grappling-hook" ID="{4DED969F-2735-4208-8F80-69ACAED70DD1}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0.137375643899178"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.137375643899178"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>541975__16bitstudios__grappling-hook.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="807672251"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="541975__16bitstudios__grappling-hook" ID="{4DED969F-2735-4208-8F80-69ACAED70DD1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Lasso" ID="{69F857D6-B69A-4CF5-85EF-FA9E11963382}" ShortID="519967173">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="51755__erkanozan__whip-01" ID="{F2A47DD5-A215-46BC-AC91-AF45A62D630D}" ShortID="352246976">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="51755__erkanozan__whip-01" ID="{543D2531-B3B0-43BC-85DF-F99BEF015CA0}">
+															<Language>SFX</Language>
+															<AudioFile>51755__erkanozan__whip-01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="647101041"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="51755__erkanozan__whip-01" ID="{543D2531-B3B0-43BC-85DF-F99BEF015CA0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Spell_Scroll" ID="{BFF0A558-AC0B-4D7A-89E4-F9CB9DA07B23}" ShortID="61146843">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Actions" ID="{7539DA21-B180-446B-8593-3BC2A7956916}" ShortID="1006751752">
+							<ChildrenList>
+								<Folder Name="Footsteps" ID="{7B59D616-1820-4D7E-9FA3-C3773FA36D04}" ShortID="446066876">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Player_Footstep" ID="{99BF96FF-D390-45D1-8215-3999EE28C8D0}" ShortID="732469242">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="gravel1" ID="{07B1D3E1-E8C3-49E2-A394-BA6AC076B633}" ShortID="281767463">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="gravel1" ID="{87E3B0D9-ED18-4AC4-A2C6-6E5836B9DDE7}">
+															<Language>SFX</Language>
+															<AudioFile>gravel1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="186423450"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="gravel1" ID="{87E3B0D9-ED18-4AC4-A2C6-6E5836B9DDE7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="gravel2" ID="{888ED238-F307-469F-8E20-136FA0CA14B8}" ShortID="838454423">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="gravel2" ID="{16FB40CF-0558-4128-A7E6-B7A994841FEF}">
+															<Language>SFX</Language>
+															<AudioFile>gravel2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="378795579"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="gravel2" ID="{16FB40CF-0558-4128-A7E6-B7A994841FEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="gravel3" ID="{89CA996F-09C8-45C7-A940-F865B1508827}" ShortID="464351569">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="gravel3" ID="{775FF238-85D5-4F4D-90F3-DC3FB2563A2E}">
+															<Language>SFX</Language>
+															<AudioFile>gravel3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="147057447"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="gravel3" ID="{775FF238-85D5-4F4D-90F3-DC3FB2563A2E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="gravel4" ID="{C9CCD311-FD50-4007-A6CB-8F1FCF57E577}" ShortID="319114542">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="gravel4" ID="{42B8CAD7-4CBF-4926-9D99-2EBBCA23497F}">
+															<Language>SFX</Language>
+															<AudioFile>gravel4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1069306195"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="gravel4" ID="{42B8CAD7-4CBF-4926-9D99-2EBBCA23497F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="gravel5" ID="{A9FF3FF8-C4C6-4C12-B80A-B6628C49A9C7}" ShortID="416862432">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="gravel5" ID="{14C5CE11-6450-473E-9487-BC605303B95F}">
+															<Language>SFX</Language>
+															<AudioFile>gravel5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="936998935"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="gravel5" ID="{14C5CE11-6450-473E-9487-BC605303B95F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Pickup" ID="{690181A2-3E43-4CB0-985E-D4DD27828896}" ShortID="1054818791">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Pickup_Item" ID="{E32B4A56-B882-4500-BB96-23A9BC161B99}" ShortID="805723236">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="pickup" ID="{EF40F8C3-72DB-45A2-BA5F-85A14EF621CF}" ShortID="1057364194">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="pickup" ID="{D0656575-B778-4E9D-B572-D407B942382C}">
+															<Language>SFX</Language>
+															<AudioFile>pickup.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="847158851"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="pickup" ID="{D0656575-B778-4E9D-B572-D407B942382C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Health" ID="{3AC632F8-CDFC-423C-92A0-7CFA23B11687}" ShortID="600253026">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Heart" ID="{C8EE4BEC-4333-4CCB-9D76-73D9947280D0}" ShortID="973759320">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<RTPCList>
+														<RTPC Name="" ID="{1A92BBAB-1DAE-454A-8392-475995248953}" ShortID="742916709">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Player_Health" ID="{35C9BC88-F6D8-4233-B0AC-AF07BF7FE12F}" WorkUnitID="{493A1396-C6E5-4F09-B6D8-76F8A09DC25F}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{07F131B6-6D7A-4F40-9865-E4F22D039DF4}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>29.70414</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="hearbeat" ID="{D051DA5C-C7C7-46FA-968F-762DC784D257}" ShortID="81062561">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="hearbeat" ID="{BAA825EB-CD0B-4EFF-900D-9A75D22E3FD9}">
+															<Language>SFX</Language>
+															<AudioFile>hearbeat.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="428028034"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="hearbeat" ID="{BAA825EB-CD0B-4EFF-900D-9A75D22E3FD9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<StateInfo>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="Player_State" ID="{13548B63-46C5-41B7-9CFF-29063F7C13BB}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="Alive" ID="{1AC05C1B-5677-4083-90CA-868D3E45CDFA}"/>
+														<CustomState Name="" ID="{142529D4-CD08-451C-A31E-2DBB59528E92}" ShortID="321770942"/>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="Dead" ID="{459C61E8-3426-4CF7-A9CE-2645E173B89F}"/>
+														<CustomState Name="" ID="{1D949985-DAC5-4FC3-9331-B2DA8601EA8B}" ShortID="338268871">
+															<PropertyList>
+																<Property Name="Volume" Type="Real64" Value="-108"/>
+															</PropertyList>
+														</CustomState>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="Buffs" ID="{57AAEB3D-F334-4A6E-AEBD-EC67F28CDAC0}" ShortID="236312718">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Health_Increase" ID="{B2EAC7C9-8798-4DF5-9D9D-5079CC2422D5}" ShortID="193100977">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="166188__drminky__potion-drink-regen" ID="{9B89D2C7-BACE-472D-BD58-2E8A8DE98238}" ShortID="1011676541">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="166188__drminky__potion-drink-regen" ID="{E1B7F9FE-2546-4A5A-8EC3-3A075E397D82}">
+															<Language>SFX</Language>
+															<AudioFile>166188__drminky__potion-drink-regen.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="994648022"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="166188__drminky__potion-drink-regen" ID="{E1B7F9FE-2546-4A5A-8EC3-3A075E397D82}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Armour" ID="{58100FD0-620F-4D6E-AEF3-7DCB9A52AF59}" ShortID="741764863">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="420676__sypherzent__spell-cast-buff-high-tone" ID="{B7EFA36D-15F0-40C2-A922-0F94B983C805}" ShortID="858907960">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="420676__sypherzent__spell-cast-buff-high-tone" ID="{092890F0-FF0C-4A06-80DA-244E9F8BD60B}">
+															<Language>SFX</Language>
+															<AudioFile>420676__sypherzent__spell-cast-buff-high-tone.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="685698572"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="420676__sypherzent__spell-cast-buff-high-tone" ID="{092890F0-FF0C-4A06-80DA-244E9F8BD60B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Speed_Increase" ID="{3D5DD12C-E5BD-494C-9C94-AF4B4EE3687E}" ShortID="1008913853">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="187410__mazk1985__speed-pad" ID="{86C7393E-3133-4FC7-A77F-D2DDABDA37E4}" ShortID="293092432">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="187410__mazk1985__speed-pad" ID="{79321705-8689-4FE3-854F-F2165EECCBCB}">
+															<Language>SFX</Language>
+															<AudioFile>187410__mazk1985__speed-pad.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1067397286"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="187410__mazk1985__speed-pad" ID="{79321705-8689-4FE3-854F-F2165EECCBCB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Item_Magnet" ID="{B784AA98-AEB1-4518-AA2F-A3BA71C114E5}" ShortID="384326450">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="411164__inspectorj__oidz-magnet-a-h1" ID="{D7DD663C-7A20-4404-9A7A-AD8F6FBEBC1A}" ShortID="659365909">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="411164__inspectorj__oidz-magnet-a-h1" ID="{B2BB0D36-3322-4420-8D57-DE662C407EDE}">
+															<Language>SFX</Language>
+															<AudioFile>411164__inspectorj__oidz-magnet-a-h1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1020197683"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="411164__inspectorj__oidz-magnet-a-h1" ID="{B2BB0D36-3322-4420-8D57-DE662C407EDE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Foresight" ID="{BD8BAC35-7481-4472-977D-DF5D5B7AB19F}" ShortID="1059491460">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="403009__inspectorj__ui-confirmation-alert-b3" ID="{38BA3E9D-9108-46B1-90D5-F57B2159FA78}" ShortID="328224945">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="403009__inspectorj__ui-confirmation-alert-b3" ID="{D6139320-812A-4967-A865-A883FAC64CE3}">
+															<Language>SFX</Language>
+															<AudioFile>403009__inspectorj__ui-confirmation-alert-b3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="786816581"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="403009__inspectorj__ui-confirmation-alert-b3" ID="{D6139320-812A-4967-A865-A883FAC64CE3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

@@ -1,0 +1,141 @@
+Event	ID	Name			Wwise Object Path	Notes
+	29605206	Health_Increase			\Default Work Unit\Effects\Buffs\Health_Increase	
+	144371737	Boomerang_Hit			\Default Work Unit\Weapons\Ranged arc\Boomerang_Hit	
+	399878796	Shield_Hit			\Default Work Unit\Weapons\Ranged arc\Shield_Hit	
+	437304868	Robot_Kill_or_Hit_Player			\Default Work Unit\Dialogue\Enemy\Robot_Kill_or_Hit_Player	
+	476098351	Sword_Swing			\Default Work Unit\Weapons\Melee\Sword_Swing	
+	528420227	Railgun_Hit			\Default Work Unit\Weapons\Ranged straight\Railgun_Hit	
+	543618689	Bow_and_Arrow_Hit			\Default Work Unit\Weapons\Ranged arc\Bow_and_Arrow_Hit	
+	673267873	Railgun_Shoot			\Default Work Unit\Weapons\Ranged straight\Railgun_Shoot	
+	899428695	Grenade_Hit			\Default Work Unit\Weapons\Ranged arc\Grenade_Hit	
+	902717029	Pickup_Item			\Default Work Unit\Effects\Pickup\Pickup_Item	
+	934225790	Boomerang_Throw			\Default Work Unit\Weapons\Ranged arc\Boomerang_Throw	
+	1027391417	Searching_For_Human			\Default Work Unit\Dialogue\Enemy\Searching_For_Human	
+	1060853137	Katana_Hit			\Default Work Unit\Weapons\Melee\Katana_Hit	
+	1184469823	Electric_Whip_Hit			\Default Work Unit\Weapons\Melee\Electric_Whip_Hit	
+	1429962442	Baseball_Bat_Swing			\Default Work Unit\Weapons\Melee\Baseball_Bat_Swing	
+	1463549730	Sniper_Hit			\Default Work Unit\Weapons\Ranged straight\Sniper_Hit	
+	1573331525	Fire_Whip_Swing			\Default Work Unit\Weapons\Melee\Fire_Whip_Swing	
+	1610827655	Shield_Throw			\Default Work Unit\Weapons\Ranged arc\Shield_Throw	
+	1754944470	Pistol_Hit			\Default Work Unit\Weapons\Ranged straight\Pistol_Hit	
+	1799609931	Laser_Gun_Hit			\Default Work Unit\Weapons\Ranged straight\Laser_Gun_Hit	
+	1799648038	Goblin_Detect			\Default Work Unit\Dialogue\Enemy\Goblin_Detect	
+	1909771504	Rocks_Throw			\Default Work Unit\Weapons\Ranged arc\Rocks_Throw	
+	1941733387	Grappling_Hook			\Default Work Unit\Weapons\Tools\Grappling_Hook	
+	1949177413	Flamethrower_Hit			\Default Work Unit\Weapons\Melee\Flamethrower_Hit	
+	2106428477	Human_Detected			\Default Work Unit\Dialogue\Enemy\Human_Detected	
+	2123250479	Throwing_Dagger_Throw			\Default Work Unit\Weapons\Ranged arc\Throwing_Dagger_Throw	
+	2124970216	Pistol_Shoot			\Default Work Unit\Weapons\Ranged straight\Pistol_Shoot	
+	2234938040	Flamethrower_Swing			\Default Work Unit\Weapons\Melee\Flamethrower_Swing	
+	2313357241	Magic_Wand_Hit			\Default Work Unit\Weapons\Ranged straight\Magic_Wand_Hit	
+	2447146981	Item_Magnet			\Default Work Unit\Effects\Buffs\Item_Magnet	
+	2453392179	Player_Footstep			\Default Work Unit\Effects\Footsteps\Player_Footstep	
+	2526820802	Foresight			\Default Work Unit\Effects\Buffs\Foresight	
+	2567405418	Electric_Whip_Swing			\Default Work Unit\Weapons\Melee\Electric_Whip_Swing	
+	2584493269	Speed_Increase			\Default Work Unit\Effects\Buffs\Speed_Increase	
+	2665378999	Heart			\Default Work Unit\Effects\Health\Heart	
+	2725920228	Katana_Swing			\Default Work Unit\Weapons\Melee\Katana_Swing	
+	2801873252	Sniper_Shoot			\Default Work Unit\Weapons\Ranged straight\Sniper_Shoot	
+	2988633891	Magic_Wand_Shoot			\Default Work Unit\Weapons\Ranged straight\Magic_Wand_Shoot	
+	3122074043	Robot_Insult			\Default Work Unit\Dialogue\Enemy\Robot_Insult	
+	3191454527	Laser_Sword_Swing			\Default Work Unit\Weapons\Melee\Laser_Sword_Swing	
+	3301329608	Grenade_Throw			\Default Work Unit\Weapons\Ranged arc\Grenade_Throw	
+	3344543189	Human_Lost			\Default Work Unit\Dialogue\Enemy\Human_Lost	
+	3456469455	Goblin_Lost_Sight			\Default Work Unit\Dialogue\Enemy\Goblin_Lost_Sight	
+	3545396134	Bow_and_Arrow_Throw			\Default Work Unit\Weapons\Ranged arc\Bow_and_Arrow_Throw	
+	3626746553	Laser_Gun_Shoot			\Default Work Unit\Weapons\Ranged straight\Laser_Gun_Shoot	
+	3666808863	Rocks_Hit			\Default Work Unit\Weapons\Ranged arc\Rocks_Hit	
+	3680608169	Lasso			\Default Work Unit\Weapons\Tools\Lasso	
+	3701845373	Intro_Script			\Default Work Unit\Dialogue\Intro\Intro_Script	
+	3732585223	Goblin_Death_Sound			\Default Work Unit\Dialogue\Enemy\Goblin_Death_Sound	
+	3822779060	Throwing_Dagger_Hit			\Default Work Unit\Weapons\Ranged arc\Throwing_Dagger_Hit	
+	4040622072	Fire_Whip_Hit			\Default Work Unit\Weapons\Melee\Fire_Whip_Hit	
+	4057287994	Sword_Hit			\Default Work Unit\Weapons\Melee\Sword_Hit	
+	4146399722	Laser_Sword_Hit			\Default Work Unit\Weapons\Melee\Laser_Sword_Hit	
+	4151873597	Armour			\Default Work Unit\Effects\Buffs\Armour	
+	4256860319	Baseball_Bat_Hit			\Default Work Unit\Weapons\Melee\Baseball_Bat_Hit	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4071417932	Player_State			\Default Work Unit\Player_State	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	Player_State			
+	748895195	None	Player_State			
+	2044049779	Dead	Player_State			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	338268871	Dead	Player_State	\Actor-Mixer Hierarchy\Actions\Effects\Actions\Health\Heart		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	215992295	Player_Health			\Default Work Unit\Player_Health	
+
+Effect plug-ins	ID	Name	Type				Notes
+	9950053	Wwise Guitar Distortion (Custom)	Wwise Guitar Distortion			
+	386245128	Wwise Flanger (Custom)	Wwise Flanger			
+	421043782	Wwise Harmonizer (Custom)	Wwise Harmonizer			
+	682670408	Wwise Flanger (Custom)	Wwise Flanger			
+	714899448	Wwise Harmonizer (Custom)	Wwise Harmonizer			
+	734722522	Wwise Harmonizer (Custom)	Wwise Harmonizer			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	75170	219014__cusconauta__hitting-magic	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\219014__cusconauta__hitting-magic_B267455D.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Magic_Wand_Hit\219014__cusconauta__hitting-magic		137592
+	15677017	swordswing4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\swordswing4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Swing\swordswing4		120388
+	21313093	GoblinDetect1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDetect1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Detect\GoblinDetect1		386792
+	44045151	348241__newagesoup__punch-boxing-04	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\348241__newagesoup__punch-boxing-04_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Hit\348241__newagesoup__punch-boxing-04		770304
+	64951995	swordswing3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\swordswing3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Swing\swordswing3		114900
+	65010938	GoblinDeath3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath3		93840
+	73802327	263675__porkmuncher__bow-release	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\263675__porkmuncher__bow-release_C957CBFD.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Bow_and_Arrow__Hit\263675__porkmuncher__bow-release		25714
+	101911425	HumanLost1_Robot	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\HumanLost1_Robot_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Robot\Human_Lost\HumanLost1_Robot		239528
+	117634413	421879__gregorquendel__fire-effects-swooshes-bursts-evolving	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\421879__gregorquendel__fire-effects-swooshes-bursts-evolving_2E1B6FE1.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Flamethrower_Hit\421879__gregorquendel__fire-effects-swooshes-bursts-evolving		832968
+	143638893	swordswing1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\swordswing1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Swing\swordswing1		67500
+	147057447	gravel3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel3		76744
+	151765555	GoblinDeath7	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath7_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath7		136364
+	186423450	gravel1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel1		102544
+	194112902	396890__pugaeme__flamethrower	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\396890__pugaeme__flamethrower_2695879C.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Flamethrower_Swing\396890__pugaeme__flamethrower		715104
+	198276546	536105__eminyildirim__sword-hit-medium	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\536105__eminyildirim__sword-hit-medium_8D9FFE13.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Shield_Hit\blend\536105__eminyildirim__sword-hit-medium		114800
+	222881840	536105__eminyildirim__sword-hit-medium	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\536105__eminyildirim__sword-hit-medium_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Hit\536105__eminyildirim__sword-hit-medium		123544
+	235218378	swordswing5	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\swordswing5_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Baseball_Bat_Swing\swordswing5		103924
+	235400983	HumanLost2_Robot	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\HumanLost2_Robot_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Robot\Human_Lost\HumanLost2_Robot		681316
+	244499503	GoblinLostSight1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinLostSight1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Lost_Sight\GoblinLostSight1		356864
+	269602033	160421__bigkahuna360__electrical-shock-zap	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\160421__bigkahuna360__electrical-shock-zap_328E1CB8.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Electric_Whip_Hit\blend\160421__bigkahuna360__electrical-shock-zap		299104
+	285975101	SearchingForHuman2_Robot	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\SearchingForHuman2_Robot_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Robot\Searching_For_Human\SearchingForHuman2_Robot		456092
+	310504248	swordswing2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\swordswing2_4B533FE2.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Sword_Swing\swordswing2		190402
+	333698831	482992__v-ktor__large-explosion-2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\482992__v-ktor__large-explosion-2_8782BDAF.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Grenade_Hit\482992__v-ktor__large-explosion-2		324996
+	340259568	rifle	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\rifle_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Pistol_Shoot\rifle		232954
+	378795579	gravel2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel2		102104
+	398143944	67376__noisecollector__digital-boomerang	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\67376__noisecollector__digital-boomerang_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Boomerang_Throw\67376__noisecollector__digital-boomerang		84288
+	421518787	HumanScum_Robot1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\HumanScum_Robot1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Robot\Human_Detected\HumanScum_Robot1		340328
+	425111805	GoblinDetect2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDetect2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Detect\GoblinDetect2		366316
+	428028034	hearbeat	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\hearbeat_D79FB2B7.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Health\Heart\hearbeat		356928
+	436679795	541210__eminyildirim__combat-whoosh	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\541210__eminyildirim__combat-whoosh_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Rocks_Throw\541210__eminyildirim__combat-whoosh		51264
+	450296005	376694__daleonfire__laser	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\376694__daleonfire__laser_65F8BD39.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Laser_Gun_Shoot\376694__daleonfire__laser		160420
+	521747591	GoblinDeath4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath4		82816
+	540861767	GoblinDeath5	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath5_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath5		92264
+	577004435	HumanDetected_Robot1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\HumanDetected_Robot1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Robot\Human_Detected\HumanDetected_Robot1		274964
+	589124662	GoblinDeath9	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath9_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath9		101716
+	625391847	263675__porkmuncher__bow-release	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\263675__porkmuncher__bow-release_31CF4E60.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Arc\Bow_and_Arrow__Throw\263675__porkmuncher__bow-release		55928
+	641934203	GoblinDeath1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath1		95416
+	646956139	349468__vr__magic	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\349468__vr__magic_EDF528AB.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Magic_Wand_Shoot\349468__vr__magic		486884
+	647101041	51755__erkanozan__whip-01	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\51755__erkanozan__whip-01_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Tools\Lasso\51755__erkanozan__whip-01		61764
+	685698572	420676__sypherzent__spell-cast-buff-high-tone	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\420676__sypherzent__spell-cast-buff-high-tone_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Armour\420676__sypherzent__spell-cast-buff-high-tone		323956
+	707225415	GoblinDeath10	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath10_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath10		107228
+	786816581	403009__inspectorj__ui-confirmation-alert-b3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\403009__inspectorj__ui-confirmation-alert-b3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Foresight\403009__inspectorj__ui-confirmation-alert-b3		423396
+	787256433	GoblinDeath8	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath8_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath8		132428
+	793359449	GoblinLostSight2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinLostSight2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Lost_Sight\GoblinLostSight2		334028
+	799060511	GoblinDeath6	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath6_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath6		125340
+	807672251	541975__16bitstudios__grappling-hook	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\541975__16bitstudios__grappling-hook_CD747E08.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Tools\Grappling_Hook\541975__16bitstudios__grappling-hook		77464
+	825193370	GoblinDetect4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDetect4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Detect\GoblinDetect4		186764
+	847158851	pickup	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\pickup_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Pickup\Pickup_Item\pickup		68708
+	894092970	CalculatorTimesABillion1_Robot	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\CalculatorTimesABillion1_Robot_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Robot\Robot_Insult\CalculatorTimesABillion1_Robot		1270364
+	925922109	GreatestSuperComputer_Robot1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GreatestSuperComputer_Robot1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Robot\Robot_Insult\GreatestSuperComputer_Robot1		853776
+	936998935	gravel5	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel5_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel5		103020
+	938870794	540831__eminyildirim__fire-fuse-ignite-flame-mid	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\540831__eminyildirim__fire-fuse-ignite-flame-mid_96493D52.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Melee\Fire_Whip_Hit\blend\540831__eminyildirim__fire-fuse-ignite-flame-mid		169384
+	994648022	166188__drminky__potion-drink-regen	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\166188__drminky__potion-drink-regen_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Health_Increase\166188__drminky__potion-drink-regen		296120
+	997357392	GoblinDeath2	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDeath2_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Death_Sound\GoblinDeath2		107228
+	1020197683	411164__inspectorj__oidz-magnet-a-h1	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\411164__inspectorj__oidz-magnet-a-h1_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Item_Magnet\411164__inspectorj__oidz-magnet-a-h1		181544
+	1023815843	SearchingForHuman1_Robot	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\SearchingForHuman1_Robot_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Robot\Searching_For_Human\SearchingForHuman1_Robot		318280
+	1027266650	GoblinDetect3	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\GoblinDetect3_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Enemy\Goblin\Goblin_Detect\GoblinDetect3		466328
+	1063458112	gunshot	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gunshot_9F82559A.wem		\Actor-Mixer Hierarchy\Actions\Effects\Weapons\Ranged Straight\Sniper_Shoot\gunshot		232932
+	1067397286	187410__mazk1985__speed-pad	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\187410__mazk1985__speed-pad_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Buffs\Speed_Increase\187410__mazk1985__speed-pad		235264
+	1069306195	gravel4	C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\SFX\gravel4_10C4C929.wem		\Actor-Mixer Hierarchy\Actions\Effects\Actions\Footsteps\Player_Footstep\gravel4		85636
+

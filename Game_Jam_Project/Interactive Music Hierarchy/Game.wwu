@@ -3,7 +3,606 @@
 	<InteractiveMusic>
 		<WorkUnit Name="Game" ID="{96279AB8-E966-4731-9E83-C25960117A2E}" PersistMode="Standalone">
 			<ChildrenList>
-				<MusicPlaylistContainer Name="Music" ID="{0720DB43-16EC-4DD2-8A76-EA40462FB218}" ShortID="169262251">
+				<MusicSwitchContainer Name="Level" ID="{60748FF2-A20A-4515-ABE6-0BE7E2C0208C}" ShortID="561294850">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Game_Music" ID="{412683F0-C70B-47FB-BC39-9DDD36EE874B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Death" ID="{5C78FD1D-0301-426B-80CA-4579DFED7100}" ShortID="120082328">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Death" ID="{9E75677E-1E39-446A-9C5D-978FB5F61EB5}" ShortID="386900433">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="8000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Game_Music" ID="{412683F0-C70B-47FB-BC39-9DDD36EE874B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Death" ID="{B4B7B582-2634-491E-9585-F58253FAB2C7}" ShortID="163693275">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Death" ID="{8F60DC27-C957-4A88-8A55-637B73A2A37D}">
+													<Language>SFX</Language>
+													<AudioFile>Death.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="324109738"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{ABB0E8DD-75CF-4A2F-9B85-7C41F31E01A0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AAE1A17B-8F5E-4112-A46A-EBF9708B9262}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Death" ID="{6E98C929-2498-4066-9241-0859938AFDA6}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="8000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Death" ID="{8F60DC27-C957-4A88-8A55-637B73A2A37D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6AA5FFFC-828F-4FEE-BE72-18685C46F38A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9271A3A9-20C2-4807-AC06-0CA3A1B53568}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="8000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{9E8C57C4-AB49-4888-B82D-11E5208FE023}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{27A3BFD9-298A-49AB-808C-F5893893D524}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{93ABBA1C-E8DC-48E1-8124-E203E03F38E4}" ShortID="743113390">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{48F87F70-7434-4A73-9252-BB7A062F57C0}" ShortID="263175065">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Death" ID="{9E75677E-1E39-446A-9C5D-978FB5F61EB5}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Music" ID="{0720DB43-16EC-4DD2-8A76-EA40462FB218}" ShortID="169262251">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Game_Music" ID="{412683F0-C70B-47FB-BC39-9DDD36EE874B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Medievo intro" ID="{1EAC1DBB-A53D-4883-A992-17EAF19E2137}" ShortID="501362946">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="56000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Game_Music" ID="{412683F0-C70B-47FB-BC39-9DDD36EE874B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Medievo intro" ID="{72A009C2-B260-49BB-8C6B-418E5106744E}" ShortID="820867937">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Medievo intro" ID="{FBAD3D20-DEF1-473C-851D-F3F4DDA75DE4}">
+													<Language>SFX</Language>
+													<AudioFile>Medievo intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="51238858"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{282A798B-EA7D-4282-99BD-819F5DEBCF64}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AEF72C87-FD70-4C16-959E-3820F024A0ED}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Medievo intro" ID="{4EA81C3F-066E-4813-8A94-36F3611D2365}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Medievo intro" ID="{FBAD3D20-DEF1-473C-851D-F3F4DDA75DE4}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7F36CD07-5FFA-4AF8-9982-40EF31FC8772}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B070DF94-3C23-4D65-9A83-E98711C3651F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="56000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Medievo 1" ID="{4314E9C2-BB9A-4FB2-80B9-F420E6235FCF}" ShortID="716783517">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="192000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Medievo 1" ID="{780072FC-C283-4967-B833-9DDAC25E49AF}" ShortID="304716356">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Medievo 1" ID="{FB798CEC-ECF6-4DE3-B4B2-46D788546B81}">
+													<Language>SFX</Language>
+													<AudioFile>Medievo 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="557630306"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{B280782D-79E9-40B8-9FBC-8D6154F26D63}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{1C7E508F-AF7C-4C64-B4FE-CFC22D8AB36B}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Medievo 1" ID="{FE2DE06F-0D19-4E71-8BB5-60A72DC34720}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="192000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Medievo 1" ID="{FB798CEC-ECF6-4DE3-B4B2-46D788546B81}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{1DC3BAE4-7165-4F57-8211-1D4EEE562A44}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{60ED3B70-F49A-49E4-8D2D-53BA394C1744}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="192000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Medievo 2" ID="{09D6254B-7463-467D-A086-AE002575D552}" ShortID="651601576">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="152000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Medievo 2" ID="{E6264F49-3C9D-42FD-AB7C-33FEDD06DBAD}" ShortID="642392576">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Medievo 2" ID="{A039DAE1-469F-4D95-90A2-5E3A217EFB56}">
+													<Language>SFX</Language>
+													<AudioFile>Medievo 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="941141954"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{FDE4D5DF-BBDF-4043-B385-86026001C8B6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{91B1768B-F918-4501-A7B5-E7388B41CB30}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Medievo 2" ID="{BB9AA243-1312-4F5E-BF4C-8F84D8873F17}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="152000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Medievo 2" ID="{A039DAE1-469F-4D95-90A2-5E3A217EFB56}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{99AF22E6-100A-4971-A7C5-C57213790361}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CA6144A4-35AC-41E7-A1D3-D4D38D045D5D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="152000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Medievo 3" ID="{B3925DFF-A644-4221-B461-3D0CAE7529CB}" ShortID="727175500">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="160000"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Medievo 3" ID="{4FE89FE1-66FC-4888-A388-EA027CB55D23}" ShortID="458714117">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Medievo 3" ID="{9DA05E9A-A5E8-4945-B4DA-B2F8AD1FD5ED}">
+													<Language>SFX</Language>
+													<AudioFile>Medievo 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="782717807"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BCFE17D6-1ACD-424E-A589-7031DF76927D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{EEF6B60C-3441-42D8-A531-025CCEA45203}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Medievo 3" ID="{182E4A27-2B74-4C11-92A6-72382F7152B4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="160000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Medievo 3" ID="{9DA05E9A-A5E8-4945-B4DA-B2F8AD1FD5ED}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{0417983E-F980-48A3-9F83-67D65A50614F}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{4668F9C5-9327-40AD-9C50-B1BBB0698D8D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="160000"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D3EA63AB-62A8-43B4-8DEA-3F8BCE1819B1}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{F046861B-3797-421C-80DD-0F5BA0076B00}">
+											<TransitionInfo/>
+										</MusicTransition>
+										<MusicTransition Name="Transition" ID="{57EC3F08-98BF-4811-BB81-0829E034F7C8}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{899CD8A9-C23A-4987-83A0-9A4267496D84}" ShortID="351266992">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{167B32E1-B729-48DC-9094-DEFE6C129F10}" ShortID="178794369">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Medievo intro" ID="{1EAC1DBB-A53D-4883-A992-17EAF19E2137}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{14C1F4D1-3AAD-4D5D-8B0A-01ACDBB0B258}" ShortID="247716550">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+												<Property Name="PlayMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{452847D8-4A0B-4E92-BEE6-F6FBA13C98D5}" ShortID="278408082">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Medievo 1" ID="{4314E9C2-BB9A-4FB2-80B9-F420E6235FCF}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{5F1FE604-48D3-4D8D-9364-9D77323BACC8}" ShortID="825320604">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Medievo 2" ID="{09D6254B-7463-467D-A086-AE002575D552}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{EBB38F08-9D48-4659-9E40-392C75FFC7C4}" ShortID="645241981">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="Medievo 3" ID="{B3925DFF-A644-4221-B461-3D0CAE7529CB}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{24A79AA3-C3BE-4FFD-A5D4-93723613F4A0}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{8DCE8D25-9256-4CE5-801B-CCB8C4D65CBD}">
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{CD5AA6FC-9B1A-49BB-8FD8-A1A8993933F3}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Death" ID="{9E75677E-1E39-446A-9C5D-978FB5F61EB5}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+					<ArgumentList>
+						<ArgumentRef Name="Player_State" ID="{13548B63-46C5-41B7-9CFF-29063F7C13BB}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Dead" ID="{459C61E8-3426-4CF7-A9CE-2645E173B89F}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Death" ID="{5C78FD1D-0301-426B-80CA-4579DFED7100}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Alive" ID="{1AC05C1B-5677-4083-90CA-868D3E45CDFA}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Music" ID="{0720DB43-16EC-4DD2-8A76-EA40462FB218}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+				<MusicPlaylistContainer Name="Main_Menu" ID="{5BCC495E-254F-47D7-855C-4774C7AB1151}" ShortID="241529123">
 					<PropertyList>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
@@ -16,97 +615,13 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Game_Music" ID="{412683F0-C70B-47FB-BC39-9DDD36EE874B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<MusicSegment Name="Medievo intro" ID="{1EAC1DBB-A53D-4883-A992-17EAF19E2137}" ShortID="501362946">
+						<MusicSegment Name="DisposableArmsIntro(master1)" ID="{B8292F99-7FAE-457B-9517-3D50ADEA24CD}" ShortID="180809637">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="56000"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Game_Music" ID="{412683F0-C70B-47FB-BC39-9DDD36EE874B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Medievo intro" ID="{72A009C2-B260-49BB-8C6B-418E5106744E}" ShortID="820867937">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Medievo intro" ID="{FBAD3D20-DEF1-473C-851D-F3F4DDA75DE4}">
-											<Language>SFX</Language>
-											<AudioFile>Medievo intro.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="51238858"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{282A798B-EA7D-4282-99BD-819F5DEBCF64}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{AEF72C87-FD70-4C16-959E-3820F024A0ED}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="Medievo intro" ID="{4EA81C3F-066E-4813-8A94-36F3611D2365}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="Medievo intro" ID="{FBAD3D20-DEF1-473C-851D-F3F4DDA75DE4}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Cues">
-									<Reference>
-										<Local>
-											<MusicCue Name="Entry Cue" ID="{7F36CD07-5FFA-4AF8-9982-40EF31FC8772}"/>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Exit Cue" ID="{B070DF94-3C23-4D65-9A83-E98711C3651F}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="56000"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</MusicSegment>
-						<MusicSegment Name="Medievo 1" ID="{4314E9C2-BB9A-4FB2-80B9-F420E6235FCF}" ShortID="716783517">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="192000"/>
+								<Property Name="EndPosition" Type="Real64" Value="17616.0770975057"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -117,23 +632,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Medievo 1" ID="{780072FC-C283-4967-B833-9DDAC25E49AF}" ShortID="304716356">
+								<MusicTrack Name="DisposableArmsIntro(master1)" ID="{05454231-FC16-4272-A240-F34559A02C46}" ShortID="189723627">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Medievo 1" ID="{FB798CEC-ECF6-4DE3-B4B2-46D788546B81}">
+										<AudioFileSource Name="DisposableArmsIntro(master1)" ID="{664D4540-C307-4098-B21F-A5476F196F95}">
 											<Language>SFX</Language>
-											<AudioFile>Medievo 1.wav</AudioFile>
+											<AudioFile>DisposableArmsIntro(master1).wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="557630306"/>
+												<MediaID ID="446790971"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{B280782D-79E9-40B8-9FBC-8D6154F26D63}">
+										<MusicTransition Name="Root" ID="{3B5F4145-B17F-473A-959B-AE88FB3EB3DE}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -144,18 +659,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{1C7E508F-AF7C-4C64-B4FE-CFC22D8AB36B}">
+													<MusicTrackSequence Name="" ID="{E7291832-1392-48D3-94C3-C6ED8E3373B5}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Medievo 1" ID="{FE2DE06F-0D19-4E71-8BB5-60A72DC34720}">
+																		<MusicClip Name="DisposableArmsIntro(master1)" ID="{C03B4542-45D3-4839-ADD1-84F51751E085}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="192000"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="17616.0770975057"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Medievo 1" ID="{FB798CEC-ECF6-4DE3-B4B2-46D788546B81}"/>
+																			<AudioSourceRef Name="DisposableArmsIntro(master1)" ID="{664D4540-C307-4098-B21F-A5476F196F95}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -172,15 +687,15 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{1DC3BAE4-7165-4F57-8211-1D4EEE562A44}"/>
+											<MusicCue Name="Entry Cue" ID="{16B37183-7EBD-4537-B7D8-FBB8B82B8569}"/>
 										</Local>
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicCue Name="Exit Cue" ID="{60ED3B70-F49A-49E4-8D2D-53BA394C1744}">
+											<MusicCue Name="Exit Cue" ID="{A435B20F-5244-4B3E-9DC9-AF2D3BA4AE07}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="192000"/>
+													<Property Name="TimeMs" Type="Real64" Value="17616.0770975057"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -188,9 +703,9 @@
 								</ObjectList>
 							</ObjectLists>
 						</MusicSegment>
-						<MusicSegment Name="Medievo 2" ID="{09D6254B-7463-467D-A086-AE002575D552}" ShortID="651601576">
+						<MusicSegment Name="DisposableArmsMainSection(master4)" ID="{AC2AD6F4-8640-4598-9C42-3225F4C53C33}" ShortID="1065580418">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="152000"/>
+								<Property Name="EndPosition" Type="Real64" Value="140919.637188209"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -201,23 +716,23 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="Medievo 2" ID="{E6264F49-3C9D-42FD-AB7C-33FEDD06DBAD}" ShortID="642392576">
+								<MusicTrack Name="DisposableArmsMainSection(master4)" ID="{6FAB6CB5-5787-4C70-8AF8-14DA21C861C5}" ShortID="891010450">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Medievo 2" ID="{A039DAE1-469F-4D95-90A2-5E3A217EFB56}">
+										<AudioFileSource Name="DisposableArmsMainSection(master4)" ID="{5C03438D-24C2-4E59-8A15-F2D4C6C0CDD6}">
 											<Language>SFX</Language>
-											<AudioFile>Medievo 2.wav</AudioFile>
+											<AudioFile>DisposableArmsMainSection(master4).wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="941141954"/>
+												<MediaID ID="387289223"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{FDE4D5DF-BBDF-4043-B385-86026001C8B6}">
+										<MusicTransition Name="Root" ID="{2A806B5C-00C7-4F51-9E14-C7130B2DEF3F}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -228,18 +743,18 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{91B1768B-F918-4501-A7B5-E7388B41CB30}">
+													<MusicTrackSequence Name="" ID="{E9DC7448-A710-483F-8ECD-23946DDC02AE}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="Medievo 2" ID="{BB9AA243-1312-4F5E-BF4C-8F84D8873F17}">
+																		<MusicClip Name="DisposableArmsMainSection(master4)" ID="{8F761E89-F8B7-4021-9195-2A95EDBE7093}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="152000"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="140919.637188209"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="Medievo 2" ID="{A039DAE1-469F-4D95-90A2-5E3A217EFB56}"/>
+																			<AudioSourceRef Name="DisposableArmsMainSection(master4)" ID="{5C03438D-24C2-4E59-8A15-F2D4C6C0CDD6}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
@@ -256,99 +771,15 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{99AF22E6-100A-4971-A7C5-C57213790361}"/>
+											<MusicCue Name="Entry Cue" ID="{2C6A50CB-6F6C-40DC-AD52-6A20D8FB41BA}"/>
 										</Local>
 									</Reference>
 									<Reference>
 										<Local>
-											<MusicCue Name="Exit Cue" ID="{CA6144A4-35AC-41E7-A1D3-D4D38D045D5D}">
+											<MusicCue Name="Exit Cue" ID="{E852A16A-125C-4953-98E6-5ABA750052D1}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="152000"/>
-												</PropertyList>
-											</MusicCue>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</MusicSegment>
-						<MusicSegment Name="Medievo 3" ID="{B3925DFF-A644-4221-B461-3D0CAE7529CB}" ShortID="727175500">
-							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="160000"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<MusicTrack Name="Medievo 3" ID="{4FE89FE1-66FC-4888-A388-EA027CB55D23}" ShortID="458714117">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Medievo 3" ID="{9DA05E9A-A5E8-4945-B4DA-B2F8AD1FD5ED}">
-											<Language>SFX</Language>
-											<AudioFile>Medievo 3.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="782717807"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{BCFE17D6-1ACD-424E-A589-7031DF76927D}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{EEF6B60C-3441-42D8-A531-025CCEA45203}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicClip Name="Medievo 3" ID="{182E4A27-2B74-4C11-92A6-72382F7152B4}">
-																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="160000"/>
-																				<Property Name="FadeInMode" Type="int16" Value="0"/>
-																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																			</PropertyList>
-																			<AudioSourceRef Name="Medievo 3" ID="{9DA05E9A-A5E8-4945-B4DA-B2F8AD1FD5ED}"/>
-																		</MusicClip>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="Cues">
-									<Reference>
-										<Local>
-											<MusicCue Name="Entry Cue" ID="{0417983E-F980-48A3-9F83-67D65A50614F}"/>
-										</Local>
-									</Reference>
-									<Reference>
-										<Local>
-											<MusicCue Name="Exit Cue" ID="{4668F9C5-9327-40AD-9C50-B1BBB0698D8D}">
-												<PropertyList>
-													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="160000"/>
+													<Property Name="TimeMs" Type="Real64" Value="140919.637188209"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -358,12 +789,12 @@
 						</MusicSegment>
 					</ChildrenList>
 					<TransitionList>
-						<MusicTransition Name="Root" ID="{D3EA63AB-62A8-43B4-8DEA-3F8BCE1819B1}">
+						<MusicTransition Name="Root" ID="{6D091D43-FDD3-4D70-AEB5-8EEEFBE2EE37}">
 							<PropertyList>
 								<Property Name="IsFolder" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<MusicTransition Name="Transition" ID="{F046861B-3797-421C-80DD-0F5BA0076B00}">
+								<MusicTransition Name="Transition" ID="{787B16F2-13B3-4301-8FDD-39DA71EC2AAA}">
 									<TransitionInfo/>
 								</MusicTransition>
 							</ChildrenList>
@@ -372,38 +803,22 @@
 					</TransitionList>
 					<ObjectLists/>
 					<Playlist>
-						<MusicPlaylistItem Name="" ID="{899CD8A9-C23A-4987-83A0-9A4267496D84}" ShortID="351266992">
+						<MusicPlaylistItem Name="" ID="{E6B3AACB-5958-4ADD-89D1-266B81575392}" ShortID="909168261">
 							<ChildrenList>
-								<MusicPlaylistItem Name="" ID="{167B32E1-B729-48DC-9094-DEFE6C129F10}" ShortID="178794369">
+								<MusicPlaylistItem Name="" ID="{601501ED-3F2B-4CAE-BA6C-21CF9ACE9930}" ShortID="820819293">
 									<PropertyList>
 										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 									</PropertyList>
-									<SegmentRef Name="Medievo intro" ID="{1EAC1DBB-A53D-4883-A992-17EAF19E2137}"/>
+									<SegmentRef Name="DisposableArmsIntro(master1)" ID="{B8292F99-7FAE-457B-9517-3D50ADEA24CD}"/>
 								</MusicPlaylistItem>
-								<MusicPlaylistItem Name="" ID="{14C1F4D1-3AAD-4D5D-8B0A-01ACDBB0B258}" ShortID="247716550">
-									<PropertyList>
-										<Property Name="LoopCount" Type="int16" Value="0"/>
-										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
-										<Property Name="PlayMode" Type="int16" Value="2"/>
-									</PropertyList>
+								<MusicPlaylistItem Name="" ID="{8A4D7A86-581C-4542-85BB-7C9F17D08E7B}" ShortID="167473394">
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{452847D8-4A0B-4E92-BEE6-F6FBA13C98D5}" ShortID="278408082">
+										<MusicPlaylistItem Name="" ID="{D1A74E8D-BA53-4E06-AB01-8C9A7DECE330}" ShortID="923619748">
 											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="Medievo 1" ID="{4314E9C2-BB9A-4FB2-80B9-F420E6235FCF}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{5F1FE604-48D3-4D8D-9364-9D77323BACC8}" ShortID="825320604">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="Medievo 2" ID="{09D6254B-7463-467D-A086-AE002575D552}"/>
-										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{EBB38F08-9D48-4659-9E40-392C75FFC7C4}" ShortID="645241981">
-											<PropertyList>
-												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
-											</PropertyList>
-											<SegmentRef Name="Medievo 3" ID="{B3925DFF-A644-4221-B461-3D0CAE7529CB}"/>
+											<SegmentRef Name="DisposableArmsMainSection(master4)" ID="{AC2AD6F4-8640-4598-9C42-3225F4C53C33}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
