@@ -211,7 +211,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        
+        PlayerDied += Util.Quit;
     }
 
     public void SetAnimation(PLAYER_ANIM_PARAMS anim)
