@@ -32,7 +32,8 @@ public enum PLAYER_ANIM_PARAMS
 public enum TAG
 {
     Item,
-    Enemy
+    Enemy,
+    Player
 }
 
 public enum ItemType
