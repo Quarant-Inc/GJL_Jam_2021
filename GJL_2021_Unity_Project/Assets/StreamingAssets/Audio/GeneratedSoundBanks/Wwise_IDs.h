@@ -66,6 +66,7 @@ namespace AK
         static const AkUniqueID SNIPER_HIT = 1463549730U;
         static const AkUniqueID SNIPER_SHOOT = 2801873252U;
         static const AkUniqueID SPEED_INCREASE = 2584493269U;
+        static const AkUniqueID SPELL_SCROLL = 1693336487U;
         static const AkUniqueID SWORD_HIT = 4057287994U;
         static const AkUniqueID SWORD_SWING = 476098351U;
         static const AkUniqueID THROWING_DAGGER_HIT = 3822779060U;
@@ -106,12 +107,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID CLIENT_INTERFACE = 4196122344U;
-        static const AkUniqueID CLIENT_MUSIC = 2077971636U;
         static const AkUniqueID GAME_ACTIONS = 3274524167U;
-        static const AkUniqueID GAME_DIALOGUE = 1088545924U;
-        static const AkUniqueID GAME_ENVIRONMENT = 813360393U;
-        static const AkUniqueID GAME_INTERFACE = 419772119U;
         static const AkUniqueID GAME_MUSIC = 258110631U;
     } // namespace BANKS
 

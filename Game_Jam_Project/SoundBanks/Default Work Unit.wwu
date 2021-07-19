@@ -3,51 +3,72 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{55F6DF99-D3D1-4CF2-897E-3FC63A57CFE6}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Client_Music" ID="{E8427C9E-C0F2-4851-81D4-263A2B24FAA0}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Client" ID="{F6EEE310-6888-488D-8DA8-0EF911C46A83}" WorkUnitID="{F6EEE310-6888-488D-8DA8-0EF911C46A83}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Client_Interface" ID="{112E1D0C-E3C7-48E0-BED8-CDAF35B3A539}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Client" ID="{F6EEE310-6888-488D-8DA8-0EF911C46A83}" WorkUnitID="{F6EEE310-6888-488D-8DA8-0EF911C46A83}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Game_Dialogue" ID="{B6660ACA-D8DA-4054-9EB5-296902D572C5}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Dialgoue" ID="{04ED0A22-9237-4A4B-9847-ED46721BC7EC}" WorkUnitID="{04ED0A22-9237-4A4B-9847-ED46721BC7EC}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
 				<SoundBank Name="Game_Music" ID="{74B7AE4F-82B0-46F6-8F4C-8B3CA9BC1431}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Game" ID="{96279AB8-E966-4731-9E83-C25960117A2E}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Game_Environment" ID="{0015DA1D-9F58-4715-8164-E1EEBA1FBA6D}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Environment" ID="{CDD1D92A-3604-43F0-8B55-9441DCBBDBAB}" WorkUnitID="{CDD1D92A-3604-43F0-8B55-9441DCBBDBAB}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
-					<ObjectExclusionList/>
-					<GameSyncExclusionList/>
-				</SoundBank>
-				<SoundBank Name="Game_Interface" ID="{1FA1E394-E9A2-42A9-BC16-F245CE4B88A4}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Game Interface" ID="{0075ABB0-B21B-4631-BF2E-44BB46FC178B}" WorkUnitID="{0075ABB0-B21B-4631-BF2E-44BB46FC178B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Main_Menu" ID="{1412C68C-3549-4188-9B9D-362D53B8279D}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level" ID="{5719E974-43D2-4347-A4CD-E28A161C0B6F}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Game_Actions" ID="{099DF8CE-0973-43D4-9D04-854AE82DDB50}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Actions" ID="{756E980A-2456-4088-BE4C-247614B3D622}" WorkUnitID="{756E980A-2456-4088-BE4C-247614B3D622}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rocks_Hit" ID="{029FA3C7-8B04-40B3-BCC0-6CB6033E94AB}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Lasso" ID="{B88D8D77-7956-412E-9E93-F4980F5DA5D1}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Grenade_Hit" ID="{3F6082CD-054B-4147-B0F4-4511F86A39CB}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bow_and_Arrow_Throw" ID="{79036C55-6E5C-41DA-B896-5DD68FD677D3}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Baseball_Bat_Swing" ID="{0A0AB61F-CB6C-42A0-87F3-64EE17266878}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Laser_Sword_Hit" ID="{A504E1DD-DB2A-42A0-B3A5-1512ECC0CFC1}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Throwing_Dagger_Hit" ID="{F082F005-1D2C-42B5-AFC8-06A9CD7C6E96}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Laser_Sword_Swing" ID="{3B9A6B08-671B-42CB-80AA-99A1506531A3}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Intro_Script" ID="{B1CF2C11-84EB-42FD-A45A-951EDD5A790D}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Rocks_Throw" ID="{70EBD5C8-9DDC-4325-9371-2ED984AF77B8}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Electric_Whip_Swing" ID="{BF807B41-F3CB-438B-BE78-1454ACA93781}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Railgun_Shoot" ID="{660D30D6-58D0-43B8-A959-2910C8B8D3BE}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Spell_Scroll" ID="{F641D454-6D86-4408-8AA0-3E2679EEF043}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Magic_Wand_Shoot" ID="{61F4241D-B561-44A3-BD6F-6A6CCAAAB6C6}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Goblin_Lost_Sight" ID="{2AE19F15-AC45-4525-9DDA-271132B09972}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Katana_Swing" ID="{050B9524-AE7B-455B-AFF0-2547E2956F52}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Boomerang_Hit" ID="{8E2A0550-10EC-455F-A97B-08468DD18518}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Katana_Hit" ID="{6739660E-06DE-4584-97EB-E573A223A923}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Human_Detected" ID="{14F890D9-3093-4606-B359-1441A5D5C241}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Whip_Hit" ID="{14154A82-E406-4631-86BD-96BC3AAA148A}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Grappling_Hook" ID="{21524E14-296C-465F-A3C2-5305998448DC}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Health_Increase" ID="{063C966D-9848-4670-A011-D4705AAD2F3B}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sword_Hit" ID="{F1DCE369-1409-46FB-98F5-8F82A17AE950}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistol_Hit" ID="{32506B42-517A-4707-8658-400AEBF13CC9}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shield_Throw" ID="{F3FBDB48-9698-475C-B9B7-F962161458B6}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shield_Hit" ID="{001F269F-C530-476B-9568-692FE6D8D4C4}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Flamethrower_Swing" ID="{2E159D96-A163-4784-B529-8D49D58CB4DA}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Laser_Gun_Shoot" ID="{D21ECECB-25E3-47B3-A101-6060D6626FBF}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Bow_and_Arrow_Hit" ID="{FCB2DCE7-91B0-4847-8900-3F386A003FDD}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep" ID="{1D6F6C85-AED3-4887-9CAD-7DB8D13A81B7}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Item_Magnet" ID="{863E76AC-B6C5-48B1-B87A-54AFA5C5782A}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Fire_Whip_Swing" ID="{92AC7ED1-BB3D-48C0-BFC1-DA4DD73D89AF}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sniper_Shoot" ID="{6E842590-7FFB-48D3-B84A-D88F49906B12}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Grenade_Throw" ID="{9A7DE602-0635-492E-A8E0-215BD2F36B77}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Flamethrower_Hit" ID="{8D97C995-D4DA-4989-9CE1-44B6C6FD1681}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Speed_Increase" ID="{ED1B69F5-8470-4A67-9B61-CA1ABEEB755E}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sniper_Hit" ID="{E45E97FB-16C4-4AC5-B370-B2480A928BD7}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pickup_Item" ID="{4D149F8E-DD09-4B6E-9C21-58E735F1D427}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Magic_Wand_Hit" ID="{4041480F-1A07-4B82-84B3-F511C6BBAC1E}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Human_Lost" ID="{E5EFBE98-AAE9-4BBA-A418-6EB46A5ECE00}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Foresight" ID="{3295EF92-AF5D-4BCD-91FA-E6B627D20F45}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Searching_For_Human" ID="{EACCBFF1-0341-4BDC-86C9-204BFD8A016A}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Laser_Gun_Hit" ID="{EDD80B4D-4CB8-4C69-8074-09A77A327D16}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Sword_Swing" ID="{A328063B-8904-4C72-9868-3A92BE2E5C6B}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Goblin_Death_Sound" ID="{38822C92-1E4C-4C8E-8AD3-D29851A578D8}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Electric_Whip_Hit" ID="{C404ABDD-3B5C-4C92-B39C-F7E1DEB5D697}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Baseball_Bat_Hit" ID="{EB224C5B-F066-4DC4-ACE2-46E9B9531395}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Goblin_Detect" ID="{B7F8BDF1-1181-4DE1-A15C-2D54095A437F}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Throwing_Dagger_Throw" ID="{10AE0D92-75A5-4E09-BB1F-58A36D378975}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Armour" ID="{3AEBF388-D92A-4E09-9C43-2B4935D01976}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Robot_Kill_or_Hit_Player" ID="{2F726FF3-CB19-4E70-B584-0BF7C35385DC}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Boomerang_Throw" ID="{BBA89CC0-0C8F-4E88-BC06-DBAFCFFAD463}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Heart" ID="{304C6CAD-8B4E-4EA0-9A4D-9D8A52FF80E8}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Robot_Insult" ID="{3A313C7B-F1F2-4F73-8D65-4AAA62D0EC3F}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Pistol_Shoot" ID="{8919B242-4CD8-4FE5-9EC4-71C14D8C3AA5}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Railgun_Hit" ID="{43703E83-0BE6-4FEF-B4A8-EFE2FD7C4C25}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
