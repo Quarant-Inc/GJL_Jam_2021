@@ -22,7 +22,10 @@ public class ArmourUI : MonoBehaviour
         // reset list
         foreach(Image i in armours)
         {
-            Destroy(i.gameObject);
+            if (i !=  null && i.gameObject != null)
+            {
+                Destroy(i.gameObject);
+            }
         }
         armours.Clear();
 
