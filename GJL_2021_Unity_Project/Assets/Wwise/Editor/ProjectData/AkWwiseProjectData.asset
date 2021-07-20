@@ -539,36 +539,8 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 99dff655d1d3f24c897e3fc63a57cfe6
     GuidInternal: 
-    m_lastTime: -8585752643841869266
+    m_lastTime: -8585748870948388583
     List:
-    - name: Client_Interface
-      guid: 0c1d2e11c7e3e048bed8cdaf35b3a539
-      id: 4196122344
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 99dff655d1d3f24c897e3fc63a57cfe6
-      - ElementName: Client_Interface
-        ObjectType: 7
-        guid: 0c1d2e11c7e3e048bed8cdaf35b3a539
-      Path: SoundBanks\Default Work Unit\Client_Interface
-    - name: Client_Music
-      guid: 9e7c42e8f2c0514881d4263a2b24faa0
-      id: 2077971636
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 99dff655d1d3f24c897e3fc63a57cfe6
-      - ElementName: Client_Music
-        ObjectType: 7
-        guid: 9e7c42e8f2c0514881d4263a2b24faa0
-      Path: SoundBanks\Default Work Unit\Client_Music
     - name: Game_Actions
       guid: cef89d097309d4439d04854ae82ddb50
       id: 3274524167
@@ -583,48 +555,6 @@ MonoBehaviour:
         ObjectType: 7
         guid: cef89d097309d4439d04854ae82ddb50
       Path: SoundBanks\Default Work Unit\Game_Actions
-    - name: Game_Dialogue
-      guid: ca0a66b6dad854409eb5296902d572c5
-      id: 1088545924
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 99dff655d1d3f24c897e3fc63a57cfe6
-      - ElementName: Game_Dialogue
-        ObjectType: 7
-        guid: ca0a66b6dad854409eb5296902d572c5
-      Path: SoundBanks\Default Work Unit\Game_Dialogue
-    - name: Game_Environment
-      guid: 1dda1500589f15478164e1eeba1fba6d
-      id: 813360393
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 99dff655d1d3f24c897e3fc63a57cfe6
-      - ElementName: Game_Environment
-        ObjectType: 7
-        guid: 1dda1500589f15478164e1eeba1fba6d
-      Path: SoundBanks\Default Work Unit\Game_Environment
-    - name: Game_Interface
-      guid: 94e3a11fa2e9a942bc16f245ce4b88a4
-      id: 419772119
-      PathAndIcons:
-      - ElementName: SoundBanks
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 99dff655d1d3f24c897e3fc63a57cfe6
-      - ElementName: Game_Interface
-        ObjectType: 7
-        guid: 94e3a11fa2e9a942bc16f245ce4b88a4
-      Path: SoundBanks\Default Work Unit\Game_Interface
     - name: Game_Music
       guid: 4faeb774b082f6468f4c8b3ca9bc1431
       id: 258110631
@@ -651,7 +581,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: be20056c05d9eb448421430d07341a73
     GuidInternal: 
-    m_lastTime: -8585749639560221520
+    m_lastTime: -8585748881018377676
     List:
     - name: Armour
       guid: 88f3eb3a2ad9094e9c432b4935d01976
@@ -674,8 +604,8 @@ MonoBehaviour:
         guid: 88f3eb3a2ad9094e9c432b4935d01976
       Path: Events\Default Work Unit\Effects\Buffs\Armour
       maxAttenuation: 0
-      maxDuration: 1.686937
-      minDuration: 1.686937
+      maxDuration: -1
+      minDuration: -1
     - name: Baseball_Bat_Hit
       guid: 5b4c22eb66f0c44dace246e9b9531395
       id: 4256860319
@@ -697,8 +627,8 @@ MonoBehaviour:
         guid: 5b4c22eb66f0c44dace246e9b9531395
       Path: Events\Default Work Unit\Weapons\Melee\Baseball_Bat_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Baseball_Bat_Swing
       guid: 1fb60a0a6ccba04287f364ee17266878
       id: 1429962442
@@ -720,8 +650,8 @@ MonoBehaviour:
         guid: 1fb60a0a6ccba04287f364ee17266878
       Path: Events\Default Work Unit\Weapons\Melee\Baseball_Bat_Swing
       maxAttenuation: 0
-      maxDuration: 1.147166
-      minDuration: 0.990198
+      maxDuration: -1
+      minDuration: -1
     - name: Boomerang_Hit
       guid: 50052a8eec105f45a97b08468dd18518
       id: 144371737
@@ -743,8 +673,8 @@ MonoBehaviour:
         guid: 50052a8eec105f45a97b08468dd18518
       Path: Events\Default Work Unit\Weapons\Ranged arc\Boomerang_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Boomerang_Throw
       guid: c09ca8bb8f0c884ebc06dbafcffad463
       id: 934225790
@@ -766,8 +696,8 @@ MonoBehaviour:
         guid: c09ca8bb8f0c884ebc06dbafcffad463
       Path: Events\Default Work Unit\Weapons\Ranged arc\Boomerang_Throw
       maxAttenuation: 0
-      maxDuration: 0.877333
-      minDuration: 0.877333
+      maxDuration: -1
+      minDuration: -1
     - name: Bow_and_Arrow_Hit
       guid: e7dcb2fcb091474889003f386a003fdd
       id: 543618689
@@ -789,8 +719,8 @@ MonoBehaviour:
         guid: e7dcb2fcb091474889003f386a003fdd
       Path: Events\Default Work Unit\Weapons\Ranged arc\Bow_and_Arrow_Hit
       maxAttenuation: 0
-      maxDuration: 0.290807
-      minDuration: 0.290807
+      maxDuration: -1
+      minDuration: -1
     - name: Bow_and_Arrow_Throw
       guid: 556c03795c6eda41b8965dd68fd677d3
       id: 3545396134
@@ -812,8 +742,8 @@ MonoBehaviour:
         guid: 556c03795c6eda41b8965dd68fd677d3
       Path: Events\Default Work Unit\Weapons\Ranged arc\Bow_and_Arrow_Throw
       maxAttenuation: 0
-      maxDuration: 0.633381
-      minDuration: 0.633381
+      maxDuration: -1
+      minDuration: -1
     - name: Buffs
       guid: b49078099e362745a2c4a2f14781f641
       id: 3684901969
@@ -889,8 +819,8 @@ MonoBehaviour:
         guid: ddab04c45c3b924cb39cf7e1deb5d697
       Path: Events\Default Work Unit\Weapons\Melee\Electric_Whip_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Electric_Whip_Swing
       guid: 417b80bfcbf38b43be781454aca93781
       id: 2567405418
@@ -912,8 +842,8 @@ MonoBehaviour:
         guid: 417b80bfcbf38b43be781454aca93781
       Path: Events\Default Work Unit\Weapons\Melee\Electric_Whip_Swing
       maxAttenuation: 0
-      maxDuration: 0.682109
-      minDuration: 0.682109
+      maxDuration: -1
+      minDuration: -1
     - name: Enemy
       guid: b1c37992e2657741a90953052d75dc2c
       id: 2299321487
@@ -955,8 +885,8 @@ MonoBehaviour:
         guid: 824a151406e4314686bd96bc3aaa148a
       Path: Events\Default Work Unit\Weapons\Melee\Fire_Whip_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Fire_Whip_Swing
       guid: d17eac923dbbc048bfc1da4dd73d89af
       id: 1573331525
@@ -978,8 +908,8 @@ MonoBehaviour:
         guid: d17eac923dbbc048bfc1da4dd73d89af
       Path: Events\Default Work Unit\Weapons\Melee\Fire_Whip_Swing
       maxAttenuation: 0
-      maxDuration: 0.682109
-      minDuration: 0.682109
+      maxDuration: -1
+      minDuration: -1
     - name: Flamethrower_Hit
       guid: 95c9978ddad489499ce144b6c6fd1681
       id: 1949177413
@@ -1001,8 +931,8 @@ MonoBehaviour:
         guid: 95c9978ddad489499ce144b6c6fd1681
       Path: Events\Default Work Unit\Weapons\Melee\Flamethrower_Hit
       maxAttenuation: 0
-      maxDuration: 4.338046
-      minDuration: 4.338046
+      maxDuration: -1
+      minDuration: -1
     - name: Flamethrower_Swing
       guid: 969d152e63a18447b5298d49d58cb4da
       id: 2234938040
@@ -1024,8 +954,8 @@ MonoBehaviour:
         guid: 969d152e63a18447b5298d49d58cb4da
       Path: Events\Default Work Unit\Weapons\Melee\Flamethrower_Swing
       maxAttenuation: 0
-      maxDuration: 7.448324
-      minDuration: 7.448324
+      maxDuration: -1
+      minDuration: -1
     - name: Footsteps
       guid: 47d5d012ecf41e4385dd7d10b08f3073
       id: 2385628198
@@ -1067,8 +997,8 @@ MonoBehaviour:
         guid: 92ef95325dafcd4b91fae6b627d20f45
       Path: Events\Default Work Unit\Effects\Buffs\Foresight
       maxAttenuation: 0
-      maxDuration: 2.399841
-      minDuration: 2.399841
+      maxDuration: -1
+      minDuration: -1
     - name: Goblin_Death_Sound
       guid: 922c82384c1e8e4c8ad3d29851a578d8
       id: 3732585223
@@ -1090,8 +1020,8 @@ MonoBehaviour:
         guid: 922c82384c1e8e4c8ad3d29851a578d8
       Path: Events\Default Work Unit\Dialogue\Enemy\Goblin_Death_Sound
       maxAttenuation: 0
-      maxDuration: 0.772313
-      minDuration: 0.468753
+      maxDuration: -1
+      minDuration: -1
     - name: Goblin_Detect
       guid: f1bdf8b78111e14da15c2d54095a437f
       id: 1799648038
@@ -1113,8 +1043,8 @@ MonoBehaviour:
         guid: f1bdf8b78111e14da15c2d54095a437f
       Path: Events\Default Work Unit\Dialogue\Enemy\Goblin_Detect
       maxAttenuation: 0
-      maxDuration: 2.642857
-      minDuration: 1.058027
+      maxDuration: -1
+      minDuration: -1
     - name: Goblin_Lost_Sight
       guid: 159fe12a45ac25459dda271132b09972
       id: 3456469455
@@ -1136,8 +1066,8 @@ MonoBehaviour:
         guid: 159fe12a45ac25459dda271132b09972
       Path: Events\Default Work Unit\Dialogue\Enemy\Goblin_Lost_Sight
       maxAttenuation: 0
-      maxDuration: 2.022313
-      minDuration: 1.892857
+      maxDuration: -1
+      minDuration: -1
     - name: Grappling_Hook
       guid: 144e52216c295f46a3c25305998448dc
       id: 1941733387
@@ -1159,8 +1089,8 @@ MonoBehaviour:
         guid: 144e52216c295f46a3c25305998448dc
       Path: Events\Default Work Unit\Weapons\Tools\Grappling_Hook
       maxAttenuation: 0
-      maxDuration: 0.438769
-      minDuration: 0.438769
+      maxDuration: -1
+      minDuration: -1
     - name: Grenade_Hit
       guid: cd82603f4b054741b0f44511f86a39cb
       id: 899428695
@@ -1182,8 +1112,8 @@ MonoBehaviour:
         guid: cd82603f4b054741b0f44511f86a39cb
       Path: Events\Default Work Unit\Weapons\Ranged arc\Grenade_Hit
       maxAttenuation: 0
-      maxDuration: 3.684044
-      minDuration: 3.684044
+      maxDuration: -1
+      minDuration: -1
     - name: Grenade_Throw
       guid: 02e67d9a35062e49a8e0215bd2f36b77
       id: 3301329608
@@ -1205,8 +1135,8 @@ MonoBehaviour:
         guid: 02e67d9a35062e49a8e0215bd2f36b77
       Path: Events\Default Work Unit\Weapons\Ranged arc\Grenade_Throw
       maxAttenuation: 0
-      maxDuration: 0.266667
-      minDuration: 0.266667
+      maxDuration: -1
+      minDuration: -1
     - name: Health
       guid: 0cc712daad13544486afc4029e636bcc
       id: 3677180323
@@ -1248,8 +1178,8 @@ MonoBehaviour:
         guid: 6d963c0648987046a011d4705aad2f3b
       Path: Events\Default Work Unit\Effects\Buffs\Health_Increase
       maxAttenuation: 0
-      maxDuration: 1.678322
-      minDuration: 1.678322
+      maxDuration: -1
+      minDuration: -1
     - name: Heart
       guid: ad6c4c304e8ba04e9a4d9d8a52ff80e8
       id: 2665378999
@@ -1294,8 +1224,8 @@ MonoBehaviour:
         guid: d990f81493300646b3591441a5d5c241
       Path: Events\Default Work Unit\Dialogue\Enemy\Human_Detected
       maxAttenuation: 0
-      maxDuration: 1.928571
-      minDuration: 1.558027
+      maxDuration: -1
+      minDuration: -1
     - name: Human_Lost
       guid: 98beefe5e9aaba4ba4186eb46a5ece00
       id: 3344543189
@@ -1317,8 +1247,8 @@ MonoBehaviour:
         guid: 98beefe5e9aaba4ba4186eb46a5ece00
       Path: Events\Default Work Unit\Dialogue\Enemy\Human_Lost
       maxAttenuation: 0
-      maxDuration: 3.86161
-      minDuration: 1.357143
+      maxDuration: -1
+      minDuration: -1
     - name: Intro
       guid: a3a161889c35d74db36e7e2d9132370f
       id: 1125500713
@@ -1360,8 +1290,8 @@ MonoBehaviour:
         guid: 112ccfb1eb84fd42a45a951edd5a790d
       Path: Events\Default Work Unit\Dialogue\Intro\Intro_Script
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Item_Magnet
       guid: ac763e86c5b6b148b87a54afa5c5782a
       id: 2447146981
@@ -1383,8 +1313,8 @@ MonoBehaviour:
         guid: ac763e86c5b6b148b87a54afa5c5782a
       Path: Events\Default Work Unit\Effects\Buffs\Item_Magnet
       maxAttenuation: 0
-      maxDuration: 1.028798
-      minDuration: 1.028798
+      maxDuration: -1
+      minDuration: -1
     - name: Katana_Hit
       guid: 0e663967de06844597ebe573a223a923
       id: 1060853137
@@ -1406,8 +1336,8 @@ MonoBehaviour:
         guid: 0e663967de06844597ebe573a223a923
       Path: Events\Default Work Unit\Weapons\Melee\Katana_Hit
       maxAttenuation: 0
-      maxDuration: 0.7
-      minDuration: 0.7
+      maxDuration: -1
+      minDuration: -1
     - name: Katana_Swing
       guid: 24950b057bae5b45aff02547e2956f52
       id: 2725920228
@@ -1429,8 +1359,8 @@ MonoBehaviour:
         guid: 24950b057bae5b45aff02547e2956f52
       Path: Events\Default Work Unit\Weapons\Melee\Katana_Swing
       maxAttenuation: 0
-      maxDuration: 2.158029
-      minDuration: 0.35124
+      maxDuration: -1
+      minDuration: -1
     - name: Laser_Gun_Hit
       guid: 4d0bd8edb84c694c807409a77a327d16
       id: 1799609931
@@ -1452,8 +1382,8 @@ MonoBehaviour:
         guid: 4d0bd8edb84c694c807409a77a327d16
       Path: Events\Default Work Unit\Weapons\Ranged straight\Laser_Gun_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Laser_Gun_Shoot
       guid: cbce1ed2e325b347a1016060d6626fbf
       id: 3626746553
@@ -1475,8 +1405,8 @@ MonoBehaviour:
         guid: cbce1ed2e325b347a1016060d6626fbf
       Path: Events\Default Work Unit\Weapons\Ranged straight\Laser_Gun_Shoot
       maxAttenuation: 0
-      maxDuration: 0.834775
-      minDuration: 0.834775
+      maxDuration: -1
+      minDuration: -1
     - name: Laser_Sword_Hit
       guid: dde104a52adba042b3a51512ecc0cfc1
       id: 4146399722
@@ -1498,8 +1428,8 @@ MonoBehaviour:
         guid: dde104a52adba042b3a51512ecc0cfc1
       Path: Events\Default Work Unit\Weapons\Melee\Laser_Sword_Hit
       maxAttenuation: 0
-      maxDuration: 0.7
-      minDuration: 0.7
+      maxDuration: -1
+      minDuration: -1
     - name: Laser_Sword_Swing
       guid: 086b9a3b1b67cb4280aa99a1506531a3
       id: 3191454527
@@ -1521,8 +1451,8 @@ MonoBehaviour:
         guid: 086b9a3b1b67cb4280aa99a1506531a3
       Path: Events\Default Work Unit\Weapons\Melee\Laser_Sword_Swing
       maxAttenuation: 0
-      maxDuration: 2.158029
-      minDuration: 0.35124
+      maxDuration: -1
+      minDuration: -1
     - name: Lasso
       guid: 778d8db856792e419e93f4980f5da5d1
       id: 3680608169
@@ -1544,8 +1474,8 @@ MonoBehaviour:
         guid: 778d8db856792e419e93f4980f5da5d1
       Path: Events\Default Work Unit\Weapons\Tools\Lasso
       maxAttenuation: 0
-      maxDuration: 0.349773
-      minDuration: 0.349773
+      maxDuration: -1
+      minDuration: -1
     - name: Level
       guid: 74e91957d2434743a4cde28a161c0b6f
       id: 2782712965
@@ -1587,8 +1517,8 @@ MonoBehaviour:
         guid: 0f484140071a824b84b3f511c6bbac1e
       Path: Events\Default Work Unit\Weapons\Ranged straight\Magic_Wand_Hit
       maxAttenuation: 0
-      maxDuration: 0.716292
-      minDuration: 0.716292
+      maxDuration: -1
+      minDuration: -1
     - name: Magic_Wand_Shoot
       guid: 1d24f46161b5a344bd6f6a6ccaaab6c6
       id: 2988633891
@@ -1610,8 +1540,8 @@ MonoBehaviour:
         guid: 1d24f46161b5a344bd6f6a6ccaaab6c6
       Path: Events\Default Work Unit\Weapons\Ranged straight\Magic_Wand_Shoot
       maxAttenuation: 0
-      maxDuration: 5.51951
-      minDuration: 5.51951
+      maxDuration: -1
+      minDuration: -1
     - name: Main_Menu
       guid: 8cc61214493588419b9d362d53b8279d
       id: 2005704188
@@ -1710,8 +1640,8 @@ MonoBehaviour:
         guid: 8e9f144d09dd6e4b9c2158e735f1d427
       Path: Events\Default Work Unit\Effects\Pickup\Pickup_Item
       maxAttenuation: 0
-      maxDuration: 0.389138
-      minDuration: 0.389138
+      maxDuration: -1
+      minDuration: -1
     - name: Pistol_Hit
       guid: 426b50327a5107478658400aebf13cc9
       id: 1754944470
@@ -1733,8 +1663,8 @@ MonoBehaviour:
         guid: 426b50327a5107478658400aebf13cc9
       Path: Events\Default Work Unit\Weapons\Ranged straight\Pistol_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Pistol_Shoot
       guid: 42b21989d84ce54f9ec471c14d8c3aa5
       id: 2124970216
@@ -1756,8 +1686,8 @@ MonoBehaviour:
         guid: 42b21989d84ce54f9ec471c14d8c3aa5
       Path: Events\Default Work Unit\Weapons\Ranged straight\Pistol_Shoot
       maxAttenuation: 0
-      maxDuration: 2.425937
-      minDuration: 2.425937
+      maxDuration: -1
+      minDuration: -1
     - name: Player_Footstep
       guid: 856c6f1dd3ae87489cad7db8d13a81b7
       id: 2453392179
@@ -1779,8 +1709,8 @@ MonoBehaviour:
         guid: 856c6f1dd3ae87489cad7db8d13a81b7
       Path: Events\Default Work Unit\Effects\Footsteps\Player_Footstep
       maxAttenuation: 0
-      maxDuration: 0.583651
-      minDuration: 0.434694
+      maxDuration: -1
+      minDuration: -1
     - name: Railgun_Hit
       guid: 833e7043e60bef4fb4a8efe2fd7c4c25
       id: 528420227
@@ -1802,8 +1732,8 @@ MonoBehaviour:
         guid: 833e7043e60bef4fb4a8efe2fd7c4c25
       Path: Events\Default Work Unit\Weapons\Ranged straight\Railgun_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Railgun_Shoot
       guid: d6300d66d058b843a9592910c8b8d3be
       id: 673267873
@@ -1825,8 +1755,8 @@ MonoBehaviour:
         guid: d6300d66d058b843a9592910c8b8d3be
       Path: Events\Default Work Unit\Weapons\Ranged straight\Railgun_Shoot
       maxAttenuation: 0
-      maxDuration: 1.212969
-      minDuration: 1.212969
+      maxDuration: -1
+      minDuration: -1
     - name: Ranged arc
       guid: 69ea1fec7d67a34d9464b7d7e061f558
       id: 317946560
@@ -1888,8 +1818,8 @@ MonoBehaviour:
         guid: 7b3c313af2f1734f8d654aaa62d0ec3f
       Path: Events\Default Work Unit\Dialogue\Enemy\Robot_Insult
       maxAttenuation: 0
-      maxDuration: 7.200884
-      minDuration: 4.839274
+      maxDuration: -1
+      minDuration: -1
     - name: Robot_Kill_or_Hit_Player
       guid: f36f722f19cb704eb5840bf7c35385dc
       id: 437304868
@@ -1911,8 +1841,8 @@ MonoBehaviour:
         guid: f36f722f19cb704eb5840bf7c35385dc
       Path: Events\Default Work Unit\Dialogue\Enemy\Robot_Kill_or_Hit_Player
       maxAttenuation: 0
-      maxDuration: 9.227687
-      minDuration: 9.066961
+      maxDuration: -1
+      minDuration: -1
     - name: Rocks_Hit
       guid: c7a39f02048bb340bcc06cb6033e94ab
       id: 3666808863
@@ -1934,8 +1864,8 @@ MonoBehaviour:
         guid: c7a39f02048bb340bcc06cb6033e94ab
       Path: Events\Default Work Unit\Weapons\Ranged arc\Rocks_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Rocks_Throw
       guid: c8d5eb70dc9d254393712ed984af77b8
       id: 1909771504
@@ -1957,8 +1887,8 @@ MonoBehaviour:
         guid: c8d5eb70dc9d254393712ed984af77b8
       Path: Events\Default Work Unit\Weapons\Ranged arc\Rocks_Throw
       maxAttenuation: 0
-      maxDuration: 0.266667
-      minDuration: 0.266667
+      maxDuration: -1
+      minDuration: -1
     - name: Searching_For_Human
       guid: f1bfccea4103dc4b86c9204bfd8a016a
       id: 1027391417
@@ -1980,8 +1910,8 @@ MonoBehaviour:
         guid: f1bfccea4103dc4b86c9204bfd8a016a
       Path: Events\Default Work Unit\Dialogue\Enemy\Searching_For_Human
       maxAttenuation: 0
-      maxDuration: 2.58483
-      minDuration: 1.803583
+      maxDuration: -1
+      minDuration: -1
     - name: Shield_Hit
       guid: 9f261f0030c56b479568692fe6d8d4c4
       id: 399878796
@@ -2003,8 +1933,8 @@ MonoBehaviour:
         guid: 9f261f0030c56b479568692fe6d8d4c4
       Path: Events\Default Work Unit\Weapons\Ranged arc\Shield_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Shield_Throw
       guid: 48dbfbf398965c47b9b7f962161458b6
       id: 1610827655
@@ -2026,8 +1956,8 @@ MonoBehaviour:
         guid: 48dbfbf398965c47b9b7f962161458b6
       Path: Events\Default Work Unit\Weapons\Ranged arc\Shield_Throw
       maxAttenuation: 0
-      maxDuration: 0.877333
-      minDuration: 0.877333
+      maxDuration: -1
+      minDuration: -1
     - name: Sniper_Hit
       guid: fb975ee4c416c54ab370b2480a928bd7
       id: 1463549730
@@ -2049,8 +1979,8 @@ MonoBehaviour:
         guid: fb975ee4c416c54ab370b2480a928bd7
       Path: Events\Default Work Unit\Weapons\Ranged straight\Sniper_Hit
       maxAttenuation: 0
-      maxDuration: 4.011
-      minDuration: 4.011
+      maxDuration: -1
+      minDuration: -1
     - name: Sniper_Shoot
       guid: 9025846efb7fd348b84ad88f49906b12
       id: 2801873252
@@ -2072,8 +2002,8 @@ MonoBehaviour:
         guid: 9025846efb7fd348b84ad88f49906b12
       Path: Events\Default Work Unit\Weapons\Ranged straight\Sniper_Shoot
       maxAttenuation: 0
-      maxDuration: 1.320115
-      minDuration: 1.320115
+      maxDuration: -1
+      minDuration: -1
     - name: Speed_Increase
       guid: f5691bed7084674a9b61ca1abeeb755e
       id: 2584493269
@@ -2095,8 +2025,8 @@ MonoBehaviour:
         guid: f5691bed7084674a9b61ca1abeeb755e
       Path: Events\Default Work Unit\Effects\Buffs\Speed_Increase
       maxAttenuation: 0
-      maxDuration: 1.333333
-      minDuration: 1.333333
+      maxDuration: -1
+      minDuration: -1
     - name: Spell_Scroll
       guid: 54d441f6866d08448aa03e2679eef043
       id: 1693336487
@@ -2141,8 +2071,8 @@ MonoBehaviour:
         guid: 69e3dcf10914fb4698f58f82a17ae950
       Path: Events\Default Work Unit\Weapons\Melee\Sword_Hit
       maxAttenuation: 0
-      maxDuration: 0.416222
-      minDuration: 0.416222
+      maxDuration: -1
+      minDuration: -1
     - name: Sword_Swing
       guid: 3b0628a30489724c98683a92be2e5c6b
       id: 476098351
@@ -2164,8 +2094,8 @@ MonoBehaviour:
         guid: 3b0628a30489724c98683a92be2e5c6b
       Path: Events\Default Work Unit\Weapons\Melee\Sword_Swing
       maxAttenuation: 0
-      maxDuration: 1.283171
-      minDuration: 0.208848
+      maxDuration: -1
+      minDuration: -1
     - name: Throwing_Dagger_Hit
       guid: 05f082f02c1db542afc806a9cd7c6e96
       id: 3822779060
@@ -2187,8 +2117,8 @@ MonoBehaviour:
         guid: 05f082f02c1db542afc806a9cd7c6e96
       Path: Events\Default Work Unit\Weapons\Ranged arc\Throwing_Dagger_Hit
       maxAttenuation: 0
-      maxDuration: 0.7
-      minDuration: 0.7
+      maxDuration: -1
+      minDuration: -1
     - name: Throwing_Dagger_Throw
       guid: 920dae10a575094ebb1f58a36d378975
       id: 2123250479
@@ -2210,8 +2140,8 @@ MonoBehaviour:
         guid: 920dae10a575094ebb1f58a36d378975
       Path: Events\Default Work Unit\Weapons\Ranged arc\Throwing_Dagger_Throw
       maxAttenuation: 0
-      maxDuration: 0.266667
-      minDuration: 0.266667
+      maxDuration: -1
+      minDuration: -1
     - name: Tools
       guid: c8aaddf67f0e4049990ce1d9f3f6e262
       id: 1353321450
