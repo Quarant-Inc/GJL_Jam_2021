@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65a0e44b58e7563409ba6abed5a3e25d, type: 3}
-  m_Name: 2CE21AA0-7195-451B-BBE2-984A2946F794
+  m_Script: {fileID: 11500000, guid: c93dda7cf81c31a4f8a572036ce6d32b, type: 3}
+  m_Name: 8919B242-4CD8-4FE5-9EC4-71C14D8C3AA5
   m_EditorClassIdentifier: 
-  objectName: Volume_Game_Music
-  id: 2086988932
-  guid: 2CE21AA0-7195-451B-BBE2-984A2946F794
+  objectName: Pistol_Shoot
+  id: 2124970216
+  guid: 8919B242-4CD8-4FE5-9EC4-71C14D8C3AA5

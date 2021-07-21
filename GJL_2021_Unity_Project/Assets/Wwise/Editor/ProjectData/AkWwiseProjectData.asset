@@ -303,11 +303,11 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: a2618bd2094e234188d5f0584a56102a
     GuidInternal: 
-    m_lastTime: -8585752643846025377
+    m_lastTime: -8585747376888898217
     List:
-    - name: Cient
-      guid: 38d5e1999c752e45b88cdde99fa55cbb
-      id: 1746688556
+    - name: Effects_Volume
+      guid: 1d395bd8f399d74ca8e22812ba68c7f1
+      id: 3597886634
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -318,187 +318,10 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Cient
+      - ElementName: Effects_Volume
         ObjectType: 2
-        guid: 38d5e1999c752e45b88cdde99fa55cbb
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cient
-    - name: Client_Effects
-      guid: e81643c8e5f7c241a8c89c0e633b4bd1
-      id: 4287282079
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a2618bd2094e234188d5f0584a56102a
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Cient
-        ObjectType: 2
-        guid: 38d5e1999c752e45b88cdde99fa55cbb
-      - ElementName: Client_Effects
-        ObjectType: 2
-        guid: e81643c8e5f7c241a8c89c0e633b4bd1
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cient\Client_Effects
-    - name: Client_Interface
-      guid: 5eb1955367a7c741a96957e194d9d562
-      id: 4196122344
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a2618bd2094e234188d5f0584a56102a
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Cient
-        ObjectType: 2
-        guid: 38d5e1999c752e45b88cdde99fa55cbb
-      - ElementName: Client_Interface
-        ObjectType: 2
-        guid: 5eb1955367a7c741a96957e194d9d562
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cient\Client_Interface
-    - name: Client_Music
-      guid: f934aeff1674df498cbd01a87c1eff01
-      id: 2077971636
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a2618bd2094e234188d5f0584a56102a
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Cient
-        ObjectType: 2
-        guid: 38d5e1999c752e45b88cdde99fa55cbb
-      - ElementName: Client_Music
-        ObjectType: 2
-        guid: f934aeff1674df498cbd01a87c1eff01
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cient\Client_Music
-    - name: Game
-      guid: 7a3c8248fa2cff428dd04222c128c30d
-      id: 702482391
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a2618bd2094e234188d5f0584a56102a
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Game
-        ObjectType: 2
-        guid: 7a3c8248fa2cff428dd04222c128c30d
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Game
-    - name: Game_Dialogue
-      guid: cd80d7366844924d9afa02d9f2146530
-      id: 1088545924
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a2618bd2094e234188d5f0584a56102a
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Game
-        ObjectType: 2
-        guid: 7a3c8248fa2cff428dd04222c128c30d
-      - ElementName: Game_Dialogue
-        ObjectType: 2
-        guid: cd80d7366844924d9afa02d9f2146530
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Game\Game_Dialogue
-    - name: Game_Effects
-      guid: e3b65c02d0aa594ebc9c135a8f19955b
-      id: 2077902432
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a2618bd2094e234188d5f0584a56102a
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Game
-        ObjectType: 2
-        guid: 7a3c8248fa2cff428dd04222c128c30d
-      - ElementName: Game_Effects
-        ObjectType: 2
-        guid: e3b65c02d0aa594ebc9c135a8f19955b
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Game\Game_Effects
-    - name: Game_Environment
-      guid: 601e20ca69d11e45b069e5491e206ca3
-      id: 813360393
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a2618bd2094e234188d5f0584a56102a
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Game
-        ObjectType: 2
-        guid: 7a3c8248fa2cff428dd04222c128c30d
-      - ElementName: Game_Environment
-        ObjectType: 2
-        guid: 601e20ca69d11e45b069e5491e206ca3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Game\Game_Environment
-    - name: Game_Interface
-      guid: cec6098df2d4f34c8f6a9b50b673861f
-      id: 419772119
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a2618bd2094e234188d5f0584a56102a
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Game
-        ObjectType: 2
-        guid: 7a3c8248fa2cff428dd04222c128c30d
-      - ElementName: Game_Interface
-        ObjectType: 2
-        guid: cec6098df2d4f34c8f6a9b50b673861f
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Game\Game_Interface
-    - name: Game_Music
-      guid: f08326410bc7fb47bc399ddd36ee874b
-      id: 258110631
-      PathAndIcons:
-      - ElementName: Master-Mixer Hierarchy
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: a2618bd2094e234188d5f0584a56102a
-      - ElementName: Master Audio Bus
-        ObjectType: 2
-        guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Game
-        ObjectType: 2
-        guid: 7a3c8248fa2cff428dd04222c128c30d
-      - ElementName: Game_Music
-        ObjectType: 2
-        guid: f08326410bc7fb47bc399ddd36ee874b
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Game\Game_Music
+        guid: 1d395bd8f399d74ca8e22812ba68c7f1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Effects_Volume
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -527,6 +350,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: c6b9f92af16ee946b5f2e30c9e602c74
       Path: Master-Mixer Hierarchy\Default Work Unit\Motion Factory Bus
+    - name: Music_Volume
+      guid: 2ee87486fdc6a04980518f8190faa913
+      id: 1006694123
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a2618bd2094e234188d5f0584a56102a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music_Volume
+        ObjectType: 2
+        guid: 2ee87486fdc6a04980518f8190faa913
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music_Volume
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -539,7 +379,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 99dff655d1d3f24c897e3fc63a57cfe6
     GuidInternal: 
-    m_lastTime: -8585748362167626801
+    m_lastTime: -8585747376885397562
     List:
     - name: Game_Actions
       guid: cef89d097309d4439d04854ae82ddb50
@@ -581,7 +421,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: be20056c05d9eb448421430d07341a73
     GuidInternal: 
-    m_lastTime: -8585748881018377676
+    m_lastTime: -8585747376893615609
     List:
     - name: Armour
       guid: 88f3eb3a2ad9094e9c432b4935d01976
@@ -764,6 +604,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Button_Press
+      guid: c3c6bfebdc904940842acfd485989f6d
+      id: 2698747613
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: UI
+        ObjectType: 4
+        guid: 879b0464cd4b324daee343ab4a27e909
+      - ElementName: Button_Press
+        ObjectType: 3
+        guid: c3c6bfebdc904940842acfd485989f6d
+      Path: Events\Default Work Unit\Effects\UI\Button_Press
+      maxAttenuation: 0
+      maxDuration: 0.480471
+      minDuration: 0.480471
     - name: Dialogue
       guid: 7d62003dc683574fb15f4dfe2657d6fd
       id: 3930136735
@@ -1476,9 +1339,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.349773
       minDuration: 0.349773
-    - name: Level
+    - name: Level_Music_Start
       guid: 74e91957d2434743a4cde28a161c0b6f
-      id: 2782712965
+      id: 3603894824
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1489,13 +1352,33 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 4
         guid: 592ab1dd57c2dd4aa748f50b00b786e6
-      - ElementName: Level
+      - ElementName: Level_Music_Start
         ObjectType: 3
         guid: 74e91957d2434743a4cde28a161c0b6f
-      Path: Events\Default Work Unit\Music\Level
+      Path: Events\Default Work Unit\Music\Level_Music_Start
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Level_Music_Stop
+      guid: f1d603475995a843903ea0e82f78f65f
+      id: 1448123892
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Music
+        ObjectType: 4
+        guid: 592ab1dd57c2dd4aa748f50b00b786e6
+      - ElementName: Level_Music_Stop
+        ObjectType: 3
+        guid: f1d603475995a843903ea0e82f78f65f
+      Path: Events\Default Work Unit\Music\Level_Music_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Magic_Wand_Hit
       guid: 0f484140071a824b84b3f511c6bbac1e
       id: 2313357241
@@ -1542,26 +1425,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 5.51951
       minDuration: 5.51951
-    - name: Main_Menu
-      guid: 8cc61214493588419b9d362d53b8279d
-      id: 2005704188
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: be20056c05d9eb448421430d07341a73
-      - ElementName: Music
-        ObjectType: 4
-        guid: 592ab1dd57c2dd4aa748f50b00b786e6
-      - ElementName: Main_Menu
-        ObjectType: 3
-        guid: 8cc61214493588419b9d362d53b8279d
-      Path: Events\Default Work Unit\Music\Main_Menu
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Melee
       guid: 30b6c4807c2ac54cb7acf5002022e4dc
       id: 3208241451
@@ -1582,6 +1445,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Menu_Music_Start
+      guid: f6fd507cd54f584d8635ad4acd5b5c75
+      id: 777069945
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Music
+        ObjectType: 4
+        guid: 592ab1dd57c2dd4aa748f50b00b786e6
+      - ElementName: Menu_Music_Start
+        ObjectType: 3
+        guid: f6fd507cd54f584d8635ad4acd5b5c75
+      Path: Events\Default Work Unit\Music\Menu_Music_Start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Menu_Music_Stop
+      guid: 8cc61214493588419b9d362d53b8279d
+      id: 3487878355
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Music
+        ObjectType: 4
+        guid: 592ab1dd57c2dd4aa748f50b00b786e6
+      - ElementName: Menu_Music_Stop
+        ObjectType: 3
+        guid: 8cc61214493588419b9d362d53b8279d
+      Path: Events\Default Work Unit\Music\Menu_Music_Stop
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Music
       guid: 592ab1dd57c2dd4aa748f50b00b786e6
       id: 3991942870
@@ -1688,9 +1591,9 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.425937
       minDuration: 2.425937
-    - name: Player_Footstep
+    - name: Player_Footstep_Start
       guid: 856c6f1dd3ae87489cad7db8d13a81b7
-      id: 2453392179
+      id: 2854834078
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -1704,13 +1607,36 @@ MonoBehaviour:
       - ElementName: Footsteps
         ObjectType: 4
         guid: 47d5d012ecf41e4385dd7d10b08f3073
-      - ElementName: Player_Footstep
+      - ElementName: Player_Footstep_Start
         ObjectType: 3
         guid: 856c6f1dd3ae87489cad7db8d13a81b7
-      Path: Events\Default Work Unit\Effects\Footsteps\Player_Footstep
+      Path: Events\Default Work Unit\Effects\Footsteps\Player_Footstep_Start
       maxAttenuation: 0
-      maxDuration: 0.583651
-      minDuration: 0.434694
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Footstep_Stop
+      guid: 6fc3bd25ec0fad4b86553525ca02cfc5
+      id: 718640190
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: 47d5d012ecf41e4385dd7d10b08f3073
+      - ElementName: Player_Footstep_Stop
+        ObjectType: 3
+        guid: 6fc3bd25ec0fad4b86553525ca02cfc5
+      Path: Events\Default Work Unit\Effects\Footsteps\Player_Footstep_Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Railgun_Hit
       guid: 833e7043e60bef4fb4a8efe2fd7c4c25
       id: 528420227
@@ -2162,6 +2088,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: UI
+      guid: 879b0464cd4b324daee343ab4a27e909
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: be20056c05d9eb448421430d07341a73
+      - ElementName: Effects
+        ObjectType: 4
+        guid: 86b396c8303dfe4c875fc68623eb1c6b
+      - ElementName: UI
+        ObjectType: 4
+        guid: 879b0464cd4b324daee343ab4a27e909
+      Path: Events\Default Work Unit\Effects\UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Weapons
       guid: 0f195a8489e74442ad76043a002daf64
       id: 1467963052
@@ -2191,8 +2137,42 @@ MonoBehaviour:
     ParentPath: Game Parameters\Bus Control
     guid: 5c994087154a76469736430e9e3c3def
     GuidInternal: 
-    m_lastTime: -8585752643847769542
+    m_lastTime: -8585747376893555745
     List:
+    - name: Effects_Volume
+      guid: 96de474be25e9d47bb9e805ff2cc9330
+      id: 3597886634
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Bus Control
+        ObjectType: 12
+        guid: 5c994087154a76469736430e9e3c3def
+      - ElementName: Volume
+        ObjectType: 4
+        guid: c367df80e086434b9f3c48b60f177383
+      - ElementName: Effects_Volume
+        ObjectType: 13
+        guid: 96de474be25e9d47bb9e805ff2cc9330
+      Path: Game Parameters\Bus Control\Volume\Effects_Volume
+    - name: Music_Volume
+      guid: b8ee582bbf878847b9d728d0893ed7f0
+      id: 1006694123
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Bus Control
+        ObjectType: 12
+        guid: 5c994087154a76469736430e9e3c3def
+      - ElementName: Volume
+        ObjectType: 4
+        guid: c367df80e086434b9f3c48b60f177383
+      - ElementName: Music_Volume
+        ObjectType: 13
+        guid: b8ee582bbf878847b9d728d0893ed7f0
+      Path: Game Parameters\Bus Control\Volume\Music_Volume
     - name: Volume
       guid: c367df80e086434b9f3c48b60f177383
       id: 2415836739
@@ -2207,176 +2187,6 @@ MonoBehaviour:
         ObjectType: 4
         guid: c367df80e086434b9f3c48b60f177383
       Path: Game Parameters\Bus Control\Volume
-    - name: Volume_Client
-      guid: b9bbbbd1de5af3438f1ab823e31eb7d1
-      id: 876971579
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Client
-        ObjectType: 13
-        guid: b9bbbbd1de5af3438f1ab823e31eb7d1
-      Path: Game Parameters\Bus Control\Volume\Volume_Client
-    - name: Volume_Client_Effects
-      guid: b94bb51881f1bc45aad74ae1d7385783
-      id: 210910324
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Client_Effects
-        ObjectType: 13
-        guid: b94bb51881f1bc45aad74ae1d7385783
-      Path: Game Parameters\Bus Control\Volume\Volume_Client_Effects
-    - name: Volume_Client_Interface
-      guid: 441c4592f046ec4b85b65eb7361c6ea0
-      id: 1102357403
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Client_Interface
-        ObjectType: 13
-        guid: 441c4592f046ec4b85b65eb7361c6ea0
-      Path: Game Parameters\Bus Control\Volume\Volume_Client_Interface
-    - name: Volume_Client_Music
-      guid: 48abae9dae1fdf46a8a0062256a3c6c6
-      id: 728432867
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Client_Music
-        ObjectType: 13
-        guid: 48abae9dae1fdf46a8a0062256a3c6c6
-      Path: Game Parameters\Bus Control\Volume\Volume_Client_Music
-    - name: Volume_Game
-      guid: c7c0248b9d757842a30cbbce49f589ed
-      id: 2635722944
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Game
-        ObjectType: 13
-        guid: c7c0248b9d757842a30cbbce49f589ed
-      Path: Game Parameters\Bus Control\Volume\Volume_Game
-    - name: Volume_Game_Dialogue
-      guid: cb2043c1b0e6cf4ead39fccfc14ac099
-      id: 3659685417
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Game_Dialogue
-        ObjectType: 13
-        guid: cb2043c1b0e6cf4ead39fccfc14ac099
-      Path: Game Parameters\Bus Control\Volume\Volume_Game_Dialogue
-    - name: Volume_Game_Effects
-      guid: ab23128e783c0e47bcceedf72c7a3441
-      id: 433054383
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Game_Effects
-        ObjectType: 13
-        guid: ab23128e783c0e47bcceedf72c7a3441
-      Path: Game Parameters\Bus Control\Volume\Volume_Game_Effects
-    - name: Volume_Game_Environment
-      guid: 41fb4faaf2c2a94e9a373121199074ad
-      id: 2415467654
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Game_Environment
-        ObjectType: 13
-        guid: 41fb4faaf2c2a94e9a373121199074ad
-      Path: Game Parameters\Bus Control\Volume\Volume_Game_Environment
-    - name: Volume_Game_Interface
-      guid: f1ceb8cb31be2647b705a47c7b902c98
-      id: 1383951096
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Game_Interface
-        ObjectType: 13
-        guid: f1ceb8cb31be2647b705a47c7b902c98
-      Path: Game Parameters\Bus Control\Volume\Volume_Game_Interface
-    - name: Volume_Game_Music
-      guid: a01ae22c95711b45bbe2984a2946f794
-      id: 2086988932
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Bus Control
-        ObjectType: 12
-        guid: 5c994087154a76469736430e9e3c3def
-      - ElementName: Volume
-        ObjectType: 4
-        guid: c367df80e086434b9f3c48b60f177383
-      - ElementName: Volume_Game_Music
-        ObjectType: 13
-        guid: a01ae22c95711b45bbe2984a2946f794
-      Path: Game Parameters\Bus Control\Volume\Volume_Game_Music
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
@@ -2416,74 +2226,8 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: d388d6d9dbe086468c7e31140393dc17
     GuidInternal: 
-    m_lastTime: -8585749639546647519
-    List:
-    - name: Player_State
-      guid: 638b5413c546b7419cff29063f7c13bb
-      id: 4071417932
-      PathAndIcons:
-      - ElementName: States
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: d388d6d9dbe086468c7e31140393dc17
-      - ElementName: Player_State
-        ObjectType: 9
-        guid: 638b5413c546b7419cff29063f7c13bb
-      Path: States\Default Work Unit\Player_State
-      values:
-      - name: Alive
-        guid: 1b5cc01a7756834090ca868d3e45cdfa
-        id: 655265632
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: d388d6d9dbe086468c7e31140393dc17
-        - ElementName: Player_State
-          ObjectType: 9
-          guid: 638b5413c546b7419cff29063f7c13bb
-        - ElementName: Alive
-          ObjectType: 8
-          guid: 1b5cc01a7756834090ca868d3e45cdfa
-      - name: Dead
-        guid: e8619c452634f74ca9ce2645e173b89f
-        id: 2044049779
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: d388d6d9dbe086468c7e31140393dc17
-        - ElementName: Player_State
-          ObjectType: 9
-          guid: 638b5413c546b7419cff29063f7c13bb
-        - ElementName: Dead
-          ObjectType: 8
-          guid: e8619c452634f74ca9ce2645e173b89f
-      - name: None
-        guid: 2d3fe376a075b64f9af534d78bb4e51f
-        id: 748895195
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: d388d6d9dbe086468c7e31140393dc17
-        - ElementName: Player_State
-          ObjectType: 9
-          guid: 638b5413c546b7419cff29063f7c13bb
-        - ElementName: None
-          ObjectType: 8
-          guid: 2d3fe376a075b64f9af534d78bb4e51f
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
+    m_lastTime: -8585747376885387605
+    List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -2512,7 +2256,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585752643840444042
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000050000000600000031000000330000003400000035000000380000004f00000050000000510000005400000055000000
+  ExpandedFileSystemItemIds: 01000000020000000300000004000000050000000600000007000000080000000b0000001a0000002d00000031000000330000003400000035000000380000004f00000050000000510000005400000055000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

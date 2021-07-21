@@ -8,6 +8,7 @@ public abstract class Item
     public ItemType type;
     public string name;
     public Sprite inventorySprite;
+    public AK.Wwise.Event useSound = null;
 
     public abstract void Use();
 

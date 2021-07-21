@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65a0e44b58e7563409ba6abed5a3e25d, type: 3}
-  m_Name: 8E1223AB-3C78-470E-BCCE-EDF72C7A3441
+  m_Script: {fileID: 11500000, guid: c93dda7cf81c31a4f8a572036ce6d32b, type: 3}
+  m_Name: 9A7DE602-0635-492E-A8E0-215BD2F36B77
   m_EditorClassIdentifier: 
-  objectName: Volume_Game_Effects
-  id: 433054383
-  guid: 8E1223AB-3C78-470E-BCCE-EDF72C7A3441
+  objectName: Grenade_Throw
+  id: 3301329608
+  guid: 9A7DE602-0635-492E-A8E0-215BD2F36B77

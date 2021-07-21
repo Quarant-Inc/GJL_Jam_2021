@@ -29,7 +29,11 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 0
     name: Sniper
-    inventorySprite: {fileID: 0}
+    inventorySprite: {fileID: 21300000, guid: f58666e68a4ed8c408b953d5105e01ca, type: 3}
+    useSound:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: d5a4276e5eccd1e42b4d70073d016a74, type: 2}
     weaponType: 1
     penetrationLevel: 5
     chargeDelay: 0

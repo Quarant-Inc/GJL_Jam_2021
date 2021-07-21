@@ -30,6 +30,10 @@ MonoBehaviour:
     type: 0
     name: Master Sword
     inventorySprite: {fileID: 0}
+    useSound:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 21f77624754741141b9da7d3a7bc1b2a, type: 2}
     weaponType: 0
     range: 7
     coneAngle: 90

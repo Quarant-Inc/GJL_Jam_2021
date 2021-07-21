@@ -26,10 +26,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemSpec:
-    itemPrefab: {fileID: 0}
+    itemPrefab: {fileID: 2307126475148717313, guid: 9ff08f5d4737e924ba21c137add1687a, type: 3}
     type: 0
     name: Throwing Dagger
     inventorySprite: {fileID: 0}
+    useSound:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 370260b406767504caa308ffbbee254e, type: 2}
     weaponType: 0
     maxDistance: 10
     arcAxis: 0

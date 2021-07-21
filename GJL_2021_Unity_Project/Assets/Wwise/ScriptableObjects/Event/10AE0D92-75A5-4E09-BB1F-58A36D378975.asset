@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93dda7cf81c31a4f8a572036ce6d32b, type: 3}
+  m_Name: 10AE0D92-75A5-4E09-BB1F-58A36D378975
+  m_EditorClassIdentifier: 
+  objectName: Throwing_Dagger_Throw
+  id: 2123250479
+  guid: 10AE0D92-75A5-4E09-BB1F-58A36D378975

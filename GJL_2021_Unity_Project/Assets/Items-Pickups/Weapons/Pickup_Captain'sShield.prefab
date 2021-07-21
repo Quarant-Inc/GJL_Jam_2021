@@ -26,10 +26,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemSpec:
-    itemPrefab: {fileID: 0}
+    itemPrefab: {fileID: 207818164393819264, guid: 4e85334057a2ec247903fa5d6c706d5e, type: 3}
     type: 0
     name: Captain's Shield
-    inventorySprite: {fileID: 0}
+    inventorySprite: {fileID: 21300000, guid: 6038497dc91d72a4bbaa72399fc0693d, type: 3}
+    useSound:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: f3199853a25eaa141bc426e0ae6be0bb, type: 2}
     weaponType: 2
     maxDistance: 10
     arcAxis: 0

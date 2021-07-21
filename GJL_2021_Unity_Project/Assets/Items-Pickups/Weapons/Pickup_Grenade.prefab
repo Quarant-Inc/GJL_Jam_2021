@@ -26,10 +26,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemSpec:
-    itemPrefab: {fileID: 0}
+    itemPrefab: {fileID: 2450921594925189939, guid: 7aa0513ff7fcc9e46a2d2ae25738f0a8, type: 3}
     type: 0
     name: Grenade
     inventorySprite: {fileID: 0}
+    useSound:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: b6d0dfc5019cf7d46bf809c96e2cc5ae, type: 2}
     weaponType: 2
     maxDistance: 6
     arcAxis: 0

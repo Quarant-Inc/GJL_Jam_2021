@@ -29,7 +29,11 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 0
     name: Magic Wand
-    inventorySprite: {fileID: 0}
+    inventorySprite: {fileID: 21300000, guid: 40108b286b9e49041861e24ec6d0625e, type: 3}
+    useSound:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: ba5eefc47e8ccfc4aa701ec82b473e85, type: 2}
     weaponType: 1
     penetrationLevel: 0
     chargeDelay: 0

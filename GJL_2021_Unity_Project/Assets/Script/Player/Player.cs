@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public delegate void HealthChanged(int health);
 public delegate void MaxHeathChanged(int maxHealth);
@@ -37,6 +38,11 @@ public class Player : MonoBehaviour
     int maxHealth = 10;
     const int defaultSpeed = 10;
     const int maxArmour = 5;
+    bool spedUp = false;
+    bool magnetEnabled = false;
+    public GameObject temporaryBuffText;
+    bool footstepsPlaying = false;
+
 
     public int MaxArmour
     {
@@ -232,6 +238,12 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
+            if (!footstepsPlaying)
+            {
+                footstepsPlaying = true;
+                AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
+            }
+
             if (Input.GetKey(KeyCode.A))
             {
                 Move(DIRECTION.FORWARD_LEFT);
@@ -247,6 +259,12 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.S))
         {
+            if (!footstepsPlaying)
+            {
+                footstepsPlaying = true;
+                AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
+            }
+
             if (Input.GetKey(KeyCode.A))
             {
                 Move(DIRECTION.BACKWARD_LEFT);
@@ -262,16 +280,34 @@ public class Player : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.A))
         {
+            if (!footstepsPlaying)
+            {
+                footstepsPlaying = true;
+                AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
+            }
+
             Move(DIRECTION.LEFT);
         }
         else if (Input.GetKey(KeyCode.D))
         {
+            if (!footstepsPlaying)
+            {
+                footstepsPlaying = true;
+                AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
+            }
+
             Move(DIRECTION.RIGHT);
         }
         else
         {
             Animator.SetTrigger(PLAYER_ANIM_PARAMS.STOP_MOVING.ToString());
             RigidBody.velocity = new Vector3(0, RigidBody.velocity.y, 0);
+
+            if (footstepsPlaying)
+            {
+                footstepsPlaying = false;
+                AkSoundEngine.PostEvent("Player_Footstep_Stop", gameObject);
+            }
         }
 
         if (Input.GetMouseButtonDown(0))
@@ -521,6 +557,7 @@ public class Player : MonoBehaviour
             Debug.LogFormat("Used {0}",item.name);
 
             item.Use();
+            item.useSound.Post(gameObject);
 
             ItemUsed();
 
@@ -567,30 +604,46 @@ public class Player : MonoBehaviour
 
     public void IncreasePickupRadius()
     {
-        StartCoroutine(PickupWiden());
+        if (!magnetEnabled)
+        {
+            StartCoroutine(PickupWiden());
+        }
     }
 
     IEnumerator PickupWiden()
     {
+        magnetEnabled = true;
+        temporaryBuffText.SetActive(true);
+        temporaryBuffText.GetComponent<Text>().text = "ITEM MAGNET ENABLED";
         float prevPickupDistance = MaxPickupDistance;
         MaxPickupDistance *= 2;
         Debug.LogFormat("MaxPickupDistance: {0};", MaxPickupDistance);
         yield return new WaitForSeconds(pickIncreaseTime);
         MaxPickupDistance = prevPickupDistance;
         Debug.LogFormat("MaxPickupDistance: {0};",MaxPickupDistance);
+        temporaryBuffText.SetActive(false);
+        magnetEnabled = false;
     }
 
     public void IncreaseSpeed()
     {
-        StartCoroutine(SpeedUp());
+        if (!spedUp)
+        {
+            StartCoroutine(SpeedUp());
+        }
     }
 
     IEnumerator SpeedUp()
     {
+        spedUp = true;
+        temporaryBuffText.SetActive(true);
+        temporaryBuffText.GetComponent<Text>().text = "SPEED BOOST ENABLED";
         int prevSpeed = Speed;
-        Speed *= 3;
+        Speed *= 2;
         yield return new WaitForSeconds(speedIncreaseTime);
         Speed = prevSpeed;
+        temporaryBuffText.SetActive(false);
+        spedUp = false;
     }
 }
 

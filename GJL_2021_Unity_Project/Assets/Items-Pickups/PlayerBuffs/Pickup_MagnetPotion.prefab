@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 560260848501951222, guid: 71dfe044723710e42aa29367016fd144, type: 3}
       propertyPath: m_Name
-      value: PickupBase (1)
+      value: Pickup_MagnetPotion
       objectReference: {fileID: 0}
     - target: {fileID: 1144216341148099593, guid: 71dfe044723710e42aa29367016fd144, type: 3}
       propertyPath: m_Name
@@ -67,5 +67,13 @@ PrefabInstance:
       propertyPath: itemSpec.name
       value: Magnet Potion
       objectReference: {fileID: 0}
+    - target: {fileID: 2865466506485664253, guid: 71dfe044723710e42aa29367016fd144, type: 3}
+      propertyPath: itemSpec.inventorySprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5e263c86238c0f845887e622f0a70055, type: 3}
+    - target: {fileID: 2865466506485664253, guid: 71dfe044723710e42aa29367016fd144, type: 3}
+      propertyPath: itemSpec.useSound.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 30d02bac3559d32488e903449dccd0b2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71dfe044723710e42aa29367016fd144, type: 3}

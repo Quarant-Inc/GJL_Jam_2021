@@ -30,6 +30,10 @@ MonoBehaviour:
     type: 0
     name: Laser Gun
     inventorySprite: {fileID: 0}
+    useSound:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: cce27def704b82949982b689dadf1c06, type: 2}
     weaponType: 1
     penetrationLevel: 3
     chargeDelay: 0

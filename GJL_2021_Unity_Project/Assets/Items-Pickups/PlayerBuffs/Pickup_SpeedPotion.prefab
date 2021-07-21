@@ -29,7 +29,11 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 1
     name: Speed Potion
-    inventorySprite: {fileID: 0}
+    inventorySprite: {fileID: 21300000, guid: 57bfc01980f9c1a45aa29b26a85c352c, type: 3}
+    useSound:
+      idInternal: 0
+      valueGuidInternal: 
+      WwiseObjectReference: {fileID: 11400000, guid: 7beeceb8bd5ff2846bf1d0186f2833dc, type: 2}
     potionType: 1
 --- !u!1001 &920612606858174082
 PrefabInstance:
@@ -159,6 +163,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 24252b07cad41a447a27d067f22cdbec, type: 3}
       propertyPath: m_Name
       value: Speed Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24252b07cad41a447a27d067f22cdbec, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24252b07cad41a447a27d067f22cdbec, type: 3}
+      propertyPath: m_TagString
+      value: Item
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24252b07cad41a447a27d067f22cdbec, type: 3}
