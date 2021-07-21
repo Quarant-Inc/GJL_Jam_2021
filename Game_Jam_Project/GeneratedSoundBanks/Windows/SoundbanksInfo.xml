@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="258110631" Language="SFX" Hash="3128512044">
+		<SoundBank Id="258110631" Language="SFX" Hash="1431010625">
 			<ObjectPath>\SoundBanks\Default Work Unit\Game_Music</ObjectPath>
 			<ShortName>Game_Music</ShortName>
 			<Path>Game_Music.bnk</Path>
@@ -21,10 +21,6 @@
 						<File Id="51238858" Language="SFX">
 							<ShortName>Medievo intro.wav</ShortName>
 							<Path>SFX\Medievo intro_D79FB2B7.wem</Path>
-						</File>
-						<File Id="324109738" Language="SFX">
-							<ShortName>Death.wav</ShortName>
-							<Path>SFX\Death_D79FB2B7.wem</Path>
 						</File>
 						<File Id="557630306" Language="SFX">
 							<ShortName>Medievo 1.wav</ShortName>
@@ -39,48 +35,24 @@
 							<Path>SFX\Medievo 2_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{459C61E8-3426-4CF7-A9CE-2645E173B89F}">
-							<Media>
-								<File Id="324109738"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{1AC05C1B-5677-4083-90CA-868D3E45CDFA}">
-							<Media>
-								<File Id="51238858"/>
-								<File Id="557630306"/>
-								<File Id="782717807"/>
-								<File Id="941141954"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
 				</Event>
 				<Event Id="1448123892" Name="Level_Music_Stop" ObjectPath="\Events\Default Work Unit\Music\Level_Music_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="777069945" Name="Menu_Music_Start" ObjectPath="\Events\Default Work Unit\Music\Menu_Music_Start" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="387289223" Language="SFX">
-							<ShortName>DisposableArmsMainSection(master4).wav</ShortName>
-							<Path>SFX\DisposableArmsMainSection(master4)_D79FB2B7.wem</Path>
+						<File Id="357034705" Language="SFX">
+							<ShortName>DisposableArmsIntro(master2).wav</ShortName>
+							<Path>SFX\DisposableArmsIntro(master2)_D79FB2B7.wem</Path>
 						</File>
-						<File Id="446790971" Language="SFX">
-							<ShortName>DisposableArmsIntro(master1).wav</ShortName>
-							<Path>SFX\DisposableArmsIntro(master1)_D79FB2B7.wem</Path>
+						<File Id="673592296" Language="SFX">
+							<ShortName>DisposableArmsMainSection(master5FINAL).wav</ShortName>
+							<Path>SFX\DisposableArmsMainSection(master5FINAL)_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3487878355" Name="Menu_Music_Stop" ObjectPath="\Events\Default Work Unit\Music\Menu_Music_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
-			<StateGroups>
-				<StateGroup Id="4071417932" Name="Player_State" ObjectPath="\States\Default Work Unit\Player_State">
-					<States>
-						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Player_State\None"/>
-						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\Player_State\Alive"/>
-						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\Player_State\Dead"/>
-					</States>
-				</StateGroup>
-			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1126332838">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2427020066">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -89,7 +61,7 @@
 				<GameParameter Id="3597886634" Name="Effects_Volume" ObjectPath="\Game Parameters\Bus Control\Volume\Effects_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3274524167" Language="SFX" Hash="2180256365">
+		<SoundBank Id="3274524167" Language="SFX" Hash="2857263651">
 			<ObjectPath>\SoundBanks\Default Work Unit\Game_Actions</ObjectPath>
 			<ShortName>Game_Actions</ShortName>
 			<Path>Game_Actions.bnk</Path>
@@ -158,6 +130,14 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="2698747613" Name="Button_Press" ObjectPath="\Events\Default Work Unit\Effects\UI\Button_Press" DurationType="OneShot" DurationMin="0.480471" DurationMax="0.480471">
+					<IncludedMemoryFiles>
+						<File Id="680879735" Language="SFX">
+							<ShortName>menu_select.wav</ShortName>
+							<Path>SFX\menu_select_14931AE4.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1184469823" Name="Electric_Whip_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Melee\Electric_Whip_Hit" DurationType="OneShot" DurationMin="4.011000" DurationMax="4.011000">
 					<IncludedMemoryFiles>
 						<File Id="44045151" Language="SFX">
@@ -166,7 +146,7 @@
 						</File>
 						<File Id="269602033" Language="SFX">
 							<ShortName>160421__bigkahuna360__electrical-shock-zap.wav</ShortName>
-							<Path>SFX\160421__bigkahuna360__electrical-shock-zap_A63DBDF4.wem</Path>
+							<Path>SFX\160421__bigkahuna360__electrical-shock-zap_B76E7B96.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -175,6 +155,10 @@
 						<File Id="15677017" Language="SFX">
 							<ShortName>swordswing4.wav</ShortName>
 							<Path>SFX\swordswing4_10C4C929.wem</Path>
+						</File>
+						<File Id="113078034" Language="SFX">
+							<ShortName>160421__bigkahuna360__electrical-shock-zap.wav</ShortName>
+							<Path>SFX\160421__bigkahuna360__electrical-shock-zap_57B8144E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -195,6 +179,10 @@
 						<File Id="15677017" Language="SFX">
 							<ShortName>swordswing4.wav</ShortName>
 							<Path>SFX\swordswing4_10C4C929.wem</Path>
+						</File>
+						<File Id="1018412865" Language="SFX">
+							<ShortName>540831__eminyildirim__fire-fuse-ignite-flame-mid.wav</ShortName>
+							<Path>SFX\540831__eminyildirim__fire-fuse-ignite-flame-mid_DD88839E.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -475,27 +463,27 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\Effects\Footsteps\Player_Footstep" DurationType="OneShot" DurationMin="0.434694" DurationMax="0.583651">
+				<Event Id="2854834078" Name="Player_Footstep_Start" ObjectPath="\Events\Default Work Unit\Effects\Footsteps\Player_Footstep_Start" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="147057447" Language="SFX">
 							<ShortName>gravel3.wav</ShortName>
-							<Path>SFX\gravel3_10C4C929.wem</Path>
+							<Path>SFX\gravel3_D79FB2B7.wem</Path>
 						</File>
 						<File Id="186423450" Language="SFX">
 							<ShortName>gravel1.wav</ShortName>
-							<Path>SFX\gravel1_10C4C929.wem</Path>
+							<Path>SFX\gravel1_D79FB2B7.wem</Path>
 						</File>
 						<File Id="378795579" Language="SFX">
 							<ShortName>gravel2.wav</ShortName>
-							<Path>SFX\gravel2_10C4C929.wem</Path>
+							<Path>SFX\gravel2_D79FB2B7.wem</Path>
 						</File>
 						<File Id="936998935" Language="SFX">
 							<ShortName>gravel5.wav</ShortName>
-							<Path>SFX\gravel5_10C4C929.wem</Path>
+							<Path>SFX\gravel5_D79FB2B7.wem</Path>
 						</File>
 						<File Id="1069306195" Language="SFX">
 							<ShortName>gravel4.wav</ShortName>
-							<Path>SFX\gravel4_10C4C929.wem</Path>
+							<Path>SFX\gravel4_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

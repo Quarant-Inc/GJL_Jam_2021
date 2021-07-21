@@ -24,7 +24,7 @@
 								<Action Name="" ID="{164F92DB-1382-425A-A065-E0EFB063D034}" ShortID="257425578">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Level" ID="{60748FF2-A20A-4515-ABE6-0BE7E2C0208C}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}"/>
+											<ObjectRef Name="Music" ID="{0720DB43-16EC-4DD2-8A76-EA40462FB218}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -38,7 +38,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Level" ID="{60748FF2-A20A-4515-ABE6-0BE7E2C0208C}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}"/>
+											<ObjectRef Name="Music" ID="{0720DB43-16EC-4DD2-8A76-EA40462FB218}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -120,9 +120,23 @@
 						</Folder>
 						<Folder Name="Footsteps" ID="{12D0D547-F4EC-431E-85DD-7D10B08F3073}" ShortID="112625358">
 							<ChildrenList>
-								<Event Name="Player_Footstep" ID="{1D6F6C85-AED3-4887-9CAD-7DB8D13A81B7}">
+								<Event Name="Player_Footstep_Start" ID="{1D6F6C85-AED3-4887-9CAD-7DB8D13A81B7}">
 									<ChildrenList>
 										<Action Name="" ID="{E38F7342-35B4-4E4A-BCE1-CC6DB31608B7}" ShortID="661429831">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Player_Footstep" ID="{99BF96FF-D390-45D1-8215-3999EE28C8D0}" WorkUnitID="{756E980A-2456-4088-BE4C-247614B3D622}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Player_Footstep_Stop" ID="{25BDC36F-0FEC-4BAD-8655-3525CA02CFC5}">
+									<ChildrenList>
+										<Action Name="" ID="{57E1983A-66BD-43E8-97F5-C906D4A034CB}" ShortID="897119123">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Player_Footstep" ID="{99BF96FF-D390-45D1-8215-3999EE28C8D0}" WorkUnitID="{756E980A-2456-4088-BE4C-247614B3D622}"/>
@@ -156,6 +170,21 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Pickup_Item" ID="{E32B4A56-B882-4500-BB96-23A9BC161B99}" WorkUnitID="{756E980A-2456-4088-BE4C-247614B3D622}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="UI" ID="{64049B87-4BCD-4D32-AEE3-43AB4A27E909}" ShortID="171586923">
+							<ChildrenList>
+								<Event Name="Button_Press" ID="{EBBFC6C3-90DC-4049-842A-CFD485989F6D}">
+									<ChildrenList>
+										<Action Name="" ID="{18D6F8A1-CC2A-4DA1-80FB-B786C8C35A3E}" ShortID="930271272">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Button_Press" ID="{E16111AF-DE1A-44A0-9299-A2B65BCDEC5D}" WorkUnitID="{756E980A-2456-4088-BE4C-247614B3D622}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

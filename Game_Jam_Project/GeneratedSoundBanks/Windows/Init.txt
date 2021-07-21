@@ -1,11 +1,3 @@
-State Group	ID	Name			Wwise Object Path	Notes
-	4071417932	Player_State			\Default Work Unit\Player_State	
-
-State	ID	Name	State Group			Notes
-	655265632	Alive	Player_State			
-	748895195	None	Player_State			
-	2044049779	Dead	Player_State			
-
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	

@@ -15,6 +15,7 @@
 				</SoundBank>
 				<SoundBank Name="Game_Actions" ID="{099DF8CE-0973-43D4-9D04-854AE82DDB50}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Button_Press" ID="{EBBFC6C3-90DC-4049-842A-CFD485989F6D}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Rocks_Hit" ID="{029FA3C7-8B04-40B3-BCC0-6CB6033E94AB}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Lasso" ID="{B88D8D77-7956-412E-9E93-F4980F5DA5D1}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Grenade_Hit" ID="{3F6082CD-054B-4147-B0F4-4511F86A39CB}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
@@ -44,7 +45,7 @@
 						<ObjectRef Name="Flamethrower_Swing" ID="{2E159D96-A163-4784-B529-8D49D58CB4DA}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Laser_Gun_Shoot" ID="{D21ECECB-25E3-47B3-A101-6060D6626FBF}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Bow_and_Arrow_Hit" ID="{FCB2DCE7-91B0-4847-8900-3F386A003FDD}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Player_Footstep" ID="{1D6F6C85-AED3-4887-9CAD-7DB8D13A81B7}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Start" ID="{1D6F6C85-AED3-4887-9CAD-7DB8D13A81B7}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Item_Magnet" ID="{863E76AC-B6C5-48B1-B87A-54AFA5C5782A}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Fire_Whip_Swing" ID="{92AC7ED1-BB3D-48C0-BFC1-DA4DD73D89AF}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Sniper_Shoot" ID="{6E842590-7FFB-48D3-B84A-D88F49906B12}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>

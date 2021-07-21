@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID BOOMERANG_THROW = 934225790U;
         static const AkUniqueID BOW_AND_ARROW_HIT = 543618689U;
         static const AkUniqueID BOW_AND_ARROW_THROW = 3545396134U;
+        static const AkUniqueID BUTTON_PRESS = 2698747613U;
         static const AkUniqueID ELECTRIC_WHIP_HIT = 1184469823U;
         static const AkUniqueID ELECTRIC_WHIP_SWING = 2567405418U;
         static const AkUniqueID FIRE_WHIP_HIT = 4040622072U;
@@ -55,7 +56,7 @@ namespace AK
         static const AkUniqueID PICKUP_ITEM = 902717029U;
         static const AkUniqueID PISTOL_HIT = 1754944470U;
         static const AkUniqueID PISTOL_SHOOT = 2124970216U;
-        static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
+        static const AkUniqueID PLAYER_FOOTSTEP_START = 2854834078U;
         static const AkUniqueID RAILGUN_HIT = 528420227U;
         static const AkUniqueID RAILGUN_SHOOT = 673267873U;
         static const AkUniqueID ROBOT_INSULT = 3122074043U;
@@ -74,22 +75,6 @@ namespace AK
         static const AkUniqueID THROWING_DAGGER_HIT = 3822779060U;
         static const AkUniqueID THROWING_DAGGER_THROW = 2123250479U;
     } // namespace EVENTS
-
-    namespace STATES
-    {
-        namespace PLAYER_STATE
-        {
-            static const AkUniqueID GROUP = 4071417932U;
-
-            namespace STATE
-            {
-                static const AkUniqueID ALIVE = 655265632U;
-                static const AkUniqueID DEAD = 2044049779U;
-                static const AkUniqueID NONE = 748895195U;
-            } // namespace STATE
-        } // namespace PLAYER_STATE
-
-    } // namespace STATES
 
     namespace GAME_PARAMETERS
     {
