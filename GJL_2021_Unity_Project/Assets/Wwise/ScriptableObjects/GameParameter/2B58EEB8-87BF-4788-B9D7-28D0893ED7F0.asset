@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65a0e44b58e7563409ba6abed5a3e25d, type: 3}
+  m_Name: 2B58EEB8-87BF-4788-B9D7-28D0893ED7F0
+  m_EditorClassIdentifier: 
+  objectName: Music_Volume
+  id: 1006694123
+  guid: 2B58EEB8-87BF-4788-B9D7-28D0893ED7F0

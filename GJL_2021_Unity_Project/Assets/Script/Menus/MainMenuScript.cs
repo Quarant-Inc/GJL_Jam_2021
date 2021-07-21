@@ -33,6 +33,7 @@ public class MainMenuScript : MonoBehaviour
     public void PlayGame()
     {
         playButton.GetComponentInChildren<Text>().alignment = TextAnchor.MiddleCenter;
+        clickSound.Post(gameObject);
         StartCoroutine(DelayPlayGame());
     }
 
@@ -47,6 +48,7 @@ public class MainMenuScript : MonoBehaviour
     public void GoOptions()
     {
         optionsButton.GetComponentInChildren<Text>().alignment = TextAnchor.MiddleCenter;
+        clickSound.Post(gameObject);
         StartCoroutine(DelayGoOptions());
     }
 
@@ -61,6 +63,7 @@ public class MainMenuScript : MonoBehaviour
     public void ExitGame()
     {
         exitButton.GetComponentInChildren<Text>().alignment = TextAnchor.MiddleCenter;
+        clickSound.Post(gameObject);
         StartCoroutine(DelayExitGame());
     }
 

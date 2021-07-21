@@ -16,6 +16,10 @@ PrefabInstance:
       value: Health Potion
       objectReference: {fileID: 0}
     - target: {fileID: 5583058492384849128, guid: 33469fea2e77b124d90e70037de51c99, type: 3}
+      propertyPath: itemSpec.potionType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583058492384849128, guid: 33469fea2e77b124d90e70037de51c99, type: 3}
       propertyPath: itemSpec.inventorySprite
       value: 
       objectReference: {fileID: 21300000, guid: d77db8bd0cc768449a76681768403797, type: 3}

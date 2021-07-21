@@ -60,7 +60,9 @@ public enum WEAPON_TYPE
 public enum POTION_TYPE
 {
     MAGNET,
-    SPEED_INCREASE
+    SPEED_INCREASE,
+    HEALTH_INCREASE,
+    ARMOUR_INCREASE
 }
 
 public enum TOOL_TYPE

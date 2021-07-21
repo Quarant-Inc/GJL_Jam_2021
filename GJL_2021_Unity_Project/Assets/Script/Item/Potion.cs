@@ -18,6 +18,16 @@ public class Potion : Item
                 Player.Instance.IncreaseSpeed();
                 break;
             }
+            case POTION_TYPE.HEALTH_INCREASE:
+                {
+                    Player.Instance.AddHealth();
+                    break;
+                }
+            case POTION_TYPE.ARMOUR_INCREASE:
+                {
+                    Player.Instance.AddArmour();
+                    break;
+                }
         }
         Player.Instance.SetAnimation(PLAYER_ANIM_PARAMS.CONSUME);
     }

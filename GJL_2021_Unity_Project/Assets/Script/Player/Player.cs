@@ -42,6 +42,11 @@ public class Player : MonoBehaviour
     bool magnetEnabled = false;
     public GameObject temporaryBuffText;
     bool footstepsPlaying = false;
+    public GameObject pauseScreen;
+    public Button playButton;
+    public Button quitButton;
+    bool gamePaused = false;
+    public AK.Wwise.Event clickSound = null;
 
 
     public int MaxArmour
@@ -236,94 +241,115 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.W))
-        {
-            if (!footstepsPlaying)
-            {
-                footstepsPlaying = true;
-                AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
-            }
 
-            if (Input.GetKey(KeyCode.A))
-            {
-                Move(DIRECTION.FORWARD_LEFT);
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                Move(DIRECTION.FORWARD_RIGHT);
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (gamePaused) {
+
+                gamePaused = false;
+                Time.timeScale = 1;
+                pauseScreen.SetActive(false);
+            
             }
             else
             {
-                Move(DIRECTION.FORWARD);
+                gamePaused = true;
+                Time.timeScale = 0;
+                pauseScreen.SetActive(true);
             }
+            
         }
-        else if (Input.GetKey(KeyCode.S))
+        if (!gamePaused)
         {
-            if (!footstepsPlaying)
+            if (Input.GetKey(KeyCode.W))
             {
-                footstepsPlaying = true;
-                AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
-            }
-
-            if (Input.GetKey(KeyCode.A))
-            {
-                Move(DIRECTION.BACKWARD_LEFT);
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                Move(DIRECTION.BACKWARD_RIGHT);
-            }
-            else
-            {
-                Move(DIRECTION.BACKWARD);
-            }
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            if (!footstepsPlaying)
-            {
-                footstepsPlaying = true;
-                AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
-            }
-
-            Move(DIRECTION.LEFT);
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            if (!footstepsPlaying)
-            {
-                footstepsPlaying = true;
-                AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
-            }
-
-            Move(DIRECTION.RIGHT);
-        }
-        else
-        {
-            Animator.SetTrigger(PLAYER_ANIM_PARAMS.STOP_MOVING.ToString());
-            RigidBody.velocity = new Vector3(0, RigidBody.velocity.y, 0);
-
-            if (footstepsPlaying)
-            {
-                footstepsPlaying = false;
-                AkSoundEngine.PostEvent("Player_Footstep_Stop", gameObject);
-            }
-        }
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            UseItem();
-        }
-
-        if (Input.GetMouseButtonDown(1))
-        {
-            if (localItems.Count > 0)
-            {
-                Debug.Log("gjrigjr");
-                ItemGameObjectPair closestPair;// = GetClosestPair();
-                if (GetClosestPair(out closestPair))
+                if (!footstepsPlaying)
                 {
-                    PickupItem(closestPair);
+                    footstepsPlaying = true;
+                    AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
+                }
+
+                if (Input.GetKey(KeyCode.A))
+                {
+                    Move(DIRECTION.FORWARD_LEFT);
+                }
+                else if (Input.GetKey(KeyCode.D))
+                {
+                    Move(DIRECTION.FORWARD_RIGHT);
+                }
+                else
+                {
+                    Move(DIRECTION.FORWARD);
+                }
+            }
+            else if (Input.GetKey(KeyCode.S))
+            {
+                if (!footstepsPlaying)
+                {
+                    footstepsPlaying = true;
+                    AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
+                }
+
+                if (Input.GetKey(KeyCode.A))
+                {
+                    Move(DIRECTION.BACKWARD_LEFT);
+                }
+                else if (Input.GetKey(KeyCode.D))
+                {
+                    Move(DIRECTION.BACKWARD_RIGHT);
+                }
+                else
+                {
+                    Move(DIRECTION.BACKWARD);
+                }
+            }
+            else if (Input.GetKey(KeyCode.A))
+            {
+                if (!footstepsPlaying)
+                {
+                    footstepsPlaying = true;
+                    AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
+                }
+
+                Move(DIRECTION.LEFT);
+            }
+            else if (Input.GetKey(KeyCode.D))
+            {
+                if (!footstepsPlaying)
+                {
+                    footstepsPlaying = true;
+                    AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
+                }
+
+                Move(DIRECTION.RIGHT);
+            }
+            else
+            {
+                Animator.SetTrigger(PLAYER_ANIM_PARAMS.STOP_MOVING.ToString());
+                RigidBody.velocity = new Vector3(0, RigidBody.velocity.y, 0);
+
+                if (footstepsPlaying)
+                {
+                    footstepsPlaying = false;
+                    AkSoundEngine.PostEvent("Player_Footstep_Stop", gameObject);
+                }
+            }
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                UseItem();
+            }
+
+            if (Input.GetMouseButtonDown(1))
+            {
+                if (localItems.Count > 0)
+                {
+                    Debug.Log("gjrigjr");
+                    ItemGameObjectPair closestPair;// = GetClosestPair();
+                    if (GetClosestPair(out closestPair))
+                    {
+                        PickupItem(closestPair);
+                    }
                 }
             }
         }
@@ -583,20 +609,23 @@ public class Player : MonoBehaviour
         }
     }
 
-    public void AddMaxHealth()
-    {        
-        MaxHealth ++; 
-        Debug.LogFormat("Increase max hp: {0}", MaxHealth);
+    public void AddHealth()
+    {
+        Health++;
+        Mathf.Clamp(Health, 0, MaxHealth);
+        //MaxHealth ++; 
+        //Debug.LogFormat("Increase max hp: {0}", MaxHealth);
     }
 
-    public void FullHeal()
-    {
-        Health = MaxHealth;
-    }
+    //public void FullHeal()
+    //{
+    //    Health = MaxHealth;
+    //}
 
     public void AddArmour()
     {
         Armour++;
+        Mathf.Clamp(Armour, 0, MaxArmour);
     }
 
     public float pickIncreaseTime = 3f;
@@ -645,6 +674,43 @@ public class Player : MonoBehaviour
         temporaryBuffText.SetActive(false);
         spedUp = false;
     }
+
+    public void PlayGame()
+    {
+        playButton.GetComponentInChildren<Text>().alignment = TextAnchor.MiddleCenter;
+        Time.timeScale = 1;
+        clickSound.Post(gameObject);
+        StartCoroutine(DelayPlayGame());
+    }
+
+    IEnumerator DelayPlayGame()
+    {
+        yield return new WaitForSeconds(0.04f);
+        playButton.GetComponentInChildren<Text>().alignment = TextAnchor.UpperCenter;
+        //SceneManager.LoadScene("MainGame");
+
+        gamePaused = false;
+        pauseScreen.SetActive(false);
+
+    }
+
+    public void QuitGame()
+    {
+        quitButton.GetComponentInChildren<Text>().alignment = TextAnchor.MiddleCenter;
+        Time.timeScale = 1;
+        clickSound.Post(gameObject);
+        StartCoroutine(DelayQuitGame());
+    }
+
+    IEnumerator DelayQuitGame()
+    {
+        yield return new WaitForSeconds(0.04f);
+        quitButton.GetComponentInChildren<Text>().alignment = TextAnchor.UpperCenter;
+        //SceneManager.LoadScene("Options");
+        Util.LoadScene(SCENE.MENU);
+    }
+
+
 }
 
 struct ItemGameObjectPair
@@ -666,4 +732,9 @@ struct ItemGameObjectPair
         item = _item;
         gameObject = _gameObject;
     }
+
+
+
+    
+
 }

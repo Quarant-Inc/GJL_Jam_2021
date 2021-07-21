@@ -12,6 +12,10 @@ PrefabInstance:
       value: Armour Potion
       objectReference: {fileID: 0}
     - target: {fileID: 345846190376728134, guid: 837e121926439684fa1ecc6ba569833e, type: 3}
+      propertyPath: itemSpec.potionType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 345846190376728134, guid: 837e121926439684fa1ecc6ba569833e, type: 3}
       propertyPath: itemSpec.inventorySprite
       value: 
       objectReference: {fileID: 21300000, guid: 9d25d3eefc5e05b46990bb11b5ef01b2, type: 3}

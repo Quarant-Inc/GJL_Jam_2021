@@ -282,10 +282,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   temporaryBuffText: {fileID: 0}
-  forceMultiplier: 3
+  pauseScreen: {fileID: 0}
+  playButton: {fileID: 0}
+  quitButton: {fileID: 0}
+  forceMultiplier: 5
   maxSpeed: 10
-  pickIncreaseTime: 3
-  speedIncreaseTime: 3
+  pickIncreaseTime: 10
+  speedIncreaseTime: 10
 --- !u!136 &2083268410449831450
 CapsuleCollider:
   m_ObjectHideFlags: 0
