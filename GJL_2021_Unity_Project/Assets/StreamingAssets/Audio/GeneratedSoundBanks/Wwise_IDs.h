@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID BOOMERANG_THROW = 934225790U;
         static const AkUniqueID BOW_AND_ARROW_HIT = 543618689U;
         static const AkUniqueID BOW_AND_ARROW_THROW = 3545396134U;
+        static const AkUniqueID BUTTON_PRESS = 2698747613U;
         static const AkUniqueID ELECTRIC_WHIP_HIT = 1184469823U;
         static const AkUniqueID ELECTRIC_WHIP_SWING = 2567405418U;
         static const AkUniqueID FIRE_WHIP_HIT = 4040622072U;
@@ -46,14 +47,16 @@ namespace AK
         static const AkUniqueID LASER_SWORD_HIT = 4146399722U;
         static const AkUniqueID LASER_SWORD_SWING = 3191454527U;
         static const AkUniqueID LASSO = 3680608169U;
-        static const AkUniqueID LEVEL = 2782712965U;
+        static const AkUniqueID LEVEL_MUSIC_START = 3603894824U;
+        static const AkUniqueID LEVEL_MUSIC_STOP = 1448123892U;
         static const AkUniqueID MAGIC_WAND_HIT = 2313357241U;
         static const AkUniqueID MAGIC_WAND_SHOOT = 2988633891U;
-        static const AkUniqueID MAIN_MENU = 2005704188U;
+        static const AkUniqueID MENU_MUSIC_START = 777069945U;
+        static const AkUniqueID MENU_MUSIC_STOP = 3487878355U;
         static const AkUniqueID PICKUP_ITEM = 902717029U;
         static const AkUniqueID PISTOL_HIT = 1754944470U;
         static const AkUniqueID PISTOL_SHOOT = 2124970216U;
-        static const AkUniqueID PLAYER_FOOTSTEP = 2453392179U;
+        static const AkUniqueID PLAYER_FOOTSTEP_START = 2854834078U;
         static const AkUniqueID RAILGUN_HIT = 528420227U;
         static const AkUniqueID RAILGUN_SHOOT = 673267873U;
         static const AkUniqueID ROBOT_INSULT = 3122074043U;
@@ -73,35 +76,11 @@ namespace AK
         static const AkUniqueID THROWING_DAGGER_THROW = 2123250479U;
     } // namespace EVENTS
 
-    namespace STATES
-    {
-        namespace PLAYER_STATE
-        {
-            static const AkUniqueID GROUP = 4071417932U;
-
-            namespace STATE
-            {
-                static const AkUniqueID ALIVE = 655265632U;
-                static const AkUniqueID DEAD = 2044049779U;
-                static const AkUniqueID NONE = 748895195U;
-            } // namespace STATE
-        } // namespace PLAYER_STATE
-
-    } // namespace STATES
-
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID EFFECTS_VOLUME = 3597886634U;
+        static const AkUniqueID MUSIC_VOLUME = 1006694123U;
         static const AkUniqueID PLAYER_HEALTH = 215992295U;
-        static const AkUniqueID VOLUME_CLIENT = 876971579U;
-        static const AkUniqueID VOLUME_CLIENT_EFFECTS = 210910324U;
-        static const AkUniqueID VOLUME_CLIENT_INTERFACE = 1102357403U;
-        static const AkUniqueID VOLUME_CLIENT_MUSIC = 728432867U;
-        static const AkUniqueID VOLUME_GAME = 2635722944U;
-        static const AkUniqueID VOLUME_GAME_DIALOGUE = 3659685417U;
-        static const AkUniqueID VOLUME_GAME_EFFECTS = 433054383U;
-        static const AkUniqueID VOLUME_GAME_ENVIRONMENT = 2415467654U;
-        static const AkUniqueID VOLUME_GAME_INTERFACE = 1383951096U;
-        static const AkUniqueID VOLUME_GAME_MUSIC = 2086988932U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -113,18 +92,10 @@ namespace AK
 
     namespace BUSSES
     {
-        static const AkUniqueID CIENT = 1746688556U;
-        static const AkUniqueID CLIENT_EFFECTS = 4287282079U;
-        static const AkUniqueID CLIENT_INTERFACE = 4196122344U;
-        static const AkUniqueID CLIENT_MUSIC = 2077971636U;
-        static const AkUniqueID GAME = 702482391U;
-        static const AkUniqueID GAME_DIALOGUE = 1088545924U;
-        static const AkUniqueID GAME_EFFECTS = 2077902432U;
-        static const AkUniqueID GAME_ENVIRONMENT = 813360393U;
-        static const AkUniqueID GAME_INTERFACE = 419772119U;
-        static const AkUniqueID GAME_MUSIC = 258110631U;
+        static const AkUniqueID EFFECTS_VOLUME = 3597886634U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MOTION_FACTORY_BUS = 985987111U;
+        static const AkUniqueID MUSIC_VOLUME = 1006694123U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

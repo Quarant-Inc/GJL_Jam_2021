@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+							<ObjectRef Name="Effects_Volume" ID="{D85B391D-99F3-4CD7-A8E2-2812BA68C7F1}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -30,7 +30,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -119,7 +119,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -144,7 +144,7 @@
 															</Custom>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -182,7 +182,7 @@
 															</Custom>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -220,7 +220,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -245,7 +245,7 @@
 															</Custom>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -271,7 +271,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -281,7 +281,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -332,7 +332,7 @@
 															</Custom>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -370,7 +370,7 @@
 															</Custom>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -401,7 +401,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -426,7 +426,7 @@
 															</Custom>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -493,7 +493,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -537,29 +537,72 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="swordswing4" ID="{4C0B9455-2D14-4565-8F7C-EE397BCA9D93}" ShortID="213056966">
+												<BlendContainer Name="blend" ID="{B15A304A-528B-4B36-8F1D-87115E7317E6}" ShortID="906320682">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="swordswing4" ID="{ADFECFBA-2593-41A2-8F72-2B3BC332CBD8}">
-															<Language>SFX</Language>
-															<AudioFile>swordswing4.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="15677017"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="swordswing4" ID="{4C0B9455-2D14-4565-8F7C-EE397BCA9D93}" ShortID="213056966">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Effects_Volume" ID="{D85B391D-99F3-4CD7-A8E2-2812BA68C7F1}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="swordswing4" ID="{ADFECFBA-2593-41A2-8F72-2B3BC332CBD8}">
+																	<Language>SFX</Language>
+																	<AudioFile>swordswing4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="15677017"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="swordswing4" ID="{ADFECFBA-2593-41A2-8F72-2B3BC332CBD8}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="540831__eminyildirim__fire-fuse-ignite-flame-mid" ID="{87371794-3298-4128-ADED-EFF25477027B}" ShortID="906749300">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Effects_Volume" ID="{D85B391D-99F3-4CD7-A8E2-2812BA68C7F1}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="540831__eminyildirim__fire-fuse-ignite-flame-mid" ID="{A8648258-EAB5-471D-8A92-D69FCECE2C0F}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.386075345731998"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.469489581868951"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="1.50920362422508"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="2.00062930528335"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>540831__eminyildirim__fire-fuse-ignite-flame-mid.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1018412865"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="540831__eminyildirim__fire-fuse-ignite-flame-mid" ID="{A8648258-EAB5-471D-8A92-D69FCECE2C0F}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="swordswing4" ID="{ADFECFBA-2593-41A2-8F72-2B3BC332CBD8}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												</BlendContainer>
 											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
@@ -569,7 +612,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -650,29 +693,72 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="swordswing4" ID="{B16C0795-4905-4748-80D8-2733B23D8443}" ShortID="711744706">
+												<BlendContainer Name="blend" ID="{066CF262-8ADA-4AAE-BB48-B8B1A55EBC0B}" ShortID="735855401">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="swordswing4" ID="{F8034777-E7B2-4351-831D-4602964F64C4}">
-															<Language>SFX</Language>
-															<AudioFile>swordswing4.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="15677017"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="swordswing4" ID="{B16C0795-4905-4748-80D8-2733B23D8443}" ShortID="711744706">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Effects_Volume" ID="{D85B391D-99F3-4CD7-A8E2-2812BA68C7F1}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="swordswing4" ID="{F8034777-E7B2-4351-831D-4602964F64C4}">
+																	<Language>SFX</Language>
+																	<AudioFile>swordswing4.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="15677017"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="swordswing4" ID="{F8034777-E7B2-4351-831D-4602964F64C4}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="160421__bigkahuna360__electrical-shock-zap" ID="{CAC71342-A643-4BFE-AF1D-DEF9680B06B3}" ShortID="723030072">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Effects_Volume" ID="{D85B391D-99F3-4CD7-A8E2-2812BA68C7F1}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="160421__bigkahuna360__electrical-shock-zap" ID="{69F10985-03AF-42DD-83BB-7BAE228B01C9}">
+																	<PropertyList>
+																		<Property Name="FadeInDuration" Type="Real64" Value="0.291651509795168"/>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.276084316881259"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimBegin" Type="Real64" Value="0.526183164739884"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.979317954220317"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>160421__bigkahuna360__electrical-shock-zap.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="113078034"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="160421__bigkahuna360__electrical-shock-zap" ID="{69F10985-03AF-42DD-83BB-7BAE228B01C9}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
 													<ObjectLists/>
-													<ActiveSourceList>
-														<ActiveSource Name="swordswing4" ID="{F8034777-E7B2-4351-831D-4602964F64C4}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+												</BlendContainer>
 											</ChildrenList>
 											<ObjectLists/>
 										</RandomSequenceContainer>
@@ -682,7 +768,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -702,7 +788,7 @@
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -731,8 +817,10 @@
 															<ChildrenList>
 																<AudioFileSource Name="160421__bigkahuna360__electrical-shock-zap" ID="{EE6B963C-9646-421F-A744-E3ADBE159B1E}">
 																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="1.05739480378658"/>
 																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																		<Property Name="TrimBegin" Type="Real64" Value="0.526183164739884"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="1.58357796852647"/>
 																	</PropertyList>
 																	<Language>SFX</Language>
 																	<AudioFile>160421__bigkahuna360__electrical-shock-zap.wav</AudioFile>
@@ -858,7 +946,7 @@
 													</Custom>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -908,7 +996,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -934,7 +1022,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -944,7 +1032,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1011,7 +1099,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1021,7 +1109,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1087,7 +1175,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1133,7 +1221,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1159,7 +1247,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1179,7 +1267,7 @@
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -1202,7 +1290,7 @@
 																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 																</Reference>
 																<Reference Name="OutputBus">
-																	<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 																</Reference>
 															</ReferenceList>
 															<ChildrenList>
@@ -1246,7 +1334,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1272,7 +1360,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1282,7 +1370,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1344,7 +1432,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1430,7 +1518,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1440,7 +1528,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1507,7 +1595,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1517,7 +1605,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1584,7 +1672,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1594,7 +1682,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1637,7 +1725,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1663,7 +1751,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1673,7 +1761,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1740,7 +1828,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -1750,7 +1838,7 @@
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 														</Reference>
 														<Reference Name="OutputBus">
-															<ObjectRef Name="Game_Effects" ID="{025CB6E3-AAD0-4E59-BC9C-135A8F19955B}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
@@ -1881,6 +1969,9 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="gravel1" ID="{07B1D3E1-E8C3-49E2-A394-BA6AC076B633}" ShortID="281767463">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -1904,6 +1995,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="gravel2" ID="{888ED238-F307-469F-8E20-136FA0CA14B8}" ShortID="838454423">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -1927,6 +2021,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="gravel3" ID="{89CA996F-09C8-45C7-A940-F865B1508827}" ShortID="464351569">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -1950,6 +2047,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="gravel4" ID="{C9CCD311-FD50-4007-A6CB-8F1FCF57E577}" ShortID="319114542">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -1973,6 +2073,9 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="gravel5" ID="{A9FF3FF8-C4C6-4C12-B80A-B6628C49A9C7}" ShortID="416862432">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -2115,27 +2218,6 @@
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
-											<StateInfo>
-												<StateGroupList>
-													<StateGroupInfo>
-														<StateGroupRef Name="Player_State" ID="{13548B63-46C5-41B7-9CFF-29063F7C13BB}"/>
-													</StateGroupInfo>
-												</StateGroupList>
-												<CustomStateList>
-													<CustomState>
-														<StateRef Name="Alive" ID="{1AC05C1B-5677-4083-90CA-868D3E45CDFA}"/>
-														<CustomState Name="" ID="{142529D4-CD08-451C-A31E-2DBB59528E92}" ShortID="321770942"/>
-													</CustomState>
-													<CustomState>
-														<StateRef Name="Dead" ID="{459C61E8-3426-4CF7-A9CE-2645E173B89F}"/>
-														<CustomState Name="" ID="{1D949985-DAC5-4FC3-9331-B2DA8601EA8B}" ShortID="338268871">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64" Value="-108"/>
-															</PropertyList>
-														</CustomState>
-													</CustomState>
-												</CustomStateList>
-											</StateInfo>
 											<ObjectLists/>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -2317,6 +2399,57 @@
 													<ObjectLists/>
 													<ActiveSourceList>
 														<ActiveSource Name="403009__inspectorj__ui-confirmation-alert-b3" ID="{D6139320-812A-4967-A865-A883FAC64CE3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</Folder>
+								<Folder Name="UI" ID="{14D9B210-4D06-49EB-96F4-B64F4AEC41E4}" ShortID="173137115">
+									<ChildrenList>
+										<RandomSequenceContainer Name="Button_Press" ID="{E16111AF-DE1A-44A0-9299-A2B65BCDEC5D}" ShortID="24963547">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="menu_select" ID="{F2252F1A-7496-4FBF-8355-B3B65D985765}" ShortID="800704962">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="menu_select" ID="{D18680D9-F009-4F81-A1AB-340443E40904}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0426586085077808"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>menu_select.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="680879735"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="menu_select" ID="{D18680D9-F009-4F81-A1AB-340443E40904}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>

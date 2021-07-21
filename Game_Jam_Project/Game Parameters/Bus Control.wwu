@@ -5,16 +5,8 @@
 			<ChildrenList>
 				<Folder Name="Volume" ID="{80DF67C3-86E0-4B43-9F3C-48B60F177383}" ShortID="74915482">
 					<ChildrenList>
-						<GameParameter Name="Volume_Game_Dialogue" ID="{C14320CB-E6B0-4ECF-AD39-FCCFC14AC099}"/>
-						<GameParameter Name="Volume_Game_Effects" ID="{8E1223AB-3C78-470E-BCCE-EDF72C7A3441}"/>
-						<GameParameter Name="Volume_Game_Environment" ID="{AA4FFB41-C2F2-4EA9-9A37-3121199074AD}"/>
-						<GameParameter Name="Volume_Game_Music" ID="{2CE21AA0-7195-451B-BBE2-984A2946F794}"/>
-						<GameParameter Name="Volume_Client_Effects" ID="{18B54BB9-F181-45BC-AAD7-4AE1D7385783}"/>
-						<GameParameter Name="Volume_Client_Music" ID="{9DAEAB48-1FAE-46DF-A8A0-062256A3C6C6}"/>
-						<GameParameter Name="Volume_Client" ID="{D1BBBBB9-5ADE-43F3-8F1A-B823E31EB7D1}"/>
-						<GameParameter Name="Volume_Game" ID="{8B24C0C7-759D-4278-A30C-BBCE49F589ED}"/>
-						<GameParameter Name="Volume_Client_Interface" ID="{92451C44-46F0-4BEC-85B6-5EB7361C6EA0}"/>
-						<GameParameter Name="Volume_Game_Interface" ID="{CBB8CEF1-BE31-4726-B705-A47C7B902C98}"/>
+						<GameParameter Name="Effects_Volume" ID="{4B47DE96-5EE2-479D-BB9E-805FF2CC9330}"/>
+						<GameParameter Name="Music_Volume" ID="{2B58EEB8-87BF-4788-B9D7-28D0893ED7F0}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

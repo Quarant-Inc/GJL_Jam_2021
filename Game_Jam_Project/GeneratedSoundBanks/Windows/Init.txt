@@ -1,50 +1,26 @@
-State Group	ID	Name			Wwise Object Path	Notes
-	4071417932	Player_State			\Default Work Unit\Player_State	
-
-State	ID	Name	State Group			Notes
-	655265632	Alive	Player_State			
-	748895195	None	Player_State			
-	2044049779	Dead	Player_State			
-
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	210910324	Volume_Client_Effects			\Bus Control\Volume\Volume_Client_Effects	
-	433054383	Volume_Game_Effects			\Bus Control\Volume\Volume_Game_Effects	
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
-	728432867	Volume_Client_Music			\Bus Control\Volume\Volume_Client_Music	
 	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
-	876971579	Volume_Client			\Bus Control\Volume\Volume_Client	
-	1102357403	Volume_Client_Interface			\Bus Control\Volume\Volume_Client_Interface	
-	1383951096	Volume_Game_Interface			\Bus Control\Volume\Volume_Game_Interface	
+	1006694123	Music_Volume			\Bus Control\Volume\Music_Volume	
 	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
 	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
 	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
 	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
-	2086988932	Volume_Game_Music			\Bus Control\Volume\Volume_Game_Music	
 	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
-	2415467654	Volume_Game_Environment			\Bus Control\Volume\Volume_Game_Environment	
-	2635722944	Volume_Game			\Bus Control\Volume\Volume_Game	
 	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
 	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
 	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
-	3659685417	Volume_Game_Dialogue			\Bus Control\Volume\Volume_Game_Dialogue	
+	3597886634	Effects_Volume			\Bus Control\Volume\Effects_Volume	
 	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
 	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	258110631	Game_Music			\Default Work Unit\Master Audio Bus\Game\Game_Music	
-	419772119	Game_Interface			\Default Work Unit\Master Audio Bus\Game\Game_Interface	
-	702482391	Game			\Default Work Unit\Master Audio Bus\Game	
-	813360393	Game_Environment			\Default Work Unit\Master Audio Bus\Game\Game_Environment	
 	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
-	1088545924	Game_Dialogue			\Default Work Unit\Master Audio Bus\Game\Game_Dialogue	
-	1746688556	Cient			\Default Work Unit\Master Audio Bus\Cient	
-	2077902432	Game_Effects			\Default Work Unit\Master Audio Bus\Game\Game_Effects	
-	2077971636	Client_Music			\Default Work Unit\Master Audio Bus\Cient\Client_Music	
+	1006694123	Music_Volume			\Default Work Unit\Master Audio Bus\Music_Volume	
+	3597886634	Effects_Volume			\Default Work Unit\Master Audio Bus\Effects_Volume	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	4196122344	Client_Interface			\Default Work Unit\Master Audio Bus\Cient\Client_Interface	
-	4287282079	Client_Effects			\Default Work Unit\Master Audio Bus\Cient\Client_Effects	
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
