@@ -29,6 +29,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 0
     name: Throwing Dagger
+    inventorySprite: {fileID: 0}
     weaponType: 0
     maxDistance: 10
     arcAxis: 0

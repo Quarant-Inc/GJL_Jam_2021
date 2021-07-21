@@ -29,6 +29,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 0
     name: Laser Gun
+    inventorySprite: {fileID: 0}
     weaponType: 1
     penetrationLevel: 3
     chargeDelay: 0
@@ -124,7 +125,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7043615014385332577, guid: d13326271bb930543b59c4b2698d8844, type: 3}
       propertyPath: m_Name
-      value: PickupBase
+      value: Pickup_LaserGun
       objectReference: {fileID: 0}
     - target: {fileID: 7043615014385332582, guid: d13326271bb930543b59c4b2698d8844, type: 3}
       propertyPath: m_RootOrder

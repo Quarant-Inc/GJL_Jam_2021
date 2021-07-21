@@ -29,6 +29,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 8844962888408370260, guid: 3acea514d05ab4744884f6d44ec95b31, type: 3}
     type: 0
     name: Bow
+    inventorySprite: {fileID: 0}
     weaponType: 2
     maxDistance: 5
     arcAxis: 0

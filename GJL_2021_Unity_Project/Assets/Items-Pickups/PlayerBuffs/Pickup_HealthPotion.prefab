@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2975805040079951439, guid: 33469fea2e77b124d90e70037de51c99, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5583058492384849128, guid: 33469fea2e77b124d90e70037de51c99, type: 3}
       propertyPath: itemSpec.name
       value: Health Potion

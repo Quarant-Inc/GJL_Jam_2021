@@ -862,16 +862,18 @@ MonoBehaviour:
   clickSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 1c558b84465899d41b8d54f8730c640a, type: 2}
   returnButton: {fileID: 189883790}
+  musicVolumeSlider: {fileID: 1744700867}
+  sFXVolumeSlider: {fileID: 470792431}
   rtpcMusic:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: f061f0fda8de89a4fad0cba54b5cf930, type: 2}
   rtpcFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 6d5163204a65d3f49af4768152c90391, type: 2}
 --- !u!1 &1211798108
 GameObject:
   m_ObjectHideFlags: 0

@@ -370,6 +370,7 @@ public class Player : MonoBehaviour
     }
 
     public float forceMultiplier = 1f;
+    public float maxSpeed = 10f;
 
     void Move(DIRECTION dir)
     {
@@ -386,6 +387,14 @@ public class Player : MonoBehaviour
         //Vector3 direction = directionVectors[dir];
         transform.LookAt(transform.position + direction, transform.up);
         RigidBody.AddForce(direction*speed*forceMultiplier);
+
+        if(RigidBody.velocity.magnitude > maxSpeed)
+        {
+            RigidBody.velocity = RigidBody.velocity.normalized * maxSpeed;
+        }
+
+        //Debug.Log(RigidBody.velocity.magnitude);
+
         //RigidBody.velocity = direction * speed;
 
         prevDirection = dir;
@@ -492,7 +501,9 @@ public class Player : MonoBehaviour
             }
 
             localItems.Remove(pair.ID);
-            Destroy(pair.gameObject);
+            Debug.Log(pair.gameObject);
+            Debug.Log("Parent: " + pair.gameObject.transform.parent.gameObject);
+            Destroy(pair.gameObject.transform.parent.gameObject);
 
             if(ItemPickedUp != null)
             {

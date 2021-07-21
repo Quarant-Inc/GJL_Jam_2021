@@ -29,6 +29,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 0
     name: Grenade
+    inventorySprite: {fileID: 0}
     weaponType: 2
     maxDistance: 6
     arcAxis: 0

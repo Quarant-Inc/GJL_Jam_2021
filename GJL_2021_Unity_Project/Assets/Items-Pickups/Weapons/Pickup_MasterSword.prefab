@@ -29,6 +29,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 0
     name: Master Sword
+    inventorySprite: {fileID: 0}
     weaponType: 0
     range: 7
     coneAngle: 90
@@ -42,7 +43,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7043615014385332577, guid: d13326271bb930543b59c4b2698d8844, type: 3}
       propertyPath: m_Name
-      value: PickupBase (2)
+      value: Pickup_MasterSword
       objectReference: {fileID: 0}
     - target: {fileID: 7043615014385332582, guid: d13326271bb930543b59c4b2698d8844, type: 3}
       propertyPath: m_RootOrder

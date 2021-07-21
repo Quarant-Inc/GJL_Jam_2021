@@ -9,8 +9,8 @@ public class OptionsMenuScript : MonoBehaviour
 
     public AK.Wwise.Event clickSound = null;
     public Button returnButton;
-    Slider musicVolumeSlider;
-    Slider sFXVolumeSlider;
+    public Slider musicVolumeSlider;
+    public Slider sFXVolumeSlider;
     float startingMusicVol;
     float startingSFXVol;
 
@@ -37,6 +37,9 @@ public class OptionsMenuScript : MonoBehaviour
         //current_options.sfx_vol = sFXVolumeSlider.value;
         AkSoundEngine.SetRTPCValue("MusicVolume", musicVolumeSlider.value);
         AkSoundEngine.SetRTPCValue("SFXVolume", sFXVolumeSlider.value);
+
+
+
     }
 
 

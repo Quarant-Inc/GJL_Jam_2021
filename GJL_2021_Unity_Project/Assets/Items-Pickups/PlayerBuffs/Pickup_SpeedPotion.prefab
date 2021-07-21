@@ -29,6 +29,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 0}
     type: 1
     name: Speed Potion
+    inventorySprite: {fileID: 0}
     potionType: 1
 --- !u!1001 &920612606858174082
 PrefabInstance:
@@ -39,7 +40,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7043615014385332577, guid: d13326271bb930543b59c4b2698d8844, type: 3}
       propertyPath: m_Name
-      value: PickupBase (1)
+      value: Pickup_SpeedPotion
       objectReference: {fileID: 0}
     - target: {fileID: 7043615014385332582, guid: d13326271bb930543b59c4b2698d8844, type: 3}
       propertyPath: m_RootOrder

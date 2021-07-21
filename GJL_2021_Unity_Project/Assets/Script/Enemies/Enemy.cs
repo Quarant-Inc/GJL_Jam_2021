@@ -137,7 +137,7 @@ public abstract class Enemy : MonoBehaviour
 
     void StateCheck()
     {
-        Debug.LogFormat("{0} state is {1}",name,currentState);
+        //Debug.LogFormat("{0} state is {1}",name,currentState);
         switch(currentState)
         {
             case ENEMY_STATE.IDLE:
