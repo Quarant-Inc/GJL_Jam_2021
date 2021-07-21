@@ -55,6 +55,7 @@
 						<ObjectRef Name="Sniper_Hit" ID="{E45E97FB-16C4-4AC5-B370-B2480A928BD7}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Pickup_Item" ID="{4D149F8E-DD09-4B6E-9C21-58E735F1D427}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Magic_Wand_Hit" ID="{4041480F-1A07-4B82-84B3-F511C6BBAC1E}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Footstep_Stop" ID="{25BDC36F-0FEC-4BAD-8655-3525CA02CFC5}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Human_Lost" ID="{E5EFBE98-AAE9-4BBA-A418-6EB46A5ECE00}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Foresight" ID="{3295EF92-AF5D-4BCD-91FA-E6B627D20F45}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Searching_For_Human" ID="{EACCBFF1-0341-4BDC-86C9-204BFD8A016A}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>

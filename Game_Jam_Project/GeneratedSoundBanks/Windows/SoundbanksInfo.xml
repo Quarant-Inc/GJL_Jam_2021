@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\killi\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\chris\OneDrive\Documents\GitHub\GJL_Jam_2021\Game_Jam_Project\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="258110631" Language="SFX" Hash="2073891967">
+		<SoundBank Id="258110631" Language="SFX" Hash="1431010625">
 			<ObjectPath>\SoundBanks\Default Work Unit\Game_Music</ObjectPath>
 			<ShortName>Game_Music</ShortName>
 			<Path>Game_Music.bnk</Path>
@@ -61,7 +61,7 @@
 				<GameParameter Id="3597886634" Name="Effects_Volume" ObjectPath="\Game Parameters\Bus Control\Volume\Effects_Volume"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3274524167" Language="SFX" Hash="3711176042">
+		<SoundBank Id="3274524167" Language="SFX" Hash="3241928959">
 			<ObjectPath>\SoundBanks\Default Work Unit\Game_Actions</ObjectPath>
 			<ShortName>Game_Actions</ShortName>
 			<Path>Game_Actions.bnk</Path>
@@ -467,26 +467,27 @@
 					<IncludedMemoryFiles>
 						<File Id="147057447" Language="SFX">
 							<ShortName>gravel3.wav</ShortName>
-							<Path>SFX\gravel3_D79FB2B7.wem</Path>
+							<Path>SFX\gravel3_C7658FF3.wem</Path>
 						</File>
 						<File Id="186423450" Language="SFX">
 							<ShortName>gravel1.wav</ShortName>
-							<Path>SFX\gravel1_D79FB2B7.wem</Path>
+							<Path>SFX\gravel1_DFA2B90C.wem</Path>
 						</File>
 						<File Id="378795579" Language="SFX">
 							<ShortName>gravel2.wav</ShortName>
-							<Path>SFX\gravel2_D79FB2B7.wem</Path>
+							<Path>SFX\gravel2_D29EC853.wem</Path>
 						</File>
 						<File Id="936998935" Language="SFX">
 							<ShortName>gravel5.wav</ShortName>
-							<Path>SFX\gravel5_D79FB2B7.wem</Path>
+							<Path>SFX\gravel5_452C4DEF.wem</Path>
 						</File>
 						<File Id="1069306195" Language="SFX">
 							<ShortName>gravel4.wav</ShortName>
-							<Path>SFX\gravel4_D79FB2B7.wem</Path>
+							<Path>SFX\gravel4_81E07858.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="718640190" Name="Player_Footstep_Stop" ObjectPath="\Events\Default Work Unit\Effects\Footsteps\Player_Footstep_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="528420227" Name="Railgun_Hit" ObjectPath="\Events\Default Work Unit\Weapons\Ranged straight\Railgun_Hit" DurationType="OneShot" DurationMin="4.011000" DurationMax="4.011000">
 					<IncludedMemoryFiles>
 						<File Id="44045151" Language="SFX">

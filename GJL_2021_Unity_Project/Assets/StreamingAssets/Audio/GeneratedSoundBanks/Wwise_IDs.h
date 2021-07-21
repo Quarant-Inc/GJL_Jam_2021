@@ -57,6 +57,7 @@ namespace AK
         static const AkUniqueID PISTOL_HIT = 1754944470U;
         static const AkUniqueID PISTOL_SHOOT = 2124970216U;
         static const AkUniqueID PLAYER_FOOTSTEP_START = 2854834078U;
+        static const AkUniqueID PLAYER_FOOTSTEP_STOP = 718640190U;
         static const AkUniqueID RAILGUN_HIT = 528420227U;
         static const AkUniqueID RAILGUN_SHOOT = 673267873U;
         static const AkUniqueID ROBOT_INSULT = 3122074043U;

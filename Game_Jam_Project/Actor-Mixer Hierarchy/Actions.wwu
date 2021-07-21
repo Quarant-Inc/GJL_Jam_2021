@@ -1959,6 +1959,12 @@
 								<Folder Name="Footsteps" ID="{7B59D616-1820-4D7E-9FA3-C3773FA36D04}" ShortID="446066876">
 									<ChildrenList>
 										<RandomSequenceContainer Name="Player_Footstep" ID="{99BF96FF-D390-45D1-8215-3999EE28C8D0}" ShortID="732469242">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+												<Property Name="RestartBeginningOrBackward" Type="int16" Value="0"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -1969,9 +1975,6 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="gravel1" ID="{07B1D3E1-E8C3-49E2-A394-BA6AC076B633}" ShortID="281767463">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -1982,6 +1985,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="gravel1" ID="{87E3B0D9-ED18-4AC4-A2C6-6E5836B9DDE7}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0523605150214592"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.341590026568567"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>gravel1.wav</AudioFile>
 															<MediaIDList>
@@ -1995,9 +2003,6 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="gravel2" ID="{888ED238-F307-469F-8E20-136FA0CA14B8}" ShortID="838454423">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -2008,6 +2013,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="gravel2" ID="{16FB40CF-0558-4128-A7E6-B7A994841FEF}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0554459074998621"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.345916258730483"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>gravel2.wav</AudioFile>
 															<MediaIDList>
@@ -2021,9 +2031,6 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="gravel3" ID="{89CA996F-09C8-45C7-A940-F865B1508827}" ShortID="464351569">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -2034,6 +2041,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="gravel3" ID="{775FF238-85D5-4F4D-90F3-DC3FB2563A2E}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0304721030042918"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.254348778137864"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>gravel3.wav</AudioFile>
 															<MediaIDList>
@@ -2047,9 +2059,6 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="gravel4" ID="{C9CCD311-FD50-4007-A6CB-8F1FCF57E577}" ShortID="319114542">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -2060,6 +2069,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="gravel4" ID="{42B8CAD7-4CBF-4926-9D99-2EBBCA23497F}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0346997167965899"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.27412776269306"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>gravel4.wav</AudioFile>
 															<MediaIDList>
@@ -2073,9 +2087,6 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="gravel5" ID="{A9FF3FF8-C4C6-4C12-B80A-B6628C49A9C7}" ShortID="416862432">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
@@ -2086,6 +2097,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="gravel5" ID="{14C5CE11-6450-473E-9487-BC605303B95F}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0492638008947022"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.322302155006017"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>gravel5.wav</AudioFile>
 															<MediaIDList>
@@ -2100,6 +2116,13 @@
 												</Sound>
 											</ChildrenList>
 											<ObjectLists/>
+											<Playlist>
+												<ItemRef Name="gravel1" ID="{07B1D3E1-E8C3-49E2-A394-BA6AC076B633}"/>
+												<ItemRef Name="gravel2" ID="{888ED238-F307-469F-8E20-136FA0CA14B8}"/>
+												<ItemRef Name="gravel3" ID="{89CA996F-09C8-45C7-A940-F865B1508827}"/>
+												<ItemRef Name="gravel4" ID="{C9CCD311-FD50-4007-A6CB-8F1FCF57E577}"/>
+												<ItemRef Name="gravel5" ID="{A9FF3FF8-C4C6-4C12-B80A-B6628C49A9C7}"/>
+											</Playlist>
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
