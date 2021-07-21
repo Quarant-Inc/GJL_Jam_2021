@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2005704188	Main_Menu			\Default Work Unit\Music\Main_Menu	
-	2782712965	Level			\Default Work Unit\Music\Level	
+	777069945	Menu_Music_Start			\Default Work Unit\Music\Menu_Music_Start	
+	1448123892	Level_Music_Stop			\Default Work Unit\Music\Level_Music_Stop	
+	3487878355	Menu_Music_Stop			\Default Work Unit\Music\Menu_Music_Stop	
+	3603894824	Level_Music_Start			\Default Work Unit\Music\Level_Music_Start	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	4071417932	Player_State			\Default Work Unit\Player_State	

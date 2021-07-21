@@ -5,8 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="Game_Music" ID="{74B7AE4F-82B0-46F6-8F4C-8B3CA9BC1431}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Main_Menu" ID="{1412C68C-3549-4188-9B9D-362D53B8279D}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Level" ID="{5719E974-43D2-4347-A4CD-E28A161C0B6F}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu_Music_Stop" ID="{1412C68C-3549-4188-9B9D-362D53B8279D}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level_Music_Start" ID="{5719E974-43D2-4347-A4CD-E28A161C0B6F}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Level_Music_Stop" ID="{4703D6F1-9559-43A8-903E-A0E82F78F65F}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Menu_Music_Start" ID="{7C50FDF6-4FD5-4D58-8635-AD4ACD5B5C75}" WorkUnitID="{6C0520BE-D905-44EB-8421-430D07341A73}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

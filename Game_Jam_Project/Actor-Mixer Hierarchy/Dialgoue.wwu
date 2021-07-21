@@ -9,7 +9,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Game_Dialogue" ID="{36D780CD-4468-4D92-9AFA-02D9F2146530}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+							<ObjectRef Name="Effects_Volume" ID="{D85B391D-99F3-4CD7-A8E2-2812BA68C7F1}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -23,7 +23,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Dialogue" ID="{36D780CD-4468-4D92-9AFA-02D9F2146530}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -266,7 +266,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Dialogue" ID="{36D780CD-4468-4D92-9AFA-02D9F2146530}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -371,7 +371,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FD1FF399-DDB6-416A-92A9-F96905EC41FB}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Game_Dialogue" ID="{36D780CD-4468-4D92-9AFA-02D9F2146530}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D28B61A2-4E09-4123-88D5-F0584A56102A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>

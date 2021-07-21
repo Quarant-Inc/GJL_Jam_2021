@@ -5,9 +5,12 @@
 			<ChildrenList>
 				<Folder Name="Music" ID="{DDB12A59-C257-4ADD-A748-F50B00B786E6}" ShortID="205154513">
 					<ChildrenList>
-						<Event Name="Main_Menu" ID="{1412C68C-3549-4188-9B9D-362D53B8279D}">
+						<Event Name="Menu_Music_Stop" ID="{1412C68C-3549-4188-9B9D-362D53B8279D}">
 							<ChildrenList>
 								<Action Name="" ID="{20A17DC4-CE62-40AA-A193-13804BB2E988}" ShortID="522395766">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Main_Menu" ID="{5BCC495E-254F-47D7-855C-4774C7AB1151}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}"/>
@@ -16,12 +19,37 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Level" ID="{5719E974-43D2-4347-A4CD-E28A161C0B6F}">
+						<Event Name="Level_Music_Start" ID="{5719E974-43D2-4347-A4CD-E28A161C0B6F}">
 							<ChildrenList>
 								<Action Name="" ID="{164F92DB-1382-425A-A065-E0EFB063D034}" ShortID="257425578">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Level" ID="{60748FF2-A20A-4515-ABE6-0BE7E2C0208C}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Level_Music_Stop" ID="{4703D6F1-9559-43A8-903E-A0E82F78F65F}">
+							<ChildrenList>
+								<Action Name="" ID="{99E8EE4D-2B65-4045-90F7-16D248CA6A2D}" ShortID="212278855">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Level" ID="{60748FF2-A20A-4515-ABE6-0BE7E2C0208C}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu_Music_Start" ID="{7C50FDF6-4FD5-4D58-8635-AD4ACD5B5C75}">
+							<ChildrenList>
+								<Action Name="" ID="{DE627C3C-C7CE-4D4F-BC12-EE82B9344138}" ShortID="431513386">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Main_Menu" ID="{5BCC495E-254F-47D7-855C-4774C7AB1151}" WorkUnitID="{96279AB8-E966-4731-9E83-C25960117A2E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
