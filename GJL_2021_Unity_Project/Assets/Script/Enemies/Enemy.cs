@@ -113,6 +113,7 @@ public abstract class Enemy : MonoBehaviour
 
     private void KillEnemy()
     {
+        AkSoundEngine.PostEvent("Goblin_Death_Sound", gameObject);
         SetAnimation(ENEMY_ANIMATION.DEATH);
         //Animator.SetTrigger(ENEMY_ANIMATION.DEATH.ToString());
         // do other killing stuff here
@@ -135,6 +136,13 @@ public abstract class Enemy : MonoBehaviour
 
     const float stateCheckInterval = 0.125f;
 
+    IEnumerator EnemyFinishSpeaking()
+    {
+        yield return new WaitForSeconds(2f);
+        Player.enemySpeaking = false;
+    }
+
+
     void StateCheck()
     {
         //Debug.LogFormat("{0} state is {1}",name,currentState);
@@ -146,6 +154,19 @@ public abstract class Enemy : MonoBehaviour
                 {
                     lastSeenPos = PlayerPosition;
                     currentState = ENEMY_STATE.CHASING;
+                        if (Player.enemySpeaking == false)
+                        {
+                            if (Random.Range(0, 1) > 0)
+                            {
+                                AkSoundEngine.PostEvent("Human_Detected", gameObject);
+                            }
+                            else
+                            {
+                                AkSoundEngine.PostEvent("Goblin_Detect", gameObject);
+                            }
+                            Player.enemySpeaking = true;
+                            StartCoroutine(EnemyFinishSpeaking());
+                        }
                     SetAnimation(ENEMY_ANIMATION.RUN);
                 }
                 break;
@@ -155,7 +176,20 @@ public abstract class Enemy : MonoBehaviour
                 if (!PlayerVisible())
                 {
                     currentState = ENEMY_STATE.SEARCHING;
-                }
+                        if (Player.enemySpeaking == false)
+                        {
+                            if (Random.Range(0, 1) > 0)
+                            {
+                                AkSoundEngine.PostEvent("Human_Lost", gameObject);
+                            }
+                            else
+                            {
+                                AkSoundEngine.PostEvent("Goblin_Lost_Sight", gameObject);
+                            }
+                            Player.enemySpeaking = true;
+                            StartCoroutine(EnemyFinishSpeaking());
+                        }
+                    }
                 else
                 {
                     lastSeenPos = PlayerPosition;
@@ -163,6 +197,13 @@ public abstract class Enemy : MonoBehaviour
                     if (PlayerWithinAttackRange())
                     {
                         currentState = ENEMY_STATE.ATTACKING;
+                            if (Player.enemySpeaking == false)
+                            {
+
+                                AkSoundEngine.PostEvent("Robot_Kill_or_Hit_Player", gameObject);
+                                Player.enemySpeaking = true;
+                                StartCoroutine(EnemyFinishSpeaking());
+                            }
                         Attack();
                     }
                 }

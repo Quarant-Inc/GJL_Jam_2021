@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
     public Button quitButton;
     bool gamePaused = false;
     public AK.Wwise.Event clickSound = null;
-
+    public static bool enemySpeaking = false;
 
     public int MaxArmour
     {
