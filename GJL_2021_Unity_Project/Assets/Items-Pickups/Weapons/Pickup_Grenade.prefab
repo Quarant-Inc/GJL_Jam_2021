@@ -29,7 +29,7 @@ MonoBehaviour:
     itemPrefab: {fileID: 2450921594925189939, guid: 7aa0513ff7fcc9e46a2d2ae25738f0a8, type: 3}
     type: 0
     name: Grenade
-    inventorySprite: {fileID: 0}
+    inventorySprite: {fileID: 21300000, guid: dfd68d96c785bae45a6528c8d4b9b704, type: 3}
     useSound:
       idInternal: 0
       valueGuidInternal: 
