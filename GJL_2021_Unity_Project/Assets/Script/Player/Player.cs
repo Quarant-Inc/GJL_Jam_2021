@@ -38,6 +38,8 @@ public class Player : MonoBehaviour
     int maxHealth = 10;
     const int defaultSpeed = 10;
     const int maxArmour = 5;
+    const float gravity = 100f;
+    const float horizontalDampening = 0.5f;
     bool spedUp = false;
     bool magnetEnabled = false;
     public GameObject temporaryBuffText;
@@ -238,6 +240,21 @@ public class Player : MonoBehaviour
         {DIRECTION.RIGHT, Vector3.right}
     };
 
+    private void FixedUpdate()
+    {
+        // this might be hacky or the right way to do thinks, idk
+
+        // fuck drag, we are going to do it manually - set horizontalDampening to something between 0 & 1
+        Vector3 vel = RigidBody.velocity;
+        vel.x *= horizontalDampening;
+        vel.z *= horizontalDampening;
+        RigidBody.velocity = vel;
+
+        // you cant just invent gravity, yes I can. I have it turned of on the rigidbody for now and am applying it here. 
+        // uses larger values bc I changed the mass to 10, force apploed also increased
+        RigidBody.AddForce(new Vector3(0, -gravity * RigidBody.mass, 0));
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -326,7 +343,6 @@ public class Player : MonoBehaviour
             else
             {
                 Animator.SetTrigger(PLAYER_ANIM_PARAMS.STOP_MOVING.ToString());
-                RigidBody.velocity = new Vector3(0, RigidBody.velocity.y, 0);
 
                 if (footstepsPlaying)
                 {

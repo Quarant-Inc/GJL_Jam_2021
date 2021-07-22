@@ -34784,6 +34784,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1270562962}
     - target: {fileID: 876651029802675937, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
+      propertyPath: forceMultiplier
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 876651029802675937, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: temporaryBuffText
       value: 
       objectReference: {fileID: 706884443}
@@ -34791,6 +34795,26 @@ PrefabInstance:
       propertyPath: clickSound.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: 7763cbbdcb858514c8d6c0873ef65aba, type: 2}
+    - target: {fileID: 876651029802675941, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
+      propertyPath: m_Drag
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876651029802675941, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
+      propertyPath: m_Mass
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 876651029802675941, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 876651029802675941, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 876651029802675941, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
 --- !u!1001 &1648048850
