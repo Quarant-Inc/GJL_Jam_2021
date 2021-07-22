@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,8 +39,8 @@ public static class Util
  
          int maxIndices = navMeshData.indices.Length - 3;
          // Pick the first indice of a random triangle in the nav mesh
-         int firstVertexSelected = Random.Range(0, maxIndices);
-         int secondVertexSelected = Random.Range(0, maxIndices);
+         int firstVertexSelected = UnityEngine.Random.Range(0, maxIndices);
+         int secondVertexSelected = UnityEngine.Random.Range(0, maxIndices);
          //Spawn on Verticies
          Vector3 point = navMeshData.vertices[navMeshData.indices[firstVertexSelected]];
  
@@ -58,7 +59,7 @@ public static class Util
              point = Vector3.Lerp(
                                              firstVertexPosition,
                                              secondVertexPosition, //[t + 1]],
-                                             Random.Range(0.05f, 0.95f) // Not using Random.value as clumps form around Verticies 
+                                             UnityEngine.Random.Range(0.05f, 0.95f) // Not using Random.value as clumps form around Verticies 
                                          );
          }
          //Vector3.Lerp(point, navMeshData.vertices[navMeshData.indices[t + 2]], Random.value); //Made Obsolete
@@ -71,7 +72,7 @@ public static class Util
         {
             return null;
         }
-        return collection.ElementAt(Random.Range(0, collection.Count()));
+        return collection.ElementAt(UnityEngine.Random.Range(0, collection.Count()));
     }
 
     public static void Quit()
@@ -81,5 +82,30 @@ public static class Util
         #else
             Application.Quit();
         #endif
+    }
+
+    public static bool IsOfEnumType<T>(this object obj, out T returned) where T : struct
+    {
+        T[] values = GetValues<T>();
+        foreach (T val in values)
+        {
+            if (obj.ToString().ToLower() == val.ToString().ToLower())
+            {
+                returned = val;
+                return true;
+            }
+        }
+        returned = default(T);
+        return false;
+    }
+
+    public static T[] GetValues<T>() where T : struct
+    {
+        if (!typeof(T).IsEnum)
+        {
+            Debug.LogFormat("{0} is not an enumeration.", typeof(T));
+            return new T[] { };
+        }
+        return Enum.GetValues(typeof(T)).Cast<T>().ToArray();
     }
 }

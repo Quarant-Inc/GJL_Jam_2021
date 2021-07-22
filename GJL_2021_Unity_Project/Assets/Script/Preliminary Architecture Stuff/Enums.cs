@@ -69,3 +69,56 @@ public enum TOOL_TYPE
 {
 m
 }
+
+public enum Axis
+{
+    DPad_Horizontal,
+    DPad_Vertical,
+    ControllerHorizontal,
+    ControllerVertical,
+    RightJoystickHorizontal,
+    RightJoystickVertical,
+    LeftTrigger,
+    RightTrigger
+}
+
+public enum ControllerButton
+{
+    LeftTrigger,
+    RightTrigger,
+    A_Button,
+    B_Button,
+    X_Button,
+    Y_Button,
+    Start_Button,
+    Select_Button,
+    LeftBumper,
+    RightBumper,
+    Left_Joystick_Button,
+    Right_Joystick_Button,
+
+    DPad_Down,
+    DPad_Left,
+    DPad_Right,
+    DPad_Up
+}
+
+public enum PlayerNum
+{
+    _P1,
+    _P2
+}
+
+public enum Trigger
+{
+    LeftTrigger,
+    RightTrigger,
+}
+
+public enum DPad
+{
+    DPad_Down,
+    DPad_Left,
+    DPad_Right,
+    DPad_Up
+}
