@@ -10,6 +10,7 @@ public class MainMenuScript : MonoBehaviour
     public GameObject playButton;
     public GameObject optionsButton;
     public GameObject exitButton;
+    public Text lblLoading;
     GameObject playTextGO;
     GameObject optionsTextGO;
     GameObject exitTextGO;
@@ -41,6 +42,10 @@ public class MainMenuScript : MonoBehaviour
     {
         yield return new WaitForSeconds(0.04f);
         playButton.GetComponentInChildren<Text>().alignment = TextAnchor.UpperCenter;
+        playButton.SetActive(false);
+        optionsButton.SetActive(false);
+        exitButton.SetActive(false);
+        lblLoading.gameObject.SetActive(true);
         //SceneManager.LoadScene("MainGame");
         Util.LoadScene(SCENE.MAINGAME);
     }
@@ -71,11 +76,7 @@ public class MainMenuScript : MonoBehaviour
     {
         yield return new WaitForSeconds(0.04f);
         exitButton.GetComponentInChildren<Text>().alignment = TextAnchor.UpperCenter;
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-                Application.Quit(); 
-#endif
+        Util.Quit();
     }
 
 }
