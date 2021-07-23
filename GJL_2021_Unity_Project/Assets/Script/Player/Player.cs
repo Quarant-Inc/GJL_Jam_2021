@@ -241,7 +241,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (gamePaused) {
@@ -354,6 +354,20 @@ public class Player : MonoBehaviour
             }
         }
     }
+    bool looking = false;
+
+    public void LookAt(Vector3 pos, float time)
+    {
+        StartCoroutine(LookAtAsync(pos, time));
+    }
+
+    IEnumerator LookAtAsync(Vector3 pos, float time)
+    {
+        looking = true;
+        transform.LookAt(pos);
+        yield return new WaitForSeconds(time);
+        looking = false;
+    }
 
     bool GetClosestPair(out ItemGameObjectPair igoPair)
     {
@@ -441,18 +455,26 @@ public class Player : MonoBehaviour
         //Vector3 direction = directionVectors[dir];
         Vector3 direction = GetDirectionVector(dir);
         //Vector3 direction = GetDirectionVector(dir);
-        if (prevDirection != dir)
+        //if (prevDirection != dir)
+        //{
+        //    transform.LookAt(transform.position + direction, transform.up);
+        //}
+        //
+        //Vector3 direction = directionVectors[dir];
+        if (!looking)
         {
             transform.LookAt(transform.position + direction, transform.up);
         }
-        //
-        //Vector3 direction = directionVectors[dir];
-        transform.LookAt(transform.position + direction, transform.up);
+
         RigidBody.AddForce(direction*speed*forceMultiplier);
 
         if(RigidBody.velocity.magnitude > maxSpeed)
         {
-            RigidBody.velocity = RigidBody.velocity.normalized * maxSpeed;
+            float yVel = RigidBody.velocity.y;
+            Vector3 clampedVelocity = RigidBody.velocity.normalized * maxSpeed;
+
+            RigidBody.velocity = new Vector3(clampedVelocity.x, yVel, clampedVelocity.z);
+            //RigidBody.velocity = RigidBody.velocity.normalized * maxSpeed;
         }
 
         //Debug.Log(RigidBody.velocity.magnitude);

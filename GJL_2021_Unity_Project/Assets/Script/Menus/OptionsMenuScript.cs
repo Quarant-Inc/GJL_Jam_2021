@@ -23,6 +23,7 @@ public class OptionsMenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         musicVolumeSlider.value = rtpcMusic.GetGlobalValue();
         sFXVolumeSlider.value = rtpcFX.GetGlobalValue();
         //musicMyFill.fillAmount = current_options.music_vol / 10;
