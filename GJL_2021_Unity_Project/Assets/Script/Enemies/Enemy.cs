@@ -78,6 +78,8 @@ public abstract class Enemy : MonoBehaviour
 
     ENEMY_STATE currentState = ENEMY_STATE.IDLE;
 
+    public bool moveable = true;
+
     private void Awake()
     {
 
@@ -85,7 +87,10 @@ public abstract class Enemy : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(PerformStateCheck());
+        if (moveable)
+        {
+            StartCoroutine(PerformStateCheck());
+        }
     }
 
     void Update()    {
