@@ -37,7 +37,7 @@ MonoBehaviour:
     weaponType: 2
     maxDistance: 5
     arcAxis: 0
-    detonationDelay: 0
+    detonationDelay: 5
 --- !u!1001 &5661417987054120895
 PrefabInstance:
   m_ObjectHideFlags: 0
