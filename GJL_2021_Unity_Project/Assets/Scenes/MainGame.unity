@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44542104, g: 0.49507993, b: 0.5740332, a: 1}
+  m_IndirectSpecularColor: {r: 0.44542038, g: 0.49507898, b: 0.574032, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -34733,15 +34733,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 837885082112035084, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 189
+      value: -9.47
       objectReference: {fileID: 0}
     - target: {fileID: 837885082112035084, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 36
+      value: 35.45
       objectReference: {fileID: 0}
     - target: {fileID: 837885082112035084, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -293.3
+      value: 49.6
       objectReference: {fileID: 0}
     - target: {fileID: 837885082112035084, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -34753,11 +34753,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 837885082112035084, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837885082112035084, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 837885082112035084, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -34785,7 +34785,7 @@ PrefabInstance:
       objectReference: {fileID: 1270562962}
     - target: {fileID: 876651029802675937, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: forceMultiplier
-      value: 250
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 876651029802675937, guid: 026bbf8dc34db114594f1cb6ce0be85f, type: 3}
       propertyPath: temporaryBuffText
