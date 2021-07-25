@@ -220,6 +220,10 @@ public class Player : MonoBehaviour
     {
         instance = this;
         ResetStats();
+        if (Control.ControllerCount < 1)
+        {
+            Control.GetControllers();
+        }
     }
 
     void Start()
@@ -255,11 +259,46 @@ public class Player : MonoBehaviour
         RigidBody.AddForce(new Vector3(0, -gravity * RigidBody.mass, 0));
     }
 
+    bool EscapePressed()
+    {
+        return Input.GetKeyDown(KeyCode.Escape) || Control.GetButtonDown(ControllerButton.Start_Button);
+    }
+
+    bool UpPressed()
+    {
+        return Input.GetKey(KeyCode.W) || Control.GetAxis(Axis.ControllerVertical) > 0;
+    }
+
+    bool DownPressed()
+    {
+        return Input.GetKey(KeyCode.S) || Control.GetAxis(Axis.ControllerVertical) < 0;
+    }
+
+    bool LeftPressed()
+    {
+        return Input.GetKey(KeyCode.A) || Control.GetAxis(Axis.ControllerHorizontal) < 0;
+    }
+
+    bool RightPressed()
+    {
+        return Input.GetKey(KeyCode.D) || Control.GetAxis(Axis.ControllerHorizontal) > 0;
+    }
+
+    bool UsePressed()
+    {
+        return Input.GetMouseButtonDown(0) || Control.GetButtonDown(ControllerButton.A_Button);
+    }
+
+    bool PickupPressed()
+    {
+        return Input.GetMouseButtonDown(1) || Control.GetButtonDown(ControllerButton.B_Button);
+    }
+
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (EscapePressed())
         {
             if (gamePaused) {
 
@@ -278,7 +317,7 @@ public class Player : MonoBehaviour
         }
         if (!gamePaused)
         {
-            if (Input.GetKey(KeyCode.W))
+            if (UpPressed())
             {
                 if (!footstepsPlaying)
                 {
@@ -286,11 +325,11 @@ public class Player : MonoBehaviour
                     AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
                 }
 
-                if (Input.GetKey(KeyCode.A))
+                if (LeftPressed())
                 {
                     Move(DIRECTION.FORWARD_LEFT);
                 }
-                else if (Input.GetKey(KeyCode.D))
+                else if (RightPressed())
                 {
                     Move(DIRECTION.FORWARD_RIGHT);
                 }
@@ -299,7 +338,7 @@ public class Player : MonoBehaviour
                     Move(DIRECTION.FORWARD);
                 }
             }
-            else if (Input.GetKey(KeyCode.S))
+            else if (DownPressed())
             {
                 if (!footstepsPlaying)
                 {
@@ -307,11 +346,11 @@ public class Player : MonoBehaviour
                     AkSoundEngine.PostEvent("Player_Footstep_Start", gameObject);
                 }
 
-                if (Input.GetKey(KeyCode.A))
+                if (LeftPressed())
                 {
                     Move(DIRECTION.BACKWARD_LEFT);
                 }
-                else if (Input.GetKey(KeyCode.D))
+                else if (RightPressed())
                 {
                     Move(DIRECTION.BACKWARD_RIGHT);
                 }
@@ -320,7 +359,7 @@ public class Player : MonoBehaviour
                     Move(DIRECTION.BACKWARD);
                 }
             }
-            else if (Input.GetKey(KeyCode.A))
+            else if (LeftPressed())
             {
                 if (!footstepsPlaying)
                 {
@@ -330,7 +369,7 @@ public class Player : MonoBehaviour
 
                 Move(DIRECTION.LEFT);
             }
-            else if (Input.GetKey(KeyCode.D))
+            else if (RightPressed())
             {
                 if (!footstepsPlaying)
                 {
@@ -351,12 +390,12 @@ public class Player : MonoBehaviour
                 }
             }
 
-            if (Input.GetMouseButtonDown(0))
+            if (UsePressed())
             {
                 UseItem();
             }
 
-            if (Input.GetMouseButtonDown(1))
+            if (PickupPressed())
             {
                 if (localItems.Count > 0)
                 {
