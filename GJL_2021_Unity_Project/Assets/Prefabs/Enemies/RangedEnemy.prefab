@@ -1722,7 +1722,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   armour: 0
   sightRadius: 10
-  attackRange: 0
+  attackRange: 2.5
+  moveable: 1
 --- !u!136 &2229623436570353
 CapsuleCollider:
   m_ObjectHideFlags: 0
