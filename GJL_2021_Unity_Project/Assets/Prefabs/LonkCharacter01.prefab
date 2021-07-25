@@ -232,7 +232,7 @@ Rigidbody:
   m_Mass: 0.2
   m_Drag: 10
   m_AngularDrag: 5
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
@@ -285,8 +285,12 @@ MonoBehaviour:
   pauseScreen: {fileID: 0}
   playButton: {fileID: 0}
   quitButton: {fileID: 0}
-  forceMultiplier: 5
-  maxSpeed: 10
+  clickSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  forceMultiplier: 50
+  maxSpeed: 50
   pickIncreaseTime: 10
   speedIncreaseTime: 10
 --- !u!136 &2083268410449831450
